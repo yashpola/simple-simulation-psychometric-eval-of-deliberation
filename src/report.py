@@ -16,6 +16,7 @@ from src.schemas import (
     IRTDeliberators,
     IRTResults,
     CTTMetrics,
+    ExecutionMetadata,
 )
 from src.personas import get_persona_metadata
 
@@ -24,7 +25,8 @@ def generate_markdown_report(
     config: MasterConfig,
     metrics: PsychometricResults,
     items_data: Dict[str, PolicyItem],
-    output_path: str
+    output_path: str,
+    execution_metadata: Optional[ExecutionMetadata] = None
 ) -> str:
     """Compile final_report.md synthesizing deliberative psychometrics and governance insights."""
     ctt_data: Dict[str, CTTMetrics] = metrics.get("ctt", {})
@@ -57,16 +59,30 @@ def generate_markdown_report(
         "# Deliberative Item Response Theory (IRT) Benchmark Report",
         "",
         f"**Generated:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}  ",
-        f"**Benchmark:** {meta.get('name', 'IRT Deliberation Benchmark')}  ",
+        f"**Benchmark:** {meta.get('name', 'Psychometric Deliberative Capacity Benchmark')}  ",
         f"**Model:** `{model_cfg.get('agent_model', 'openai/gpt-oss-120b')}`  ",
         f"**Execution Matrix:** {trials_per_item} trials/dyad across {n_dyads} dyads and {n_items} items ({total_sessions} total sessions, {total_votes} secret ballots)  ",
         f"**Per-Item Sample:** {sessions_per_item} deliberative sessions ({votes_per_item} individual secret ballots cast)  ",
+    ]
+
+    runtime_fmt = execution_metadata.get("runtime_formatted") if execution_metadata else None
+    runtime_sec = execution_metadata.get("runtime_seconds") if execution_metadata else None
+    if runtime_fmt:
+        report_lines.append(f"**Runtime:** {runtime_fmt} ({runtime_sec}s)  ")
+    elif runtime_sec is not None:
+        report_lines.append(f"**Runtime:** {runtime_sec}s  ")
+
+    cost_usd = execution_metadata.get("cost_usd") if execution_metadata else None
+    if cost_usd is not None:
+        report_lines.append(f"**Estimated Cost:** ${cost_usd:.4f} USD  ")
+
+    report_lines.extend([
         "",
         "---",
         "",
         "## 1. Executive Summary & Core Insights",
         "",
-    ]
+    ])
 
     if discarded_cnt > 0:
         report_lines.extend([
@@ -115,9 +131,11 @@ def generate_markdown_report(
         "        IRT[\"Item Response Theory (2PL: Ability theta, Difficulty b, Discrimination a)\"]",
         "    end",
         "",
-        "    subgraph Phase5 [\"5. Indexed Output Artifacts (data/expXXX)\"]",
-        "        REPORT[\"final_report.md (Synthesis & Mermaid Charts)\"]",
-        "        JSONS[\"transcripts/, ballots.json, psychometric_evals.json\"]",
+        "    subgraph Phase5 [\"5. Reorganized Experiment Artifacts (data/expXXX)\"]",
+        "        INPUTS[\"inputs/ (config.json, items/)\"]",
+        "        OUTPUTS[\"model_outputs/ (transcripts/, ballots.json)\"]",
+        "        EVALS[\"evals/ (psychometric_evals.json, final_report.md)\"]",
+        "        META[\"metadata/ (metadata.json)\"]",
         "    end",
         "",
         "    Phase1 --> Phase2",

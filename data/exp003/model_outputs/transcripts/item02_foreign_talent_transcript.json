@@ -1,0 +1,866 @@
+[
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D1",
+    "agents": [
+      "technocrat",
+      "ideologue"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "As a hub economy, our competitiveness depends on maintaining access to specialized global talent while ensuring that this does not structurally disadvantage our local PMET workforce. I recognize the legitimate anxiety around wage benchmarks and leadership pipelines, but raising salary thresholds too aggressively risks driving regional headquarters to relocate, which ultimately reduces total opportunities for Singaporeans. A more sustainable common ground would be to link thresholds to verified skills shortages and productivity data, rather than blanket protectionism. I propose we explore a sector-differentiated threshold paired with enforceable knowledge transfer requirements."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I hear your concern about competitiveness, but we cannot keep treating the anxieties of mid-career Singaporean PMETs as a secondary cost of doing business \u2014 when leadership pipelines are closed off and wages are suppressed, that's a failure of social justice, not just market adjustment. A sector-differentiated threshold only works if the floor is genuinely protective and not pegged to the lowest possible benchmark to appease headquarters. I can support openness linked to real skills shortages, but only if it comes with enforceable, time-bound knowledge transfer and succession plans where companies must demonstrate they are developing locals into leadership, not just hiring them at the margins."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I appreciate your emphasis on enforceability \u2014 a threshold without accountability does not resolve the structural concern you raised. I can support a genuinely protective sector-differentiated floor, provided it is calibrated to MOM productivity and wage percentile data rather than an arbitrary high figure that would trigger headquarters flight. In exchange, we should make knowledge transfer operationally verifiable: time-bound succession plans, funded local mentorship ratios, and renewal of passes contingent on demonstrated local pipeline progression. That way we protect competitiveness while ensuring openness directly expands, rather than contracts, leadership opportunities for Singaporeans."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I appreciate that you are now anchoring this to verifiable accountability rather than vague promises of trickle-down opportunity \u2014 that is the only way openness retains moral legitimacy. I can accept calibrating the sector-differentiated floor to MOM wage percentile and productivity data, but only if the floor is set at a genuinely protective percentile that prevents undercutting mid-career Singaporeans, not just the market median for cheap sourcing. Tying pass renewals to demonstrated succession, funded mentorship ratios, and transparent pipeline audits is essential, because without consequences knowledge transfer is just corporate theatre. If we codify that, we can be both globally open and faithful to our duty to ensure Singaporeans are not permanently relegated to supporting roles in their own economy."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D2",
+    "agents": [
+      "technocrat",
+      "populist"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "As a citizen who values both our economic competitiveness and social compact, I recognise that maintaining Singapore's status as a regional headquarters hub requires access to specialised global talent, but that access must not come at the cost of hollowing out our local PMET pipeline. The salary threshold for Employment Passes and S Passes is our most precise calibration tool - set too low it risks wage suppression, set too high it risks hollowing out investment. I believe we can find common ground by moving beyond a binary open-versus-closed debate and instead focusing on how to make the threshold more dynamic and accountable. I propose we explore a framework where thresholds are sector-calibrated and explicitly tied to verifiable local capability transfer."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, with respect, that \"precise calibration tool\" talk sounds very neat in a boardroom but on the ground my friends in their 40s are getting lowballed or replaced and told to train their replacement. I'm sick of hearing we need \"global talent\" while locals can't even get an interview for jobs we are qualified for. If you want a sector-calibrated threshold then fine, but it has to be set HIGH and tied to real penalties \u2014 like for every EP you hire, you must prove you hired and promoted a Singaporean with a proper handover, not just wayang."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I hear your frustration, and you're right that a threshold means little without enforcement \u2014 wayang mentorship and lowballing mid-career locals undermines both fairness and our long-term talent pipeline. I can support a higher, sector-calibrated threshold \u2014 for example setting EPs at a clear premium above the local median for that specific sector and age band \u2014 but only if we pair it with a verifiable quid pro quo. For every EP, the firm should be required to file a structured capability-transfer plan with KPIs, local understudy promotion timelines, and be subject to MOM audit with escalating levies or quota curbs for non-compliance."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay, that sounds better \u2014 premium above median for age band plus real KPIs and audit, not just self-declare. But I need to see teeth: publish the firms that fail, hit them with higher levies, and cut their EP quota next year, otherwise it's still wayang. And protect the 40s and 50s \u2014 if you hire an EP at say $12k, you better show a Singaporean in that same team getting trained to take that role in 2-3 years with pay bump, not stuck as forever number two. You agree to that kind of transparency and timeline, then I can live with your higher sector threshold instead of just shutting the door."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D3",
+    "agents": [
+      "ideologue",
+      "populist"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I believe we cannot call ourselves a fair society if we continue to import foreign PMETs on salaries that undercut our own mid-career professionals who have given decades to this nation. When young Singaporeans see leadership pipelines closed and wages suppressed, it corrodes trust and solidarity far more than any loss of so-called corporate competitiveness. I am willing to find common ground, but it must start from a principle we can both agree on: any foreign talent brought in must genuinely complement and uplift our local workforce through real knowledge transfer, not replace it."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "You talk about knowledge transfer and complementing locals, but on the ground what we see is different \u2014 my friends in their 40s retrenched then asked to train their cheaper replacement, how is that fair? I agree with you that we can't just bring people in to undercut us, that kills trust. But if companies really need that top talent, then fine \u2014 set the salary bar damn high so it's only the real experts, and make them prove they are training up Singaporeans for that leadership pipeline, not just blocking us."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "Your story about friends in their 40s forced to train their cheaper replacements is exactly the betrayal of solidarity that no competitiveness ranking can justify, and I stand with you in naming it as unjust. I agree completely \u2014 if companies truly need world-class expertise, then let us set the salary threshold unapologetically high so we welcome only genuine talent that complements rather than undercuts. But that privilege must come with enforceable moral obligations: structured mentorship, transparent succession plans, and time-bound knowledge transfer that grooms Singaporeans for leadership. That is the common ground I can champion \u2014 an openness anchored in dignity, where foreign talent is invited to lift our workforce up, not to lock our own people out."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Exactly, that's what I'm saying \u2014 if it's really world-class talent then pay world-class salary, don't bring in so-called talent at $5k to fight with our own grads and mid-career folks for same jobs. I can live with openness if there's a real deal: high salary bar, plus every foreign PMET must have a Singaporean understudy and a clear timeline to hand over skills, not just wayang mentorship. And if company never promote locals into leadership after few years, then don't renew their pass \u2014 must have teeth, otherwise all this talk is empty."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D4",
+    "agents": [
+      "ideologue",
+      "everyman"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I come to this table deeply concerned that we've allowed 'global talent' to become a euphemism for hollowing out the career ladders of Singaporean PMETs who did everything right \u2014 upskilled, served NS, built this hub. When companies can hire foreign PMETs at thresholds that undercut local wages and then hoard leadership pipelines, that's not openness, that's a betrayal of the social compact. I believe any fair system must raise and enforce salary thresholds tied to genuine skills shortages, with strict, transparent knowledge-transfer obligations. If we can agree that protecting local livelihoods is the foundation of \u2014 not an obstacle to \u2014 sustainable growth, then we can find common ground on how to stay open without selling out our own."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear you, and I think you're right to say protecting local livelihoods has to be the foundation \u2014 if Singaporeans feel squeezed out after doing everything right, that really hurts our sense of fairness and togetherness. At the same time, from what I see in my own workplace, having some foreign colleagues with different experience can help the whole team grow and keep companies here, which is also good for our jobs. Maybe a fair middle path could be to make sure salary thresholds are truly fair and updated so no one is undercut, but also keep them practical so good companies still want to stay, plus have clear and simple rules where foreign hires help train and mentor locals. Would that kind of balance \u2014 firm on fairness, but still welcoming \u2014 feel like a workable way forward to you?"
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I appreciate that you centre fairness as the foundation \u2014 that matters, because without it, 'staying competitive' just becomes code for asking locals to absorb the costs. I can meet you on practicality, but practical cannot mean keeping thresholds so low that they legitimize wage suppression, or making mentorship a vague checkbox. A workable compromise for me is thresholds benchmarked to the top third of local PMET salaries for that role and age, independently audited and updated annually, paired with time-bound, enforceable knowledge-transfer plans where leadership pipelines are measured, not promised. If we lock in that kind of firm fairness first, then openness stops feeling like a threat and starts feeling like genuine mutual growth \u2014 would you support making those guardrails explicit?"
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I think you're making a really fair point that fairness has to be firm and not just words on paper \u2014 if mentorship is just a checkbox and thresholds are too low, then of course people will feel it's not genuine. I can support making those guardrails explicit and properly checked each year, because that helps rebuild trust that locals aren't being undercut. My only practical worry is whether a top-third benchmark for every role might be quite high for some smaller firms, so maybe we could have it benchmarked by sector and age-group, with a short phase-in period, so it's still strong but workable? If we pair that with simple, measurable knowledge-transfer plans \u2014 like clear mentoring goals and local succession reporting \u2014 would that give us the firm fairness you want while still keeping good companies and jobs here?"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D5",
+    "agents": [
+      "populist",
+      "everyman"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I\u2019ll be honest \u2014 when I see fresh foreign hires getting PMET jobs while my friends in their 40s kena retrenched or stuck with contract roles, it feels like we\u2019re being left behind in our own country. All this talk about being a global hub means nothing if locals can\u2019t get promoted and our pay never keeps up with rent and bills. I\u2019m not saying shut the door completely, but if companies want to hire from outside, they better pay a real premium and prove they\u2019re actually training Singaporeans to take over. If you can agree to higher salary bars with real teeth and local promotion guarantees, then we can talk."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear you, and I think that feeling of being left behind is real \u2014 I've also seen neighbours and family friends worry about contract work and promotions while costs keep rising. At the same time, I worry that if we close up too much, companies might move away and then there are even fewer good jobs for all of us. Maybe we can find a middle path where we do raise the salary bar for foreign PMET hires so it's a real premium, but we also make sure companies show how they are training and promoting locals over time? That way we stay open and competitive, but Singaporeans can feel more secure that we have a fair chance to move up."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay lah, at least you don't dismiss our worries like some people do, I can work with that. But \"show how they train locals\" cannot be just wayang PowerPoint slides, must be real numbers \u2014 how many Singaporeans promoted to manager and above every year, or else kena penalty. If we raise the salary threshold high enough so hiring foreigners really costs more, and tie it to that promotion guarantee, then I can accept staying open as a hub. Otherwise it's just cheap talk while our bills keep going up."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I agree with you \u2014 if it's just wayang slides then it won't build any trust, it has to be real numbers that everyone can see. What if we push for a higher salary threshold for foreign PMETs together with a simple, transparent report card on how many locals are trained and promoted to manager level each year? Maybe instead of an immediate harsh penalty, companies that don't meet it get time to improve with extra support, but if they keep failing then there are real consequences. That way we protect Singaporean workers and keep costs of living in mind, while still giving good companies a reason to stay and grow jobs here."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D6",
+    "agents": [
+      "populist",
+      "technocrat"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I live this every day \u2014 I see my friends mid-career, good qualifications, still stuck or getting lowballed while companies bring in foreigners so easily. Don't tell me about \"global hub\" theory, I just know it doesn't feel fair when locals can't even get a proper interview for PMET jobs. If we want to find common ground, I'm willing to listen, but you need to show me real guarantees \u2014 like higher salary bars for foreigners and real chances for Singaporeans to move up, not just empty promises."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I hear your concern, and the anxiety around mid-career PMET competition is real and measurable \u2014 we shouldn't dismiss it as just perception. At the same time, as a hub economy, we do need calibrated access to global talent to anchor headquarters and specialized functions that ultimately create the PMET jobs themselves. A viable compromise could be a more differentiated, higher Employment Pass threshold tied to sector median wages, rather than a blanket hike, paired with stricter enforcement of fair hiring audits and time-bound knowledge transfer plans. If we couple that with stronger incentives for firms to demonstrate local leadership pipelines to qualify for manpower flexibility, we can protect wage integrity without undermining our overall competitiveness."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay, at least you're not just brushing off our worries as \"perception\" \u2014 that differentiated higher bar tied to actual sector wages sounds more real than blanket talk. But median is not enough lah, it has to be clearly ABOVE what locals earn, otherwise it's still just cheap hiring in disguise. And enforcement cannot be wayang audits only \u2014 need real penalties, publish the companies that don't promote Singaporeans, and force them to show the knowledge transfer actually happened. If you can guarantee that, plus firms must prove locals get leadership chances to get any flexibility, then I can consider that compromise."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "That's a fair push \u2014 if the threshold is merely at the median, it doesn't prevent undercutting, so setting it at, say, the 65th to 75th percentile of sector-specific resident PMET wages for Employment Passes would be a more defensible bar to ensure foreigners are complementing rather than substituting. I can support pairing that with transparent enforcement: strengthened Fair Consideration Framework audits with meaningful penalties and selective publication of repeat offenders, as naming does change corporate behavior. For knowledge transfer, rather than vague pledges, we could require time-bound, skills-specific transfer plans tied to renewal of passes, and link manpower flexibility or quota considerations to verifiable local succession metrics. That way we maintain our hub viability while hardwiring wage protection and career progression into the system."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D7",
+    "agents": [
+      "everyman",
+      "technocrat"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "Hi, I'm not an expert on these salary thresholds, but from my own workplace and friends I can see both sides of this. I understand we need global talent to keep good companies and good jobs here in Singapore. At the same time, I really hear the worries from local colleagues in their 30s and 40s about fair hiring and chances to move up. Maybe we can start by agreeing we want both \u2014 to stay open and competitive, but also to make sure locals have a clear and fair path to grow \u2014 and work from there to find a balance?"
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I appreciate you framing it that way \u2014 we do need both competitiveness and local confidence in the system, and those goals are not mutually exclusive if designed well. From a systems perspective, the salary threshold is not about shutting doors, but about accurate price signaling: it should be pegged to the prevailing median for local PMETs in that sector and seniority, and updated regularly, to prevent wage suppression while still allowing firms to hire genuinely scarce expertise. I would support a calibrated increase tied to MOM's occupational wage benchmarks, paired with stronger enforcement of fair-hiring audits and a defined knowledge-transfer requirement for roles where local pipelines exist."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "That makes a lot of sense to me, and thank you for explaining it so clearly \u2014 pegging it to the actual local median by sector and seniority sounds fairer than just one flat number for everyone. I think many locals would feel more assured if that was paired with real checks on fair hiring and a clear plan for training someone local to take over eventually. Maybe we could also make it not too sudden for businesses, like phasing in any increase and giving smaller firms a bit more time to adjust? That way we stay open for real talent, but locals can see a genuine path to move up."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree a phased implementation is operationally sound \u2014 it avoids a cliff effect for firms while still moving the market toward the correct equilibrium. A tiered threshold by sector and seniority, indexed to MOM's occupational wage medians and reviewed annually, is far more precise than a single flat figure and directly addresses the wage suppression concern. In exchange for that predictability for business, we should strengthen Fair Consideration Framework audits and attach a time-bound knowledge transfer and local mentorship obligation for Employment Pass roles where a domestic pipeline is viable. For SMEs with genuine hiring constraints, I can support a slightly longer transition window provided they can demonstrate verifiable investment in local PMET upskilling."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D8",
+    "agents": [
+      "everyman",
+      "ideologue"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "Hi, thanks for being here to talk about this with me. Honestly, I can see both sides \u2014 I understand we need foreign talent to keep good companies and jobs here in Singapore, but I also hear from friends and neighbours who worry about fair chances for promotion and whether their experience is valued. I don\u2019t have all the answers on salary thresholds, but I think we both want the same thing: good opportunities for Singaporeans while staying open and competitive. Maybe we can start by finding what fair hiring and knowledge transfer should look like in practice, so neither side feels left behind?"
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "Thank you for that openness, and I agree we both want a thriving Singapore, but we must be honest that 'openness' has too often meant Singaporean PMETs training their cheaper replacements while leadership pipelines quietly close to locals. That is not just anxiety, it is a lived reality of wage suppression and stalled career progression that erodes dignity and trust, and no hub status is worth sacrificing our own workers for corporate convenience. I can support continued access to truly specialized global talent, but only with a firm floor: significantly higher and regularly indexed EP salary thresholds pegged to local PMET medians, rigorous Fair Consideration Framework enforcement with real penalties, and mandatory, time-bound knowledge-transfer and succession plans for Singaporeans. If a company truly needs the world's best, let it prove it by paying a premium and by committing to grow our people into those leadership roles \u2014 otherwise openness is just exploitation by another name."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "Thank you for sharing that so honestly \u2014 I hear how painful it feels when locals train others but don't get the promotion, and I agree that's not fair and hurts trust. I think your ideas make practical sense \u2014 if a company really needs top global talent, it should be willing to pay a proper premium and show it is also growing Singaporeans for those future leadership roles. Maybe we can find common ground on a higher but still realistic salary threshold that moves with local wages, plus stricter checks and clear, time-bound plans for knowledge transfer. That way we stay open for business but make sure openness also means real opportunities and progression for our own people."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I appreciate you hearing that pain and agreeing that a premium must be paid \u2014 that recognition matters, because dignity at work is not negotiable. I can meet you on a higher, realistic threshold if we anchor it properly: indexed to the top third of local PMET medians by sector and age, not a flat figure that quickly lags behind, paired with transparent Fair Consideration audits and public reporting. And those time-bound knowledge-transfer plans must have teeth \u2014 clear Singaporean understudy requirements for every EP leadership role, with renewal tied to proven progression, not just promises. That way we remain genuinely open to world-class talent while ensuring openness builds our people up instead of holding them back."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D1",
+    "agents": [
+      "technocrat",
+      "ideologue"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I believe we need to start from the reality that Singapore's position as a regional headquarters hub depends on access to specialized global talent, but that openness is only sustainable if mid-career Singaporeans see clear, fair pathways for progression. The core tension is not openness versus protection, but how we calibrate mechanisms like EP and S Pass salary thresholds to prevent wage suppression while remaining operationally competitive. I propose we focus our discussion on a data-driven, sector-differentiated approach rather than a blanket increase or freeze. Perhaps we can explore common ground around higher, productivity-linked thresholds paired with stronger, enforceable knowledge transfer and local pipeline commitments from firms."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I hear your call for calibration, but let's be honest \u2014 for too many mid-career Singaporeans, \"competitiveness\" has become a polite word for wage suppression and stalled leadership pipelines while firms import ready-made talent instead of building it here. A sector-differentiated, productivity-linked threshold is a start, but it means nothing without teeth: enforceable knowledge-transfer obligations and time-bound localization plans for leadership roles, not vague corporate pledges. I can support openness that genuinely uplifts us, but only if we agree that no firm's operational convenience justifies sacrificing the dignity and progression of our own workers \u2014 that must be our non-negotiable floor for any compromise."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree that without enforcement, thresholds are just signals, and I share your concern that vague pledges erode trust in the system. From a systems perspective, a viable compromise would be to raise EP thresholds differentially by sector \u2014 indexed to the resident PMET median for that sector \u2014 and pair that with verifiable conditions: structured mentorship ratios and time-bound succession plans for key leadership roles as part of COMPASS and manpower audits. This protects wage floors and progression pipelines without resorting to blanket quotas that would undermine our hub status and ultimately cost local jobs. Would you be open to refining what constitutes credible, auditable knowledge transfer so we ensure accountability while keeping compliance workable for firms that genuinely invest here?"
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I can meet you on sector-indexed thresholds tied to resident PMET medians, because that at least anchors foreign hiring to the lived reality of local wages rather than an abstract national average. And I welcome auditable mentorship ratios and time-bound succession plans \u2014 but let's be clear, audits without consequences are theatre, so they must be tied to public reporting and real penalties like EP privilege suspension for firms that repeatedly fail to localize leadership. If we define credible knowledge transfer as documented skills handover, funded local trainee pipelines, and measurable promotion outcomes \u2014 not just mentorship hours logged \u2014 then we protect both dignity and competitiveness. Can we agree that this enforcement with teeth is the price of openness, and build our compromise from there?"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D2",
+    "agents": [
+      "technocrat",
+      "populist"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I believe maintaining Singapore's competitiveness as a headquarters hub requires predictable, market-calibrated access to global talent, and blunt increases to salary thresholds alone risk driving firms to other markets without necessarily improving local outcomes. At the same time, I acknowledge the data on mid-career PMET underemployment suggests our current mechanisms for ensuring fair hiring and genuine skills transfer are insufficiently enforced. To find common ground, I propose we focus less on a single threshold number and more on system design. We could explore a sector-differentiated threshold paired with stronger, auditable knowledge-transfer and succession requirements for firms hiring at the EP level."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, all this \"market-calibrated\" talk sounds nice in a boardroom but on the ground we see mid-career locals in their 40s getting lowballed or replaced while rents and HDB prices keep shooting up. I'm tired of hearing about competitiveness when firms promise to hire local but end up with whole departments from one country and no real training for us. If you want your sector-differentiated thresholds, fine, but I need hard guarantees \u2014 like every EP must come with a local understudy who actually gets promoted within two years, with MOM doing real spot-checks and heavy penalties, not just paperwork."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I hear your frustration, and you're right that without credible enforcement, any threshold becomes just paperwork and whole departments can become enclaves without real local pipelines. I can support a mandatory, auditable local understudy and succession plan tied to each EP, with MOM spot-checks and escalating penalties including quota reductions for non-compliance. However, a guaranteed promotion within two years is operationally rigid and could create perverse incentives; a more viable compromise would be verifiable milestones - structured training hours, skills certification, and consideration for promotion - with public reporting on firm-level local progression rates. Paired with a sector-differentiated threshold that is higher in saturated PMET sectors, this gives you the hard guarantees you want while keeping our hub predictable for investors."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay, that sounds more serious than the usual wayang paperwork \u2014 if MOM really does spot-checks and actually cuts quotas and fines when firms don't train locals, I can live with that. I still don't like dropping the guaranteed promotion because I've seen too many \"trainees\" stuck doing admin while the EP guy stays boss forever, so those milestones better be real \u2014 certified skills, real interviews for the next level, and the company's promotion numbers published for everyone to see. You raise thresholds higher in the crowded sectors like IT and finance where locals are getting squeezed, and tie every EP to a local understudy with teeth, then we have a deal that protects Singaporeans first without chasing all the companies away."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D3",
+    "agents": [
+      "ideologue",
+      "populist"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "My fellow Singaporeans have watched too many mid-career colleagues retrenched only to see their roles repackaged for cheaper foreign hires, and that betrayal of our social compact cannot be dismissed as mere market efficiency. I believe being a global hub means nothing if our own people are hollowed out of leadership pipelines and denied dignity in their own country. I recognize we do need genuine world-class expertise that we truly lack, not imported rank-and-file competition that suppresses wages. So I propose we find common ground around significantly higher, sector-specific salary thresholds tied to real local medians, coupled with enforceable knowledge-transfer and succession plans for Singaporeans."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "You hit the nail on the head lah, that is exactly what we see on the ground - my friends get retrenched at 40-plus then see the same job posted cheaper for a foreigner, how to not feel angry? I agree we shouldn't shut the door completely, if it's a real expert who can teach us something we don't have then okay. But that salary threshold must be high enough so companies cannot play games, and not just wayang wayang promise to train locals. If got strict rules where they must actually promote Singaporeans to take over within a few years, with penalty if they don't, then I can support still being a hub."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I hear your anger, and it's righteous \u2014 no Singaporean should feel like a stranger in their own economy, pushed out at 40 to make way for cheaper labour dressed up as \"talent.\" That's why I stand with you: openness must be conditional, not unconditional, and a high, sector-calibrated salary threshold is the clearest filter to ensure we only welcome genuine expertise that lifts our median, not undercuts it. Let's lock in that compromise together \u2014 truly high thresholds plus transparent, audited succession plans with real penalties, so every foreign expert brought in is contractually bound to build a Singaporean successor \u2014 that way we remain a hub *with* heart, not at the expense of our people."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Yes, that's what I mean - hub with heart, not hub that forgets us. High threshold is good but must be tied to what Singaporeans actually earn in that sector, not some lowball number companies can easily clear. And that succession plan cannot be just paperwork, must be audited and got real penalty like cut their quota or fine big big if they never promote local. If we can agree on those two concrete protections, then okay lah, I can live with bringing in real talent who actually help us move up, not push us out."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D4",
+    "agents": [
+      "ideologue",
+      "everyman"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "As Singaporeans, we cannot keep asking our mid-career PMETs to bear the cost of our hub status while companies import cheaper foreign talent and call it competitiveness \u2014 that is a betrayal of the social compact. I believe any foreign talent we welcome must truly complement our workforce, not undercut local wages or block our own leadership pipelines. But I also recognize we do need specialized global expertise to keep our economy vibrant, so common ground must start from a principle: protection first. I propose we agree that higher, enforceable salary thresholds and strict knowledge-transfer obligations are non-negotiable prerequisites before we discuss any further openness."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear your concern deeply, and I agree with you \u2014 I've also seen neighbours and friends in their 40s worry about being undercut, so protection has to be part of the deal. At the same time, I also see how many companies here need some global talent to stay as a hub and actually create more good jobs for Singaporeans. So maybe we can agree on your idea of higher salary thresholds and clear knowledge-transfer as a baseline, but make them practical and sector-specific, with regular reviews so it stays fair on both sides. Would that be a workable middle ground where our local PMETs feel secure but we don't close our doors too tightly?"
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I appreciate you meeting me on protection as the baseline \u2014 because without that, talk of openness is just asking local PMETs to subsidize corporate hiring strategies. I can accept sector-specific thresholds with regular reviews, but only if we agree those thresholds are genuinely high, transparently enforced with penalties, and tied to measurable knowledge-transfer \u2014 mentorship hours, local succession plans, not vague promises. For me, common ground isn't just flexibility for firms, it's accountability: every EP at a premium must create a pathway for a Singaporean to lead next. If we lock that in, then we can stay open without selling out our mid-career workers."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "That accountability idea really speaks to me \u2014 every EP at a premium should mean a real pathway for a Singaporean to step up next, not just vague promises. I think we can agree on genuinely high and transparent thresholds with real penalties if firms don't follow through, and make the knowledge-transfer measurable like mentorship hours and succession plans you mentioned. Maybe we can also agree to review it regularly by sector, so it stays practical for businesses but our mid-career folks still feel that protection is real. If we lock that in together, we keep our hub open while making sure Singaporeans come first in a fair way."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D5",
+    "agents": [
+      "populist",
+      "everyman"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I tell you honestly, every time they say we need more foreign talent, I see my friends in their 40s getting retrenched or stuck while some new guy from overseas becomes their boss. How is that fair when we serve NS, pay crazy rent and still get told to upskill? I'm not against all foreigners, but don't tell me to just trust the market - show me real protection first. If you want me to agree on openness, then you need to agree to hard rules on fair hiring and real chances for locals to move up."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear you, and honestly I think many of us feel that same anxiety when we see good, hardworking locals in their 40s struggling while newcomers seem to get ahead so quickly. At the same time, I also see how as a small hub we do need some outside expertise to keep good companies here so there are jobs for all of us. So maybe the middle ground is to have stricter, higher salary thresholds and real enforcement on fair hiring, plus a clear expectation that foreign hires help train and promote locals over time. That way we can stay open but in a fair way where locals feel protected and have a real chance to move up, would that feel more balanced to you?"
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay, at least you actually listen, not like those experts who just say trust the system. I can live with staying open IF the salary bar is really high so companies cannot bring in cheap so-called talent to undercut us, and MOM really checks and punishes those who don't hire fair. And that training locals part cannot be wayang - must be real, like if you bring one foreign manager you must show how many locals you promoted in two years, otherwise don't renew pass. You give me that kind of guarantee, then I feel we protect Singaporeans first while still letting real talent come in."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "That sounds very fair to me, and I think that guarantee is exactly what many locals need to feel secure. If we set the salary threshold high enough to make sure it's truly top talent, not cheap undercutting, and tie pass renewals to real proof of local mentoring and promotions, then companies have a clear incentive to invest in Singaporeans. Maybe we can also ask for more transparency, like publishing how firms are doing on fair hiring, so we can all trust the system together. Would you be comfortable with that kind of package \u2014 stay open to the world, but with strict rules that put locals first?"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D6",
+    "agents": [
+      "populist",
+      "technocrat"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I work hard and I see what is happening \u2014 good PMET jobs going to foreigners while locals like us get told to upskill or take lower pay, it's not fair. I am not against talent, but right now it feels like companies bring in foreigners because it's cheaper and easier, not because we really don't have the skills. If we want to find common ground, I need to hear a real guarantee that raising these salary thresholds will actually protect local wages and give us a fair shot at leadership, not just more empty promises."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I hear your concern, and it's a legitimate one \u2014 if thresholds are too low, firms will naturally arbitrage labour costs, which undermines both wage growth and trust in the system. The data does suggest broad-based threshold increases can protect entry-level PMET wages, but if set too high uniformly, we risk firms offshoring entire functions rather than hiring locals, which helps no one. A more viable compromise is a sector-differentiated threshold increase tied to stronger enforcement \u2014 specifically, mandatory skills-transfer plans and stricter audits of fair-hiring practices for leadership-track roles. That way we ensure foreign talent complements rather than substitutes local progression, while keeping Singapore viable as a headquarters hub."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay, at least you admit companies will play the system if thresholds are too low \u2014 that's exactly what we see on the ground. Your sector-differentiated idea sounds okay on paper but honestly, audits and skills-transfer plans have been promised before and nothing changes, locals still stuck while foreigners get promoted. If you want me to agree, I need it concrete \u2014 higher thresholds where it matters, real penalties when companies don't hire and promote Singaporeans, and a clear timeline where that foreigner must train a local to take over."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "That's a fair challenge \u2014 past enforcement has lacked teeth, which is why audits without public accountability and meaningful penalties fail to change firm behaviour. I can support your core ask: we set significantly higher thresholds for non-shortage sectors and mid-level PMET roles where local supply is strong, paired with a time-bound Complementarity Framework \u2014 say, a 3-year skills-transfer obligation for Employment Pass holders in leadership pipelines, with published firm-level compliance scores and escalating levies or quota restrictions for non-compliance. This protects local wage progression and promotion visibility concretely, while still allowing targeted openness in genuine shortage areas like AI or advanced manufacturing where offshoring is the real risk."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D7",
+    "agents": [
+      "everyman",
+      "technocrat"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "Hi, I'm not an expert on MOM policies, but as an everyday Singaporean I can see why this is such a sensitive issue for all of us. I understand we need foreign talent to keep good companies and jobs here, but I also hear the worry from friends about whether locals get a fair shot at moving up. Maybe we can start by agreeing we both want a Singapore where businesses can thrive and locals feel secure in their careers, and work from there to find a fair balance?"
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I appreciate you framing it that way, and I agree our shared objective is both retaining Singapore's hub competitiveness and ensuring our local PMET pipeline remains strong. From a systems perspective, blanket restrictions risk driving firms to relocate regional roles, which ultimately reduces opportunities for locals, but I also recognize that a static salary threshold can become ineffective against wage arbitrage over time. A viable compromise would be sector-differentiated, dynamically indexed Employment Pass thresholds tied to local median wage benchmarks, paired with stricter enforcement and measurable knowledge-transfer KPIs under the Fair Consideration Framework."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "That sounds like a sensible middle path to me, and thank you for explaining it in a practical way. I like the idea of different thresholds for different sectors that move with local wages, because it feels fairer than a one-size-fits-all number and helps locals not feel left behind. For me the key is also making the enforcement and knowledge-transfer part real and visible, so everyday workers can see that hiring is fair and that our young people and mid-career folks are actually being trained to step up. If we can pair your system with clear reporting and real chances for locals to learn and lead, I think both businesses and Singaporean workers can feel more secure together."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree that visibility is critical for policy legitimacy \u2014 a technically sound threshold means little if workers don't perceive the system as fair. We could operationalize your point by requiring firms above a certain EP quota to publish anonymized local-to-foreigner ratios in PMET leadership tracks and submit audited skills-transfer plans as a condition for pass renewals. That adds accountability without resorting to blunt quotas that could deter investment, and we could fund expanded mid-career upskilling through a modest levy adjustment tied to that framework. Would that balance of indexed thresholds plus transparent, enforceable development metrics address your concern about real progression opportunities?"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D8",
+    "agents": [
+      "everyman",
+      "ideologue"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I think I see both sides here \u2014 as a small country we do need outside talent to keep good companies and jobs here, but I also hear from friends and neighbours who worry about whether locals are getting a fair shot at promotions and leadership roles. I don't have all the answers on what the right salary threshold should be, but maybe we can start by agreeing that we want both: to stay open and competitive, and to make sure Singaporeans feel protected and can grow in their careers."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I appreciate your spirit of balance, but we have to be honest: \"openness\" has too often meant local PMETs being undercut, passed over for leadership, and told to be grateful for precarity while companies import cheaper mid-level managers. A competitive economy cannot be built on sacrificing the dignity and progression of Singaporean workers \u2014 that's not pragmatism, it's abandonment. I can support global talent only if we raise EP and S Pass thresholds decisively, enforce real knowledge-transfer mandates and succession pipelines for locals, and penalize firms that hollow out our middle class."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear you, and I think you're right that feeling passed over for leadership really hurts \u2014 nobody wants to feel like a second-class citizen in their own home. I may not know the exact dollar figure, but I can agree that thresholds should be high enough to prevent undercutting, and that companies who want to be here should show they are genuinely training and promoting locals. Maybe we could support a moderate raise in thresholds paired with stronger, practical rules on knowledge transfer and local succession, so we protect our workers without shutting the door on the talent that keeps good jobs here?"
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I appreciate that acknowledgment \u2014 because this isn't about xenophobia, it's about justice in our own home. I can meet you on a moderate raise if it's meaningful and anchored \u2014 not a token $200 bump, but thresholds pegged to the top third of local PMET wages for the role, indexed annually, with public reporting on firms' local-to-foreigner leadership ratios. In return, we must have teeth: time-bound knowledge-transfer plans, local succession pipelines as a condition for EP renewal, and real penalties for companies that treat Singapore as a hotel rather than a home."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D1",
+    "agents": [
+      "technocrat",
+      "ideologue"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I believe we need to view this not as a choice between openness and protection, but as a system design problem: how to keep Singapore competitive as a headquarters hub while ensuring our salary thresholds actually reflect market-clearing wages for genuine scarcity. The current thresholds and COMPASS framework are a step in the right direction, but their effectiveness depends on rigorous enforcement and whether they prevent wage arbitrage at the mid-level PMET tier. I propose we find common ground by focusing on verifiable mechanisms \u2014 specifically, strengthening salary benchmarking by sector and tying renewal to measurable knowledge transfer \u2014 rather than debating quotas in the abstract."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I appreciate your focus on mechanisms, but we cannot reduce this to a technocratic benchmarking exercise \u2014 for too many Singaporean PMETs in their 40s, this is about dignity, livelihoods, and being passed over for leadership in their own country. A salary threshold that still allows firms to import mid-level managers under the guise of 'scarcity' is not market-clearing, it is wage suppression. If we are to find common ground, then knowledge transfer cannot be a vague checkbox; it must be a binding, audited commitment with sunset clauses on foreign hires and real penalties for firms that fail to build a local succession pipeline."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I hear your concern, and you are right that if knowledge transfer remains a checkbox, it undermines both dignity and system credibility \u2014 that is an enforcement failure we need to fix, not just a threshold number. I can support moving toward audited, binding commitments, but sunset clauses need to be sector-calibrated rather than blanket, otherwise we risk hollowing out functions where genuine global scarcity exists and firms will simply relocate the role. A viable compromise could be: publish transparent sectoral salary benchmarks at the 75th percentile, require a documented local succession plan with measurable mentorship KPIs for EP renewal after three years, and apply escalating levies or hiring restrictions for non-compliance. That protects local pipelines without creating a rigid quota that damages our hub viability."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I can accept sector-calibrated benchmarks, but only if that 75th percentile is a true floor with teeth \u2014 not a median that firms can game with inflated job titles. Your succession plan for EP renewal after three years is the right direction, yet mentorship KPIs must mean co-leadership and promotion outcomes, not just training hours logged, with public accountability for repeat offenders. If we pair that with escalating levies that actually fund mid-career reskilling for displaced Singaporeans, then we have a compromise that protects both our hub status and the dignity of local workers who deserve a future here."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D2",
+    "agents": [
+      "technocrat",
+      "populist"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "Good morning. I believe our competitiveness as a regional headquarters hub depends on predictable access to specialized global talent, but that system is only sustainable if local PMETs see clear and fair career progression. The data suggests blanket restrictions risk diverting investment elsewhere, while overly loose thresholds can create real wage pressure in specific mid-career segments. I propose we focus on finding common ground by calibrating salary thresholds by sector and seniority, paired with verifiable knowledge-transfer commitments, rather than debating openness versus protection in absolute terms."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I hear you on competitiveness but on the ground it doesn't feel fair \u2014 my friends in their 40s are getting squeezed on pay and passed over for promotions while companies say they can't find talent. Your idea of different thresholds by sector sounds okay on paper, but \"knowledge-transfer commitments\" is just corporate talk unless got real teeth and penalties. If you want me to support bringing in foreign talent, then guarantee locals get first shot at mid-level jobs, publish who actually gets promoted, and make companies train us for real leadership roles. Do that, and I can live with openness \u2014 but not another blank cheque for the bosses."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "That's a fair challenge, and I agree \u2014 without enforcement and transparency, knowledge-transfer is just window dressing. What if we tied EP renewals and quota flexibility to auditable milestones: like a set ratio of locals mentored into leadership pipelines, with MOM publishing anonymized promotion and wage progression data by firm size and sector? In return, we keep thresholds market-calibrated and sector-specific so we don't lose headquarters investments that ultimately fund those local jobs. Would you support that kind of conditional openness \u2014 protection with teeth, but still predictable for business?"
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay, that sounds more serious \u2014 tie the EP renewal to real proof they trained locals, not just wayang reports, then we are talking. But publish the data properly, don't hide behind anonymized averages \u2014 show which sectors and big firms actually promote Singaporeans into leadership, and fine those who keep recycling foreign hires for middle-management. If you can guarantee that kind of teeth plus a higher salary floor so they cannot undercut our 40s PMETs, I will support your sector-by-sector thresholds \u2014 conditional openness, but locals must come first in practice."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D3",
+    "agents": [
+      "ideologue",
+      "populist"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I believe we cannot call ourselves a fair society if we invite global talent to lead while our own mid-career PMETs - our neighbours, our family - face wage stagnation and blocked pipelines after giving their best years to this economy. An open economy must not mean an expendable local workforce; openness without protection is just abandonment. I recognize we need specialized global expertise to keep Singapore competitive, but that talent must complement and uplift Singaporeans, not undercut them. I propose we find common ground by agreeing that any access to foreign talent must be tied to enforceable commitments to fair hiring, genuine knowledge transfer, and clear local leadership development."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "You talk a lot about fairness but out there it's simple - my friends in their 40s see whole teams become foreign PMETs and then locals cannot get promoted or even keep their jobs, how is that fair? I don't care what the big companies say about staying competitive, I care if Singaporeans can pay HDB and feed family without getting undercut on salary. If we let in foreign talent it must be at a really high pay threshold and companies must be forced to train locals for real, not just wayang on paper. If you can promise that kind of enforcement, then I can agree to some openness."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I hear you, and your friends' fear of being made invisible in their own economy is exactly why I refuse to accept openness as an excuse for exploitation. You are right to demand more than wayang \u2014 promises on paper mean nothing without audits, penalties, and transparent salary thresholds that prevent undercutting. So let us agree on this principle: companies earn access to global talent only if they pay a genuine premium and prove real mentorship and succession into local leadership. That is how we stay competitive without sacrificing the dignity of Singaporeans who built this nation."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay you finally talk sense, audits and penalties are what we need because now companies just do wayang and nobody checks. If they want to bring in foreign PMETs they must pay way higher than locals, not same-same salary then say talent, and they must show every year how many Singaporeans they actually promoted to manager and above. I don't want more big talk about competitive, I want my cousins and friends to see real chance to move up and not get pushed out at 45. If you can lock in that high threshold plus real enforcement, then I can live with bringing in real experts, but locals must come first."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D4",
+    "agents": [
+      "ideologue",
+      "everyman"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I come to this table deeply concerned that our pursuit of being a headquarters hub has come at the cost of dignity for Singaporean PMETs in their 40s and 50s who see themselves passed over for leadership and pressured on wages. An open door without enforceable salary thresholds and genuine knowledge transfer is not global talent, it is wage arbitrage that hollows out our middle class and betrays our social compact. I believe we must anchor our economy in fairness by significantly raising EP qualifying salaries to true market premiums and tying every foreign hire to transparent succession plans for locals. If we can agree that no foreign talent should ever be cheaper than nurturing our own, I think we can find common ground that protects both competitiveness and our people."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear your concern very clearly, and I agree we cannot have a system where our uncles and aunties in their 40s and 50s feel pushed aside or undercut on salary \u2014 that really hurts our sense of fairness. At the same time, I also see that being a hub does bring in good jobs and opportunities for locals when companies choose Singapore, so we don't want to close the door completely. Maybe we can meet in the middle with a higher but still realistic EP salary threshold, so companies must pay a real premium for foreign hires, and pair it with a clear rule that they have to train and promote locals over time? That way we protect local progression while still staying open and competitive for everyone."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I appreciate that you share the concern for our mid-career PMETs and see that openness must not mean being open to undercutting \u2014 that is exactly the common ground we need. I can support a higher, realistic premium threshold, but only if it is not just a number on paper \u2014 it must be sector-calibrated, regularly updated, and paired with enforceable, public-facing knowledge transfer and succession plans, not vague promises to train. If we agree that every EP at that premium comes with a binding clock to develop a Singaporean successor and transparent reporting, then we can protect both our competitiveness and the dignity of local career progression."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "That sounds fair to me \u2014 a threshold alone won't help if it's not updated and companies can just make vague promises about training. I like your idea of making it sector-specific and having a clear, enforceable timeline to develop a local successor, with some transparent reporting so everyone can see it's real. For me, the balance is that we keep the door open for true specialized talent that grows the pie, but we make sure companies pay a proper premium and show how locals are moving up into leadership. If we can agree on that kind of premium-plus-succession deal, I think we protect both our mid-career PMETs and our hub status."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D5",
+    "agents": [
+      "populist",
+      "everyman"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I'm not against talent, but walk around any office in CBD \u2014 you see whole departments where locals are missing from the top jobs, and we're stuck doing contract work. They keep talking about salary thresholds but $5k, $6k is nothing for these MNCs, they just pay it and still hire their own people cheap. If we want common ground, fine \u2014 raise the bar properly and force them to actually train and promote Singaporeans, not just wayang."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear you, and honestly I can understand that frustration when you see locals not moving up and a lot of contract roles \u2014 it doesn't feel fair. At the same time, I also worry that if we raise the bar too high too fast, some companies might just move elsewhere and then we all lose opportunities. Maybe we can find a middle ground \u2014 like raising the threshold a bit more realistically and tying it to real requirements to train and promote Singaporeans, with checks so it's not just wayang?"
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay, I hear you on companies threatening to leave \u2014 but honestly, how long are we going to use that excuse while our own people can't get stable PMET jobs with proper progression? I'm willing to meet halfway \u2014 don't need to shut the door, but raise the threshold to a level that actually means something and make it tied to real, checkable promotion of locals, not just paperwork. If they get access to our hub, they must show every year how many Singaporeans they moved from associate to manager to director, not just hire fresh grads for show."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "That sounds fair to me \u2014 if companies want to be based here and enjoy what Singapore offers, it makes sense they should show real progress in promoting Singaporeans from associate to manager to director, not just ticking a box with fresh grad hires. I like your idea of an annual check on that pipeline, because then we can see who is genuinely investing in locals. Maybe we can pair that with a threshold that is higher and more meaningful, but still adjusted by sector so we don't push out the firms that actually create good jobs for us. That way we protect local progression while still keeping Singapore open and competitive for everyone."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D6",
+    "agents": [
+      "populist",
+      "technocrat"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, every time I hear \"global talent\" I just think about my friends getting passed over for manager roles or stuck with low increments while rent and everything else goes up. I see fresh foreign PMETs coming in on salaries that locals can't even negotiate for, and companies don't seem to train us to take over those leadership jobs. I'm not saying close the doors completely, but if we want to find common ground, we need to start with real guarantees \u2014 like higher salary minimums that actually mean something and strict rules to make companies prove they are promoting locals, not just displacing us."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I hear your concern about displacement and stalled progression, and the data does show mid-career PMET anxiety is real even if overall unemployment remains low. As someone who values fiscal prudence and systemic viability, I worry that bluntly hiking salary thresholds too high or imposing rigid promotion quotas could simply raise business costs and push regional HQs to relocate, which ultimately hurts local jobs. A more workable compromise might be a calibrated, sector-differentiated rise in EP and S Pass qualifying salaries tied to local median wage benchmarks, paired with stronger COMPASS incentives and audits that reward firms with verifiable training and succession plans for Singaporeans."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay, I appreciate you admitting the anxiety is real and not just complaining. But \"calibrated\" and \"incentives\" sounds like soft wayang to me \u2014 I need to see real penalties when companies fake their training plans and real salary floors that match what locals actually need to survive here. If you tie the EP salaries properly to local medians and make those audits public with teeth, then I can agree to keep doors open for true specialists we really lack. Otherwise it's just talk while ordinary folks keep losing out."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree that without enforcement, incentives become wayang, and credibility requires teeth \u2014 so I'm open to mandatory public reporting on local succession metrics and meaningful financial penalties or work pass curtailments for firms that falsify training commitments. If we peg EP thresholds to, say, the median salary of local PMETs in that specific sector and age cohort, and update it annually, we create a real floor that reflects cost-of-living realities without a one-size-fits-all hike that drives out viable HQs. In return, we should keep flexibility for genuine specialist gaps through a time-limited, audited exemption tied to a binding knowledge-transfer plan. That way we protect local pipelines with accountability, while preserving the systemic viability that ultimately funds those local jobs."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D7",
+    "agents": [
+      "everyman",
+      "technocrat"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "Hi, thanks for being here to talk about this with me \u2014 I don't work in policy or HR, I just see it as a regular Singaporean trying to make sense of things. On one hand I understand why companies here need good global talent to stay competitive, but on the other hand I also hear from friends and family who worry about fair chances and being passed over for promotions. I think we both probably want the same thing \u2014 a Singapore where businesses can thrive but locals also feel secure and have clear paths to grow. Maybe we can start by looking at what a fair balance could look like, where we welcome talent but also make sure there are real safeguards and opportunities for Singaporeans?"
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "Appreciate you framing it that way \u2014 I think we do share the same goal of a competitive economy that still delivers security for Singaporeans. From a systems perspective, I support openness, but it has to be calibrated: salary thresholds like EP qualifying salaries and COMPASS need to reflect true market premiums for scarcity skills, not be a backdoor for cheaper mid-level hiring that undercuts local wage growth. A viable compromise to me would be maintaining higher, sector-differentiated thresholds tied to local median PMET wages, coupled with stricter enforcement and transparency on fair hiring, while reinvesting levy revenues into structured mid-career upskilling and leadership pipelines."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "That makes a lot of sense to me, and thank you for explaining the salary thresholds and COMPASS part so clearly \u2014 I don't know all the technical details but tying it to what locals actually earn sounds fairer. I think if companies have to show they really need that specific skill and are paying properly for it, it would help my friends feel less like they're being undercut. I also like your idea of using the money from levies to help with mid-career training and leadership chances, because many of us just want a clear path to keep learning and move up. Maybe that kind of balance \u2014 open but with clear rules and real support for locals \u2014 is something we can both support?"
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I'm glad that resonates \u2014 tying thresholds to verified local PMET medians is exactly how we keep openness honest without resorting to blanket protectionism. If we pair that with time-bound EPs that require demonstrated knowledge transfer and publish firm-level COMPASS and fair-hiring outcomes, companies get talent clarity while locals get verifiable accountability. Channeling the incremental levy and penalty revenue directly into SkillsFuture mid-career credits and employer co-funded leadership rotations then makes the trade-off tangible. That seems like a pragmatic balance we can both endorse: globally competitive, but structurally biased toward building the local pipeline."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D8",
+    "agents": [
+      "everyman",
+      "ideologue"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "Hi, thanks for being here to talk about this together. Honestly, I can see both sides \u2014 I understand we need good global talent to keep companies and good jobs here in Singapore, but I also hear from friends and neighbours who worry about fair chances and moving up at work. I don't have all the answers on salary numbers and thresholds, but I feel we all want the same thing: a system that feels fair and gives locals a real path to grow while staying open. Maybe we can start by looking for practical ways to protect local progression without shutting the door on talent we truly need?"
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I appreciate your openness, but we have to be honest \u2014 \"staying open\" cannot mean locals are left to compete on an uneven playing field while companies import cheaper PMETs and call it talent. A fair system isn't just about a salary threshold on paper; it must mean rigorous enforcement of the Fair Consideration Framework, a meaningfully higher EP qualifying salary that reflects true scarcity, and binding knowledge-transfer obligations so every foreign hire builds our local leadership pipeline. I cannot accept any compromise where administrative efficiency or corporate convenience is used to justify wage suppression and stalled mid-career progression for Singaporeans. If we agree on that moral baseline \u2014 that every global hire must demonstrably uplift local workers \u2014 then I'm ready to work with you on practical, sector-specific thresholds."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear you, and I think you're right that fairness has to be more than just numbers on paper \u2014 if locals feel passed over for promotions or see wages held down, then the system isn't working as it should.\n\nAt the same time, I also worry that if we raise thresholds too high across the board, some companies that really do need niche skills might just move elsewhere, and then we all lose those jobs.\n\nMaybe a good middle ground is what you suggested \u2014 sector-specific thresholds that are higher where locals are readily available, plus stronger enforcement and clear mentorship or knowledge-transfer so every foreign hire is actually helping grow the next Singaporean team lead?"
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I appreciate you meeting me there \u2014 sector-specific, higher thresholds where local talent is abundant is exactly the right direction, because it stops the abuse of \"global talent\" as cover for cheap hiring. But for me to support that compromise, it must be paired with teeth: transparent audits of the Fair Consideration Framework, published local-to-foreigner progression ratios, and time-bound knowledge transfer where an EP renewal is contingent on a Singaporean successor being trained. If we lock in that principle \u2014 that no foreign leadership pipeline can exist without a parallel Singaporean leadership pipeline \u2014 then we can stay open where we truly need to, without sacrificing our mid-career workers."
+      }
+    ]
+  }
+]

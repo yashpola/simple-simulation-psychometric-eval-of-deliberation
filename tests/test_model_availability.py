@@ -4,6 +4,13 @@ import os
 import json
 import pytest
 from openai import APIError, APIConnectionError
+
+try:
+    from dotenv import load_dotenv  # pyright: ignore[reportUnknownVariableType]
+    _ = load_dotenv()
+except ImportError:
+    pass
+
 from src.llm import OpenAIClient
 
 

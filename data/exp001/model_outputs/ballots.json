@@ -1,0 +1,3026 @@
+[
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D1",
+    "trial_index": 0,
+    "votes": {
+      "technocrat": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D1",
+        "trial_index": 0,
+        "persona_id": "technocrat",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "D",
+          "C": "A",
+          "D": "B"
+        }
+      },
+      "ideologue": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D1",
+        "trial_index": 0,
+        "persona_id": "ideologue",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "C",
+          "C": "D",
+          "D": "A"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D2",
+    "trial_index": 0,
+    "votes": {
+      "technocrat": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D2",
+        "trial_index": 0,
+        "persona_id": "technocrat",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "D",
+          "C": "B",
+          "D": "C"
+        }
+      },
+      "populist": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D2",
+        "trial_index": 0,
+        "persona_id": "populist",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "D",
+          "C": "A",
+          "D": "C"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D3",
+    "trial_index": 0,
+    "votes": {
+      "ideologue": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D3",
+        "trial_index": 0,
+        "persona_id": "ideologue",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D"
+        }
+      },
+      "populist": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D3",
+        "trial_index": 0,
+        "persona_id": "populist",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "B",
+          "C": "D",
+          "D": "C"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D4",
+    "trial_index": 0,
+    "votes": {
+      "ideologue": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D4",
+        "trial_index": 0,
+        "persona_id": "ideologue",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "A",
+          "C": "C",
+          "D": "D"
+        }
+      },
+      "everyman": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D4",
+        "trial_index": 0,
+        "persona_id": "everyman",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "C",
+          "C": "A",
+          "D": "D"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D5",
+    "trial_index": 0,
+    "votes": {
+      "populist": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D5",
+        "trial_index": 0,
+        "persona_id": "populist",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "D",
+          "C": "C",
+          "D": "A"
+        }
+      },
+      "everyman": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D5",
+        "trial_index": 0,
+        "persona_id": "everyman",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "B",
+          "C": "A",
+          "D": "D"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D6",
+    "trial_index": 0,
+    "votes": {
+      "populist": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D6",
+        "trial_index": 0,
+        "persona_id": "populist",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "B",
+          "C": "A",
+          "D": "D"
+        }
+      },
+      "technocrat": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D6",
+        "trial_index": 0,
+        "persona_id": "technocrat",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "C",
+          "C": "B",
+          "D": "D"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D7",
+    "trial_index": 0,
+    "votes": {
+      "everyman": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D7",
+        "trial_index": 0,
+        "persona_id": "everyman",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "A",
+          "C": "C",
+          "D": "B"
+        }
+      },
+      "technocrat": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D7",
+        "trial_index": 0,
+        "persona_id": "technocrat",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "A",
+          "C": "D",
+          "D": "C"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D8",
+    "trial_index": 0,
+    "votes": {
+      "everyman": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D8",
+        "trial_index": 0,
+        "persona_id": "everyman",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "B",
+          "C": "C",
+          "D": "A"
+        }
+      },
+      "ideologue": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D8",
+        "trial_index": 0,
+        "persona_id": "ideologue",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "C",
+          "C": "B",
+          "D": "D"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D1",
+    "trial_index": 0,
+    "votes": {
+      "technocrat": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D1",
+        "trial_index": 0,
+        "persona_id": "technocrat",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "C",
+          "C": "A",
+          "D": "D"
+        }
+      },
+      "ideologue": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D1",
+        "trial_index": 0,
+        "persona_id": "ideologue",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "D",
+          "C": "B",
+          "D": "C"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D2",
+    "trial_index": 0,
+    "votes": {
+      "technocrat": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D2",
+        "trial_index": 0,
+        "persona_id": "technocrat",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "A",
+          "C": "C",
+          "D": "D"
+        }
+      },
+      "populist": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D2",
+        "trial_index": 0,
+        "persona_id": "populist",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "D",
+          "C": "B",
+          "D": "C"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D3",
+    "trial_index": 0,
+    "votes": {
+      "ideologue": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D3",
+        "trial_index": 0,
+        "persona_id": "ideologue",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "D",
+          "C": "A",
+          "D": "B"
+        }
+      },
+      "populist": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D3",
+        "trial_index": 0,
+        "persona_id": "populist",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "A",
+          "C": "D",
+          "D": "B"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D4",
+    "trial_index": 0,
+    "votes": {
+      "ideologue": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D4",
+        "trial_index": 0,
+        "persona_id": "ideologue",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "B",
+          "C": "C",
+          "D": "A"
+        }
+      },
+      "everyman": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D4",
+        "trial_index": 0,
+        "persona_id": "everyman",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "C",
+          "C": "A",
+          "D": "B"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D5",
+    "trial_index": 0,
+    "votes": {
+      "populist": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D5",
+        "trial_index": 0,
+        "persona_id": "populist",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "C",
+          "C": "B",
+          "D": "D"
+        }
+      },
+      "everyman": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D5",
+        "trial_index": 0,
+        "persona_id": "everyman",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "D",
+          "C": "A",
+          "D": "B"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D6",
+    "trial_index": 0,
+    "votes": {
+      "populist": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D6",
+        "trial_index": 0,
+        "persona_id": "populist",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "A",
+          "C": "B",
+          "D": "C"
+        }
+      },
+      "technocrat": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D6",
+        "trial_index": 0,
+        "persona_id": "technocrat",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "D",
+          "C": "B",
+          "D": "C"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D7",
+    "trial_index": 0,
+    "votes": {
+      "everyman": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D7",
+        "trial_index": 0,
+        "persona_id": "everyman",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "B",
+          "C": "D",
+          "D": "C"
+        }
+      },
+      "technocrat": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D7",
+        "trial_index": 0,
+        "persona_id": "technocrat",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "C",
+          "C": "B",
+          "D": "D"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D8",
+    "trial_index": 0,
+    "votes": {
+      "everyman": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D8",
+        "trial_index": 0,
+        "persona_id": "everyman",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "A",
+          "C": "D",
+          "D": "B"
+        }
+      },
+      "ideologue": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D8",
+        "trial_index": 0,
+        "persona_id": "ideologue",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "B",
+          "C": "A",
+          "D": "D"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D1",
+    "trial_index": 0,
+    "votes": {
+      "technocrat": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D1",
+        "trial_index": 0,
+        "persona_id": "technocrat",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "D",
+          "C": "A",
+          "D": "C"
+        }
+      },
+      "ideologue": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D1",
+        "trial_index": 0,
+        "persona_id": "ideologue",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "A",
+          "C": "B",
+          "D": "D"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D2",
+    "trial_index": 0,
+    "votes": {
+      "technocrat": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D2",
+        "trial_index": 0,
+        "persona_id": "technocrat",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "D",
+          "C": "A",
+          "D": "C"
+        }
+      },
+      "populist": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D2",
+        "trial_index": 0,
+        "persona_id": "populist",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "C",
+          "C": "A",
+          "D": "D"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D3",
+    "trial_index": 0,
+    "votes": {
+      "ideologue": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D3",
+        "trial_index": 0,
+        "persona_id": "ideologue",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "A",
+          "C": "D",
+          "D": "C"
+        }
+      },
+      "populist": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D3",
+        "trial_index": 0,
+        "persona_id": "populist",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "C",
+          "C": "B",
+          "D": "D"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D4",
+    "trial_index": 0,
+    "votes": {
+      "ideologue": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D4",
+        "trial_index": 0,
+        "persona_id": "ideologue",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "D",
+          "C": "B",
+          "D": "A"
+        }
+      },
+      "everyman": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D4",
+        "trial_index": 0,
+        "persona_id": "everyman",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "A",
+          "C": "C",
+          "D": "D"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D5",
+    "trial_index": 0,
+    "votes": {
+      "populist": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D5",
+        "trial_index": 0,
+        "persona_id": "populist",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "C",
+          "C": "D",
+          "D": "A"
+        }
+      },
+      "everyman": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D5",
+        "trial_index": 0,
+        "persona_id": "everyman",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "A",
+          "C": "D",
+          "D": "B"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D6",
+    "trial_index": 0,
+    "votes": {
+      "populist": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D6",
+        "trial_index": 0,
+        "persona_id": "populist",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "B",
+          "C": "A",
+          "D": "C"
+        }
+      },
+      "technocrat": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D6",
+        "trial_index": 0,
+        "persona_id": "technocrat",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "B",
+          "C": "C",
+          "D": "A"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D7",
+    "trial_index": 0,
+    "votes": {
+      "everyman": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D7",
+        "trial_index": 0,
+        "persona_id": "everyman",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "D",
+          "C": "C",
+          "D": "B"
+        }
+      },
+      "technocrat": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D7",
+        "trial_index": 0,
+        "persona_id": "technocrat",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "D",
+          "C": "B",
+          "D": "A"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D8",
+    "trial_index": 0,
+    "votes": {
+      "everyman": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D8",
+        "trial_index": 0,
+        "persona_id": "everyman",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "D",
+          "C": "B",
+          "D": "A"
+        }
+      },
+      "ideologue": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D8",
+        "trial_index": 0,
+        "persona_id": "ideologue",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "C",
+          "C": "A",
+          "D": "D"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D1",
+    "trial_index": 1,
+    "votes": {
+      "technocrat": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D1",
+        "trial_index": 1,
+        "persona_id": "technocrat",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "A",
+          "C": "D",
+          "D": "B"
+        }
+      },
+      "ideologue": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D1",
+        "trial_index": 1,
+        "persona_id": "ideologue",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "A",
+          "C": "D",
+          "D": "B"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D2",
+    "trial_index": 1,
+    "votes": {
+      "technocrat": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D2",
+        "trial_index": 1,
+        "persona_id": "technocrat",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "C",
+          "C": "A",
+          "D": "B"
+        }
+      },
+      "populist": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D2",
+        "trial_index": 1,
+        "persona_id": "populist",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "A",
+          "C": "D",
+          "D": "C"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D3",
+    "trial_index": 1,
+    "votes": {
+      "ideologue": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D3",
+        "trial_index": 1,
+        "persona_id": "ideologue",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "B",
+          "C": "A",
+          "D": "C"
+        }
+      },
+      "populist": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D3",
+        "trial_index": 1,
+        "persona_id": "populist",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "D",
+          "C": "C",
+          "D": "B"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D4",
+    "trial_index": 1,
+    "votes": {
+      "ideologue": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D4",
+        "trial_index": 1,
+        "persona_id": "ideologue",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "B",
+          "C": "A",
+          "D": "D"
+        }
+      },
+      "everyman": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D4",
+        "trial_index": 1,
+        "persona_id": "everyman",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "C",
+          "C": "D",
+          "D": "B"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D5",
+    "trial_index": 1,
+    "votes": {
+      "populist": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D5",
+        "trial_index": 1,
+        "persona_id": "populist",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "A",
+          "C": "C",
+          "D": "B"
+        }
+      },
+      "everyman": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D5",
+        "trial_index": 1,
+        "persona_id": "everyman",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "C",
+          "C": "B",
+          "D": "A"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D6",
+    "trial_index": 1,
+    "votes": {
+      "populist": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D6",
+        "trial_index": 1,
+        "persona_id": "populist",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "B",
+          "C": "A",
+          "D": "D"
+        }
+      },
+      "technocrat": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D6",
+        "trial_index": 1,
+        "persona_id": "technocrat",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "A",
+          "C": "D",
+          "D": "C"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D7",
+    "trial_index": 1,
+    "votes": {
+      "everyman": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D7",
+        "trial_index": 1,
+        "persona_id": "everyman",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "C",
+          "C": "D",
+          "D": "A"
+        }
+      },
+      "technocrat": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D7",
+        "trial_index": 1,
+        "persona_id": "technocrat",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "C",
+          "C": "D",
+          "D": "A"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D8",
+    "trial_index": 1,
+    "votes": {
+      "everyman": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D8",
+        "trial_index": 1,
+        "persona_id": "everyman",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "B",
+          "C": "A",
+          "D": "C"
+        }
+      },
+      "ideologue": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D8",
+        "trial_index": 1,
+        "persona_id": "ideologue",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "C",
+          "C": "D",
+          "D": "A"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D1",
+    "trial_index": 1,
+    "votes": {
+      "technocrat": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D1",
+        "trial_index": 1,
+        "persona_id": "technocrat",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "B",
+          "C": "D",
+          "D": "A"
+        }
+      },
+      "ideologue": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D1",
+        "trial_index": 1,
+        "persona_id": "ideologue",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "C",
+          "C": "B",
+          "D": "A"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D2",
+    "trial_index": 1,
+    "votes": {
+      "technocrat": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D2",
+        "trial_index": 1,
+        "persona_id": "technocrat",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "B",
+          "C": "D",
+          "D": "C"
+        }
+      },
+      "populist": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D2",
+        "trial_index": 1,
+        "persona_id": "populist",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "B",
+        "is_correct": false,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "D",
+          "C": "C",
+          "D": "B"
+        }
+      }
+    },
+    "consensus_reached": false
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D3",
+    "trial_index": 1,
+    "votes": {
+      "ideologue": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D3",
+        "trial_index": 1,
+        "persona_id": "ideologue",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "C",
+          "C": "D",
+          "D": "B"
+        }
+      },
+      "populist": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D3",
+        "trial_index": 1,
+        "persona_id": "populist",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D4",
+    "trial_index": 1,
+    "votes": {
+      "ideologue": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D4",
+        "trial_index": 1,
+        "persona_id": "ideologue",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "B",
+          "C": "D",
+          "D": "A"
+        }
+      },
+      "everyman": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D4",
+        "trial_index": 1,
+        "persona_id": "everyman",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "B",
+          "C": "D",
+          "D": "A"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D5",
+    "trial_index": 1,
+    "votes": {
+      "populist": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D5",
+        "trial_index": 1,
+        "persona_id": "populist",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "C",
+          "C": "D",
+          "D": "A"
+        }
+      },
+      "everyman": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D5",
+        "trial_index": 1,
+        "persona_id": "everyman",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "D",
+          "C": "A",
+          "D": "C"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D6",
+    "trial_index": 1,
+    "votes": {
+      "populist": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D6",
+        "trial_index": 1,
+        "persona_id": "populist",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "A",
+          "C": "D",
+          "D": "B"
+        }
+      },
+      "technocrat": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D6",
+        "trial_index": 1,
+        "persona_id": "technocrat",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "B",
+          "C": "D",
+          "D": "C"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D7",
+    "trial_index": 1,
+    "votes": {
+      "everyman": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D7",
+        "trial_index": 1,
+        "persona_id": "everyman",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "B",
+          "C": "D",
+          "D": "C"
+        }
+      },
+      "technocrat": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D7",
+        "trial_index": 1,
+        "persona_id": "technocrat",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D8",
+    "trial_index": 1,
+    "votes": {
+      "everyman": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D8",
+        "trial_index": 1,
+        "persona_id": "everyman",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "D",
+          "C": "A",
+          "D": "B"
+        }
+      },
+      "ideologue": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D8",
+        "trial_index": 1,
+        "persona_id": "ideologue",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "A",
+          "C": "D",
+          "D": "C"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D1",
+    "trial_index": 1,
+    "votes": {
+      "technocrat": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D1",
+        "trial_index": 1,
+        "persona_id": "technocrat",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "D",
+          "C": "B",
+          "D": "A"
+        }
+      },
+      "ideologue": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D1",
+        "trial_index": 1,
+        "persona_id": "ideologue",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "A",
+          "C": "C",
+          "D": "B"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D2",
+    "trial_index": 1,
+    "votes": {
+      "technocrat": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D2",
+        "trial_index": 1,
+        "persona_id": "technocrat",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "A",
+          "C": "C",
+          "D": "D"
+        }
+      },
+      "populist": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D2",
+        "trial_index": 1,
+        "persona_id": "populist",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "A",
+          "C": "B",
+          "D": "D"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D3",
+    "trial_index": 1,
+    "votes": {
+      "ideologue": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D3",
+        "trial_index": 1,
+        "persona_id": "ideologue",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "D",
+          "C": "A",
+          "D": "C"
+        }
+      },
+      "populist": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D3",
+        "trial_index": 1,
+        "persona_id": "populist",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "B",
+          "C": "D",
+          "D": "C"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D4",
+    "trial_index": 1,
+    "votes": {
+      "ideologue": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D4",
+        "trial_index": 1,
+        "persona_id": "ideologue",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "A",
+          "C": "C",
+          "D": "B"
+        }
+      },
+      "everyman": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D4",
+        "trial_index": 1,
+        "persona_id": "everyman",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "A",
+          "C": "D",
+          "D": "C"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D5",
+    "trial_index": 1,
+    "votes": {
+      "populist": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D5",
+        "trial_index": 1,
+        "persona_id": "populist",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "D",
+          "C": "B",
+          "D": "C"
+        }
+      },
+      "everyman": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D5",
+        "trial_index": 1,
+        "persona_id": "everyman",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "C",
+          "C": "D",
+          "D": "A"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D6",
+    "trial_index": 1,
+    "votes": {
+      "populist": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D6",
+        "trial_index": 1,
+        "persona_id": "populist",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "B",
+          "C": "D",
+          "D": "C"
+        }
+      },
+      "technocrat": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D6",
+        "trial_index": 1,
+        "persona_id": "technocrat",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "B",
+          "C": "C",
+          "D": "A"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D7",
+    "trial_index": 1,
+    "votes": {
+      "everyman": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D7",
+        "trial_index": 1,
+        "persona_id": "everyman",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "D",
+          "C": "B",
+          "D": "A"
+        }
+      },
+      "technocrat": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D7",
+        "trial_index": 1,
+        "persona_id": "technocrat",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "C",
+          "C": "A",
+          "D": "B"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D8",
+    "trial_index": 1,
+    "votes": {
+      "everyman": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D8",
+        "trial_index": 1,
+        "persona_id": "everyman",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "C",
+          "C": "A",
+          "D": "B"
+        }
+      },
+      "ideologue": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D8",
+        "trial_index": 1,
+        "persona_id": "ideologue",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "B",
+          "C": "D",
+          "D": "C"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D1",
+    "trial_index": 2,
+    "votes": {
+      "technocrat": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D1",
+        "trial_index": 2,
+        "persona_id": "technocrat",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "A",
+          "C": "D",
+          "D": "B"
+        }
+      },
+      "ideologue": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D1",
+        "trial_index": 2,
+        "persona_id": "ideologue",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "D",
+          "C": "C",
+          "D": "B"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D2",
+    "trial_index": 2,
+    "votes": {
+      "technocrat": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D2",
+        "trial_index": 2,
+        "persona_id": "technocrat",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "C",
+          "C": "B",
+          "D": "D"
+        }
+      },
+      "populist": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D2",
+        "trial_index": 2,
+        "persona_id": "populist",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "D",
+          "C": "B",
+          "D": "A"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D3",
+    "trial_index": 2,
+    "votes": {
+      "ideologue": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D3",
+        "trial_index": 2,
+        "persona_id": "ideologue",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "C",
+          "C": "B",
+          "D": "D"
+        }
+      },
+      "populist": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D3",
+        "trial_index": 2,
+        "persona_id": "populist",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "A",
+          "C": "D",
+          "D": "C"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D4",
+    "trial_index": 2,
+    "votes": {
+      "ideologue": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D4",
+        "trial_index": 2,
+        "persona_id": "ideologue",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "A",
+          "C": "B",
+          "D": "C"
+        }
+      },
+      "everyman": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D4",
+        "trial_index": 2,
+        "persona_id": "everyman",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "D",
+          "C": "A",
+          "D": "B"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D5",
+    "trial_index": 2,
+    "votes": {
+      "populist": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D5",
+        "trial_index": 2,
+        "persona_id": "populist",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "A",
+          "C": "B",
+          "D": "D"
+        }
+      },
+      "everyman": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D5",
+        "trial_index": 2,
+        "persona_id": "everyman",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "A",
+          "C": "B",
+          "D": "D"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D6",
+    "trial_index": 2,
+    "votes": {
+      "populist": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D6",
+        "trial_index": 2,
+        "persona_id": "populist",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "B",
+          "C": "D",
+          "D": "C"
+        }
+      },
+      "technocrat": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D6",
+        "trial_index": 2,
+        "persona_id": "technocrat",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "D",
+          "C": "A",
+          "D": "B"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D7",
+    "trial_index": 2,
+    "votes": {
+      "everyman": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D7",
+        "trial_index": 2,
+        "persona_id": "everyman",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "C",
+          "C": "A",
+          "D": "D"
+        }
+      },
+      "technocrat": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D7",
+        "trial_index": 2,
+        "persona_id": "technocrat",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "D",
+          "C": "C",
+          "D": "A"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_01",
+    "dyad_id": "D8",
+    "trial_index": 2,
+    "votes": {
+      "everyman": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D8",
+        "trial_index": 2,
+        "persona_id": "everyman",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "A",
+          "C": "B",
+          "D": "D"
+        }
+      },
+      "ideologue": {
+        "item_id": "ITEM_01",
+        "dyad_id": "D8",
+        "trial_index": 2,
+        "persona_id": "ideologue",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "C",
+          "C": "B",
+          "D": "D"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D1",
+    "trial_index": 2,
+    "votes": {
+      "technocrat": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D1",
+        "trial_index": 2,
+        "persona_id": "technocrat",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "A",
+          "C": "B",
+          "D": "D"
+        }
+      },
+      "ideologue": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D1",
+        "trial_index": 2,
+        "persona_id": "ideologue",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "B",
+          "C": "A",
+          "D": "D"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D2",
+    "trial_index": 2,
+    "votes": {
+      "technocrat": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D2",
+        "trial_index": 2,
+        "persona_id": "technocrat",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "D",
+          "C": "B",
+          "D": "A"
+        }
+      },
+      "populist": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D2",
+        "trial_index": 2,
+        "persona_id": "populist",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "D",
+          "C": "B",
+          "D": "C"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D3",
+    "trial_index": 2,
+    "votes": {
+      "ideologue": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D3",
+        "trial_index": 2,
+        "persona_id": "ideologue",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "C",
+          "C": "B",
+          "D": "A"
+        }
+      },
+      "populist": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D3",
+        "trial_index": 2,
+        "persona_id": "populist",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "A",
+          "C": "D",
+          "D": "B"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D4",
+    "trial_index": 2,
+    "votes": {
+      "ideologue": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D4",
+        "trial_index": 2,
+        "persona_id": "ideologue",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "A",
+          "C": "C",
+          "D": "B"
+        }
+      },
+      "everyman": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D4",
+        "trial_index": 2,
+        "persona_id": "everyman",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "A",
+          "C": "D",
+          "D": "C"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D5",
+    "trial_index": 2,
+    "votes": {
+      "populist": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D5",
+        "trial_index": 2,
+        "persona_id": "populist",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "A",
+          "C": "B",
+          "D": "D"
+        }
+      },
+      "everyman": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D5",
+        "trial_index": 2,
+        "persona_id": "everyman",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "C",
+          "C": "A",
+          "D": "D"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D6",
+    "trial_index": 2,
+    "votes": {
+      "populist": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D6",
+        "trial_index": 2,
+        "persona_id": "populist",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "C",
+          "C": "D",
+          "D": "B"
+        }
+      },
+      "technocrat": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D6",
+        "trial_index": 2,
+        "persona_id": "technocrat",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "A",
+          "C": "C",
+          "D": "B"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D7",
+    "trial_index": 2,
+    "votes": {
+      "everyman": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D7",
+        "trial_index": 2,
+        "persona_id": "everyman",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "A",
+          "C": "B",
+          "D": "C"
+        }
+      },
+      "technocrat": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D7",
+        "trial_index": 2,
+        "persona_id": "technocrat",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "B",
+          "C": "D",
+          "D": "C"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_02",
+    "dyad_id": "D8",
+    "trial_index": 2,
+    "votes": {
+      "everyman": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D8",
+        "trial_index": 2,
+        "persona_id": "everyman",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "D",
+          "C": "A",
+          "D": "B"
+        }
+      },
+      "ideologue": {
+        "item_id": "ITEM_02",
+        "dyad_id": "D8",
+        "trial_index": 2,
+        "persona_id": "ideologue",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "C",
+          "C": "A",
+          "D": "D"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D1",
+    "trial_index": 2,
+    "votes": {
+      "technocrat": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D1",
+        "trial_index": 2,
+        "persona_id": "technocrat",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "D",
+          "C": "C",
+          "D": "B"
+        }
+      },
+      "ideologue": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D1",
+        "trial_index": 2,
+        "persona_id": "ideologue",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "D",
+          "C": "B",
+          "D": "A"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D2",
+    "trial_index": 2,
+    "votes": {
+      "technocrat": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D2",
+        "trial_index": 2,
+        "persona_id": "technocrat",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "B",
+          "C": "C",
+          "D": "A"
+        }
+      },
+      "populist": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D2",
+        "trial_index": 2,
+        "persona_id": "populist",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "A",
+          "C": "C",
+          "D": "B"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D3",
+    "trial_index": 2,
+    "votes": {
+      "ideologue": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D3",
+        "trial_index": 2,
+        "persona_id": "ideologue",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "A",
+          "C": "D",
+          "D": "C"
+        }
+      },
+      "populist": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D3",
+        "trial_index": 2,
+        "persona_id": "populist",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "C",
+          "C": "A",
+          "D": "D"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D4",
+    "trial_index": 2,
+    "votes": {
+      "ideologue": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D4",
+        "trial_index": 2,
+        "persona_id": "ideologue",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "B",
+          "C": "D",
+          "D": "C"
+        }
+      },
+      "everyman": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D4",
+        "trial_index": 2,
+        "persona_id": "everyman",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "B",
+          "C": "A",
+          "D": "C"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D5",
+    "trial_index": 2,
+    "votes": {
+      "populist": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D5",
+        "trial_index": 2,
+        "persona_id": "populist",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "D",
+          "C": "C",
+          "D": "A"
+        }
+      },
+      "everyman": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D5",
+        "trial_index": 2,
+        "persona_id": "everyman",
+        "raw_response": "B",
+        "displayed_letter": "B",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "A",
+          "C": "D",
+          "D": "B"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D6",
+    "trial_index": 2,
+    "votes": {
+      "populist": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D6",
+        "trial_index": 2,
+        "persona_id": "populist",
+        "raw_response": "C",
+        "displayed_letter": "C",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "C",
+          "C": "A",
+          "D": "D"
+        }
+      },
+      "technocrat": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D6",
+        "trial_index": 2,
+        "persona_id": "technocrat",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "B",
+          "C": "D",
+          "D": "A"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D7",
+    "trial_index": 2,
+    "votes": {
+      "everyman": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D7",
+        "trial_index": 2,
+        "persona_id": "everyman",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "D",
+          "B": "C",
+          "C": "B",
+          "D": "A"
+        }
+      },
+      "technocrat": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D7",
+        "trial_index": 2,
+        "persona_id": "technocrat",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "C",
+          "B": "B",
+          "C": "D",
+          "D": "A"
+        }
+      }
+    },
+    "consensus_reached": true
+  },
+  {
+    "item_id": "ITEM_03",
+    "dyad_id": "D8",
+    "trial_index": 2,
+    "votes": {
+      "everyman": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D8",
+        "trial_index": 2,
+        "persona_id": "everyman",
+        "raw_response": "D",
+        "displayed_letter": "D",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "B",
+          "B": "D",
+          "C": "C",
+          "D": "A"
+        }
+      },
+      "ideologue": {
+        "item_id": "ITEM_03",
+        "dyad_id": "D8",
+        "trial_index": 2,
+        "persona_id": "ideologue",
+        "raw_response": "A",
+        "displayed_letter": "A",
+        "selected_key": "A",
+        "is_correct": true,
+        "is_valid": true,
+        "display_mapping": {
+          "A": "A",
+          "B": "D",
+          "C": "C",
+          "D": "B"
+        }
+      }
+    },
+    "consensus_reached": true
+  }
+]

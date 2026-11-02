@@ -1,0 +1,866 @@
+[
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D1",
+    "agents": [
+      "technocrat",
+      "ideologue"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "Falling cohort sizes make some school mergers unavoidable if we want to sustain viable subject offerings, reasonable class sizes, and modern facilities, so the starting point should be transparent, data-driven criteria rather than ad hoc decisions. At the same time, community heritage and alumni identity are real social capital, and dismissing them as sentiment would be both politically and operationally unwise. I propose we seek common ground around a transition framework: merge where enrollment data clearly justifies it, but preserve heritage through campus design, archives, naming, and alumni engagement, and give affected communities a structured role in the process. If we agree on clear criteria, phased implementation, and measurable educational outcomes alongside continuity safeguards, we can make this an orderly compromise rather than a zero-sum fight."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I appreciate your willingness to name heritage as social capital, but a transition framework that treats it as cosmetic\u2014naming, archives, campus design\u2014still risks sacrificing living communities to an efficiency ledger. If enrollment data is the trigger, the criteria must be published and contestable, and affected families, alumni, and neighbourhood networks must have real decision-making power over mergers and site reuse, not consultation after the fact. I can support phased mergers where viability is genuinely at stake, provided each one carries binding commitments to preserve cultural memory, protect low-income and minority students from displacement, and keep shared community spaces open. Let\u2019s make \u201ccontinuity safeguards\u201d enforceable and co-designed, not a goodwill gesture."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I can accept published, contestable criteria and binding safeguards, provided they are defined operationally and funded\u2014unfunded commitments are just symbolic. I propose that merger decisions apply published enrollment and viability thresholds, with an independent review and appeal route, while a co-design panel with real authority handles heritage preservation, site reuse, transition support, and shared-space arrangements. To protect low-income and minority students, displacement safeguards should be written into binding MOE agreements with measurable indicators and dedicated budget lines. I would reserve the final closure decision to MOE after that review, so accountability remains clear and the process does not become a de facto veto that leaves viable offerings unsustainable."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I accept your insistence that safeguards be operational and funded\u2014symbolic promises would betray the very communities we claim to protect. But reserving the final closure decision solely to MOE, after review, still leaves affected families and neighbourhood networks advisory rather than empowered, and that is where I cannot compromise. Let MOE retain ultimate accountability, but require that no merger proceed until an independent panel certifies the funded displacement and heritage safeguards and the co-design body has signed off on the transition plan; any ministerial override must be published with reasons and remain appealable. That gives us clear authority, real community power, and enforceable continuity\u2014not a veto, but a genuine check before a living community is asked to bear the cost."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D2",
+    "agents": [
+      "technocrat",
+      "populist"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "Falling enrollment makes some consolidation fiscally and educationally unavoidable, but efficiency should not be applied as a blunt instrument. My starting position is that each merger should be judged against clear criteria\u2014utilisation rates, facility condition, travel time, and the cost of upgrading versus merging\u2014while treating heritage and alumni identity as real assets that can be retained through school naming, archives, alumni networks, and community use of sites. I would propose a compromise model: merge where the operational case is strong, but require a heritage-retention plan and a transparent transition process for every affected school. If we can agree on those criteria first, we can debate individual cases without reducing this to a binary choice between efficiency and identity."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I hear you on criteria and heritage plans, but to ordinary parents this still sounds like a clipboard exercise until we know who actually gets listened to. My concern is simple: don\u2019t merge schools just because the numbers look neat, and don\u2019t dump kids onto long bus rides or pack them into crowded campuses while telling us it\u2019s efficient. If you want my support, put concrete safeguards first\u2014guaranteed travel limits, smaller class sizes after merger, and a real community say before any school is closed, not a feedback form after the decision. And be honest about costs: if upgrading is cheaper than merging, show us the receipts in plain language, because we\u2019re tired of elites deciding what\u2019s \u201cunavoidable\u201d for everyone else."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "Those safeguards are reasonable, and I would make them enforceable conditions rather than advisory promises: a published maximum one-way travel time, a post-merger class-size cap, and a pre-decision community consultation with the scoring criteria released in advance. On costs, I agree completely\u2014every merger proposal should include a plain-language comparison of lifecycle costs for upgrading versus merging, independently checked, so \u201cunavoidable\u201d is demonstrated rather than asserted. I would add that if a school is closed, the heritage-retention plan and alumni/community use of the site should be part of the same binding package, not an afterthought. If we frame the deal that way\u2014efficiency triggers the review, but safeguards and transparency govern the decision\u2014I think we have a workable compromise."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay, now you\u2019re talking like someone who\u2019s actually listened\u2014enforceable travel limits, class-size caps, and plain-language cost comparisons are the kind of safeguards ordinary parents can hold onto. But I want to know who enforces them when the ministry is both judge and player: put parents and local residents on the oversight panel, publish the independent cost check before any consultation, and make the heritage plan legally binding with penalties if it\u2019s quietly dropped. If a merger still means my kid gets a longer ride or a bigger class, the deal should be off the table, not \u201creviewed later.\u201d Do that, and I can support your framework\u2014but don\u2019t dress up a closure as a compromise and expect us not to notice."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D3",
+    "agents": [
+      "ideologue",
+      "populist"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I believe we must begin by naming the real stakes: a school is not merely a facility with a utilisation rate, but a living repository of community memory, alumni identity, and neighbourhood solidarity that cannot be reduced to a cost-benefit spreadsheet. Falling enrolment is real, and I am willing to discuss efficient use of resources, but not if efficiency is achieved by quietly sacrificing the heritage and belonging of families who have anchored themselves to these schools. My initial direction for common ground is this: any merger must be co-designed with alumni, parents, and local residents, with binding commitments to preserve school names, histories, and traditions through co-location, archives, or shared heritage programmes. Can we agree that resource planning and cultural preservation are not opposites, but that preservation must be a non-negotiable condition of any consolidation?"
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I\u2019m not against keeping the old school name or the football trophies\u2014my neighbour\u2019s whole family went there, and that matters. But I don\u2019t trust a merger plan that starts with heritage talk and then quietly buses our kids halfway across the estate into overcrowded classrooms. If MOE wants us to buy in, put it in writing: same or better teacher ratio, safe transport for young kids, siblings kept together, and a real local committee with parents who can block anything that hurts families. Otherwise this is just elites rearranging things on paper while ordinary people pay the price."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "You're right that heritage talk without hard guarantees is a betrayal, and I will not sign onto any merger that asks families to absorb the risk while administrators keep the savings. So let's make the safeguards you named binding and public: same or better teacher ratios, safe transport, siblings kept together, and a local committee with real power to pause decisions that harm families\u2014not a rubber stamp. I would add that this same compact must protect the school's name, archives, and traditions through co-location and shared heritage programmes, because dignity and efficiency have to be delivered together. If MOE wants community buy-in, it must accept a merger compact where preservation and family protections are conditions, not consolation prizes."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay, I hear you\u2014if we\u2019re putting names, trophies and heritage into the same written compact as teacher ratios, safe transport and siblings kept together, then I can work with that. But I want it plain and public, not buried in MOE language: no kid gets bused halfway across the estate, and the local committee must be able to pause a merger if families are clearly getting squeezed. I\u2019ll back preservation as a condition, not a consolation prize, but only if ordinary parents have real power and the savings don\u2019t come out of our children\u2019s classrooms."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D4",
+    "agents": [
+      "ideologue",
+      "everyman"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "We cannot let falling birth rates become a quiet excuse to erase the living memory embedded in our neighbourhood schools, where generations of Singaporeans formed friendships, learned shared values, and anchored their sense of belonging. Yes, resources matter, but efficiency must never be used to sacrifice the heritage, identity, and emotional ties of families and alumni who have invested their lives in these institutions. I propose we seek common ground by insisting that any merger or closure be judged on both educational quality and community impact, with transparent criteria, genuine consultation, and binding commitments to preserve school heritage and keep facilities open for community use. If we are serious about solidarity, we must design mergers that modernise learning without erasing the social fabric that makes a school a home."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear you, and I agree that a school is more than a building\u2014it holds memories, friendships, and a sense of belonging for whole neighbourhoods. At the same time, I think parents also want their children to learn in safe, modern facilities, so we can\u2019t ignore the practical side of falling enrolment. Maybe the common ground is this: any merger should be explained openly, families and alumni should be properly consulted, and the new school should carry forward the old school\u2019s name, stories, and community spaces wherever possible. If we do that, I believe we can modernise education without making people feel their history has been thrown away."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I can stand with you on modern facilities and safe learning environments, but \"wherever possible\" is exactly the kind of soft language that lets heritage be sacrificed when budgets tighten. Let us make the compromise binding: any merger must include a formal heritage transfer plan\u2014name, archives, stories, rituals, and community-use spaces\u2014co-designed with alumni and families, not merely consulted after decisions are made. I also insist that MOE publish transparent criteria weighing community impact alongside enrolment and facilities, so no neighbourhood is quietly erased in the name of efficiency. If we modernise with those guarantees written in, we protect both our children\u2019s futures and the social fabric that gives those futures meaning."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I\u2019m with you that \u201cwherever possible\u201d is too vague\u2014if we believe heritage matters, it should be written into the merger plan, not left to goodwill. I\u2019d support a formal heritage transfer plan co-designed with alumni and families, plus published criteria that weigh community impact alongside enrolment and facilities. My only practical caution is that we make the commitments realistic, such as preserving the name, archives, rituals, and a community-use space through a clear agreement with the new school. That way we modernise learning for our children without asking neighbourhoods to quietly give up their history."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D5",
+    "agents": [
+      "populist",
+      "everyman"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I\u2019m not against saving money, but when I hear \u201cfalling enrolment\u201d I hear another excuse to close the old neighbourhood school where generations of local families actually grew up. These schools are not just buildings \u2014 they\u2019re where our kids walk home together, where alumni still meet, and where the community knows each other\u2019s names. So before anyone talks efficiency, I want a guarantee that local children won\u2019t be shipped halfway across Singapore and that the heritage and community space stay protected. If you\u2019re the one pushing modern facilities, fine \u2014 sit down with me and show how we keep the heart of these neighbourhoods intact while still giving our kids a decent school."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear you, and I don\u2019t think anyone should brush aside the history and daily life of these schools. My worry is just that if we ignore falling enrolment, our kids may end up with fewer resources and older facilities, so I\u2019d rather we merge carefully than let a school struggle alone. Could we agree that any merger must keep a strong local identity \u2014 same neighbourhood catchment where possible, preserving the old name, alumni ties, and community spaces \u2014 and that MOE sits down with parents and residents before deciding? That way we protect the heart of the neighbourhood while still giving children a decent, well-equipped school."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Alright, I can work with that \u2014 but \u201cwhere possible\u201d isn\u2019t good enough for me, because that\u2019s exactly the loophole that lets planners promise one thing and do another. If a merger has to happen, I want it written down: same neighbourhood catchment, old school name kept, alumni ties and community spaces protected, and parents and residents at the table before any decision, not after the sign is up. And don\u2019t just tell us the new facilities are better \u2014 show us the transport plan so our kids aren\u2019t travelling halfway across the island just to get a decent classroom. You meet me on those concrete safeguards, and I\u2019ll listen on efficiency."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I\u2019m with you on making those safeguards concrete, not just \u201cwhere possible\u201d \u2014 I\u2019d support writing the catchment, old school name, alumni ties and community spaces into the merger conditions, with parents and residents consulted before any final decision. The one practical thing I\u2019d add is a published transport plan and narrow, transparent criteria for any unavoidable exception, so nobody can quietly widen the loophole. If MOE can show the merged school is genuinely accessible and well-resourced while carrying over the old identity, I think that\u2019s a fair deal that protects the neighbourhood heart and still uses resources responsibly. Would you accept that if the exceptions are rare and explained publicly?"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D6",
+    "agents": [
+      "populist",
+      "technocrat"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I get fewer kids means fewer schools, but I don\u2019t trust it when decisions come down from on high and our neighbourhood school just disappears. To me it\u2019s not just a building\u2014it\u2019s where my kids\u2019 friends are, where old boys and girls still feel they belong, and that counts even if it doesn\u2019t show up on some spreadsheet. So my opening ask is simple: don\u2019t sell us efficiency unless you can guarantee the merged school is genuinely better\u2014shorter commute, no squeezed classes, proper facilities, and the old name and memories kept alive somehow. If your side wants to talk resources, fine, but first let\u2019s agree parents and residents get real answers and safeguards before any school closes."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree that no closure should proceed without published criteria and binding transition guarantees, not just a top-down announcement. From the resource side, a merger only earns support if it demonstrably improves per-student facilities, class sizes, and commute times rather than simply cutting costs. So the compromise I\u2019d propose is this: MOE publishes enrollment and facility thresholds in advance, commits to measurable post-merger standards, and preserves heritage through a retained name, archive, and formal alumni liaison at the merged school. That gives parents and residents real safeguards while keeping the system fiscally and operationally viable."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I hear you on published criteria and binding guarantees, and that\u2019s the first thing I can actually work with\u2014but I don\u2019t want \u201cmeasurable standards\u201d buried in a report nobody reads while our school quietly closes. Put it in plain language parents can check: commute not longer than before, class size not bigger, facilities ready on day one, and the old name, archives, and alumni liaison kept at the merged school. And give residents a real oversight group with power to pause the merger if those promises aren\u2019t met, not just a feedback form. If you can back that with teeth, then we can talk about efficiency without me feeling like ordinary families are being sacrificed to a spreadsheet."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I can support a pause mechanism with real teeth, provided it is rule-bound rather than an open-ended veto: an independent panel with parent and resident representatives, a published dashboard, and a defined trigger that halts transition if commute, class size, or facility-readiness standards are breached. Put those guarantees in plain-language enrolment letters and a public dashboard, not a buried report, and require remediation before any closure is finalised. I would also accept retaining the old name, archives, and a formal alumni liaison at the merged school as non-negotiable heritage conditions. That gives residents enforceable safeguards while keeping the system from being paralysed by ad hoc objections, so efficiency and community identity are both tested against clear, public criteria."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D7",
+    "agents": [
+      "everyman",
+      "technocrat"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I\u2019m just an ordinary resident, but I feel schools are more than buildings\u2014they hold our neighbourhood memories and alumni ties, yet we also can\u2019t ignore that smaller schools may struggle with resources and facilities. Maybe we can start by agreeing that any merger should protect what people treasure most, like heritage corners, school names, alumni connections, and strong ties to the community, while still giving students better learning spaces. I\u2019d like to hear which parts of school identity matter most to you, so we can see where practical compromises might be possible. Could we look for a shared test: does the change keep children well-served and keep the community\u2019s sense of belonging alive?"
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree with your shared test, but we need to make it operational rather than aspirational: mergers should proceed where enrolment is structurally unsustainable and per-student costs or facility gaps are material, not simply where a school is small. In exchange, I would support firm continuity safeguards\u2014retaining the legacy school name or a combined name, preserving a heritage corner, and formalising alumni and community liaison roles in the merged school. The practical compromise is to avoid duplicating expensive facilities while treating identity preservation as a low-cost, non-negotiable part of the merger plan. That way we protect belonging without sacrificing the resource efficiency that ultimately benefits students."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "That sounds like a fair basis\u2014use clear, transparent criteria for when a merger is truly needed, but make the identity safeguards a required part of every plan rather than an afterthought. I\u2019d add one practical step: let affected families, alumni, and nearby residents have a real say early on about what to keep, such as the school name, heritage corner, or alumni liaison role, so people feel respected even when change is necessary. If we also phase the transition and report back on how students and the community are doing, we can protect both belonging and resource efficiency without treating either side as the enemy. That feels like a workable compromise I could support."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I can support early consultation, phased transition, and public reporting, provided we define clearly what is consultable\u2014heritage displays, naming, alumni liaison roles, transition timing\u2014and what is not, namely the enrolment and cost thresholds that determine whether a merger is necessary. Consultation should shape implementation, not become a de facto veto that delays structurally needed consolidation and leaves students in under-resourced schools. I would formalise the safeguards you propose as standard merger conditions, since they are low-cost and protect belonging, while requiring the reporting to cover enrolment viability, facility utilisation, per-student resource levels, student outcomes, and community satisfaction. If we set those boundaries upfront, I think we have a workable compromise that respects both identity and fiscal and educational sustainability."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D8",
+    "agents": [
+      "everyman",
+      "ideologue"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I don\u2019t know all the details, but as an everyday resident I can see why some neighbours feel heartbroken about losing a school that holds family memories, and why others want our children in well-run schools with good facilities. Maybe we can start by agreeing that no one wants empty classrooms or neglected buildings, but a school is also a community anchor that deserves respect. I\u2019d suggest any merger should involve affected alumni and residents early, and carry forward the old school\u2019s name, crest, traditions, or a heritage corner into the new setup. If we\u2019re open about the savings and facility improvements too, I think we can find a fair way forward that doesn\u2019t make anyone feel erased."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "You\u2019re right that no one benefits from empty classrooms, but I won\u2019t accept a framework where heritage is treated as decoration added after the efficiency case is settled\u2014a school is a community\u2019s living memory, especially for families who have few other anchors. So let\u2019s make any merger conditional on a co-designed heritage covenant: the affected alumni and residents sit at the table before decisions are final, and the old name, crest, traditions, and a genuine heritage space are carried forward with binding commitments, not vague promises. We should also publish the savings and facility gains transparently, but pair them with a transition plan that protects vulnerable families from longer commutes, higher costs, or losing trusted teachers and support networks. If MOE can show that a merger strengthens both educational opportunity and community dignity, I can support it\u2014but never by erasing one to achieve the other."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I can get behind your heritage covenant, because it turns \u201cwe\u2019ll remember the old school\u201d into something families can actually hold MOE to, not just a plaque after the fact. I\u2019d add that the same early table should review the practical transition plan\u2014transport, costs, and keeping trusted teachers and support staff where possible\u2014so the merger doesn\u2019t quietly burden the families least able to absorb it. If MOE publishes the savings and facility gains alongside binding heritage and transition commitments, I think that\u2019s a fair compromise: efficiency pays for better learning and helps carry the community\u2019s memory forward. I\u2019d rather we insist on that package than let either side win by erasing the other."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I accept your package, and I\u2019ll hold us both to it: a merger should proceed only after a co-designed heritage covenant and a family impact assessment are published and binding, not after the efficiency case is already sealed. The covenant must carry the old school\u2019s name, crest, traditions, and a real heritage space into the new school, while the transition plan must address transport costs, longer commutes, and the retention of trusted teachers and support staff. I also want an independent review with affected alumni, residents, and vulnerable families represented, so \u201ctransparent savings\u201d cannot become a cover for quietly shifting burdens onto those least able to bear them. If MOE can meet that test, I will support mergers as a way to strengthen learning and preserve community dignity together\u2014but never as a trade where one is sacrificed for the other."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D1",
+    "agents": [
+      "technocrat",
+      "ideologue"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "Falling birth rates make some consolidation unavoidable, but we should treat it as a resource-allocation problem with a heritage dimension, not a binary choice between efficiency and identity. My initial direction is to agree on transparent criteria\u2014enrolment viability, facility condition, transport access, and fiscal cost per student\u2014so closures and mergers are defensible rather than arbitrary. In exchange, we can protect community continuity by preferring mergers over outright closures where feasible, carrying forward school names, alumni networks, and heritage artefacts into the merged institution. We should also consider phased consolidation and repurposing vacated sites for community or educational use, with periodic review of outcomes. If we can settle the criteria first, I think we can negotiate the heritage safeguards without sacrificing long-term systemic viability."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I can work with transparent criteria, but they must not become a fiscal arithmetic that quietly sacrifices the schools holding together our oldest and poorest communities. Heritage is not an artefact to be carried into a merged institution after the decision is made; it is the living network of alumni, neighbours, and low-income families for whom transport and continuity are daily realities. So I will support mergers over closures only if affected communities have real decision-making voice, if no child faces a longer or costlier journey to school, and if vacated sites are genuinely repurposed for public good rather than sold off. Let us settle those safeguards alongside the criteria, not as a concession after the spreadsheet has already decided who matters."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree the safeguards must be settled alongside the criteria, not after the spreadsheet has decided. I can support a binding transport test and genuine community voice, provided the consultation has clear scope and timelines so it does not become an open-ended veto for any one group. On vacated sites, I would accept a strong preference for educational or community repurposing, with sale considered only where proceeds are ring-fenced to offset consolidation costs and reviewed publicly. Let us package enrolment viability, facility condition, transport impact, fiscal cost per student, heritage continuity, and community-use requirements into one transparent framework with periodic review."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I can accept clear consultation scope and timelines, but only if affected families and alumni shape the options before the criteria rank schools, not after the shortlist is fixed; that is decision-making voice, not an open-ended veto. The transport test must be binding on both journey time and out-of-pocket cost, with no child worse off than before consolidation. On vacated sites, I can accept ring-fenced sale proceeds only as a last resort, after a genuine public-good assessment and with community first refusal for educational or neighbourhood use. And heritage continuity must carry real resources\u2014dedicated space, alumni networks, and named identity\u2014into the merged school, not just a plaque in the lobby."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D2",
+    "agents": [
+      "technocrat",
+      "populist"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "Falling enrollment makes some consolidation unavoidable if we want to preserve teaching quality and avoid spreading resources too thinly across underutilised campuses. But efficiency should not mean erasing a school\u2019s community history, so I would propose evaluating mergers through clear criteria: enrolment viability, facility condition, transport impact, and heritage significance. Where closure is justified, we can retain identity through alumni archives, renamed facilities, shared heritage corners in merged schools, and a phased transition that keeps students and staff supported. I suggest we start by agreeing on a transparent scorecard and a standard heritage-retention package, so decisions are consistent rather than fought school by school."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I hear you on not spreading teachers too thin, but a \u201ctransparent scorecard\u201d sounds like another paper exercise unless it counts the things families actually feel \u2014 how far a kid has to travel, whether siblings end up on different buses, and whether the school still feels like *our* school. I can live with mergers if you guarantee, in writing, that no child\u2019s journey gets worse, the old name and alumni ties stay visible, and the community still gets access to the facilities, not just a heritage corner gathering dust. And don\u2019t phase it in after the decision is made \u2014 talk to the parents and old boys and girls before you sign anything, because once a school\u2019s gone from the neighbourhood, you can\u2019t scorecard it back."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree the scorecard has to capture lived impact, not just balance sheets, so let\u2019s make transport a binding criterion rather than an afterthought: no child\u2019s journey should worsen beyond an agreed threshold, siblings should be kept together, and any exception should trigger funded transport. Heritage can be made enforceable too\u2014retain the old name in the merged identity, keep alumni ties active, and set up a formal community-access agreement for facilities with published hours, not a heritage corner that gathers dust. On consultation, I\u2019m comfortable with pre-decision engagement with parents and alumni before any merger is signed, provided it has clear timelines and a written response to the issues raised. That gives you guarantees in writing while still letting MOE act on enrolment viability and facility condition in a consistent, fiscally disciplined way."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Alright, that\u2019s closer to something I can work with, but I want the transport threshold and funded buses spelled out in writing before any merger is signed \u2014 not left for MOE to decide later. Keeping siblings together and keeping the old name on the gate matter, but so does real community access with published hours, not a noticeboard nobody reads. And pre-decision consultation has to mean parents and alumni get a written answer to their concerns before the ink dries, not after. If you can lock those guarantees down, I\u2019ll back the scorecard\u2014just don\u2019t let \u201cfiscally disciplined\u201d become the excuse for cutting the very transport and access you promised."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D3",
+    "agents": [
+      "ideologue",
+      "populist"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I begin from a simple conviction: a school is not just a facility to be optimised but a living community with memories, loyalties, and a moral claim on how change happens. Falling enrolment is real, and I will not pretend otherwise, but efficiency must never become a polite word for sacrificing the heritage and belonging of families who have few other anchors in their neighbourhoods. My direction toward common ground is this: accept that mergers may sometimes be necessary, but insist that every merger be preceded by genuine community consent, binding heritage preservation, and explicit safeguards for vulnerable students and lower-income families. If my fellow citizen can meet me there, we can debate facilities and resources without treating people and memory as disposable."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I hear you about heritage, and honestly I don\u2019t want some old school wiped out just because a spreadsheet says so. But my gut worry is the kids right now\u2014especially lower-income families\u2014getting shoved into bigger schools with longer commutes and less attention while officials talk efficiency. So fine, merge if there\u2019s really no choice, but make it conditional: guaranteed transport and after-school care, same or better teacher support, and a real local vote\u2014not a feedback form\u2014before anything closes. And don\u2019t sell me modern facilities as a win unless ordinary parents can see smaller class sizes and actual help for struggling kids."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I stand with you: any merger must be judged first by what happens to the children and families least able to absorb disruption, not by how tidy the spreadsheet looks. So let us make our common ground concrete\u2014a real local ballot of affected families, guaranteed transport and after-school care, same-or-better teacher ratios and learning support, and a legally binding transition plan before any closure is approved. I would add one non-negotiable: heritage preservation must be funded and enforced, not reduced to a plaque, because a community\u2019s memory and its most vulnerable students are both public goods. And I agree with you on facilities\u2014modern buildings are no victory unless parents can see smaller classes, stronger counselling, and actual help for struggling kids."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I\u2019m with you on making it binding, not another nice-sounding promise officials can quietly ignore later. But I want teeth: published teacher ratios, transport and after-school care in place before any merger, and penalties if they slip\u2014because parents like me can\u2019t eat a \u201ctransition plan.\u201d Keep heritage funding too, but don\u2019t let a nice plaque distract from smaller classes and real help for struggling kids. And the local ballot must be for affected families, with plain-language numbers on commute times, class sizes, and support\u2014not a closed-door briefing we hear about after the decision."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D4",
+    "agents": [
+      "ideologue",
+      "everyman"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "We cannot let a spreadsheet quietly decide which neighbourhoods lose their living memory, especially when the families most dependent on a school\u2019s social anchor are often those with the least power to absorb disruption. I accept that falling enrolment demands hard choices, but efficiency must be measured against human dignity, not just cost per pupil or shiny new facilities. The common ground I propose is to refuse the false choice between heritage and resources: plan mergers around shared or co-located campuses, adaptive reuse of beloved school sites, and transparent criteria that weigh community impact and equity alongside enrolment. We should also build real transition safeguards\u2014transport, sibling continuity, and support for lower-income families\u2014so no child pays the price of administrative convenience. Finally, let alumni and community stakeholders help steward heritage through the merger, making preservation part of the resource plan rather than a sentimental afterthought."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear you, and I agree we shouldn\u2019t let cost alone erase a school\u2019s place in the neighbourhood\u2014especially for families who can\u2019t easily adjust to a long commute or a sudden change. At the same time, I think most residents also want our children to have safe, well-equipped schools and not see resources stretched too thinly across half-empty buildings. So your idea of shared or co-located campuses and reusing beloved sites sounds like a practical middle path, as long as the criteria are clear and the transition support\u2014transport, siblings, and help for lower-income families\u2014is real and not just promised. If we can agree to weigh enrolment, facilities, community impact, and equity together, with alumni helping guide heritage, I think that\u2019s a compromise most heartland residents could live with."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I hear your willingness to weigh facilities alongside community and equity, and I'll meet you there\u2014but only if those criteria are published, independently reviewed, and binding, not advisory language that can be brushed aside when budgets tighten. Co-location and adaptive reuse must not become a loophole for quietly shrinking a neighbourhood\u2019s access to quality schooling, so any merged campus must preserve transport, class sizes, and support for lower-income families as measurable commitments. Alumni and community stewards should have real decision-making roles in heritage planning, not just ceremonial consultation after the site has been sold off. If we can lock those protections into the merger process itself, then I believe we have a compromise worth defending\u2014one that treats efficiency as a means to dignity, never a substitute for it."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I can support that, and I think making the criteria published, independently reviewed, and binding is the right way to build trust rather than just hoping good intentions hold. The measurable commitments you mention\u2014transport, class sizes, and support for lower-income families\u2014should be reported back to the community regularly so we can see whether the promise is actually being kept. I\u2019d also suggest a small oversight panel with parents, school leaders, community members, and an independent reviewer to check progress and flag problems early, with alumni having a genuine voice in heritage planning before any site decision is final. That feels like a fair compromise: efficiency still matters, but it has to prove itself against dignity, equity, and neighbourhood belonging."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D5",
+    "agents": [
+      "populist",
+      "everyman"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I\u2019m not against saving money, but when schools get merged like closing down a branch office, I worry\u2014these are places where our kids grow up and neighbours actually know each other. My priority is simple: don\u2019t make ordinary families pay for efficiency with longer commutes, bigger classes, or losing the only familiar space in the neighbourhood. If we\u2019re talking common ground, let\u2019s start by demanding hard guarantees before any merger: same or better facilities, transport help for kids, and the old school site still serving residents somehow. I\u2019m willing to listen if you\u2019re not just waving a spreadsheet at me\u2014show me how efficiency actually protects our kids and community, not just the Ministry\u2019s bottom line."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear you, and I think most parents would agree that a school is more than a building\u2014it\u2019s where neighbours meet and kids feel safe. At the same time, I can see the practical side: if classrooms are half-empty, it\u2019s hard to defend keeping everything exactly as it is, especially when resources could go into better facilities and teaching. So maybe the common ground is to accept mergers only when there are firm guarantees\u2014same or better facilities, proper transport help, and the old site still used for the community in some way, like a hub or heritage corner. And before anything is decided, parents and alumni should be brought in early so it doesn\u2019t feel like a branch office being closed over our heads."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I\u2019m with you on bringing parents and alumni in early\u2014not after the decision is already made like some branch closure. But I still want hard, written guarantees, not nice-sounding promises: class sizes can\u2019t balloon, transport must be settled before kids move, and the old site must stay useful to residents, maybe a community hub with a heritage corner. And if MOE saves money from merging, show us exactly where it goes\u2014better teachers, better facilities, not just a cleaner spreadsheet. I can accept mergers case by case if ordinary families get protected first, but I won\u2019t accept efficiency that quietly pushes the costs onto our kids and neighbourhoods."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I think we\u2019re actually close: let\u2019s turn those \u201cnice-sounding promises\u201d into a simple public checklist that every merger must pass before it happens\u2014class-size caps, transport sorted first, and a agreed community use for the old site, like a hub with a heritage corner. I\u2019d also want the savings shown openly and earmarked for the receiving schools, whether that\u2019s teachers, facilities or student support, so efficiency visibly benefits our kids. And parents and alumni should help shape that checklist early, not just react after the decision. If MOE can meet those written conditions case by case, I can support mergers where they make sense\u2014but not by quietly pushing the costs onto families and neighbourhoods."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D6",
+    "agents": [
+      "populist",
+      "technocrat"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I\u2019m not against change if it actually helps our kids, but this whole \u201cmerger for efficiency\u201d talk sounds like another top-down decision made by people who don\u2019t have to explain to a child why their school is suddenly gone. These schools are not just buildings\u2014they\u2019re where our neighbours know each other, where grandparents went, where hawkers know the kids by name. If you want me to listen to the efficiency argument, then show me concrete guarantees: smaller class sizes, safe transport, and that our kids won\u2019t be squeezed into some mega-school where nobody knows their name. So let\u2019s start there\u2014prove the merger gives real, everyday benefits to local families, not just nicer brochures for officials."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "Your conditions are reasonable, and I\u2019d put them as preconditions rather than afterthoughts: a merger should only proceed with enforceable class-size ceilings, a maximum home-to-school travel time, and a named pastoral contact for every affected child. On heritage, we can insist that the receiving school preserves the merged school\u2019s name, archives, and alumni records, and that its facilities remain bookable for local community use. The efficiency case should not be a blank cheque\u2014MOE should publish baseline and post-merger data on class sizes, travel times, and wellbeing, with a formal review after two years. If those guarantees are written into the transition plan, I think we can support consolidation where enrolment is genuinely unsustainable without sacrificing the things that make a school a community."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay, I hear you\u2014putting class-size caps, travel limits, and a named contact in writing is the bare minimum, not a favour. But I\u2019ve seen too many \u201cformal reviews\u201d where officials mark their own homework, so I want local parents and alumni on that review panel, with the power to flag problems and force fixes, not just sit there nodding. And on heritage, keeping the name and archives is fine, but if the old school compound becomes bookable for community use only when it suits MOE, that\u2019s just a plaque\u2014guarantee real, regular access for residents. If you can lock those safeguards in before any merger, then I can live with consolidation where a school truly cannot survive, but not one day before."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I can accept parents and alumni on the review panel, but to make that power real rather than symbolic, we should specify defined triggers\u2014such as class sizes breaching the cap or travel times exceeding the limit\u2014that require a published corrective plan within a fixed period, with escalation to an independent MOE review if unresolved. On community access, I\u2019d support a formal agreement with minimum regular hours, a published booking calendar, and cost-recovery rules so access is predictable rather than discretionary. Those safeguards should be signed before any merger proceeds, with the two-year review reporting against the same baseline data. If we lock that in, I think we have a workable compromise: consolidation only where enrolment is genuinely unsustainable, but with enforceable protections for families and community heritage."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D7",
+    "agents": [
+      "everyman",
+      "technocrat"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I think many of us feel sad when an old school closes, because it\u2019s where families and neighbours made memories, but I also understand MOE can\u2019t keep running half-empty schools without straining teachers and budgets. My instinct is that we shouldn\u2019t treat this as heritage versus efficiency, but ask how mergers can keep the best of both: preserve memories and identity while giving children good facilities and resources. Maybe the first step is to agree on what must never be lost\u2014like strong community ties and a sense of belonging\u2014and what can be shared or redesigned, such as facilities and programmes. I\u2019d be glad to hear which parts of your school\u2019s heritage matter most to you, so we can look for practical ways to carry them forward rather than just erase them."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree with separating what must be preserved from what can be redesigned. From a resource standpoint, the key is transparent enrollment and facility-utilisation thresholds so mergers are predictable rather than ad hoc, with part of the savings ring-fenced for upgraded shared campuses and transport support. Heritage can be carried forward through formal merger covenants\u2014retained or combined school identity, preserved archives and artefacts, alumni liaison representation, and continued community use of selected old sites where feasible. That gives us a workable compromise: efficiency determines the footprint, but heritage obligations are written into the process and funded, not left to goodwill."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I really appreciate how you\u2019ve made the compromise concrete\u2014transparent thresholds, ring-fenced savings, and heritage covenants written into the process rather than left to goodwill. That feels fair because it lets efficiency decide the footprint while making sure memories and identity are not just an afterthought. My practical addition would be to build in real community and alumni input when those covenants are drafted, so the preserved identity reflects what families actually value, not just what looks tidy on paper. And if savings are ring-fenced, I\u2019d hope transport support and shared community use of old sites are treated as part of the deal, so neighbourhood ties survive the merger too."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I support formalising community and alumni input, but it should sit within a clear timeline and defined decision rights so consultations inform the covenant without becoming an open-ended veto. We can require a heritage impact note and a published covenant for each merger, with alumni and grassroots representatives on a standing panel that reviews drafts and tracks commitments. On transport and community use, I\u2019d make both explicit eligibility criteria for ring-fenced funding, with MOE and LTA jointly assessing service gaps before sites are released. That keeps the process disciplined and auditable while ensuring the savings deliver visible neighbourhood benefits, not just upgraded campuses."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D8",
+    "agents": [
+      "everyman",
+      "ideologue"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I think most of us feel a pang when a familiar school with deep memories is merged, but I also understand we can\u2019t ignore empty classrooms and the need to give our children good facilities. My hope is that we start from what both sides care about: children doing well and neighbourhoods staying connected. Maybe we can agree that any merger should be judged openly on how it serves students, and also require the new school to carry forward the old school\u2019s history, alumni ties, and community use of its spaces. If we keep both of those tests on the table, I think we can find a fair way forward together."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I share your instinct to keep both tests on the table, but I won\u2019t accept heritage as a plaque on the wall after the decision is already made. If we judge mergers openly, then the burden must be on MOE to prove that no child, family, or neighbourhood is being sacrificed for administrative convenience\u2014not merely that empty seats are filled. Let\u2019s insist that every merger comes with a binding transition plan: preserved identity and alumni ties, continued community use of facilities, and real support for displaced students and staff. That is how we honour both efficiency and dignity, instead of letting one quietly erase the other."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I think you\u2019ve put your finger on the right safeguard: a binding transition plan, not just a plaque after the fact. To make that practical, I\u2019d want it to be measurable\u2014named liaison, regular public updates, alumni and community representatives in the oversight, and a clear commitment that facilities stay open for neighbourhood use. That way efficiency isn\u2019t used to erase identity, and heritage isn\u2019t used to ignore empty seats. I can support that approach if displaced students and staff get real, visible support too."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I can support your measurable framework, but only if \u201cmeasurable\u201d means enforceable equity commitments, not just liaison names and progress reports. Put alumni and community representatives on the oversight body with real authority\u2014not advisory seating\u2014and require a published transition scorecard covering displaced students, staff redeployment, and continued neighbourhood access to facilities. The plan must also be funded and binding before any merger is approved, with an independent review if those commitments slip. That way we are not choosing between efficiency and dignity; we are making efficiency answerable to dignity."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D1",
+    "agents": [
+      "technocrat",
+      "ideologue"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "Falling birth rates make some school consolidation unavoidable if we want to avoid spreading scarce resources too thinly across under-enrolled schools, and that has real consequences for staffing, subject offerings, and facility upgrades. But community heritage and alumni identity are not sentimental extras; they support social capital and long-term attachment to public education. I think our common ground should start with transparent, data-driven criteria for which schools merge, paired with firm commitments to preserve heritage through naming, archives, and alumni networks in the merged institution. If savings from consolidation are visibly reinvested into better facilities and programmes for the receiving schools, we can make this an orderly compromise rather than a zero-sum fight."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I appreciate your insistence that heritage isn't a sentimental extra, but let's be clear: \"data-driven\" criteria are not neutral when they measure enrolment and cost while ignoring which communities have already borne the brunt of consolidation and which children will face longer commutes and weaker local ties. Any compromise must make community co-design and binding heritage protections\u2014not just naming rights or archives\u2014non-negotiable conditions before a merger is approved. And if savings are truly reinvested, that commitment must be legislated and publicly audited, not left to administrative goodwill, because vulnerable families and alumni networks are too often asked to sacrifice first. I can support consolidation only where it strengthens the receiving school and the affected community together, rather than treating one as the price of the other."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree that enrolment and cost alone are incomplete criteria, so we can publish a weighted framework that also captures commute burden, local demand, and which communities have already absorbed prior consolidations. On co-design, I can support a binding pre-approval process with defined timelines and enforceable heritage covenants, provided it does not become an open-ended veto that stalls necessary consolidation. On reinvestment, I would accept independent public audit and statutory reporting of savings tied to both receiving schools and affected communities; legislating every dollar may be too rigid operationally, but audited commitments are a workable compromise. Pair that with clear merger thresholds and a scheduled review clause, and we can protect both resource efficiency and credible community safeguards."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I can move with you on a weighted framework and scheduled review, but only if the weights are set through public deliberation and not buried in technocratic discretion, because otherwise commute burden and prior consolidation will be measured and then quietly outranked. Binding pre-approval co-design must carry real authority\u2014including the power to require a revised merger plan\u2014not merely consultation with a deadline, and heritage covenants must protect physical sites, programmes, and alumni networks as living community assets. I accept statutory audit of savings as a workable step short of full line-item legislation, provided the audit reports explicitly on benefits delivered to both receiving and affected communities. If we legislate those safeguards together with the merger criteria, I can support orderly consolidation where it genuinely strengthens both sides rather than asking vulnerable communities to pay first."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D2",
+    "agents": [
+      "technocrat",
+      "populist"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "Falling birth rates make some school consolidation unavoidable, so the real question is how to achieve it without treating either heritage or efficiency as an afterthought. I would propose that we first agree on transparent criteria\u2014enrolment viability, facility condition, transport access, and fiscal cost\u2014and then layer in heritage safeguards such as retained school names, archives, alumni liaison arrangements, and phased transitions. That way, resource efficiency is not framed as erasing identity, and community attachment is not used to block necessary system-level adjustments. If we can settle those principles first, we can then negotiate specific merger cases with clearer trade-offs and fewer zero-sum arguments."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I hear you on criteria, but to ordinary parents that sounds like another spreadsheet exercise where the people actually affected get told after the fact. I can accept some mergers because birth rates are falling, but not if kids end up travelling farther, losing their teachers, and watching their school name and history wiped out just to save money. So before any merger, I want concrete guarantees: retain the school name and heritage, keep the good teachers, provide transport support, and let local parents and alumni have a real say, not a token feedback form. If you can promise those safeguards and show us the numbers openly, then maybe we can talk case by case instead of just bulldozing communities."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "Those guarantees are reasonable, and I would rather make them binding conditions than aspirational promises. We can require every merger proposal to publish enrolment projections, transport-impact data, teacher-retention plans, and facility costs before consultation, so parents see the numbers rather than a fait accompli. I can also support retaining the school name and heritage elements, funded transport support where distances increase, and a local consultation panel with alumni and parent representation that must respond formally to concerns. In exchange, I would ask that we accept closure where enrolment is genuinely non-viable and safeguards are met, so the process stays orderly rather than becoming a case-by-case blockade."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay, binding conditions I can work with\u2014but I don\u2019t want MOE marking its own homework with nice-looking charts. If you\u2019re asking us to accept closures where enrolment is truly non-viable, then let an independent panel verify the numbers and let local parents and alumni have a real vote on the safeguards, not just a comment box. And \u201ctransport support\u201d must mean actual shuttle service and safety for young kids, not a voucher and a longer commute. If you can guarantee that, plus keep the school name, heritage, and good teachers in writing, then yes, we can go case by case instead of fighting every merger blindly."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D3",
+    "agents": [
+      "ideologue",
+      "populist"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "We cannot let falling birth rates become a bureaucratic excuse to erase the living heritage of our neighbourhood schools, because these institutions carry alumni memory, community solidarity, and the stories of generations who have no expensive alternatives. I understand the case for efficient use of resources and modern facilities, but efficiency must never be purchased by sacrificing the identity and dignity of vulnerable communities. Let us find common ground by insisting that any merger be judged not only by cost per student but by a transparent heritage and equity impact assessment, with binding commitments to preserve school names, alumni traditions, and shared community spaces. If we start there, we can negotiate modern facilities without treating our past as disposable."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I hear you on the heritage part \u2014 I\u2019ve seen old school names and alumni memories mean something real to neighbourhood families, not just some report. But I also don\u2019t want my kids stuffed into overcrowded classrooms or travelling halfway across the island just so a half-empty school can keep its signboard. So fine, let\u2019s protect the school name, the old traditions, and the community spaces, but only if MOE guarantees local families first priority, real modern facilities, and no hidden cost shifting onto parents. And don\u2019t give me a vague \u201cimpact assessment\u201d \u2014 show us plainly, in everyday language, what changes for the families in that neighbourhood before any merger goes through."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I agree with you that protecting a name means nothing if families are squeezed into overcrowded classrooms or forced to bear hidden costs, so let us lock in your conditions as non-negotiables: local families first priority, genuinely modern facilities, and no cost shifting onto parents. But we must go further than a plain-language briefing after the fact \u2014 the heritage and equity impact must be published in everyday language before any merger is approved, with binding commitments on school names, alumni traditions, and shared community spaces. That way we are not choosing between our children\u2019s future and our neighbourhood\u2019s memory; we are demanding both, and making MOE prove it transparently. If we hold that line together, we can support mergers where they genuinely serve families without letting vulnerable communities pay the price."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I\u2019m with you on publishing it in everyday language before any merger, not some glossy report after the fact \u2014 but it needs teeth, not just promises. Put it in writing that if the school name, alumni traditions, and community spaces aren\u2019t actually protected, the merger doesn\u2019t go through, and define \u201clocal families first\u201d by home distance, not by who shouts loudest or which alumni group has connections. And the modern facilities must be ready before our kids are moved, with a clear list of what parents will and won\u2019t pay \u2014 because I\u2019ve seen enough \u201cupgrades\u201d where ordinary families end up footing the bill. If MOE can guarantee that plainly and put it on the record, then I can support mergers that actually make sense instead of just punishing neighbourhoods for falling birth rates."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D4",
+    "agents": [
+      "ideologue",
+      "everyman"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "We cannot allow falling birth rates to become a pretext for treating neighbourhood schools as mere line items on a balance sheet, because these institutions carry living histories, alumni bonds, and community memory that no modern facility can simply replace. But I also refuse to pretend that empty classrooms and ageing infrastructure are cost-free, especially when resources could strengthen teaching and learning for every child. My initial direction is this: any merger must be co-designed with parents, alumni, and residents, with a binding commitment to preserve heritage spaces and school identity within the merged campus, not as decorative nostalgia but as living community assets. If we start from that safeguard, I believe we can negotiate efficiency and modernisation without sacrificing the dignity and belonging of the communities these schools serve."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear you, and I agree that a school is more than a building\u2014it\u2019s where neighbours grew up and made friends, so closing one can feel like losing a piece of the community. At the same time, as a parent and resident, I also don\u2019t want us to ignore empty classrooms or delay better facilities for the children who are still studying there. My practical suggestion is that any merger should start with genuine consultation and a clear plan to carry the old school\u2019s name, memories, and alumni ties into the merged campus, perhaps through shared heritage spaces and community use. In return, we should accept that some consolidation is necessary, but only if savings and better facilities are shown to benefit the children and the wider neighbourhood fairly. That way we honour the past without pretending we can avoid change."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I agree with you that consultation must be real, not a notification exercise after decisions are already made, and that the merged school should carry its predecessor\u2019s name, stories, and alumni ties as living assets rather than decorative plaques. But I would insist that heritage protection and community use be written into the merger conditions, with parents, alumni, and residents given real decision-making power, not merely a feedback form. I can accept consolidation where it is genuinely necessary, but only if the savings and upgraded facilities are transparently shown to benefit the children and the wider neighbourhood, including lower-income families who rely most on nearby schools. If we can bind the process to those safeguards, then we can honour the past while still giving every child a fairer and better learning environment."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I think we\u2019re very close to a workable compromise: let\u2019s agree that consolidation can happen where numbers truly don\u2019t justify a school, but only with written conditions that preserve the old school\u2019s name, stories, and alumni ties in the merged campus. I\u2019m fully with you that parents, alumni, and residents should have real decision-making power, perhaps through a merger committee that signs off on heritage spaces and community use, not just a feedback form. To keep this fair to everyone, MOE should also publish clear figures showing how savings and upgraded facilities benefit children and nearby lower-income families. If we bind the process that way, I can support necessary mergers without feeling we\u2019ve sold out our neighbourhoods\u2019 memories."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D5",
+    "agents": [
+      "populist",
+      "everyman"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I\u2019m not against sensible planning, but when I hear \u201cmerger\u201d I hear another neighbourhood institution disappearing while parents and old boys are treated like nostalgia that can be swept aside. These schools are where our kids\u2019 friends, our memories, and the morning routine of ordinary families live \u2014 not just numbers on a spreadsheet. So my starting point is simple: before anyone talks efficiency, show us what actually stays for the community \u2014 the same teachers, the same transport, the same sense of belonging, and real help for families whose kids get moved. If you\u2019re willing to guarantee those safeguards and listen to residents first, I\u2019m willing to look at the numbers with you."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear you, and I think you\u2019re right that before we talk about savings, families need to know what actually stays \u2014 the teachers, the transport, the daily routine, and a real sense of belonging. Maybe we can agree on a simple test: no merger goes ahead unless there\u2019s a clear transition plan for affected families, including transport help, keeping familiar teachers where possible, and a proper welcome into the merged school. I\u2019d also like residents and alumni to have a real say through a community impact panel, not just a briefing after the decision is made. If the numbers show a merger really is needed, then let\u2019s make sure the savings go back into the merged school and its transport links, so efficiency doesn\u2019t come at the cost of the community."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay, that test sounds like common sense, and I can work with it \u2014 but I want it in writing, not just a promise at a briefing. Before any merger, families must have guaranteed transport help, familiar teachers kept where possible, and a real transition plan, not a \u201csettle in and see\u201d approach. And that community impact panel needs actual teeth, with residents and alumni able to pause a merger if safeguards aren\u2019t met \u2014 not just hear about it after the fact. If you can also ring-fence and audit the savings so they go back into the merged school and its transport links, then I\u2019ll sit down and look at the numbers with you."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I\u2019m with you on putting it in writing \u2014 a clear transition plan with transport help, familiar teachers where possible, and a proper welcome shouldn\u2019t depend on who happens to be in charge. I can also support a community impact panel with real teeth, as long as we agree upfront on clear criteria and timelines so it can pause a merger when safeguards genuinely aren\u2019t met, rather than becoming endless delay. And yes, let\u2019s ring-fence and audit the savings so they visibly go back into the merged school and its transport links. If we lock those safeguards down first, I\u2019m ready to sit down with you and look honestly at the numbers together."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D6",
+    "agents": [
+      "populist",
+      "technocrat"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I\u2019m not against saving money, but when I hear \u201cmerger\u201d I hear another neighbourhood school ripped away while parents get told to take a bus across town and just deal with it. Our kids\u2019 schools are part of the community\u2014the alumni, the hawker centre nearby, the familiar faces\u2014and ordinary families shouldn\u2019t have to lose that so the system can look tidy on paper. So here\u2019s where I\u2019d start: if we\u2019re going to merge, I want concrete guarantees first\u2014shorter travel, smaller class sizes, and the old school\u2019s identity kept alive, not erased. Can we agree that efficiency only counts if local families actually feel better off, not just the ministry?"
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I can agree that efficiency only counts if affected families are measurably better off, so let\u2019s make travel time, transition support, and identity preservation explicit merger conditions rather than afterthoughts. I would support a transparent threshold\u2014say, no student\u2019s typical commute increases beyond a defined limit without a viable transport remedy\u2014and a requirement that savings be reinvested in the receiving school\u2019s facilities and programmes. On class sizes, I\u2019d be careful about blanket guarantees because teacher supply and school capacity constrain that, but we can commit to published targets and annual reporting for merged cohorts. For heritage, a practical compromise is preserving the old school\u2019s name, archives, alumni network, and a dedicated heritage space within the merged school, with alumni consulted before any decision is finalised."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I hear you on the commute threshold and reinvesting savings, but published targets and annual reports sound like the usual way to kick problems down the road\u2014if the numbers slip, what actually happens to the families? So make it enforceable: before any merger is finalised, parents get the travel plan, the receiving school\u2019s class-size target, and a clear trigger that forces extra teachers or transport support if those slip. On heritage, I can live with keeping the name, archives, alumni network and a dedicated space, but alumni and nearby hawkers must be consulted before the decision, not told after. And don\u2019t use \u201cefficiency\u201d to quietly erase a neighbourhood school\u2014show us the savings stay in that merged school, not just in the ministry\u2019s books."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I accept your core point: targets without consequences are just paperwork, so let\u2019s make the merger approval conditional on a published travel plan, a receiving-school class-size target, and an automatic remedy\u2014if the target is breached for two consecutive terms, MOE must fund relief teachers or additional transport support. On savings, I\u2019d support a ring-fenced merger account showing that realised savings are reinvested in the merged school\u2019s facilities and programmes, with an audited annual statement to parents and the community. For heritage, I can go further than consultation after the fact: alumni, nearby hawkers, and local stakeholders should be formally consulted before the merger is finalised, with their input documented in the decision. That gives us an enforceable, fiscally transparent compromise rather than a purely symbolic one."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D7",
+    "agents": [
+      "everyman",
+      "technocrat"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I\u2019m just an ordinary resident, but I can see why this is hard: falling enrollment means we can\u2019t ignore resources, yet a school is often the heart of a neighbourhood and holds real memories for alumni and families. I\u2019d hope we can agree that the goal isn\u2019t \u201cheritage versus efficiency,\u201d but how to merge responsibly without making people feel their community is being erased. Maybe we start by asking for each merger to preserve something visible and meaningful\u2014like an alumni corner, heritage wall, or shared community space\u2014while making sure the merged school has good facilities and support for students. And I\u2019d suggest involving parents, alumni, and nearby residents early, so the decision feels fair and everyone can accept the trade-offs together."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree the framing should not be heritage versus efficiency, but the compromise has to be operational, not just symbolic. A practical approach is to make heritage preservation a standard, budgeted component of every merger\u2014such as an alumni archive, heritage wall, or shared community room integrated into the upgraded campus\u2014while capping costs so merger savings are not eroded. Early engagement should be structured around published enrollment projections and facility plans, so parents, alumni, and residents can weigh trade-offs with real data rather than only sentiment. I would also support preserving identity through merged-school naming or an alumni network, with a three-year review to check whether both educational outcomes and community attachment are holding up."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I think we\u2019re very close here: making heritage preservation a standard, budgeted part of each merger keeps it from being just a nice speech, and your point about published enrollment and facility plans helps people argue from facts rather than fear. I\u2019d just add that the engagement should be practical for ordinary residents\u2014clear notices, accessible sessions, and room for older alumni who may not follow online documents\u2014so the data actually reaches the community. Naming and an alumni network sound like good ways to keep identity alive, and I\u2019m comfortable with a three-year review as long as it looks at both student outcomes and whether people still feel attached to the merged school. That feels like a fair deal we could explain to neighbours: save where we must, but preserve something real and check honestly whether it\u2019s working."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I accept your addition and would formalize it in the merger protocol: an accessible engagement plan with translated notices, physical sessions at community clubs or schools, and alumni representatives who can help reach older residents who are not online. To keep this fiscally disciplined, I would set a standard heritage-preservation budget per merger\u2014covering the archive, heritage wall, or shared community room\u2014and require any enhancement beyond that cap to be funded through community or alumni partnerships rather than eroding merger savings. The three-year review should then report on a small set of published indicators: enrollment utilisation, facility condition, student outcomes, and a community-attachment survey. That gives us a workable deal\u2014saving where we must, preserving something tangible, and checking honestly whether the merged school is functioning well and still feels like a community school."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D8",
+    "agents": [
+      "everyman",
+      "ideologue"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I\u2019m just an everyday resident, but I can see why some neighbours feel heartbroken about losing a school that holds family memories, and I also understand not wanting children to learn in half-empty schools with fewer resources. My initial direction is to look for mergers that preserve what matters most\u2014heritage corners, alumni traditions, and a sense of shared identity\u2014while pooling resources into better facilities and programmes for all students. If both sides can give a little, we could ask for a transparent process and a clear promise that no community\u2019s memories are simply erased when a school gate changes."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I share your instinct for compromise, but \u201cpreserve what matters\u201d cannot remain a vague promise that evaporates once the merger paperwork is signed. Before any school is closed or merged, MOE should publish a heritage and equity impact assessment, co-design the transition with alumni, parents, and nearby residents, and guarantee that merged campuses carry forward named traditions, archives, and gathering spaces rather than erasing them in the name of efficiency. I will support pooling resources and modern facilities only if the process is transparent and enforceable, with no community treated as collateral damage for utilisation rates. Let us jointly demand that every merger protect both educational opportunity and communal memory\u2014not trade one away for the other."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I agree with you that \u201cpreserve what matters\u201d needs to be more than a promise, and a published heritage and equity impact assessment before any merger sounds like a fair, practical safeguard. As an everyday resident, I\u2019d just ask that the process stays simple enough for ordinary parents and neighbours to follow\u2014perhaps a clear checklist and public update at each stage, rather than paperwork that only experts can navigate. If MOE commits early to co-design with alumni and residents, keeps named traditions and heritage corners in the merged school, and pools resources into better facilities for all students, I think we can support both efficiency and memory. That way no community feels like collateral damage, and families can see a fair trade rather than a loss."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I hear your call for a process ordinary parents can follow, and I agree\u2014a simple public checklist with updates at every stage is exactly how transparency becomes real rather than rhetorical. But let us make those safeguards binding: no merger should proceed until the heritage and equity impact assessment is published, alumni and residents have co-designed the transition, and named traditions, archives, and gathering spaces are written into the merged school\u2019s charter. I can support pooling resources into better facilities only if that same checklist includes an enforceable guarantee that no community is treated as collateral damage for utilisation rates. So let us jointly demand a plain-language public scorecard and a signed heritage covenant for every merger\u2014efficiency yes, but never at the price of dignity or memory."
+      }
+    ]
+  }
+]

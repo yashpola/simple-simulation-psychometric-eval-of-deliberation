@@ -16,6 +16,8 @@ def dummy_openai_generate(
     temperature: float = 0.7,
     max_tokens: int = 512,
     seed: Optional[int] = None,
+    reasoning_effort: Optional[str] = None,
+    **kwargs: Any,
 ) -> str:
     """Offline test double for OpenAIClient.generate during automated unit tests."""
     prompt_lower = prompt.lower()
@@ -45,34 +47,46 @@ def test_full_experiment_pipeline(tmp_path: Path) -> None:
     # 1. Verify directory exists
     assert result_dir.exists()
 
-    # 2. Verify all required artifact files exist (Guideline 6)
-    expected_files = [
-        "config.json",
-        "ballots.json",
-        "psychometric_evals.json",
-        "final_report.md"
-    ]
+    # 2. Verify organized subdirectories exist (inputs/, model_outputs/, evals/, metadata/)
+    inputs_dir = result_dir / "inputs"
+    model_outputs_dir = result_dir / "model_outputs"
+    evals_dir = result_dir / "evals"
+    metadata_dir = result_dir / "metadata"
 
-    for fname in expected_files:
-        fpath = result_dir / fname
-        assert fpath.exists(), f"Missing expected output file: {fname}"
-        assert fpath.stat().st_size > 0, f"Output file is empty: {fname}"
+    assert inputs_dir.is_dir()
+    assert model_outputs_dir.is_dir()
+    assert evals_dir.is_dir()
+    assert metadata_dir.is_dir()
 
-    # 2b. Verify items directory and item definitions copied
-    items_dir = result_dir / "items"
+    # 2a. Verify inputs subdirectory (clean snapshot without runtime/cost)
+    assert (inputs_dir / "config.json").exists()
+    with open(inputs_dir / "config.json", "r", encoding="utf-8") as f:
+        saved_cfg = json.load(f)
+    assert "cost_usd" not in saved_cfg.get("experiment_metadata", {})
+    assert "runtime_seconds" not in saved_cfg.get("experiment_metadata", {})
+
+    items_dir = inputs_dir / "items"
     assert items_dir.is_dir()
     item_files = list(items_dir.glob("*.json"))
-    assert len(item_files) >= 4
+    assert len(item_files) >= 3
     for item_file in item_files:
         assert item_file.name.endswith("_description.json")
 
-    # 3. Verify item-by-item transcripts directory and contents
-    transcripts_dir = result_dir / "transcripts"
+    # 2b. Verify model_outputs subdirectory
+    assert (model_outputs_dir / "ballots.json").exists()
+    transcripts_dir = model_outputs_dir / "transcripts"
     assert transcripts_dir.is_dir()
+
     transcript_files = list(transcripts_dir.glob("*.json"))
-    assert len(transcript_files) >= 4
+    assert len(transcript_files) >= 3
     for trans_file in transcript_files:
         assert trans_file.name.endswith("_transcript.json")
+
+    transcript_pdfs = list(transcripts_dir.glob("*.pdf"))
+    assert len(transcript_pdfs) >= 3
+    for pdf_file in transcript_pdfs:
+        assert pdf_file.name.endswith("_transcript.pdf")
+        assert pdf_file.stat().st_size > 1000
 
     for t_file in transcript_files:
         with open(t_file, "r", encoding="utf-8") as f:
@@ -85,16 +99,29 @@ def test_full_experiment_pipeline(tmp_path: Path) -> None:
         assert "pre_stances" not in first_t
         assert "post_stances" not in first_t
 
-    # 4. Verify ballot contents
-    with open(result_dir / "ballots.json", "r", encoding="utf-8") as f:
+    # 2c. Verify evals subdirectory
+    assert (evals_dir / "psychometric_evals.json").exists()
+    assert (evals_dir / "final_report.md").exists()
+
+    # 2d. Verify metadata subdirectory
+    assert (metadata_dir / "metadata.json").exists()
+
+    with open(metadata_dir / "metadata.json", "r", encoding="utf-8") as f:
+        meta_json = json.load(f)
+    assert "cost_usd" in meta_json
+    assert "runtime_seconds" in meta_json
+    assert "model" in meta_json
+
+    # 3. Verify ballot contents
+    with open(model_outputs_dir / "ballots.json", "r", encoding="utf-8") as f:
         ballots_data = json.load(f)
     assert len(ballots_data) > 0
     first_ballot = ballots_data[0]
     assert "consensus_reached" in first_ballot
     assert "votes" in first_ballot
 
-    # 5. Verify CTT & IRT metrics structure
-    with open(result_dir / "psychometric_evals.json", "r", encoding="utf-8") as f:
+    # 4. Verify CTT & IRT metrics structure
+    with open(evals_dir / "psychometric_evals.json", "r", encoding="utf-8") as f:
         metrics_data = json.load(f)
     assert "ctt" in metrics_data
     assert "irt" in metrics_data
@@ -106,8 +133,8 @@ def test_full_experiment_pipeline(tmp_path: Path) -> None:
     assert "individual_success_rates" in metrics_data
     assert "insights" in metrics_data
 
-    # 6. Verify markdown report contents
-    with open(result_dir / "final_report.md", "r", encoding="utf-8") as f:
+    # 5. Verify markdown report contents
+    with open(evals_dir / "final_report.md", "r", encoding="utf-8") as f:
         report_text = f.read()
     assert "# Deliberative Item Response Theory (IRT) Benchmark Report" in report_text
     assert "Standardized Policy Battery Psychometrics" in report_text
@@ -134,10 +161,11 @@ def test_main_cli_execution(tmp_path: Path) -> None:
         with patch.object(OpenAIClient, "generate", dummy_openai_generate):
             main()
 
-    assert (output_dir / "final_report.md").exists()
-    assert (output_dir / "config.json").exists()
-    assert (output_dir / "items").is_dir()
-    assert (output_dir / "transcripts").is_dir()
+    assert (output_dir / "evals" / "final_report.md").exists()
+    assert (output_dir / "inputs" / "config.json").exists()
+    assert (output_dir / "inputs" / "items").is_dir()
+    assert (output_dir / "model_outputs" / "transcripts").is_dir()
+    assert (output_dir / "metadata" / "metadata.json").exists()
 
 
 def test_missing_env_credentials_raises_error(monkeypatch: pytest.MonkeyPatch) -> None:
@@ -192,14 +220,15 @@ def test_empty_deliberations_or_ballots_aborts_report_generation(tmp_path: Path)
 
     assert result_dir == output_dir
     # Base diagnostic artifacts MUST exist
-    assert (result_dir / "config.json").exists()
-    assert (result_dir / "ballots.json").exists()
-    assert (result_dir / "items").is_dir()
-    assert (result_dir / "transcripts").is_dir()
+    assert (result_dir / "inputs" / "config.json").exists()
+    assert (result_dir / "model_outputs" / "ballots.json").exists()
+    assert (result_dir / "inputs" / "items").is_dir()
+    assert (result_dir / "model_outputs" / "transcripts").is_dir()
+    assert (result_dir / "metadata" / "metadata.json").exists()
 
     # Evaluative artifacts MUST NOT exist (aborted to avoid contaminated psychometrics)
-    assert not (result_dir / "final_report.md").exists()
-    assert not (result_dir / "psychometric_evals.json").exists()
+    assert not (result_dir / "evals" / "final_report.md").exists()
+    assert not (result_dir / "evals" / "psychometric_evals.json").exists()
 
 
 def test_individual_empty_ballot_discarded_with_warning(tmp_path: Path) -> None:
@@ -230,16 +259,16 @@ def test_individual_empty_ballot_discarded_with_warning(tmp_path: Path) -> None:
         result_dir = execute_simulation_run(config_path=str(test_cfg_path))
 
     # Pipeline completes because not ALL ballots/deliberations are empty
-    assert (result_dir / "final_report.md").exists()
-    assert (result_dir / "psychometric_evals.json").exists()
+    assert (result_dir / "evals" / "final_report.md").exists()
+    assert (result_dir / "evals" / "psychometric_evals.json").exists()
 
-    with open(result_dir / "psychometric_evals.json", "r", encoding="utf-8") as f:
+    with open(result_dir / "evals" / "psychometric_evals.json", "r", encoding="utf-8") as f:
         metrics = json.load(f)
 
     assert metrics["insights"]["discarded_ballot_count"] == 1
     assert metrics["insights"]["valid_votes_count"] == metrics["insights"]["total_votes_cast"] - 1
 
-    with open(result_dir / "final_report.md", "r", encoding="utf-8") as f:
+    with open(result_dir / "evals" / "final_report.md", "r", encoding="utf-8") as f:
         report = f.read()
 
     assert "> [!WARNING]" in report
@@ -266,6 +295,7 @@ def test_token_limits_forwarded_from_config(tmp_path: Path) -> None:
             temperature: float = 0.7,
             max_tokens: int = 512,
             seed: Optional[int] = None,
+            reasoning_effort: Optional[str] = None,
             **kwargs: Any,
         ) -> str:
             recorded_tokens.append(max_tokens)

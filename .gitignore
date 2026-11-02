@@ -17,3 +17,8 @@ venv/
 .DS_Store
 .vscode
 
+data/baselines
+src/baselines.py
+
+scratch
+

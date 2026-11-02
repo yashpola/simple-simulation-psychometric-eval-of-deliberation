@@ -1,0 +1,11 @@
+{
+  "experiment_name": "Psychometric Deliberative Capacity Benchmark",
+  "model": "openai/gpt-oss-120b",
+  "cost_usd": 0.0525,
+  "runtime_seconds": 825.2,
+  "runtime_formatted": "13m 45.2s",
+  "prompt_tokens": 151200,
+  "completion_tokens": 49686,
+  "total_tokens": 200886,
+  "timestamp": "2026-10-30T21:34:32"
+}

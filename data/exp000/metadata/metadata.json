@@ -1,0 +1,11 @@
+{
+  "experiment_name": "Psychometric Deliberative Capacity Benchmark",
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "cost_usd": 0.1118,
+  "runtime_seconds": 699.0,
+  "runtime_formatted": "11m 39.0s",
+  "prompt_tokens": 151200,
+  "completion_tokens": 54930,
+  "total_tokens": 206130,
+  "timestamp": "2026-10-30T21:13:05"
+}

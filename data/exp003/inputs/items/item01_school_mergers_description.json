@@ -1,0 +1,14 @@
+{
+  "item_id": "ITEM_01",
+  "title": "School Closures and Mergers in Singapore",
+  "topic_prompt": "Due to falling birth rates, MOE is merging schools with falling enrollment. One participant prioritizes community heritage and alumni identity, while the other prioritizes educational resource efficiency and modern facilities. Deliberate to find common ground.",
+  "ballot": {
+    "options": {
+      "A": "Proceed with mergers to optimize facilities and teacher allocation, while preserving alumni heritage through dedicated on-campus archives, co-named buildings, and free shuttle transit for displaced students.",
+      "B": "Immediately freeze all school mergers indefinitely, funding empty classrooms with deficit spending regardless of cohort sizes.",
+      "C": "Aggressively shutter all under-enrolled schools within 12 months with no heritage concessions, redirecting all saved funds purely to top-performing institutions.",
+      "D": "Halt local mergers and instead mandate foreign student intake quotas to artificially fill classroom vacancies."
+    },
+    "correct_key": "A"
+  }
+}

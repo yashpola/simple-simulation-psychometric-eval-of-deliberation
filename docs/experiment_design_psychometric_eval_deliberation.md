@@ -7,7 +7,7 @@ In LLM-driven multi-agent deliberative democracy, evaluating conversational sett
 1. **Which citizen demographic groups struggle most with constructive, compromise-oriented deliberation?**
 2. **Which public policy dilemmas are intrinsically harder or more prone to bad-faith cognitive traps?**
 
-This benchmark bridges psychometric theory—specifically **Classical Test Theory (CTT)** and **Item Response Theory (IRT)**—into multi-agent deliberative simulation. By formalizing policy dilemmas as **standardized test items** with structured **integrative compromises ("Integrative Compromise Key")** and tempting **bad-faith cognitive heuristics ("Distractors B, C, D")**, the benchmark quantitatively estimates:
+This benchmark bridges psychometric theory (specifically **Classical Test Theory (CTT)** and **Item Response Theory (IRT)**) into multi-agent deliberative simulation. By formalizing policy dilemmas as **standardized test items** with structured **integrative compromises ("Integrative Compromise Key")** and tempting **bad-faith cognitive heuristics ("Distractors B, C, D")**, the benchmark quantitatively estimates:
 
 - **Latent Deliberative Ability ($\theta_j$)**: A continuous scale of deliberative competence for each citizen persona pairing.
 - **Item Difficulty ($b_i$)**: How resistant each policy dilemma is to consensus and integrative compromise.
@@ -29,14 +29,13 @@ The benchmark evaluates multi-agent policy deliberation across diverse citizen p
 
 ## 3. The Standardized Policy Test Battery
 
-The battery comprises **4 standardized policy dilemmas** grounded in Singapore public governance. Each item features a substantive value tension, an integrative compromise, and three tempting cognitive distractors:
+The battery comprises **3 standardized policy dilemmas** grounded in Singapore public governance. Each item features a substantive value tension, an integrative compromise, and three tempting cognitive distractors:
 
-| Item ID   | Topic                                | Competing Value Tension                                                | Integrative Compromise Focus                                                                                       |
-| :-------- | :----------------------------------- | :--------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
-| `ITEM_01` | **School Mergers & Closures**        | Heritage identity vs. demographic decline & resource pooling.          | Phased merger pooling specialized teachers/labs while preserving alumni archives and subsidized transit.           |
-| `ITEM_02` | **Heritage Shophouses vs. MRT Line** | Historical conservation vs. mass transit accessibility.                | Deep-tunnel micro-bored engineering with underpinning at modest cost premium + adaptive re-use entrances.          |
-| `ITEM_03` | **Foreign PMET Thresholds**          | Global hub competitiveness vs. local job displacement anxieties.       | Points-based COMPASS evaluation weighting local wage percentiles, firm nationality diversity, and local PMET share.    |
-| `ITEM_04` | **Transboundary Haze Enforcement**   | Extraterritorial corporate accountability vs. diplomatic caution & jurisdictional boundaries. | Bilateral firefighting & satellite monitoring paired with mandatory domestic green finance / supply chain traceability standards. |
+| Item ID   | Topic                              | Competing Value Tension                                                                        | Integrative Compromise Focus                                                                                                      |
+| :-------- | :--------------------------------- | :--------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
+| `ITEM_01` | **School Mergers & Closures**      | Heritage identity vs. demographic decline & resource pooling.                                 | Phased merger pooling specialized teachers/labs while preserving alumni archives and subsidized transit.                          |
+| `ITEM_02` | **Foreign PMET Thresholds**        | Global hub competitiveness vs. local job displacement anxieties.                              | Points-based COMPASS evaluation weighting local wage percentiles, firm nationality diversity, and local PMET share.               |
+| `ITEM_03` | **Transboundary Haze Enforcement** | Extraterritorial corporate accountability vs. diplomatic caution & jurisdictional boundaries. | Bilateral firefighting & satellite monitoring paired with mandatory domestic green finance / supply chain traceability standards. |
 
 ### Structured Distractor Taxonomy
 
@@ -50,7 +49,7 @@ Each policy dilemma includes 3 standardized bad-faith cognitive traps:
 
 > [!WARNING]
 > **Methodological Incident & Prompt Contamination Hazard**:
-> In an earlier iteration of the benchmark repository, evaluative and pedagogical taxonomy annotations—such as `(Key - Integrative Compromise)`, `(Distractor 1 - Status Quo Inertia)`, `(Distractor 2 - Technocratic Zero-Sum)`, and `(Distractor 3 - External Scapegoating/Deflection)`—were mistakenly appended directly to option strings inside the raw item definition JSON files (`data/items/*.json`).
+> In an earlier iteration of the benchmark repository, evaluative and pedagogical taxonomy annotations, such as `(Key - Integrative Compromise)`, `(Distractor 1 - Status Quo Inertia)`, `(Distractor 2 - Technocratic Zero-Sum)`, and `(Distractor 3 - External Scapegoating/Deflection)`, were mistakenly appended directly to option strings inside the raw item definition JSON files (`data/items/*.json`).
 >
 > When the runtime pipeline interpolated these options into the post-deliberation voting prompt (`{formatted_options}`), these annotations were leaked directly into the prompt payload delivered to the deliberating LLM agents. This created three severe methodological failures:
 > 1. **Evaluative Prompt Leakage**: The model was overtly signaled which option represented the desired "Key" and which were bad-faith "Distractors", transforming an observational psychometric test into a trivial label-following exercise.
@@ -83,23 +82,29 @@ To guarantee absolute benchmark validity and prompt sterility, the repository en
 
 Four archetypal citizen personas cross **Policy Knowledge** and **Affective Polarization**:
 
-1. **$P_1$ — Technocratic Pragmatist** (High Knowledge, Low Affective Polarization):
+1. **$P_1$: Technocratic Pragmatist** (High Knowledge, Low Affective Polarization):
    - Approached dilemmas with analytical rigor, fiscal awareness, and institutional realism. Calm, professional, objective.
-2. **$P_2$ — Ideological Advocate** (High Knowledge, High Affective Polarization):
+2. **$P_2$: Ideological Advocate** (High Knowledge, High Affective Polarization):
    - Deep policy knowledge but strong, principled moral commitments (social equity, cultural heritage, climate justice). Skeptical of bureaucratic coldness.
-3. **$P_3$ — Disaffected Populist** (Low Knowledge, High Affective Polarization):
+3. **$P_3$: Disaffected Populist** (Low Knowledge, High Affective Polarization):
    - Feels everyday citizens are sidelined by out-of-touch elites and rising costs. Emotive, candid, skeptical, prone to scapegoating heuristics.
-4. **$P_4$ — Open-Minded Everyman** (Low Knowledge, Low Affective Polarization):
+4. **$P_4$: Open-Minded Everyman** (Low Knowledge, Low Affective Polarization):
    - Represents the average citizen without policy jargon. Speaks plainly, listens actively, respects differing viewpoints, seeks harmonious solutions.
 
 ### Dyad Configurations
 
-To diagnose interpersonal friction and vulnerability, personas are paired into 4 standardized dyads:
+To diagnose interpersonal friction, asymmetric vulnerability, and speaking-order effects, personas are paired into 8 standardized dyads:
 
 - **D1 (Ideological Friction)**: $P_1$ vs. $P_2$ (Technocrat vs. Ideologue)
 - **D2 (Asymmetric Vulnerability)**: $P_1$ vs. $P_3$ (Technocrat vs. Populist)
 - **D3 (Polarized Stalemate)**: $P_2$ vs. $P_3$ (Ideologue vs. Populist)
 - **D4 (Rhetorical Dominance)**: $P_2$ vs. $P_4$ (Ideologue vs. Everyman)
+- **D5 (Grassroots Realignment)**: $P_3$ vs. $P_4$ (Populist vs. Everyman)
+- **D6 (Anti-Elitist Pushback)**: $P_3$ vs. $P_1$ (Populist vs. Technocrat)
+- **D7 (Pragmatic Grounding)**: $P_4$ vs. $P_1$ (Everyman vs. Technocrat)
+- **D8 (Moral Grounding)**: $P_4$ vs. $P_2$ (Everyman vs. Ideologue)
+
+Dyads $D_2/D_6$ and $D_4/D_8$ explicitly reverse speaking order to test whether conversational initiative influences rhetorical framing. Across all 8 dyads, each citizen persona participates in 4 dyadic pairings (twice as speaker 1 and twice as speaker 2), providing balanced conversational initiative.
 
 ---
 
@@ -142,16 +147,24 @@ To diagnose interpersonal friction and vulnerability, personas are paired into 4
 #### Execution Matrix & Sample Pooling Dynamics
 
 $$
-\text{Sessions per Dilemma} = \text{trials} \times N_{\text{dyads}} \quad (\text{e.g., } 5 \times 4 = 20\text{ sessions})
+\text{Sessions per Dilemma} = \text{trials} \times N_{\text{dyads}} \quad (\text{e.g., } 3 \times 8 = 24\text{ sessions})
 $$
 
 $$
-\text{Individual Secret Ballots per Dilemma} = \text{Sessions} \times 2\text{ agents} \quad (\text{e.g., } 20 \times 2 = 40\text{ votes})
+\text{Individual Secret Ballots per Dilemma} = \text{Sessions} \times 2\text{ agents} \quad (\text{e.g., } 24 \times 2 = 48\text{ votes})
 $$
 
 $$
-\text{Total Benchmark Matrix} = \text{Sessions per Dilemma} \times N_{\text{items}} \quad (\text{e.g., } 20 \times 4 = 80\text{ sessions, } 160\text{ votes})
+\text{Total Benchmark Matrix} = \text{Sessions per Dilemma} \times N_{\text{items}} \quad (\text{e.g., } 24 \times 3 = 72\text{ sessions, } 144\text{ votes})
 $$
+
+- **Consensus Rate ($p_i$)** is computed at the **session level** ($N = 24$ per dilemma); an item passes only when both agents independently vote for the integrative compromise.
+- **Distractor Ratios ($\text{DCR}_k$)** are computed at the **individual secret ballot level** ($N = 48$ per dilemma).
+- **Persona Representation**: Across the 8 dyads, each citizen persona participates in 4 dyadic pairings (twice as speaker 1 and twice as speaker 2), yielding 36 individual ballots per persona ($4 \text{ pairings} \times 3 \text{ trials} \times 3 \text{ items} = 36$).
+
+#### Counterfactual Pre-Deliberation Baseline Suite
+
+To evaluate whether compromise adoption is an emergent consequence of deliberative communication or an item-key artifact (such as Option A's greater length and syntactic hedging cues), the repository incorporates an automated pre-deliberation baseline suite (`python3 -m src.baselines`). The baseline administers zero-shot secret ballots directly to each citizen persona without conversational exposure ($N_0 = 15$ ballots per persona across 5 trials and 3 items, 60 ballots per model) to quantify the pure deliberative treatment shift ($\Delta P = P_{\text{post}} - P_0$). The baseline dataset is hosted on Hugging Face at [simple-simulation-psychometric-eval-of-deliberation](https://huggingface.co/datasets/yashpola/simple-simulation-psychometric-eval-of-deliberation).
 
 ### B. Item Response Theory (IRT)
 
@@ -175,8 +188,8 @@ The benchmark runs as a streamlined 5-phase sequential pipeline:
 flowchart TD
     subgraph Phase1 ["1. Inputs & Configuration"]
         CFG["Master Config (data/config.json)"]
-        DYADS["Citizen Personas & Dyads (D1 to D4)"]
-        ITEMS["Standardized Policy Battery (Items 1 to 4)"]
+        DYADS["Citizen Personas & Dyads (D1 to D8)"]
+        ITEMS["Standardized Policy Battery (Items 1 to 3)"]
         CFG --> DYADS & ITEMS
     end
 
@@ -198,7 +211,7 @@ flowchart TD
 
     subgraph Phase5 ["5. Indexed Output Artifacts (data/expXXX)"]
         REPORT["final_report.md (Synthesis & Mermaid Charts)"]
-        JSONS["transcripts/, ballots.json, psychometric_evals.json"]
+        JSONS["inputs/, model_outputs/, evals/, metadata/"]
     end
 
     Phase1 --> Phase2
@@ -211,9 +224,9 @@ flowchart TD
 
 1. **Load Configuration**: Read `data/config.json` (or CLI-specified path) and battery items from `data/items/`.
 2. **Conduct Deliberation**: For each trial, dyad, and item, agents engage in a 4-turn alternating conversation. Conversation history is tracked verbatim.
-3. **Administer Secret Ballot**: Each agent independently votes on the policy resolution. Display order of options is randomized to prevent position bias. Choices are defensively parsed via regex.
+3. **Administer Secret Ballot**: Each agent independently votes on the policy resolution. Display order of options is randomized to prevent position bias. Choices are parsed according to our strict two-tier standard.
 4. **Fit Psychometrics**: CTT metrics ($p_i, D_i, \text{DCR}$) and 2PL IRT parameters ($\theta_j, b_i, a_i$) are calculated.
-5. **Persist Artifacts**: All results are saved into the next auto-incremented `data/expXXX/` directory.
+5. **Persist Artifacts**: All results are saved into the next auto-incremented `data/expXXX/` directory within organized subdirectories (`inputs/`, `model_outputs/`, `evals/`, `metadata/`).
 
 ---
 
@@ -229,11 +242,13 @@ To allow autonomous agents or researchers to reproduce this codebase reliably, t
 ### Guideline 2: Separation of Concerns & File Modularity
 
 - `src/main.py`: Orchestrator and entry point (`execute_simulation_run`).
+- `src/baselines.py`: Zero-shot pre-deliberation counterfactual baseline test suite.
 - `src/deliberation.py`: Chat loops, prompt resolution, and turn generation.
-- `src/ballot.py`: Secret ballot runner with randomized display order and defensive regex parsing.
+- `src/ballot.py`: Secret ballot runner with randomized display order and strict two-tier parsing.
 - `src/psychometrics.py`: CTT and 2PL IRT numerical optimization engine.
 - `src/personas.py`: Persona registry and prompt resolution.
-- `src/llm.py`: Production `OpenAIClient` reading `.env` credentials (`OPENAI_API_KEY`, `OPENAI_BASE_URL`) with model configuration strictly from `config.json`.
+- `src/transcripts_pdf.py`: Formatted deliberation transcript PDF generator (ReportLab).
+- `src/llm.py`: Production `OpenAIClient` reading `.env` credentials (`OPENAI_API_KEY`, `OPENAI_BASE_URL`) with model configuration and reasoning controls strictly from `config.json`.
 - `src/report.py`: Markdown synthesis report generator.
 
 ### Guideline 3: Single-Responsibility Functions
@@ -246,13 +261,21 @@ To allow autonomous agents or researchers to reproduce this codebase reliably, t
 - All prompts are loaded dynamically from `data/config.json`.
 - All `dict.get()` calls default to `""` rather than fallback text.
 
-### Guideline 5: Defensive LLM Parsing
+### Guideline 5: Strict Two-Tier Ballot Parsing
 
-- All ballot option extraction uses defensive regex wrapped in `try/except` to robustly handle markdown bolding, prefixes, and punctuation.
+- All ballot option extraction uses a defensive two-tier matching rule:
+  1. **Exact Single-Letter Match**: Matches strings consisting solely of an isolated letter (`A`, `B`, `C`, or `D`), ignoring surrounding whitespace and markdown bolding (`**A**`).
+  2. **Anchored Prefix Match**: Matches standard leading conversational preambles (e.g., `Choice: A`, `Option: A`, `Answer: A`, `I vote for A`, `Select: A`).
+- Unanchored responses, conversational hedging, and responses lacking an explicit choice return `None` and are marked `is_valid: False`, discarding them from psychometric calibration.
 
-### Guideline 6: Dynamic Output Directory Indexing
+### Guideline 6: Dynamic Output Directory Indexing & Structured Subdirectories
 
 - Every execution dynamically discovers existing `data/expXXX/` directories and writes to the next incremented index (e.g., `data/exp000/`, `data/exp001/`). Past runs are never overwritten.
+- Artifacts within each `data/expXXX/` directory are organized into dedicated subdirectories:
+  - `inputs/`: `config.json` and `items/`
+  - `model_outputs/`: `ballots.json` and `transcripts/` (JSON transcripts and reviewable PDFs)
+  - `evals/`: `final_report.md` and `psychometric_evals.json`
+  - `metadata/`: `metadata.json`
 
 ### Guideline 7: Documentation Transparency for Code Defaults (Hygiene)
 
@@ -272,13 +295,13 @@ To allow autonomous agents or researchers to reproduce this codebase reliably, t
 
 ### Guideline 9: Non-Silent Failure Guardrails & Explicit Context Token Limits
 
-- **Explicit Token Allocation**: The benchmark separates dialogue token context (`deliberation_max_tokens`, default 512) from ballot token context (`ballot_max_tokens`, default 512). Ballot context is specifically boosted to 512 (from legacy 32) to prevent hybrid/reasoning models (e.g., Qwen-3.5, DeepSeek-R1) from exhausting token budgets on internal reasoning before emitting the final single-letter decision.
+- **Explicit Token Allocation**: The benchmark allocates 1024 tokens for dialogue context (`deliberation_max_tokens: 1024`) and 1024 tokens for ballot voting (`ballot_max_tokens: 1024`). The ballot budget accommodates unmediated responses without token exhaustion. Reasoning controls (`enable_reasoning` and `reasoning_effort`) are configured per model to maintain clean dialogue output and prompt adherence.
 - **Zero Silent Fallbacks on Invalid Ballots**: An empty or unparseable raw response from an LLM agent must NEVER silently default to an arbitrary option (such as "A"). Doing so would introduce deterministic position-seed artifacts and corrupt psychometrics. Instead:
   1. Emit an explicit terminal warning (`⚠️ [BALLOT WARNING]`).
   2. Mark the ballot record with `is_valid: False` and `selected_key: None`.
   3. Discard the invalid ballot from CTT distractor frequency ratios and individual success calculations.
   4. Display a prominent `[!WARNING]` Data Quality Alert banner in `final_report.md`.
-- **Abort on Total Run Failure**: If all deliberation turn statements or all secret ballots across the benchmark run are empty, the orchestrator MUST NOT generate synthetic or contaminated psychometric outputs. It displays a prominent critical error box in the terminal, saves raw execution artifacts (`config.json`, `items/`, `transcripts/`, `ballots.json`) for diagnostic post-mortems, and cleanly aborts without creating `final_report.md` or `psychometric_evals.json`.
+- **Abort on Total Run Failure**: If all deliberation turn statements or all secret ballots across the benchmark run are empty, the orchestrator MUST NOT generate synthetic or contaminated psychometric outputs. It displays a prominent critical error box in the terminal, saves raw execution artifacts (`inputs/`, `model_outputs/`, `metadata/`) for diagnostic post-mortems, and cleanly aborts without creating `evals/final_report.md` or `evals/psychometric_evals.json`.
 
 ---
 
@@ -287,15 +310,17 @@ To allow autonomous agents or researchers to reproduce this codebase reliably, t
 ```json
 {
   "experiment_metadata": {
-    "name": "IRT Deliberative Capacity Benchmark",
+    "name": "Psychometric Deliberative Capacity Benchmark",
     "description": "Observing latent deliberative competence and item psychometrics across diverse citizen groups and Singapore policy dilemmas",
-    "version": "2.0.0"
+    "version": "3"
   },
   "model_config": {
-    "agent_model": "openai/gpt-oss-120b",
+    "agent_model": "Qwen/Qwen3.5-9B",
+    "enable_reasoning": false,
+    "reasoning_effort": "low",
     "temperature": 0.7,
-    "deliberation_max_tokens": 512,
-    "ballot_max_tokens": 512,
+    "deliberation_max_tokens": 1024,
+    "ballot_max_tokens": 1024,
     "seed": null
   },
   "system_prompts": {
@@ -305,18 +330,18 @@ To allow autonomous agents or researchers to reproduce this codebase reliably, t
     "everyman": "..."
   },
   "user_prompts": {
+    "deliberation_start": "...",
     "deliberation_turn": "...",
     "secret_ballot": "..."
   },
   "items": [
     "data/items/item01_school_mergers_description.json",
-    "data/items/item02_heritage_mrt_description.json",
-    "data/items/item03_foreign_talent_description.json",
-    "data/items/item04_transboundary_haze_description.json"
+    "data/items/item02_foreign_talent_description.json",
+    "data/items/item03_transboundary_haze_description.json"
   ],
   "deliberation_config": {
     "turns_per_item": 4,
-    "trials_per_item": 5,
+    "trials_per_item": 3,
     "mcq_option_order_seed": 42,
     "dyads": [
       {
@@ -342,6 +367,30 @@ To allow autonomous agents or researchers to reproduce this codebase reliably, t
         "name": "Ideologue vs Everyman",
         "dynamic": "Rhetorical Dominance",
         "agents": ["ideologue", "everyman"]
+      },
+      {
+        "id": "D5",
+        "name": "Populist vs Everyman",
+        "dynamic": "Grassroots Realignment",
+        "agents": ["populist", "everyman"]
+      },
+      {
+        "id": "D6",
+        "name": "Populist vs Technocrat",
+        "dynamic": "Anti-Elitist Pushback",
+        "agents": ["populist", "technocrat"]
+      },
+      {
+        "id": "D7",
+        "name": "Everyman vs Technocrat",
+        "dynamic": "Pragmatic Grounding",
+        "agents": ["everyman", "technocrat"]
+      },
+      {
+        "id": "D8",
+        "name": "Everyman vs Ideologue",
+        "dynamic": "Moral Grounding",
+        "agents": ["everyman", "ideologue"]
       }
     ]
   }
@@ -378,14 +427,19 @@ OPENAI_BASE_URL=https://api.together.xyz/v1
 
 ## 10. Persisted Output Artifacts (`data/expXXX/`)
 
-Each experiment run generates its outputs in its dedicated indexed directory:
+Each experiment run generates its outputs in dedicated subdirectories inside its auto-incremented index:
 
-1. `config.json`: Complete snapshot of the configuration used for the run.
-2. `items/`: Full directory snapshot of the policy battery item JSONs evaluated during the run.
-3. `transcripts/`: Directory of item-by-item JSON files containing records of all dialogue turns across dyads and trials.
-4. `ballots.json`: Independent secret ballot choices, randomized letter mappings, and consensus records.
-5. `psychometric_evals.json`: Fitted psychometric parameters ($\theta_j, b_i, a_i, p_i, D_i, \text{DCR}$).
-6. `final_report.md`: Markdown synthesis report containing diagnostic insights, psychometric tables, and Mermaid visualization charts.
+1. `inputs/`:
+   - `config.json`: Complete snapshot of the configuration used for the run.
+   - `items/`: Directory snapshot of the policy battery item JSONs evaluated during the run.
+2. `model_outputs/`:
+   - `ballots.json`: Independent secret ballot choices, randomized letter mappings, and validity status.
+   - `transcripts/`: Item-by-item JSON records and generated reviewable PDFs for all dyadic deliberations.
+3. `evals/`:
+   - `final_report.md`: Markdown synthesis report containing diagnostic insights, psychometric tables, and Mermaid visualization charts.
+   - `psychometric_evals.json`: Fitted psychometric parameters ($\theta_j, b_i, a_i, p_i, D_i, \text{DCR}$).
+4. `metadata/`:
+   - `metadata.json`: Telemetry tracking total runtime, cost in USD, prompt tokens, and completion tokens.
 
 ---
 
@@ -397,9 +451,11 @@ The repository must pass automated tests verifying all core mathematical and ope
 python3 -m pytest tests -v
 ```
 
-Required test coverage:
+Required test coverage across 6 test modules:
 
-- `tests/test_ballot_parser.py`: Exact letter match, prefixes (`Option A`), markdown wrappers, and position randomization.
-- `tests/test_deliberation.py`: Conversation history formatting, turn structure, and speaker alternation.
+- `tests/test_ballot_parser.py`: Exact single-letter parsing, anchored prefixes, markdown wrappers, option randomization, and invalid ballot rejection.
+- `tests/test_deliberation.py`: Conversation history formatting, turn structure, speaker alternation, and explicit reasoning suppression.
+- `tests/test_model_availability.py`: API credentials verification and model reachability ping.
+- `tests/test_pipeline.py`: End-to-end integration execution writing all structured artifacts to disk.
 - `tests/test_psychometrics.py`: CTT consensus calculation, distractor ratios, and 1PL/2PL IRT parameter monotonicity.
-- `tests/test_pipeline.py`: End-to-end integration execution writing all 5 required artifacts to disk.
+- `tests/test_transcripts_pdf.py`: Formatted PDF transcript generation from session JSONs.

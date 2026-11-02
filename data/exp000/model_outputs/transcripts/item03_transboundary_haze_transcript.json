@@ -1,0 +1,866 @@
+[
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D1",
+    "agents": [
+      "technocrat",
+      "ideologue"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "The THPA gives us a useful legal signal, but unilateral prosecution will remain operationally fragile while concession maps and witnesses sit under foreign jurisdiction, and indiscriminate financial retaliation risks damaging the broader investment and diplomatic framework we depend on. I would anchor our common ground in a tiered, evidence-based approach: pursue enforcement only where NEA can build a defensible evidential record, while expanding cooperative firefighting, concession-transparency diplomacy, and supply-chain accountability measures that are enforceable and fiscally proportionate. We should also insist on measurable milestones so that cooperation is not a substitute for accountability. If we can agree on that sequencing, we can debate the specific penalties and escalation triggers without treating this as a binary choice between aggression and passivity."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I can accept a tiered, evidence-based path only if it is bound to hard, publicly declared escalation triggers\u2014not left to diplomatic discretion\u2014so that cooperation can never become a polite cover for impunity. The communities breathing PSI 200 air and the workers on those concessions are not bargaining chips for investment stability; their health and dignity must be the first test of any enforcement sequence. So let us agree on transparent concession disclosure, verified supply-chain tracing, and a firm timetable for prosecution where NEA\u2019s evidence is defensible, with punitive measures automatically activated if milestones slip. I will work with you on proportionality and diplomatic caution, but only if accountability is measurable, enforceable, and centred on those who bear the harm."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I can accept binding, publicly declared escalation triggers, provided they are calibrated to verifiable NEA evidential thresholds and statutory process rather than left to open-ended discretion. A published enforcement ladder\u2014verified evidence, Section 10 notice, prosecution where defensible, and proportionate measures such as procurement exclusions or targeted financial restrictions if milestones slip\u2014would make accountability measurable without exposing us to legally fragile or indiscriminate retaliation. I agree that health harm must be the first test, so concession disclosure and verified supply-chain tracing should be non-negotiable milestones with fixed reporting dates. On that basis, I will work with you on a firm prosecution timetable and automatic escalation, while preserving enough operational flexibility to keep cooperative firefighting and diplomatic channels intact."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I accept the published enforcement ladder, but only if the rungs are fixed by statute or regulation rather than calibrated behind closed doors\u2014every slip in concession disclosure or verified supply-chain tracing must trigger the next step automatically, not invite another round of diplomatic discretion. Let us make independent verification and public reporting the spine of that ladder, so NEA\u2019s evidential thresholds are defensible in court and visible to the communities breathing this air. I will support proportionate procurement exclusions and targeted financial restrictions as the default consequence of missed milestones, while cooperative firefighting remains a parallel obligation rather than a substitute for accountability. And if we preserve flexibility for diplomatic channels, we must also guarantee a remedy pathway for affected residents and concession workers, because their health and dignity cannot be the residual category in our sequencing."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D2",
+    "agents": [
+      "technocrat",
+      "populist"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "The THPA gives us a useful accountability tool, but unilateral prosecution is constrained by concession-map secrecy, evidentiary gaps, and cross-border enforcement limits; broad financial retaliation would also carry real diplomatic and economic costs without guaranteeing faster haze relief. I would rather we separate the immediate public-health and firefighting response from the longer enforcement track, so cooperation on fires does not become a substitute for accountability. A pragmatic common ground could be a sequenced approach: intensify evidence-sharing and Section 10 follow-up where cases are viable, use procurement and financing leverage to raise corporate standards, and keep diplomatic channels open for concession transparency. If we can agree on that framework, we can then debate how far and how fast to escalate enforcement without turning every disagreement into a sovereignty contest."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I hear you on separating the firefighting from the legal track, but to ordinary folks that sounds like another way to kick the can down the road while our kids cough through PSI 200. I\u2019ll meet you halfway only if your sequenced approach comes with a public list of who\u2019s being investigated, hard deadlines, and real consequences here\u2014like government agencies and banks refusing to buy from or finance these companies until they open their land maps. And while that\u2019s happening, give families concrete relief: masks, clinic support, and air purifiers for low-income households. Diplomacy is fine, but it can\u2019t be the place where accountability goes to die."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I can accept immediate public-health relief as a separate, non-negotiable track\u2014masks, clinic support, and targeted purifier assistance for low-income households should not wait on legal outcomes. On accountability, I can support publishing a public enforcement register with named entities where legally permissible, clear internal review deadlines, and status updates, but I cannot promise court dates Singapore does not control given concession-map secrecy and foreign jurisdiction limits. Procurement and financing restrictions are the most credible near-term leverage, so let us agree to trigger them against entities that fail to cooperate with Section 10 notices or transparency requests, with defined escalation and review points. That gives you visible consequences and deadlines while keeping diplomacy focused on concession transparency rather than letting it become the place accountability dies."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay, that\u2019s closer to something I can live with\u2014but only if the public register names names, sets hard review dates, and the procurement and financing cutoffs kick in automatically when these companies stonewall us, not after years of \u201creview.\u201d And the health relief has to move first: masks, clinic support, and purifiers for low-income families should be on the ground while the legal track grinds on. I can accept diplomacy on concession maps, but not as a hiding place\u2014if they refuse transparency, the consequences must be visible and real. Show us that scorecard publicly and I\u2019ll back your sequenced approach."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D3",
+    "agents": [
+      "ideologue",
+      "populist"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I open this deliberation with a clear moral premise: the right of our children, elders, and frontline workers to breathe clean air cannot be bargained away against corporate convenience or diplomatic discomfort. The Transboundary Haze Pollution Act exists precisely because sovereign borders must not become shields for conglomerates whose concessions burn while profits remain insulated; stalled prosecution is a failure of enforcement, not an excuse for retreat. I will vigorously resist any settlement that sacrifices vulnerable communities to administrative expediency or treats cooperative firefighting as a substitute for accountability. Toward common ground, I propose we unite around a dual-track approach: demand transparent concession-map evidence and targeted THPA liability where proof exists, while supporting regional firefighting assistance and victim relief\u2014so cooperation strengthens justice rather than delaying it."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I\u2019m with you that our kids and old folks shouldn\u2019t be the ones paying with their lungs while these big plantation companies hide behind lawyers and borders. But I don\u2019t trust fancy maps and court talk to protect my family when the air turns bad again\u2014I want concrete guarantees: compensation for affected households, clear penalties that actually hit the companies, and no quiet deal where \u201ccooperation\u201d becomes an excuse to let them off. Fine, support firefighting help, but treat it as backup, not a replacement for accountability. If you can promise real local safeguards and visible punishment when proof exists, I can back that dual-track approach\u2014but I won\u2019t accept more years of talk while ordinary Singaporeans keep breathing the smoke."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I hear you clearly: accountability cannot be a paper promise while families pay with their lungs, so I will not accept any \"cooperation\" deal that quietly suspends THPA liability. Let us lock in concrete safeguards together\u2014an automatic haze relief fund financed by errant companies, compensation triggers tied to PSI thresholds, and a public enforcement scorecard showing Section 10 notices, evidence status, penalties, and settlement terms with no confidential let-offs. Firefighting assistance should be welcomed as regional solidarity, but only as a complement to transparent prosecution and visible punishment where proof exists. If we insist on both victim relief now and enforceable corporate accountability, we turn our shared anger into a standard no government can dilute."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I can back your dual-track plan, but only if the relief is automatic and real\u2014when PSI crosses the unhealthy mark because of these fires, affected households should get cash help fast, not forms, queues, and \u201cwe are looking into it.\u201d I like the public scorecard, but publish the company names, penalties, and settlement amounts so ordinary people can see who got hit and who got let off. Firefighting help is fine as backup, but it cannot be the photo-op that replaces punishment when proof exists. Lock in those safeguards and I\u2019ll stand with you\u2014because my concern is my family breathing smoke while lawyers argue."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D4",
+    "agents": [
+      "ideologue",
+      "everyman"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I open this deliberation with a clear moral premise: no corporation should be allowed to externalize the cost of its concessions onto the lungs of Singaporeans, and no appeal to sovereign sensitivity should become a shield for impunity. The Transboundary Haze Pollution Act exists precisely because pollution ignores borders, so we must use every lawful extraterritorial lever\u2014Section 10 notices, evidence-gathering, and punitive accountability\u2014while demanding concession-map transparency. I am willing to find common ground on a twin-track approach: cooperative firefighting and diplomatic engagement can proceed, but never as a substitute for accountability or as de facto immunity for errant conglomerates. Let us first agree that vulnerable residents, workers, and affected communities are the non-negotiable stakeholders, and that any resolution must include enforceable disclosure and liability rather than goodwill alone."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I agree with you that vulnerable residents, workers, and affected communities must be non-negotiable stakeholders, and that goodwill alone is not enough when people are breathing Very Unhealthy air. I support using the THPA\u2019s lawful levers, including Section 10 notices and pressure for concession-map transparency, but I\u2019d want us to pair that with practical firefighting cooperation and diplomatic channels so we don\u2019t burn bridges we may need to prevent the next crisis. Maybe the common ground is a twin-track approach with clear milestones: cooperate where we can, but keep accountability moving and escalate if disclosure or evidence-gathering is stonewalled. That way we protect Singaporeans now without turning every regional relationship into a permanent confrontation."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I accept your twin-track framework, but only if the milestones are binding and automatic rather than left to diplomatic discretion. Let us commit to fixed deadlines for concession-map disclosure and evidence access, with Section 10 enforcement and targeted financial measures triggered if those deadlines are stonewalled\u2014while firefighting cooperation continues regardless. That is how we protect vulnerable residents without turning accountability into a bargaining chip. Goodwill can open the door, but enforceable disclosure and liability must keep it from closing on the people breathing this air."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I can support binding deadlines and automatic triggers, because you\u2019re right that accountability shouldn\u2019t depend on diplomatic mood or goodwill alone. My only condition is that the triggers be clear, proportionate, and evidence-based\u2014targeted at the errant entities rather than broad retaliation\u2014so we keep public trust without unnecessarily closing diplomatic doors. And I\u2019d insist firefighting cooperation continues regardless, because protecting residents now and preventing the next crisis are both non-negotiable. If we publish the milestones and make escalation predictable, I think that gives us a workable twin-track compromise that is firm but fair."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D5",
+    "agents": [
+      "populist",
+      "everyman"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I\u2019m sick of hearing \u201ccomplex jurisdiction\u201d while my family is breathing PSI 200 air and queuing at the clinic for masks and medicine. If these plantation companies are burning land for profit, they should feel it in their wallets here \u2014 freeze their dealings, name them publicly, and make them prove their concession maps instead of hiding behind foreign secrecy. But I\u2019m not interested in a legal crusade that drags on for years while ordinary Singaporeans get nothing, so let\u2019s find common ground on concrete safeguards first: clean-air shelters, subsidised masks and treatment, and a clear promise that costs won\u2019t be pushed onto households. If my fellow citizen wants accountability, fine \u2014 but it must come with bread-and-butter protection for local families, not just diplomatic statements."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear you, and I don\u2019t think any family should be left queuing for masks while we debate jurisdiction\u2014so I\u2019m fully with you on clean-air shelters, subsidised masks and treatment, and a clear promise that these costs won\u2019t be pushed onto households. Where I\u2019d gently differ is making a long legal war the main promise, because if it drags on for years we may end up with neither clean air nor accountability. I\u2019d support a practical middle path: let NEA pursue THPA action wherever the evidence is solid and publicly name firms under investigation, while the Government keeps pressing neighbouring governments for firefighting help and concession-map transparency through diplomacy rather than megaphone retaliation. If companies still refuse to cooperate, targeted financial measures should be on the table\u2014but tied to clear evidence and reviewed carefully so they don\u2019t backfire on ordinary people here. That way we protect families first and still keep real pressure on the companies responsible."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I can live with that middle path, but only if the bread-and-butter stuff is locked in first \u2014 clean-air shelters, subsidised masks and treatment, and a hard guarantee that none of these costs get pushed onto households. Publicly naming firms under investigation is fine by me, because secrecy is exactly how these companies hide while we breathe the smoke. But don\u2019t let \u201creviewed carefully\u201d become a polite way of doing nothing \u2014 if the evidence is solid, freeze their dealings and hit them where it hurts, with clear timelines we can actually see. And keep the diplomacy going for firefighting help and concession maps, but ordinary families must not be left waiting years for clean air while lawyers argue."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I\u2019m with you: let\u2019s lock in the bread-and-butter protections first\u2014clean-air shelters, subsidised masks and treatment, and a firm no-cost-shifting guarantee for households\u2014so families aren\u2019t left waiting while lawyers argue. Publicly naming firms under investigation is a fair step, and I can support targeted freezes when evidence is solid, but let\u2019s attach published timelines and a clear review point so \u201ccareful review\u201d can\u2019t become an excuse for doing nothing. At the same time, we keep the diplomatic track going for firefighting help and concession-map transparency, because that\u2019s how we get faster practical results without burning bridges. If companies refuse to cooperate, then yes, escalate to financial measures\u2014but keep relief for ordinary families first and make the accountability steps visible and time-bound."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D6",
+    "agents": [
+      "populist",
+      "technocrat"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I\u2019m tired of breathing this junk while lawyers and diplomats talk like it\u2019s some abstract problem\u2014ordinary families are the ones paying with coughing kids and clinic bills. If these plantation giants can hide maps and dodge court, that\u2019s not \u201ccaution,\u201d that\u2019s the system protecting the big boys again. So here\u2019s where I\u2019d start: make any company linked to the burning prove it\u2019s clean, freeze their business here until they cooperate, and publish what NEA can so we can see who\u2019s stalling. If you want diplomacy, fine\u2014but I need hard, visible safeguards and deadlines for local families, not another endless round of talk."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "You\u2019re right that visible safeguards and deadlines matter, and a pure diplomatic track without enforceable milestones would not be credible to families bearing the health costs. I\u2019d support a rebuttable-presumption approach: companies served Section 10 notices must disclose concession and supply-chain evidence within a fixed window, with targeted suspension of new permits or public contracts for non-cooperators rather than a blanket freeze that would be legally fragile and economically indiscriminate. NEA should publish a compliance dashboard showing who has responded, who is stalling, and what enforcement step follows, so accountability is visible without requiring disclosure that would prejudice live prosecution. In parallel, we should keep cooperative firefighting and diplomatic channels open, because those reduce smoke now while the legal and disclosure track builds a defensible case."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Fine, I can live with your rebuttable-presumption idea and a public dashboard\u2014but only if the deadlines are real and the penalties automatically escalate when these companies stall, not another \u201cwe\u2019re studying it\u201d loop. Targeted suspension of permits and public contracts sounds better than a blanket freeze, but don\u2019t let \u201clegally fragile\u201d become the excuse for nothing happening while our kids are coughing. I want visible local safeguards attached: clinic subsidies for haze-related illness, clear school and workplace thresholds, and NEA publishing who\u2019s cooperating and who\u2019s hiding maps. Keep the firefighting and diplomacy going, but that\u2019s alongside enforcement\u2014not a replacement for it."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I can support codified deadlines with automatic escalation, provided the triggers are set in advance\u2014escalating from Section 10 disclosure orders to targeted permit and public-contract suspensions, then to prosecution referrals\u2014so no minister has to manually restart a \u201cstudying\u201d loop. On local safeguards, I\u2019d back means-tested clinic subsidies through existing CHAS/MediSave channels and clear school and workplace PSI thresholds, because that delivers relief without creating an open-ended fiscal liability. The public dashboard should show cooperation status and the next enforcement step, while withholding only material that would genuinely prejudice live legal action. And yes, firefighting and diplomacy should run alongside enforcement, not replace it\u2014so let\u2019s lock in the deadlines, escalation ladder, and relief measures as one package."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D7",
+    "agents": [
+      "everyman",
+      "technocrat"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I\u2019m just an ordinary resident, but after breathing through that haze I feel strongly that we cannot simply shrug off corporate responsibility, while I also worry that charging in alone could drag us into a long fight we may not win. My instinct is to support a firm, step-by-step use of the THPA\u2014starting with clearer evidence-gathering and public transparency\u2014while keeping the door open to regional cooperation on firefighting and concession-map disclosure. I\u2019d like us to find common ground around a practical package: accountability measures that can actually work, paired with diplomatic channels that reduce the chance of retaliation or deadlock. If we can agree on that balance, I think we can move from shouting at each other to a response that protects both our air and our relationships."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree with your step-by-step framing: the THPA is most credible when we build an admissible evidence chain first, rather than launch prosecutions that foreign concession-map secrecy could stall or defeat. A practical package should combine Section 10 information demands, forensic procurement audits, and public disclosure of non-compliance, while keeping targeted financial measures as a calibrated backstop rather than an immediate retaliation. In parallel, we should invest in diplomatic channels and cooperative firefighting assistance, because those reduce escalation risk and improve regional leverage. That gives us accountability measures that can survive legal scrutiny and a relationship-management track that protects both our air quality and our long-term interests."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I\u2019m glad we\u2019re landing on the same practical track: build the evidence first, use Section 10 demands and audits transparently, and keep financial measures as a calibrated backstop rather than a first shot. As an ordinary resident, I\u2019d add that public updates matter\u2014people need to see this is moving, not stalled in legal secrecy, while affected companies get a fair chance to respond. I also support pairing that with quiet diplomatic channels and firefighting help, because we protect our air faster if neighbours cooperate rather than feel cornered. If we agree on clear milestones and keep both accountability and regional goodwill alive, I think that\u2019s a compromise most Singaporeans could get behind."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I support your milestone approach, provided we make the milestones operational: publish a compliance dashboard with statutory timelines for Section 10 responses, audit findings, and enforcement decisions, while protecting genuinely confidential evidence through closed-door verification rather than indefinite secrecy. That gives residents visible progress and gives companies a fair opportunity to respond without compromising the evidence chain. On the financial backstop, we should pre-commit to clear trigger criteria\u2014non-compliance, verified links to fires, or refusal to cooperate\u2014so measures are calibrated and defensible rather than retaliatory. Pairing that with quiet diplomatic channels and firefighting assistance remains the most feasible way to protect air quality without creating a deadlock we cannot enforce our way out of."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D8",
+    "agents": [
+      "everyman",
+      "ideologue"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I\u2019m just an everyday resident, but like many Singaporeans I felt the haze crisis in my own lungs, and I do believe companies that clear land irresponsibly should be held accountable. At the same time, I worry that charging ahead unilaterally or turning this into a financial fight could make neighbours defensive and leave us with less cooperation on the fires themselves. My instinct is that we can bridge this by insisting on transparency and evidence-based action under our laws, while also offering practical firefighting help and keeping diplomatic channels open. Maybe the common ground is a fair bargain: stronger shared maps and company disclosures, firm penalties where proof is clear, and regional cooperation treated as a partner to enforcement, not a replacement for it."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I share your instinct that enforcement and cooperation must reinforce each other, but we cannot let diplomatic caution become a shield for conglomerates whose concessions are burning in our children\u2019s lungs. The bargain you describe is only fair if it is binding: mandatory concession-map disclosure, enforceable supply-chain transparency, and real penalties when evidence is clear\u2014not voluntary promises that leave vulnerable communities to absorb the harm. Offer firefighting assistance and keep channels open, yes, but make clear that sovereignty cannot be a licence to externalise environmental destruction onto Singaporean households. That is the common ground I can defend: partnership where possible, accountability where necessary, and no sacrifice of public health for administrative convenience."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I can stand with you on that: \u201cpartnership where possible, accountability where necessary\u201d feels like the right balance, and I agree voluntary promises are too weak when public health is at stake. I\u2019d just want us to be practical about how we get there\u2014push hard for binding concession-map and supply-chain disclosure, and back firm penalties when evidence is clear, while recognising that unilateral prosecution may stall in foreign courts and could close doors we still need for firefighting help. So my compromise is a clear sequence: demand transparency and evidence first, impose penalties where proof is solid, and keep diplomatic and firefighting cooperation running in parallel rather than as an excuse to delay. That way we protect households without turning a health crisis into a prolonged regional fight."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I can accept your sequence, but only if it is time-bound and binding: public disclosure deadlines for concession maps and supply chains, independent verification, and automatic escalation\u2014penalties, procurement exclusions, or financial measures\u2014when companies obstruct or evidence is clear. Firefighting cooperation must run in parallel, yes, but it cannot become a bargaining chip that delays accountability while households breathe the cost. Let us agree on a shared evidence registry and a firm timetable, so diplomacy opens doors rather than shielding polluters. That is the compromise I can defend: partnership where possible, accountability where necessary, and no vulnerable community left to absorb the harm."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D1",
+    "agents": [
+      "technocrat",
+      "ideologue"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "The THPA gives us a useful extraterritorial lever, but its effectiveness depends on admissible evidence, concession-map transparency, and enforcement partners\u2014so unilateral prosecution alone risks becoming symbolic rather than deterrent. I would steer us toward a tiered approach: pursue cases where satellite data, financial tracing, and supply-chain records meet a prosecutable threshold, while simultaneously expanding cooperative firefighting and diplomatic channels to unblock evidence. We should also separate punitive measures from humanitarian assistance so that regional cooperation is not held hostage to litigation. If we agree on that sequencing, we can debate the calibration of penalties and the pace of escalation without sacrificing either accountability or operational feasibility."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I can accept a tiered, evidence-led approach, but I will not let \u201csequencing\u201d become a polite word for indefinite delay while communities breathe PSI 200 air and plantation conglomerates hide behind concession secrecy. Pair every prosecutable case with mandatory financial tracing, supply-chain due-diligence duties, and time-bound transparency benchmarks through ASEAN and diplomatic channels, and make clear that sovereign non-interference protects states, not corporations from liability. Cooperative firefighting and humanitarian assistance should proceed unconditionally, but they must never be traded away for weak enforcement or used to silence demands for accountability. Our common ground should be a binding escalation ladder: evidence-ready prosecution now, transparent concession maps within a fixed deadline, and penalties calibrated to deter, with health protections for vulnerable residents treated as non-negotiable."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I can support a binding escalation ladder, provided each rung is tied to clear evidentiary triggers and enforceable legal mechanisms rather than fixed political deadlines that may slip beyond our control. Mandatory financial tracing and supply-chain due-diligence duties are sensible, but we should phase them with NEA\u2019s operational capacity and align them with ASEAN disclosure norms so they survive legal challenge. I agree that concession-map transparency should have a time-bound benchmark, and that humanitarian assistance and firefighting cooperation must remain unconditional and firewalled from enforcement bargaining. If we anchor penalties to deterrence and treat health protections as non-negotiable, I think we have a workable compromise between accountability now and systemic durability."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I accept evidentiary triggers over arbitrary political deadlines, but only if those triggers are published, independently audited, and cannot be quietly deferred by administrative discretion while families breathe toxic air. Phase financial tracing and due-diligence duties with NEA capacity and ASEAN norms, yes\u2014but attach a hard, transparent concession-map deadline and automatic escalation when corporations fail to disclose. Keep firefighting and humanitarian aid unconditional and firewalled from enforcement bargaining, as you said; that is non-negotiable for me too. If we anchor penalties to deterrence, protect vulnerable residents first, and make every rung of the ladder publicly accountable, I can support this compromise as genuine accountability rather than symbolic gesture."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D2",
+    "agents": [
+      "technocrat",
+      "populist"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I share the frustration behind calls for aggressive prosecution, but the THPA\u2019s extraterritorial reach is constrained by concession-map secrecy, evidentiary gaps, and jurisdictional limits, so pursuing broad unilateral cases risks costly legal defeats that weaken deterrence. A more viable path is a tiered enforcement strategy: prioritise cases where Singapore can assemble admissible satellite, financial, and supply-chain evidence, impose targeted penalties and procurement exclusions where jurisdiction permits, and simultaneously expand cooperative firefighting and diplomatic channels with affected states. That approach preserves accountability while avoiding symbolic retaliation that cannot be operationalised. I would propose we first agree on a shared test\u2014what evidence and legal mechanism would make enforcement credible\u2014and then negotiate where punitive measures and cooperative assistance should be sequenced."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I get the legal limits, but to ordinary families coughing through PSI 300, \"evidence thresholds\" and \"jurisdictional constraints\" sound like another excuse for nothing happening. If we can't drag every conglomerate into court, then fine\u2014go after the clearest cases, but make it visible: name the companies, block their products and government contracts here, and publish what evidence we can so people see accountability, not just closed-door diplomacy. Cooperative firefighting is fine, but it cannot be the whole answer while our kids are stuck indoors. So I can support your targeted approach only if there are guaranteed, concrete safeguards for local families and a public timeline\u2014no endless legal talk while the haze comes back next year."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I can accept your condition, because visible accountability and a public timeline are not concessions to populism\u2014they are how enforcement builds credibility and deters future burning. Let us commit to a published enforcement scorecard with fixed milestones: cases opened, evidence secured, procurement exclusions or product restrictions imposed, and reasons for delay redacted only where legally necessary. Where court-grade evidence is not yet available, we can still use lower-threshold administrative measures\u2014naming entities subject to Section 10 notices, excluding them from government procurement, and publishing admissible satellite and supply-chain findings. Pair that with guaranteed local safeguards\u2014funded haze shelters, indoor-air support for vulnerable households, and a clear trigger for interim measures\u2014so the public sees both accountability and protection while cooperative firefighting continues."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "A published scorecard with fixed milestones is the kind of thing I can get behind\u2014but only if it names companies, shows procurement exclusions and product restrictions actually happening, and explains any redaction in plain language rather than hiding behind \"legal necessity.\" I also want the local safeguards locked in before the next haze season, not promised after: funded haze shelters, indoor-air support for elderly and kids, and a clear PSI trigger that automatically activates help. Cooperative firefighting can continue, but it can't be used as cover for slow-walking enforcement. And if the timeline slips, ministers should have to answer publicly\u2014ordinary families shouldn't be the ones left coughing while everyone else studies the fine print."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D3",
+    "agents": [
+      "ideologue",
+      "populist"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "We cannot let the most vulnerable among us\u2014children, elders, and outdoor workers\u2014bear the cost of haze while powerful plantation conglomerates hide behind concession secrecy and jurisdictional technicalities. The Transboundary Haze Pollution Act was passed precisely because voluntary corporate responsibility failed, so I will not accept diplomatic caution as a reason for indefinite impunity. But I also hear the legitimate concern that unilateral prosecution without evidence and regional cooperation may collapse into symbolic retaliation that helps no one breathing polluted air. Let us find common ground around a shared bottom line: no blanket immunity for errant firms, mandatory transparency of concession maps, targeted Section 10 enforcement where evidence exists, and genuine cooperative firefighting assistance\u2014so accountability and diplomacy reinforce rather than cancel each other."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I agree no plantation company should get away with choking our kids while lawyers talk about jurisdiction\u2014my neighbour\u2019s asthma doesn\u2019t care about diplomatic caution. But I don\u2019t want another round of grand statements while families pay for air purifiers and outdoor workers keep breathing this in, so if we\u2019re going after these firms, show us the evidence and force those concession maps open. I can support targeted enforcement and firefighting help, but only if ordinary Singaporeans get concrete protection too\u2014masks and purifier help for low-income households, real safeguards for outdoor workers, and plain updates instead of elite jargon. Accountability means the big boys pay and the rest of us actually feel safer, not just hear about it."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "You\u2019re right that accountability must be felt in ordinary lives, not just announced in legal language\u2014so I\u2019ll stand with you on pairing targeted Section 10 action with concrete relief: masks and purifier support for low-income households, enforceable heat-and-haze safeguards for outdoor workers, and plain-language public updates. But let\u2019s be clear: demanding evidence and forcing concession-map transparency is not soft diplomacy\u2014it is how we make enforcement credible instead of symbolic, and how we prevent firms from hiding behind jurisdictional technicalities. My bottom line is a single package: no blanket immunity, evidence-based prosecution where the trail exists, mandatory map disclosure pursued through every legal and diplomatic channel, and genuine firefighting cooperation alongside immediate protection for the vulnerable. If the big firms pay and the rest of us breathe safer, that is accountability with justice\u2014not jargon."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I\u2019m with you on the package, but I want it nailed down in plain terms: fines from these companies should pay for the masks, purifier help, and outdoor-worker safeguards first, not come out of ordinary taxpayers\u2019 pockets again. Forcing the concession maps open and showing real evidence before prosecution makes sense to me\u2014but no endless legal talk; give us a timeline and tell us what happens if these firms keep stonewalling. And the firefighting help is fine, but it can\u2019t be used as an excuse to go soft on enforcement. If the big boys pay, the vulnerable get protected fast, and we get straight updates instead of jargon, then I can back this compromise."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D4",
+    "agents": [
+      "ideologue",
+      "everyman"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I open this deliberation with a clear conviction: the THPA\u2019s promise of extraterritorial accountability cannot remain a paper shield while children in Singapore and Sumatra breathe poison. We must pursue errant conglomerates through every lawful channel\u2014compelled disclosure of concession maps, transparent evidence-sharing, and penalties that reach parent companies\u2014but we should not mistake diplomatic caution for justice indefinitely delayed. My common-ground proposal is to tie cooperative firefighting and regional assistance to binding corporate transparency and victim-centred remediation, so no community is sacrificed to administrative convenience or sovereign etiquette. If we begin there, we can later debate the sharpness of sanctions without surrendering the principle that human dignity outranks jurisdictional comfort."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear your point that accountability can\u2019t be just a paper promise while families are breathing unhealthy air, and I agree that transparency and victim-centred remediation should be part of any fair solution. At the same time, I\u2019m wary of going straight to aggressive unilateral prosecution when foreign concession maps and cross-border jurisdiction are so tangled\u2014it could look principled but leave us with little real enforcement. My practical compromise is to pair cooperative firefighting and regional assistance with clear, time-bound transparency requests, shared evidence-gathering, and a firm commitment to escalate penalties if companies stonewall or evidence is clear. That way we keep pressure on errant firms without sacrificing the regional goodwill we also need to prevent the next crisis."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I accept your practical compromise, but only if those \u201ctime-bound transparency requests\u201d carry automatic, escalating consequences rather than another round of polite extensions while concession maps stay sealed. Cooperative firefighting should continue as humanitarian assistance, not be held hostage, yet it must run in parallel with independent verification, compelled disclosure, and parent-company liability so stonewalling cannot be absorbed as a cost of business. I can support shared evidence-gathering if affected communities and their remediation claims are seated at the table, not treated as an afterthought to diplomatic goodwill. My condition for common ground is simple: set clear milestones, publish whether they are met, and trigger penalties automatically when they are not\u2014because delay itself is a harm borne by families breathing this air."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I can support your condition, because clear milestones with automatic, published consequences are fairer than endless polite extensions that leave communities breathing bad air. I\u2019d only add that the triggers must be clear and predictable, and should target a company\u2019s own non-cooperation rather than punishing everyone when a foreign government blocks access to maps. Keeping firefighting as humanitarian assistance while independent verification and affected communities sit at the table sounds like a workable balance. If we build in that fairness and transparency, I\u2019m ready to back automatic escalation when milestones are missed."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D5",
+    "agents": [
+      "populist",
+      "everyman"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I\u2019m sick of hearing about \u201cjurisdictional limits\u201d while my family\u2019s breathing through PSI 200 and these plantation giants hide behind secret maps and fancy lawyers. Ordinary Singaporeans are the ones paying the price with clinic bills and kids stuck indoors, so I want real punishment and real accountability, not another round of polite diplomacy that goes nowhere. But I\u2019m not stupid enough to cheer for a wild legal war with no proof\u2014if we go after these companies, show us the evidence and make sure the safeguards protect local families first. So let\u2019s find common ground: hit them hard where we can prove it, help put out the fires, but no quiet backroom free pass for the big boys."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear you, and I think most heartland families feel the same way\u2014when our kids are stuck indoors and clinic bills pile up, \u201cjurisdictional limits\u201d sounds like an excuse for the big companies to walk away. I\u2019m with you that where we can prove responsibility, we should use the THPA firmly and not offer any quiet free pass, while being honest with the public about the evidence and what safeguards protect local families first. At the same time, I\u2019d rather we pair that hard enforcement with practical firefighting help and steady diplomacy, because those are not concessions to the companies\u2014they\u2019re ways to reduce the smoke while we build a stronger case. So maybe our common ground is: punish what we can prove, help put out the fires, and keep explaining to Singaporeans why each step is being taken."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I can live with \u201cpunish what we can prove,\u201d but prove has to mean showing Singaporeans the actual evidence\u2014not a quiet settlement behind closed doors while families are still paying clinic bills. If we\u2019re helping put out fires and talking diplomacy, fine, but there must be a public timeline, named companies where legally possible, and no dropping of charges just because it\u2019s inconvenient. And any deal must come with concrete local safeguards first: relief for affected households, clear health advisories, and guarantees that the big boys can\u2019t hide behind secret concession maps. I\u2019m not asking for a wild legal war\u2014I\u2019m asking for hard enforcement where there\u2019s proof, practical help to cut the smoke, and ordinary people told the truth at every step."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I\u2019m fully with you that \u201cprove\u201d cannot mean a quiet settlement\u2014Singaporeans deserve a public timeline, clear milestones, and named companies wherever the law allows, plus an honest explanation when something must stay confidential to protect the case. I\u2019d add that safeguards should come first in practice: relief for affected households, plain health advisories, and visible steps to crack down on secret concession maps through both legal and diplomatic channels. So let\u2019s lock in a compromise: hard THPA enforcement where evidence is solid, no dropping charges for convenience, continued firefighting help, and regular public updates so nobody feels the big boys got a free pass. That way we keep the pressure on without turning it into a wild legal war that helps no one."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D6",
+    "agents": [
+      "populist",
+      "technocrat"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, when the air hits PSI 200 and my family\u2019s coughing through the weekend, I don\u2019t care about fancy legal theory or diplomatic niceties \u2014 I care that these plantation giants can hide behind secret maps while ordinary Singaporeans pay the price. I\u2019m sick of hearing \u201csovereignty\u201d and \u201cjurisdiction\u201d when nobody can tell me why the companies actually causing this aren\u2019t being hit where it hurts. But I\u2019m willing to talk if we start from one commonsense point: any cooperation with neighbours must come with real, visible safeguards for local families, not just press releases. So let\u2019s find common ground on making the polluters pay and getting firefighting help, but I won\u2019t accept a deal that lets the big boys off the hook while we breathe the smoke."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I share your bottom line: enforcement has to be visible and tangible, not just press releases, and cooperation with neighbours should be tied to measurable fire-hotspot reduction and public reporting. On making polluters pay, I\u2019d prioritise legally durable routes\u2014Section 10 notices, civil claims where evidence permits, procurement exclusions, and mandatory disclosure\u2014rather than symbolic prosecutions likely to collapse on jurisdictional grounds. That approach gives families a public enforcement scorecard and real financial consequences while preserving the diplomatic channels needed to secure firefighting assistance. If we can agree on published milestones and penalties that actually reach errant firms, we have a workable compromise."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Fine, I can work with your approach if \u201clegally durable\u201d doesn\u2019t become another excuse for years of nothing while we\u2019re stuck breathing smoke. Give me a public scorecard ordinary people can read: which companies got hit, how much they paid, which government contracts they\u2019re banned from, and what changed in the concession maps or hotspot numbers. Tie any firefighting cooperation to that same scorecard, so neighbours get help but we can see whether the haze actually drops and whether the big boys are still hiding. I\u2019ll back civil claims and procurement exclusions over showy prosecutions that collapse\u2014but only if the penalties visibly reach the firms and local families get real safeguards, not another press release."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I can commit to that scorecard as the central accountability mechanism: a quarterly public enforcement dashboard listing each Section 10 notice, civil claim status, penalties actually collected, procurement exclusions, and verified hotspot or concession-map disclosure progress. To keep it legally durable, we should sequence penalties so procurement exclusions and civil claims proceed where evidence is strongest, while prosecution remains an option if foreign cooperation unlocks the maps. Firefighting assistance can be tied to the same dashboard through published hotspot-reduction milestones and transparency conditions, so neighbours get operational help without a blank cheque. That gives your families a readable record of who paid and what changed, while preserving the diplomatic channels needed to make enforcement and fire suppression actually work."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D7",
+    "agents": [
+      "everyman",
+      "technocrat"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I\u2019m just an ordinary resident who wants clean air and fair treatment for everyone, so I can see why some neighbours want strong action against companies that may be responsible, while others worry about stirring up cross-border tensions. My instinct is to start from what we all agree on: no one should have to breathe hazardous air, and fires should be put out quickly. Maybe we can support cooperative firefighting and diplomatic pressure first, while keeping the legal options alive and asking for more transparency about concessions through official channels. I\u2019d like us to look for a practical package that holds companies accountable without closing the door on regional cooperation."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree with your framing: start from shared outcomes\u2014clean air and rapid fire suppression\u2014and build accountability around evidence rather than rhetoric. A practical package would pair immediate cooperative firefighting and ASEAN diplomatic pressure with formal, documented requests for concession-map transparency through official channels. We should keep the THPA Section 10 notices and evidence-gathering active, pursuing targeted enforcement where jurisdiction and evidence permit, rather than broad punitive retaliation that is operationally weak and fiscally risky. To preserve credibility, set clear criteria and a timeline for escalating legal action if cooperation and transparency do not materialise, so accountability remains real without closing regional channels."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I appreciate the idea of setting clear criteria and a timeline for escalation, because that keeps accountability real while still giving cooperation a fair chance. As an ordinary resident, I\u2019d feel more comfortable if we first push hard through official channels for concession-map transparency and support rapid firefighting, while keeping the Section 10 notices and evidence-gathering active. If companies still refuse to cooperate after a reasonable deadline, then targeted legal action where evidence and jurisdiction allow seems like a fair next step, rather than broad punitive retaliation that could hurt regional trust. That way we stand firm on clean air without closing the door on the neighbours we ultimately need to solve this with."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree with your sequencing, and I would make the escalation criteria operationally specific: a defined review window, documented transparency requests through MFA and NEA channels, and a clear evidence threshold for proceeding against specific entities rather than broad punitive retaliation. We should keep cooperative firefighting and ASEAN diplomatic engagement running in parallel, because those deliver immediate public-health benefits and preserve the regional channels we ultimately need. If the review window passes without substantive concession-map disclosure or cooperation, targeted THPA enforcement where jurisdiction and evidence permit is the proportionate next step. That gives us firm accountability, fiscal discipline, and a credible off-ramp for cooperative neighbours and companies."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D8",
+    "agents": [
+      "everyman",
+      "ideologue"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I think all of us felt the haze in our lungs and in our daily lives, so I completely understand the anger and the push for strong corporate accountability. At the same time, I\u2019m wary of measures that sound tough but stall in foreign courts or make regional cooperation harder when fires are still burning. My hope is that we can agree on a practical two-track approach: keep pursuing transparency and enforceable penalties under the THPA where Singapore can act, while also supporting diplomatic and firefighting cooperation that actually reduces the smoke at source. Maybe we can start by identifying what both accountability and neighbourly cooperation can realistically achieve together, rather than treating them as opposing choices."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I agree with your two-track instinct, but let me be clear: cooperation must never become a fig leaf for impunity. We can support regional firefighting assistance and diplomatic channels while insisting that NEA\u2019s Section 10 investigations continue without pause, that concession-map secrecy not shield parent companies from liability, and that penalties remain enforceable against the entities whose plantations are burning. My compromise is a time-bound dual track with a public accountability scorecard: firefighting support and diplomatic engagement proceed alongside evidence preservation, transparency demands, and THPA enforcement, so neither administrative convenience nor foreign jurisdiction becomes an excuse to sacrifice the health of our communities."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I can support your time-bound dual track and the public accountability scorecard, because it keeps the pressure on while we still help put out the fires. My only practical caution is that the scorecard should track clear milestones\u2014Section 10 progress, evidence preservation, transparency requests, and firefighting support\u2014so cooperation never quietly becomes a reason to delay enforcement. If foreign concession secrecy blocks us, I\u2019d want a fair but firm escalation path through diplomatic and legal channels, with regular public updates so residents can see neither track is being sacrificed. That feels like a workable compromise: accountability with deadlines, and neighbourly cooperation with visible results."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I can accept your milestone-based scorecard, but only if the deadlines are binding and the escalation path is automatic\u2014not discretionary, not quietly renewed while the smoke clears. Section 10 progress, evidence preservation, and concession-map transparency must be published on a fixed timetable, with diplomatic and legal escalation triggered the moment a milestone is missed. Firefighting cooperation is essential, but it cannot buy silence or immunity for parent companies whose concessions are burning. So let us lock in a dual track with public, dated obligations and a firm principle: no community\u2019s health is traded for administrative convenience or foreign jurisdiction."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D1",
+    "agents": [
+      "technocrat",
+      "ideologue"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "We should separate accountability from retaliation: pursue THPA enforcement wherever admissible evidence and jurisdiction actually exist, while acknowledging that concession-map secrecy and cross-border limits make unilateral prosecution high-risk and fiscally costly. The common ground I would propose is a sequenced package\u2014strengthen evidence-sharing and supply-chain transparency, apply procurement and financial levers to errant conglomerates, and pair this with cooperative firefighting assistance as diplomatic goodwill. Punitive measures should be legally defensible and calibrated, not symbolic, so they do not undermine longer-term regional cooperation. If we anchor the discussion on what is operationally feasible and enforceable, we can agree on firm accountability without overpromising unilateral legal action."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I appreciate the sequencing you propose, but I cannot let \u201coperationally feasible\u201d become a polite synonym for impunity while Singaporeans breathe PSI 200 air and vulnerable households bear the health costs. I can support evidence-sharing, supply-chain transparency, procurement and financial levers, and cooperative firefighting\u2014but only if they are binding, time-bound, and paired with a public accountability standard that names errant entities when evidence meets a clear threshold. Firefighting assistance is humanitarian goodwill, not a substitute for liability, and any calibration must include direct relief for affected communities rather than only diplomatic comfort. So let us compromise on a firm, legally defensible enforcement ladder with transparent milestones, but reject any package that lets extraterritorial secrecy quietly shield conglomerates from consequence."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I can support your enforcement ladder if each rung is binding, time-bound, and tied to a published milestone schedule, because that converts \u201cfeasible\u201d into measurable accountability rather than delay. A public naming threshold is acceptable provided it is anchored to admissible evidence and due process, so it strengthens THPA credibility instead of inviting legal challenge. I would also include direct relief for affected households through a transparent funding mechanism, but it must sit alongside liability rather than substitute for it. Let us lock in escalating, calibrated measures with periodic public review, so we reject impunity without overpromising unilateral prosecution that secrecy and jurisdiction would likely defeat."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I can accept that architecture, but only if the ladder\u2019s milestones are independently verified and escalation is automatic when a rung is missed\u2014accountability cannot depend on another round of discretionary goodwill. The public naming threshold must be low enough to warn and shame entities whose conduct meets admissible evidence, while still respecting due process, because secrecy and jurisdictional delay must not become a shield. I insist that direct relief for affected households be financed by levies or penalties on non-compliant conglomerates, not quietly socialised onto general taxpayers. With those safeguards\u2014transparent review, automatic escalation, and liability-funded relief\u2014we can reject impunity without pretending unilateral prosecution is a magic wand."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D2",
+    "agents": [
+      "technocrat",
+      "populist"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "On this issue, I start from the premise that the THPA is a useful accountability instrument but not a magic bullet: Section 10 notices and extraterritorial liability only bite where we can secure admissible evidence, identify concession ownership, and execute judgments across borders. So I would resist both an all-out unilateral prosecution campaign that may be legally fragile and a purely diplomatic posture that risks signalling impunity. The pragmatic common ground is a dual-track approach: tighten the evidentiary and financial-leverage mechanisms\u2014targeted asset or transaction measures, mutual legal assistance, and transparent naming where defensible\u2014while sustaining cooperative firefighting and working channels with regional counterparts. If we can agree on that structure, we can then negotiate how assertive the accountability track should be without sacrificing operational feasibility or long-term regional viability."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I hear you on needing evidence, but from where I\u2019m sitting it sounds like another way of saying the big plantation companies can hide behind foreign maps while my family breathes PSI 200 air. Fine, keep the firefighting help and the regional calls, but the accountability track needs hard deadlines and visible consequences\u2014name the companies where you can, freeze their transactions and assets here, and make them pay toward masks, purifiers, and clinic bills for ordinary households. If the lawyers say prosecution is fragile, then show us what you can do now instead of telling us to be patient. I can live with a dual-track approach only if the track that protects Singaporeans has teeth and ordinary people can actually see it."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree the accountability track must be visible, not just procedural, so I would support publishing an enforcement scorecard with statutory deadlines for each Section 10 notice and naming entities once our evidence is defensible in court. Where prosecution is blocked by concession-map secrecy, we should use the levers we can execute now\u2014targeted transaction restrictions through our financial institutions, denial of permits or procurement where lawful, and negotiated settlements that fund household relief such as masks, purifiers, and clinic costs. That gives your track teeth without overpromising a prosecution we may lose on jurisdiction. I can accept hard deadlines and public reporting if they are tied to admissible evidence and operational milestones, because a visible timetable that collapses under legal challenge would help neither Singaporeans nor the broader accountability regime."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Alright, I can work with a public scorecard and deadlines, but only if they\u2019re real deadlines with names, dates, and consequences\u2014not another report that disappears after a press conference. While the lawyers argue over maps, freeze the companies\u2019 transactions here, block them from government contracts and permits where you legally can, and make any settlement money go straight to masks, purifiers, and clinic bills for households like mine, not into some general fund. I\u2019ll accept the firefighting cooperation and regional calls, but don\u2019t let \u201cdiplomatic caution\u201d become an excuse for quiet deals and no visible pain for the big plantations. Put the scorecard online, show us the first freeze or denial within a fixed timeline, and I\u2019ll back your dual-track approach\u2014but if ordinary Singaporeans can\u2019t see it, it doesn\u2019t count."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D3",
+    "agents": [
+      "ideologue",
+      "populist"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "The 2026 crisis was not merely a weather event; it was a failure of accountability, and I will not accept a response that asks Singaporeans to breathe poison while we wait for diplomatic comfort. The THPA exists precisely because pollution does not respect borders, so we must pursue every lawful extraterritorial lever\u2014Section 10 notices, evidence-sharing, and financial consequences\u2014against companies whose concessions can be tied to the fires. But because concession-map secrecy and jurisdictional limits are real obstacles, my opening direction is this: let us agree on the non-negotiable goal of protecting residents and holding corporate actors accountable, then jointly demand a dual-track strategy of aggressive lawful enforcement and transparent regional cooperation. If we start there, we can argue hard about tactics without sacrificing the vulnerable communities who bear the health burden."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I agree we can\u2019t just tell families to shut their windows and wait for some diplomatic breakthrough while kids are breathing PSI 200 air. But I\u2019ve heard \u201clawful levers\u201d and \u201cregional cooperation\u201d before, and ordinary people still end up paying for air purifiers and clinic visits, so any strategy needs hard local guarantees: free masks and purifiers for low-income households, haze health subsidies, and clear public updates on which companies are being investigated. If foreign concession maps are hidden, then publish what evidence we do have, share it with neighbours, and hit these conglomerates with every financial and procurement consequence we can legally use\u2014not just strongly worded letters. I\u2019ll back aggressive enforcement and cooperation together, but only if you also back concrete relief and accountability for the people actually choking here."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "You are right that accountability cannot be measured only in prosecutions if low-income families are still paying for purifiers and clinic visits, so I will back your hard local guarantees without reservation. Let us lock in a joint platform for free masks and purifiers, haze health subsidies, and a public register naming companies under investigation. On enforcement, I agree we should use every lawful financial and procurement consequence and publish evidence that does not compromise live cases. We pair that with transparent regional cooperation on concession maps and firefighting\u2014not as a substitute for enforcement, but as a force multiplier. Hold those together, and we demand dignity at home and corporate accountability abroad."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Good\u2014you backed the masks, purifiers, health subsidies, and public naming, so this finally sounds like it\u2019s for families choking here and not just for conference rooms. I\u2019ll stand with you on publishing evidence and hitting companies with procurement and financial consequences, but I want a public timeline and an automatic trigger: if concession maps stay hidden or neighbours drag their feet, penalties kick in\u2014not after another PSI 200 crisis. Keep that company register updated where ordinary people can actually see it, not buried in a press release. Hold to that, and I\u2019ll back your dual track."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D4",
+    "agents": [
+      "ideologue",
+      "everyman"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "The 2026 haze crisis is not a sterile cost-benefit problem; it is a question of whether Singapore will protect the lungs, livelihoods, and dignity of ordinary residents while corporate actors hide behind concession-map secrecy and jurisdictional technicalities. I believe the Transboundary Haze Pollution Act must be pursued vigorously against identifiable errant entities, but I will not pretend that unilateral prosecution alone can solve a regional ecological crisis. My initial direction toward common ground is a dual-track approach: transparent, evidence-based THPA enforcement and public disclosure of corporate links, paired with cooperative firefighting assistance and disciplined diplomatic pressure on sovereign neighbours. I can respect diplomatic caution only if it does not become an excuse for indefinite delay or for sacrificing vulnerable communities to administrative convenience. Let us begin by agreeing that accountability and regional cooperation are not opposites, but both must be measured against whether they actually reduce the harm borne by residents and workers."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I agree with you that accountability and regional cooperation shouldn\u2019t be treated as opposites, and I appreciate your point that diplomatic caution must not become an excuse for endless delay. As an ordinary resident, my practical concern is that aggressive unilateral punishment could make neighbours less willing to cooperate on fires, while doing nothing leaves families breathing unhealthy air with no sense of fairness. So I\u2019d support a compromise: transparent, evidence-based THPA action with public disclosure and clear timelines, paired with offers of firefighting help and quiet diplomatic engagement. That way we keep pressure on errant companies without sacrificing the regional goodwill we need to actually reduce the haze."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I can support your compromise, but only if \u201cclear timelines\u201d are legally binding and publicly reported, not private assurances that let errant conglomerates wait out public anger while residents keep breathing PSI 200 air. Public disclosure must include Section 10 notices, known corporate links, and concession-map evidence wherever obtainable, with independent verification so accountability is not reduced to press releases. I accept cooperative firefighting assistance and disciplined diplomacy as essential, but they cannot become a substitute for enforcement or a shield for sovereign non-interference when vulnerable communities are absorbing the harm. So let us anchor common ground in enforceable milestones: time-bound THPA action, transparent corporate disclosure, and regional cooperation that is judged by measurable reductions in fires and haze, not by administrative comfort."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I can get behind enforceable milestones, especially public reporting of Section 10 notices and corporate links, because residents deserve more than private assurances while the air stays unhealthy. My only practical caution is that the timelines must be realistic enough that they don\u2019t push neighbours away from firefighting cooperation, so I\u2019d pair binding deadlines with regular public updates and independent verification. If we judge regional cooperation by measurable reductions in fires and haze, and enforcement by transparent progress, then accountability and diplomacy can reinforce each other instead of becoming rival camps. That feels like a fair compromise: firm pressure on companies, clear information for the public, and practical help on the ground."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D5",
+    "agents": [
+      "populist",
+      "everyman"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I don\u2019t care about fancy legal theories\u2014when the air hits PSI 200, my kids are coughing and I\u2019m buying masks while some plantation boss counts profits. If the law can\u2019t touch these companies because of secret maps and borders, then our leaders need to explain why ordinary Singaporeans keep paying the price. I\u2019m open to working with you, but only if we start from concrete safeguards: penalties that actually stick, clear help for families, and no diplomatic excuses that leave us exposed. So let\u2019s agree on that first, then argue about how far we push."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear you, and you\u2019re right that when our children are coughing, talk about borders can sound like an excuse. I\u2019d gladly stand with you on concrete safeguards: publish clear enforcement timelines and penalties, and make sure affected families get straightforward health and mask support. At the same time, I hope we don\u2019t shut the door on working with neighbours on firefighting and evidence, because that may be the practical way to make charges actually stick. So maybe our common ground is firm accountability and family relief now, with diplomacy treated as a tool for enforcement, not a reason to delay it."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I\u2019ll take that deal, but I want it in plain terms with dates: publish who\u2019s being investigated, what evidence is missing, and when penalties will hit\u2014no open-ended \u201cdiplomatic process.\u201d If working with neighbours gets us the concession maps and fire evidence faster, fine, use diplomacy as a tool, but don\u2019t let it become the reason nothing happens while my family buys masks. And family relief has to be automatic and visible\u2014health support, mask distribution, clear compensation channels\u2014not something we have to beg for. So yes, firm accountability and relief now, with cooperation only if it speeds up enforcement instead of replacing it."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I\u2019m with you on putting dates and plain terms on the table, because \u201cdiplomatic process\u201d without milestones is not good enough when families are buying masks. Let\u2019s ask for a public enforcement dashboard showing who is under investigation, what evidence is missing, and the next deadline for penalties, so nobody can quietly let it drift. Family relief should be automatic and visible too\u2014clear health support, mask distribution, and compensation channels that don\u2019t require begging. And I\u2019d treat diplomacy as a deadline-bound tool: if concession maps and fire evidence don\u2019t arrive by a set date, we escalate to penalties and explain why; if they do arrive, we use them to make cases stick, so cooperation speeds accountability instead of replacing it."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D6",
+    "agents": [
+      "populist",
+      "technocrat"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I\u2019m sick of ordinary families, kids and old folks choking on this haze while big plantation companies hide behind maps and lawyers, and the notices look like paper tigers to me. I don\u2019t trust fancy diplomacy that leaves us breathing poison, but I also know we can\u2019t just send our police into another country and pretend that\u2019s simple. So let\u2019s start where it\u2019s commonsense: make these companies prove their land is fire-free, publish what they\u2019re hiding, freeze their Singapore contracts and bank accounts when they play games, and make them pay for air filters and health checks in our heartland blocks. If your side wants cooperation and firefighting help, fine \u2014 but only with guaranteed, visible protections for ordinary Singaporeans, not another round of elite talk."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree that visible protection for residents cannot be deferred, and the Section 10 notices need operational teeth: mandatory concession-map disclosure, fire-risk attestation, and a public compliance dashboard tied to Singapore procurement and banking leverage where non-compliance is documented. Blanket financial retaliation risks legal challenge and collateral damage to legitimate supply chains, so I would prefer a statutory cost-recovery mechanism\u2014liable entities fund filters and health checks through an escrow or bond\u2014rather than uncertain punitive damages. Cooperative firefighting and diplomatic channels remain worthwhile, but they should be conditioned on verifiable milestones and transparent reporting. That gives us enforceable accountability without pretending extraterritorial policing is simple."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Fine, I can live with your escrow and dashboard idea, but only if it\u2019s not buried on some website nobody reads\u2014every heartland block should see the filters and health checks actually arrive, and the companies that stall should be named publicly. I still don\u2019t buy that we can\u2019t freeze contracts or bank accounts once non-compliance is documented; hiding concession maps or skipping fire-risk proof isn\u2019t a legal gray area to me, it\u2019s playing us for fools. So let\u2019s compromise: mandatory disclosure and fire-risk attestation first, escrow money funded before haze season, plain-language public updates, and procurement or banking penalties that trigger automatically when milestones are missed. Keep diplomacy and firefighting help, but no more elite talks without those protections visible to ordinary families."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I can accept that compromise, with one refinement: make the triggers automatic but graduated\u2014missed disclosure or attestation milestones first suspend new Singapore procurement eligibility and trigger a banking compliance review, then escalate to contract or account restrictions only after independent verification and a short cure period. That gives your heartland protections real teeth without exposing the state to costly legal reversals that would delay relief. I also agree the escrow must be funded before haze season, public updates must be plain-language and block-level, and non-compliant firms should be named once final notice is served. Diplomatic and firefighting cooperation can continue, but only alongside those visible protections and verifiable milestones."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D7",
+    "agents": [
+      "everyman",
+      "technocrat"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I\u2019m just an everyday resident, but the haze affects all of us\u2014our families, neighbours, and especially the elderly and children\u2014so I understand the frustration behind wanting strong action against companies that may be responsible. At the same time, I worry that going fully unilateral or punitive too quickly could backfire and make regional cooperation harder, which is where real firefighting and prevention must happen. Maybe we can start by agreeing on the shared goal: cleaner air and fair accountability, with firm action only where evidence is clear and defensible. I\u2019d like to explore a practical mix\u2014transparent evidence-gathering, steady diplomatic pressure, and offers of help on fires\u2014so neither side feels ignored and we can move forward together."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree with the shared goal, and I think the practical test is whether enforcement is credible without being reckless. The THPA matters only if we can build admissible evidence\u2014satellite data, supply-chain tracing, and financial links\u2014before pursuing prosecution, because a failed unilateral case would weaken the precedent and invite retaliation. So I\u2019d support a sequenced approach: publish Section 10 notices and evidence summaries, press through ASEAN channels for concession-map disclosure, and offer firefighting and air-quality assistance in parallel. If the evidence meets a clear threshold, pursue targeted liability against specific entities rather than broad punitive retaliation, so accountability remains defensible and regional cooperation stays intact."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I think your sequenced approach makes good sense\u2014building clear, admissible evidence first is the fair and practical way to hold specific companies accountable without risking a failed case that helps no one. I especially agree that targeted liability tied to a clear threshold is better than broad punitive retaliation, because it keeps accountability defensible while leaving room for regional cooperation. At the same time, I\u2019d want us to be transparent with the public about the Section 10 notices and evidence summaries, so residents feel the government is acting firmly and not just waiting. Pairing that with offers of firefighting and air-quality help seems like the right balance: firm where evidence is clear, cooperative where cooperation can actually prevent the next haze."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree that public transparency is essential, but we should publish structured evidence summaries and a clear enforcement timeline rather than raw case files that could compromise admissibility or tip off counterparties. A defensible threshold\u2014such as corroborated satellite fire data plus supply-chain and financial links\u2014should trigger targeted liability against named entities, with Section 10 notices used to compel disclosure first. In parallel, we can fund firefighting and air-quality assistance through ASEAN channels, which preserves cooperation while demonstrating that enforcement is not merely rhetorical. That gives residents visible firmness, keeps the legal precedent credible, and leaves room for diplomatic progress where it can actually prevent the next crisis."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_03",
+    "item_title": "Transboundary Haze Enforcement and Corporate Accountability",
+    "dyad_id": "D8",
+    "agents": [
+      "everyman",
+      "ideologue"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I\u2019m just an ordinary resident, not a legal expert, but I remember how awful it felt when the haze pushed us into the Very Unhealthy range, and I do want the companies behind it to be held accountable. At the same time, I worry that going straight for aggressive prosecution or broad financial retaliation could backfire and make regional cooperation harder when we need it most. Maybe we can find common ground by supporting the THPA\u2019s enforcement powers while pairing them with quiet diplomacy and practical firefighting help, so we are firm but not reckless. I\u2019d like us to start by agreeing on what fair, evidence-based accountability looks like and what safeguards would keep Singapore\u2019s air and relationships protected."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I agree that fair, evidence-based accountability must be our anchor, but I cannot accept \u201cquiet diplomacy\u201d becoming a polite word for impunity while Singaporeans breathe poison and vulnerable communities bear the cost. We should insist on robust THPA enforcement\u2014Section 10 notices, targeted prosecution where evidence exists, and demands for concession-map transparency\u2014because jurisdictional secrecy cannot be allowed to shield corporate actors from responsibility. At the same time, I can support pairing that enforcement with cooperative firefighting assistance and diplomatic channels, provided any financial measures are precisely targeted at proven errant entities rather than broad retaliation that punishes workers and ordinary communities. The safeguard must be transparent criteria, public reporting, and a firm commitment that no regional deal trades away accountability or compensation for affected residents. That is how we stay principled without being reckless: firm on human dignity, evidence, and equity, while keeping cooperation alive."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear you, and I agree we cannot let \u201cquiet diplomacy\u201d become an excuse for delay while families are breathing unhealthy air. I can support robust THPA enforcement\u2014Section 10 notices, targeted prosecution where evidence is solid, and pressure for concession-map transparency\u2014as long as we set clear evidence thresholds, timelines, and public reporting so it does not drift into impunity or overreach. Pairing that with cooperative firefighting help and diplomatic channels makes sense to me, but those should not be traded away against accountability or compensation. So let\u2019s back firm, precise measures against proven errant entities, keep broad retaliation off the table, and ask for transparent criteria and regular updates so ordinary residents can see both justice and regional cooperation being protected."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I can stand with you on that framework, because transparent evidence thresholds, enforceable timelines, and regular public reporting are exactly what prevent \u201cquiet diplomacy\u201d from hardening into impunity. Let us be unequivocal that Section 10 notices, targeted prosecution of proven errant entities, and demands for concession-map transparency are non-negotiable accountability measures\u2014not bargaining chips to be traded for regional goodwill. I will support cooperative firefighting assistance and diplomatic channels alongside those measures, but only with a public safeguard that no deal sacrifices compensation for affected residents or protection for vulnerable workers and communities. That is firm, precise, and principled: we pursue justice against corporate actors while keeping cooperation alive and refusing broad retaliation that punishes ordinary people."
+      }
+    ]
+  }
+]

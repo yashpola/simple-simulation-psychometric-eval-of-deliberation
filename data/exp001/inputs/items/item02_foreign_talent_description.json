@@ -1,0 +1,14 @@
+{
+  "item_id": "ITEM_02",
+  "title": "Foreign PMET Salary Thresholds and Local Career Progression",
+  "topic_prompt": "Singapore balances its role as a regional corporate and tech headquarters hub requiring specialized global talent against domestic mid-career PMET anxieties over fair hiring, wage suppression, and leadership pipelines. One participant champions economic openness and global talent access, while the other prioritizes citizen worker protection and knowledge transfer. Deliberate to find common ground.",
+  "ballot": {
+    "options": {
+      "A": "Implement a transparent points-based framework (COMPASS) that evaluates candidate salary benchmarks against local PMET percentiles while scoring firms on nationality diversity and local PMET employment share, balancing global talent access with safeguards for a strong local core.",
+      "B": "Immediately freeze all Employment Pass issuances and cap existing foreign talent renewal quotas, prioritizing status-quo job protection even if multinational corporations relocate regional operations.",
+      "C": "Completely abolish salary benchmarks and hiring ratios to let unfettered market supply determine labor costs, dismissing local worker anxieties as unavoidable frictions of globalization.",
+      "D": "Mandate invasive public naming-and-shaming of foreign HR managers and blame multinational hiring syndicates entirely for domestic wage stagnation without improving local training pipelines."
+    },
+    "correct_key": "A"
+  }
+}

@@ -14,6 +14,8 @@ import json
 import os
 import re
 import shutil
+import time
+from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Union
 
@@ -28,13 +30,15 @@ from src.schemas import (
     PolicyItem,
     DeliberationTranscript,
     DyadBallotRecord,
-    PsychometricResults
+    PsychometricResults,
+    ExecutionMetadata,
 )
 from src.llm import get_llm_client
 from src.deliberation import conduct_deliberation
 from src.ballot import administer_dyad_ballot
 from src.psychometrics import analyze_experiment_psychometrics
 from src.report import generate_markdown_report
+from src.transcripts_pdf import convert_transcripts_to_pdf
 
 
 def get_next_experiment_dir(base_dir: str = "data") -> Path:
@@ -83,13 +87,18 @@ def _save_base_artifacts(
     transcripts: List[DeliberationTranscript],
     all_ballots: List[DyadBallotRecord],
 ) -> None:
-    """Save base simulation artifacts (config, items, transcripts, ballots) for diagnostics and analysis."""
-    # (a) Config Snapshot
-    with open(exp_dir / "config.json", "w", encoding="utf-8") as f:
+    """Save base simulation artifacts into organized subdirectories:
+    - inputs/: config.json, items/
+    - model_outputs/: transcripts/, ballots.json
+    """
+    # (a) Inputs Subdirectory
+    inputs_dir = exp_dir / "inputs"
+    inputs_dir.mkdir(parents=True, exist_ok=True)
+
+    with open(inputs_dir / "config.json", "w", encoding="utf-8") as f:
         json.dump(config, f, indent=2)
 
-    # (b) Battery Items Snapshot
-    items_out_dir = exp_dir / "items"
+    items_out_dir = inputs_dir / "items"
     items_out_dir.mkdir(parents=True, exist_ok=True)
     for item_path in config.get("items", []):
         src_p = Path(item_path)
@@ -101,8 +110,11 @@ def _save_base_artifacts(
                     with open(items_out_dir / src_p.name, "w", encoding="utf-8") as f:
                         json.dump(item_obj, f, indent=2)
 
-    # (c) Item-by-Item Deliberation Transcripts
-    transcripts_out_dir = exp_dir / "transcripts"
+    # (b) Model Outputs Subdirectory
+    model_outputs_dir = exp_dir / "model_outputs"
+    model_outputs_dir.mkdir(parents=True, exist_ok=True)
+
+    transcripts_out_dir = model_outputs_dir / "transcripts"
     transcripts_out_dir.mkdir(parents=True, exist_ok=True)
 
     item_filename_map: Dict[str, str] = {}
@@ -125,9 +137,16 @@ def _save_base_artifacts(
         with open(transcripts_out_dir / fname, "w", encoding="utf-8") as f:
             json.dump(item_transcripts, f, indent=2)
 
-    # (d) Secret Ballots
-    with open(exp_dir / "ballots.json", "w", encoding="utf-8") as f:
+    # Secret Ballots
+    with open(model_outputs_dir / "ballots.json", "w", encoding="utf-8") as f:
         json.dump(all_ballots, f, indent=2)
+
+    # Convert Deliberation Transcripts to Formatted Reviewable PDFs
+    try:
+        pdf_paths = convert_transcripts_to_pdf(transcripts_out_dir)
+        print(f"📄 Generated {len(pdf_paths)} reviewable PDF transcripts in: {transcripts_out_dir}")
+    except Exception as e:
+        print(f"⚠️ Warning: Could not generate PDF transcripts: {e}")
 
 
 def execute_simulation_run(
@@ -140,8 +159,10 @@ def execute_simulation_run(
     Adheres to:
     - Guideline 3: Explicit orchestration naming and single-responsibility step dispatch.
     - Guideline 4: Total configuration abstraction.
-    - Guideline 6: Dynamic experiment output indexing.
+    - Guideline 6: Dynamic experiment output indexing and organized subdirectories (inputs/, model_outputs/, evals/).
     """
+    start_time = time.time()
+
     # 1. Load configuration
     config = load_master_configuration(config_path)
 
@@ -216,7 +237,7 @@ def execute_simulation_run(
                 )
                 all_ballots.append(ballot_record)
 
-    # 6. Save Base Simulation Artifacts for Inspection & Diagnostics
+    # 6. Save Base Simulation Artifacts (inputs/ and model_outputs/)
     _save_base_artifacts(exp_dir, config, items, transcripts, all_ballots)
 
     # 7. Quality Assurance Validation: Non-Silent Failure Detection
@@ -243,6 +264,32 @@ def execute_simulation_run(
             causes.append("All secret ballots produced empty or unparseable responses")
         failure_summary = " and ".join(causes)
 
+        end_time = time.time()
+        runtime_seconds = round(end_time - start_time, 2)
+        minutes = int(runtime_seconds // 60)
+        seconds = runtime_seconds % 60
+        runtime_formatted = f"{minutes}m {seconds:.1f}s" if minutes > 0 else f"{seconds:.2f}s"
+
+        cost_usd = 0.0
+        if hasattr(client, "get_cost_usd"):
+            cost_usd = client.get_cost_usd()
+
+        metadata_dir = exp_dir / "metadata"
+        metadata_dir.mkdir(parents=True, exist_ok=True)
+        aborted_metadata: ExecutionMetadata = {
+            "experiment_name": config.get("experiment_metadata", {}).get("name", "Aborted Run"),
+            "model": model_cfg.get("agent_model", getattr(client, "model", "unknown")),
+            "cost_usd": cost_usd,
+            "runtime_seconds": runtime_seconds,
+            "runtime_formatted": runtime_formatted,
+            "prompt_tokens": 0,
+            "completion_tokens": 0,
+            "total_tokens": 0,
+            "timestamp": datetime.now().isoformat(),
+        }
+        with open(metadata_dir / "metadata.json", "w", encoding="utf-8") as f:
+            json.dump(aborted_metadata, f, indent=2)
+
         border = "=" * 80
         print(f"\n{border}")
         print("🚨 CRITICAL ERROR: RUN FAILURE DETECTED — ABORTING FINAL REPORT 🚨")
@@ -253,10 +300,10 @@ def execute_simulation_run(
         print("\nDiagnostics:")
         print(f"  • Deliberation Statements: {empty_statements}/{total_statements} empty")
         print(f"  • Secret Ballots: {empty_ballots}/{total_ballots} empty/invalid")
-        print(f"\nBase diagnostics (config, item definitions, raw transcripts, raw ballots)")
-        print(f"have been saved to: {exp_dir}")
-        print("Psychometric evaluation (psychometric_evals.json) and synthesis report (final_report.md)")
-        print("have been ABORTED to avoid presenting contaminated or artificial data.")
+        print(f"\nBase diagnostics (config, items, transcripts, ballots)")
+        print(f"have been saved to: {exp_dir / 'inputs'} and {exp_dir / 'model_outputs'}")
+        print(f"Execution metadata saved to: {metadata_dir / 'metadata.json'}")
+        print("Psychometric evaluation (evals/) has been ABORTED to avoid presenting contaminated data.")
         print(f"{border}\n")
         return exp_dir
 
@@ -267,20 +314,57 @@ def execute_simulation_run(
         item_ids=list(items.keys())
     )
 
-    # 9. Persist Evaluative Artifacts (Guideline 6)
+    # 9. Compute Runtime and Cost Metadata (Saved to metadata/metadata.json)
+    end_time = time.time()
+    runtime_seconds = round(end_time - start_time, 2)
+    minutes = int(runtime_seconds // 60)
+    seconds = runtime_seconds % 60
+    runtime_formatted = f"{minutes}m {seconds:.1f}s" if minutes > 0 else f"{seconds:.2f}s"
+
+    cost_usd = 0.0
+    token_usage = {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
+    if hasattr(client, "get_cost_usd"):
+        cost_usd = client.get_cost_usd()
+    if hasattr(client, "get_token_usage"):
+        token_usage = client.get_token_usage()
+
+    metadata_dir = exp_dir / "metadata"
+    metadata_dir.mkdir(parents=True, exist_ok=True)
+
+    metadata_payload: ExecutionMetadata = {
+        "experiment_name": config.get("experiment_metadata", {}).get("name", "Psychometric Deliberative Capacity Benchmark"),
+        "model": model_cfg.get("agent_model", getattr(client, "model", "unknown")),
+        "cost_usd": cost_usd,
+        "runtime_seconds": runtime_seconds,
+        "runtime_formatted": runtime_formatted,
+        "prompt_tokens": token_usage.get("prompt_tokens", 0),
+        "completion_tokens": token_usage.get("completion_tokens", 0),
+        "total_tokens": token_usage.get("total_tokens", 0),
+        "timestamp": datetime.now().isoformat(),
+    }
+    with open(metadata_dir / "metadata.json", "w", encoding="utf-8") as f:
+        json.dump(metadata_payload, f, indent=2)
+
+    # 10. Persist Evaluative Artifacts (evals/)
+    evals_dir = exp_dir / "evals"
+    evals_dir.mkdir(parents=True, exist_ok=True)
+
     print("💾 Saving psychometric evaluation results and final synthesis report...")
-    with open(exp_dir / "psychometric_evals.json", "w", encoding="utf-8") as f:
+    with open(evals_dir / "psychometric_evals.json", "w", encoding="utf-8") as f:
         json.dump(psychometric_results, f, indent=2)
 
-    report_path = exp_dir / "final_report.md"
+    report_path = evals_dir / "final_report.md"
     generate_markdown_report(
         config=config,
         metrics=psychometric_results,
         items_data=items,
-        output_path=str(report_path)
+        output_path=str(report_path),
+        execution_metadata=metadata_payload
     )
 
     print(f"\n🎉 Simulation Run Completed Successfully!")
+    print(f"⏱️ Runtime: {runtime_formatted} ({runtime_seconds}s)")
+    print(f"💰 Estimated Cost: ${cost_usd:.4f} USD")
     print(f"📄 Report written to: {report_path}")
     return exp_dir
 

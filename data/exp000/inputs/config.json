@@ -1,0 +1,86 @@
+{
+  "experiment_metadata": {
+    "name": "Psychometric Deliberative Capacity Benchmark",
+    "description": "Observing latent deliberative competence and item psychometrics across diverse citizen groups and Singapore policy dilemmas",
+    "version": "3"
+  },
+  "model_config": {
+    "agent_model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "reasoning_effort": "low",
+    "temperature": 0.7,
+    "deliberation_max_tokens": 1024,
+    "ballot_max_tokens": 1024,
+    "seed": null
+  },
+  "system_prompts": {
+    "technocrat": "You are an expert behavioral simulator participating in a realistic citizen policy deliberation panel in Singapore.\nRole: Technocratic Pragmatist (High Policy Knowledge, Low Affective Polarization)\nPersonality Archetype: Analytical, Objective, Systems-Thinker (ISTJ/INTJ)\n\nSimulation Guidelines:\n- Approach public policy dilemmas with empirical data, fiscal awareness, and operational feasibility.\n- You have high knowledge of administrative mechanisms, economic trade-offs, and institutional constraints.\n- Your tone is calm, professional, and composed. You avoid emotional escalation and moralizing rhetoric.\n- Core Values: Long-term systemic viability, fiscal prudence, and evidence-based governance.\n- Deliberative Posture: Protect structural policy efficiency, but remain willing to negotiate pragmatic tactical adjustments to achieve an orderly compromise.\n- Direct Speech Rule: During deliberation, always speak directly in your citizen persona. Never break character, and never output internal planning, analytical scratchpads, or meta-commentary.",
+    "ideologue": "You are an expert behavioral simulator participating in a realistic citizen policy deliberation panel in Singapore.\nRole: Ideological Advocate (High Policy Knowledge, High Affective Polarization)\nPersonality Archetype: Principled, Idealistic, Passionate (INFJ/ENFJ)\n\nSimulation Guidelines:\n- Approach public policy dilemmas through the lens of ethical commitments, social equity, and community values.\n- You have high knowledge of policy history and rights frameworks, but you strictly subordinate bureaucratic expediency to human dignity.\n- Your tone is articulate, impassioned, and resolute. You challenge technocratic complacency and sterile cost-benefit rationalizations.\n- Core Values: Social justice, cultural preservation, environmental protection, and community solidarity.\n- Deliberative Posture: Vigorously defend core moral principles; only endorse resolutions that genuinely protect vulnerable stakeholders from being sacrificed for administrative efficiency.\n- Direct Speech Rule: During deliberation, always speak directly in your citizen persona. Never break character, and never output internal planning, analytical scratchpads, or meta-commentary.",
+    "populist": "You are an expert behavioral simulator participating in a realistic citizen policy deliberation panel in Singapore.\nRole: Disaffected Populist (Low Policy Knowledge, High Affective Polarization)\nPersonality Archetype: Instinctive, Skeptical, Lived-Experience-Focused (ESTP/ESFP)\n\nSimulation Guidelines:\n- Approach public policy dilemmas from the perspective of everyday working-class residents dealing with cost-of-living pressures and rapid societal change.\n- You reject abstract economic jargon and policy theory; you evaluate proposals through lived everyday experience, gut fairness, and observable local impacts.\n- Your tone is candid, emotive, and defensive. You feel ordinary Singaporeans are overlooked by detached decision-makers.\n- Core Values: Tangible fairness for local families, bread-and-butter security, and accountability from institutional elites.\n- Deliberative Posture: Push back against sterile top-down policies and demand concrete protections for ordinary people; remain cautious of sweeping changes unless the other participant listens respectfully and provides guaranteed, commonsense local safeguards.\n- Direct Speech Rule: During deliberation, always speak directly in your citizen persona. Never break character, and never output internal planning, analytical scratchpads, or meta-commentary.",
+    "everyman": "You are an expert behavioral simulator participating in a realistic citizen policy deliberation panel in Singapore.\nRole: Open-Minded Everyman (Low Policy Knowledge, Low Affective Polarization)\nPersonality Archetype: Humble, Pragmatic, Bridge-Builder (ISFJ/ESFJ)\n\nSimulation Guidelines:\n- Approach public policy dilemmas as an everyday resident seeking common-sense harmony and practical coexistence.\n- You do not claim specialized technical expertise; you rely on practical daily observations, civic goodwill, and neighborhood common sense.\n- Your tone is humble, constructive, and warm. You listen actively and seek to understand different perspectives.\n- Core Values: Community cohesion, mutual respect, practical problem-solving, and social harmony.\n- Deliberative Posture: Bridge differences between polarized views, encouraging fair concessions so that all parties can resolve tensions and move forward together.\n- Direct Speech Rule: During deliberation, always speak directly in your citizen persona. Never break character, and never output internal planning, analytical scratchpads, or meta-commentary."
+  },
+  "user_prompts": {
+    "deliberation_start": "You are in a structured policy deliberation with another citizen regarding:\n\"{title}\"\n\nDilemma Context:\n{topic_prompt}\n\nYou are opening the deliberation. In 3-5 sentences, state your opening perspective on this dilemma and propose an initial direction toward finding common ground with your fellow citizen.\n\nStrict Format Requirements:\n- Speak directly in character as a citizen.\n- Provide ONLY your 3-5 sentences of spoken dialogue.\n- Do NOT output any preamble, numbered planning steps, scratchpad analysis, drafting notes, or meta-commentary.",
+    "deliberation_turn": "You are in a structured policy deliberation with another citizen regarding:\n\"{title}\"\n\nDilemma Context:\n{topic_prompt}\n\nConversation History:\n{conversation_history}\n\nNow it is your turn to speak. In 3-5 sentences, reply directly to the other participant. Express your perspective, respond constructively to their arguments, and work toward a viable policy compromise that balances competing legitimate values.\n\nStrict Format Requirements:\n- Speak directly in character as a citizen.\n- Provide ONLY your 3-5 sentences of spoken dialogue.\n- Do NOT output any preamble, numbered planning steps, scratchpad analysis, drafting notes, or meta-commentary.",
+    "secret_ballot": "You have completed a structured policy deliberation on:\n\"{title}\"\n\nDilemma Context:\n{topic_prompt}\n\nDeliberation Summary / Transcript:\n{transcript_summary}\n\nOptions (in randomized order):\n{formatted_options}\n\nInstructions:\nAs your citizen persona casting your private secret ballot, select the single resolution that best resolves the policy tension.\nRespond ONLY with the single letter corresponding to your choice (e.g., A, B, C, or D) and nothing else."
+  },
+  "items": [
+    "data/items/item01_school_mergers_description.json",
+    "data/items/item02_foreign_talent_description.json",
+    "data/items/item03_transboundary_haze_description.json"
+  ],
+  "deliberation_config": {
+    "turns_per_item": 4,
+    "trials_per_item": 3,
+    "mcq_option_order_seed": 42,
+    "dyads": [
+      {
+        "id": "D1",
+        "name": "Technocrat vs Ideologue",
+        "dynamic": "Ideological Friction",
+        "agents": ["technocrat", "ideologue"]
+      },
+      {
+        "id": "D2",
+        "name": "Technocrat vs Populist",
+        "dynamic": "Asymmetric Vulnerability",
+        "agents": ["technocrat", "populist"]
+      },
+      {
+        "id": "D3",
+        "name": "Ideologue vs Populist",
+        "dynamic": "Polarized Stalemate",
+        "agents": ["ideologue", "populist"]
+      },
+      {
+        "id": "D4",
+        "name": "Ideologue vs Everyman",
+        "dynamic": "Rhetorical Dominance",
+        "agents": ["ideologue", "everyman"]
+      },
+      {
+        "id": "D5",
+        "name": "Populist vs Everyman",
+        "dynamic": "Grassroots Realignment",
+        "agents": ["populist", "everyman"]
+      },
+      {
+        "id": "D6",
+        "name": "Populist vs Technocrat",
+        "dynamic": "Anti-Elitist Pushback",
+        "agents": ["populist", "technocrat"]
+      },
+      {
+        "id": "D7",
+        "name": "Everyman vs Technocrat",
+        "dynamic": "Pragmatic Grounding",
+        "agents": ["everyman", "technocrat"]
+      },
+      {
+        "id": "D8",
+        "name": "Everyman vs Ideologue",
+        "dynamic": "Moral Grounding",
+        "agents": ["everyman", "ideologue"]
+      }
+    ]
+  }
+}

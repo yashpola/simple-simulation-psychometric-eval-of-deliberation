@@ -1,0 +1,11 @@
+{
+  "experiment_name": "Psychometric Deliberative Capacity Benchmark",
+  "model": "Qwen/Qwen3.5-9B",
+  "cost_usd": 0.042069,
+  "runtime_seconds": 554.35,
+  "runtime_formatted": "9m 14.4s",
+  "prompt_tokens": 376765,
+  "completion_tokens": 43924,
+  "total_tokens": 420689,
+  "timestamp": "2026-11-02T20:18:26.695861"
+}

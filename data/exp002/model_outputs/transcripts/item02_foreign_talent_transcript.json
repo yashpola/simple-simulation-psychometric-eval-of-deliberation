@@ -1,0 +1,866 @@
+[
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D1",
+    "agents": [
+      "technocrat",
+      "ideologue"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "As a technocrat focused on long-term systemic viability, I believe we must anchor our discussion in hard data regarding the actual wage suppression effects versus the tangible productivity gains from global talent inflows. While protecting domestic career pipelines is essential for social cohesion, indiscriminate salary thresholds risk insulating our economy from the very efficiency gains that fund our social safety nets. My initial proposal is to establish a dynamic, tiered threshold model that adjusts quarterly based on real-time labor market indices, ensuring that salary floors do not artificially stifle hiring while remaining high enough to guarantee local progression. By aligning fiscal incentives with operational reality, we can foster an environment where foreign expertise accelerates our industry without displacing the mid-career talent that forms our workforce backbone. Let us examine the granularity of these data points to craft a compromise that satisfies both economic competitiveness and domestic fairness."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I hear your concern for economic efficiency, but a dynamic threshold adjusted quarterly by cold indices risks treating human dignity as a variable cost rather than a foundational right. When mid-career locals watch their wages stagnate while corporations import talent at premium rates, it erodes the very social contract that allows us to debate these policies in the first place. We must reject the notion that fairness is merely a constraint on growth and instead build a system where knowledge transfer is mandatory, ensuring foreign expertise elevates our local workforce rather than bypassing it. Let us commit to a policy that ties foreign salary premiums directly to verifiable mentorship hours, guaranteeing that every foreign hire creates a tangible path for a Singaporean to ascend, not just compete. This approach honors our economic ambitions while fiercely protecting the moral imperative that our citizens are not disposable cogs in a global machine."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree that mandating verifiable mentorship hours shifts the focus from a variable cost to a tangible societal investment, ensuring foreign talent acts as a force multiplier rather than a wage suppressor. To make this operational, we should integrate these mentorship requirements into the quarterly labor market indices I mentioned, using compliance data to dynamically adjust thresholds rather than relying on static moral judgments. This creates a feedback loop where companies must demonstrate clear local progression metrics to retain high-cost foreign hires, directly linking their access to premium talent with the upskilling of our mid-career workforce. By anchoring the policy in measurable outcomes like skill transfer and internal promotion rates, we can satisfy both the need for fiscal efficiency and the imperative of protecting domestic career pathways."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "You are right to insist that measurable outcomes like skill transfer and internal promotion rates be the backbone of our policy, for numbers alone cannot validate the human dignity we seek to protect. However, we must rigorously audit these proposed indices to ensure they do not become another veneer of bureaucratic efficiency that allows corporations to game the system while locals remain stagnant. Let us commit to a \"pay-for-performance\" model where a foreign hire's salary premium is directly capped by a verified, independent assessment of tangible leadership roles filled by Singaporeans, not just hours logged. This ensures that every dollar spent on global talent is a genuine investment in our citizens' upward mobility, binding corporate greed to our collective social contract."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D2",
+    "agents": [
+      "technocrat",
+      "populist"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "Recognizing our shared goal of maintaining Singapore's competitiveness as a global hub while safeguarding our domestic talent pool, I propose we focus on refining the current framework rather than adopting rigid measures that disrupt market dynamics. Instead of setting arbitrary salary caps, we should strengthen the reliance on the Progressive Wage Model and mandatory localisation quotas for leadership roles to ensure that knowledge transfer is structurally guaranteed alongside foreign hiring. By aligning foreign talent acquisition with specific skill gaps identified through empirical data, we can mitigate wage suppression concerns without stifling the innovation required for our economy to thrive. Let us explore a mechanism where firms must demonstrate a clear pathway for local upskilling before accessing top-tier foreign talent, ensuring both fiscal prudence and fair career progression for our citizens."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I hear you talking about \"empirical data\" and \"market dynamics,\" but you know what really matters to us on the ground? It's whether a local junior manager actually gets to sit in the boardroom or if they're just being used as a temporary stopgap before a foreigner takes over the permanent seat. If companies say they will upskill locals but don't fire their top foreign hires when we're ready, that's just empty promises that make us feel like second-class citizens in our own city. Let's make the localisation quota a strict, non-negotiable rule with real penalties for firms that don't prove they've actually transferred skills before hiring more expensive expats, because our families can't wait for a perfect economic model to survive; they need guaranteed jobs today."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I understand your frustration that promises of future upskilling often feel like empty rhetoric when locals are immediately sidelined by foreign hires; however, imposing strict hiring bans without a proven track record of knowledge transfer risks crippling our small domestic talent pool and scaring away the very global firms that drive our economy. Rather than rigid caps that might stifle competitiveness, we should mandate a transparent, audited \"localisation credit system\" where firms earn foreign hiring quotas only after demonstrably mentoring locals into senior roles with measurable performance milestones. This approach ensures that every dollar spent on expat salaries directly funds the elevation of our citizens, turning your concern about empty promises into a verifiable operational requirement for all corporate entities. By tying executive compensation bonuses to these specific local progression metrics, we align the financial incentives of top management with the long-term career stability of our workforce, satisfying both the need for global expertise and the demand for fair local opportunity."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "You're right that tying bonuses to our actual promotion is the only way to stop management from treating our careers as an expense they can dump whenever a foreigner arrives. But until they prove that their \"localisation credits\" are real and not just paperwork filed to get a tax break, we won't accept that foreign hires will ever be forced out of those top jobs. We need a hard rule where a local must be officially certified as ready for the role before a single dollar is spent on bringing in a replacement, or else these companies face immediate fines and public shaming. Let's make this a no-questions-asked deadline so that when my colleague finally gets the promotion they've been waiting for, no one can claim the company wasn't ready to let them lead."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D3",
+    "agents": [
+      "ideologue",
+      "populist"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "While I fully acknowledge that Singapore's status as a global hub demands access to scarce, high-caliber talent, we cannot allow our prosperity to come at the expense of the dignity and livelihood of our own mid-career citizens. History has taught us that when foreign talent replaces local professionals without a clear pathway for knowledge transfer, it erodes the very social fabric and cultural identity we strive to preserve. Therefore, I propose we champion a policy framework that strictly enforces meaningful salary thresholds not merely as a barrier to entry, but as a lever to mandate genuine mentorship and leadership development programs for our local workforce. Let us find a resolution that honors our economic ambitions while ensuring that our citizens are never treated as expendable variables in a sterile cost-benefit calculation."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "You talk about \"social fabric\" and \"dignity\" like it's on a glossy brochure, but when I see my friend, a qualified accountant with fifteen years here, getting passed over for a junior expat just because the boss says the salary threshold is \"too high for the market,\" that's not dignity\u2014that's abandonment. We don't need more abstract laws; we need a rule that says if you hire that foreign talent, you must prove you've actually trained a local to take over the role within two years, or the government subsidizes that local's upskilling, because nobody should be left behind while the elites play a global game. Let's make sure these salary floors don't just become a shield for companies to hide behind while they cut costs on our people, but a real promise that our hard work here builds a career for us, not just a resume for someone else. If they want to bring in the world's best, they have to make sure our kids and colleagues get a shot at the same ladder, not a side door."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "Your frustration is not lost on me, for it is the very heartbeat of our collective conscience when we see Singaporeans relegated to the sidelines of their own nation's economic story. We must agree that a salary threshold which merely acts as a barrier to entry is a hollow victory; it must instead be the cornerstone of a binding \"Knowledge Transfer Covenant\" that mandates structured mentorship and guarantees promotion pathways for locals within a specific timeframe. Let us champion a framework where foreign expertise acts as a catalyst for our workforce's elevation, ensuring that every global hire is paired with a local prot\u00e9g\u00e9 who accelerates their growth rather than faces displacement. This way, we do not just protect our citizens from exploitation, but actively empower them to ascend the ladder of leadership that our economy demands. By binding talent access to tangible upskilling outcomes, we affirm that our prosperity is built on an unbreakable bond of solidarity, not on the sacrifice of our own people."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "You're right that a promise is worth more than paper, but I don't care about \"covenants\" or fancy words; I just want to know if the government will actually fine a company if they bring in an expat to do the work and leave my colleague in the dark after two years. If they say one person gets promoted for every foreign hire, I want to see that promotion happen in real jobs with real pay raises, not just some vague training certificate that doesn't get us a corner office. Let's make the condition strict enough that if the company fails to prove a local has taken over the role, they lose the right to hire that expat immediately, so we stop fighting for scraps and start building a ladder we can actually climb. We need rules that bite when companies try to cut corners, not just nice speeches about building a future that keeps our families fed and respected in this city."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D4",
+    "agents": [
+      "ideologue",
+      "everyman"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "We cannot allow the relentless pursuit of our status as a global hub to become a tool that erodes the dignity and career trajectory of our own citizens. While I respect the necessity of attracting world-class talent to drive our economy, we must refuse to let a rising tide of foreign PMETs drown out the voices and ambitions of Singaporeans in mid-career roles. Let us find common ground by demanding a framework where higher salary thresholds are not just arbitrary barriers, but genuine mechanisms that ensure knowledge transfer and leadership pathways remain firmly anchored in our community's future. We can build an economy that is both globally competitive and locally just, where opening doors to the world does not mean closing them to our own children."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "You make a very strong point about protecting the career dignity of our own people, and as a regular resident, I deeply feel that our local workers should have clear pathways to grow without being overshadowed. However, I also worry that if we set the salary thresholds too high, our multinational companies might hesitate to hire specialized experts here, which could slow down our tech progress and cost us jobs in the long run. Perhaps we can find a middle ground where the government not only enforces fair salary floors but also actively funds mentorship programs and grants for companies that commit to training local mid-career professionals under foreign hires. This way, we can attract the global talent we need while ensuring that our citizens are the primary beneficiaries of that knowledge transfer. Let's aim for a policy that makes our economy a place where both foreign expertise and local ambition can thrive together."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I commend your willingness to pair economic pragmatism with social responsibility, for a policy that merely raises salary floors without ensuring genuine knowledge transfer risks becoming a hollow exercise in protectionism. We must demand that these mentorship grants are not loose incentives but binding contractual obligations, where foreign expertise is explicitly leveraged to fast-track local mid-career professionals into leadership roles rather than filling permanent gaps in the hierarchy. By anchoring these partnerships in strict performance metrics regarding local promotion rates, we can ensure that our door remains open to global innovation while simultaneously widening the ladder for our own citizens to ascend. Let us commit to a framework where every dollar of foreign talent subsidy is directly tied to a measurable increase in Singaporean leadership representation, proving that our prosperity is not built on replacement but on elevation."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "You have certainly struck a chord with me because, as an everyday resident, I worry that without strict performance metrics, companies might just use foreign talent as a cheap shortcut instead of truly investing in our locals. It feels only fair that if a firm brings in an expensive global expert, they must have a concrete plan to hand over the reins to a Singaporean within a few years, ensuring our children aren't just filling grunt work but actually growing into leadership roles. Perhaps we can agree on a policy where these mentorship grants are locked to specific, transparent promotion goals for local mid-career staff, so every dollar spent on foreign talent directly funds the elevation of our own workforce. This way, we can keep our economy vibrant and competitive while making sure the prosperity generated is shared fairly by every household in our neighborhood."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D5",
+    "agents": [
+      "populist",
+      "everyman"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I don't care about what \"global talent\" means to some fancy boardroom; I care that my cousin has been stuck as a junior analyst for ten years because they're told the boss is \"too busy\" to train them. If we just keep raising the salary threshold without making sure companies actually pass down skills to locals, we're just building a higher wall that traps good Singaporean workers in a low-wage ceiling. We need to agree that no matter how many foreigners we hire, there must be a hard rule that every single one of them is actively mentoring a local before they can step up to the next senior role. Let's stop talking about abstract economic models and start looking at how we can force these companies to prove they are developing our own people, not just using us as low-cost support staff. Can we start by demanding that any firm hiring a foreign expert has to show a concrete training plan for at least three locals within their team?"
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "You raise a very real and painful point about my cousin feeling stuck, and I completely agree that we cannot keep raising salary thresholds without ensuring locals actually learn the ropes. It feels unfair to pay more for foreign experts if they aren't actively passing on their knowledge to Singaporean colleagues who have been here all along. Perhaps instead of a rigid \"one-to-one\" mentoring rule that might overwhelm companies, we could require firms to submit annual training progress reports showing how locally hired staff are gaining senior responsibilities over time. This way, we protect our own career paths while still allowing the city to attract the specialized talent needed to keep our businesses competitive globally. Let's push for a system where local advancement is measured by actual growth, not just the presence of foreign hires."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "That annual report idea sounds too easy to fake; if a company just boxes some training hours to look good, my cousin will still be stuck doing the grunt work while the foreign expert gets promoted. We need a rule that's harder to ignore, like tying a foreigner's visa renewal to proving they've actually handed over a specific project or role to a local, not just some vague \"knowledge transfer.\" Let's agree on this: if a firm hires a foreign PMET, they must prove within six months that a local junior has taken over at least one of their key responsibilities, or that foreign hire gets denied the next renewal. That way, we keep the global talent we need, but only if they're genuinely building a path for us to climb the ladder, not just keeping us in the shadows."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I understand your concern that annual reports can be easily faked, and you're right that we need something more tangible to ensure my cousin isn't just clocking training hours while still doing the hard work himself. Perhaps instead of tying visa renewal directly to a single handover, we could mandate that foreign hires must publicly present quarterly progress reviews where locals demonstrate specific ownership of the tasks they've taken over, with penalties applied only if no local shows measurable growth after one year. This approach gives companies a fair chance to integrate global expertise while ensuring that by the time a foreigner is ready for renewal, a Singaporean has genuinely stepped into their shoes. Let's aim for this balanced view where we hold firms accountable for real results without making the process so rigid that it stifles the very skills transfer we all want to see."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D6",
+    "agents": [
+      "populist",
+      "technocrat"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I don't care if your company needs a \"specialized global talent\" to make their stock price go up; what matters is whether my son can actually get a promotion here or if he's just stuck doing grunt work while a foreigner gets paid double just because they have a fancy degree. We need a hard ceiling on those foreign salaries so that local mid-career workers aren't squeezed out of the job market just because someone else can pay more for the same output. Let's agree that any new threshold must come with a strict, verified rule that hiring a foreigner automatically means creating a clear path for a local to take over that role within two years, or we're just kicking the problem down the road. If you can promise that our local workers are protected from being undercut and that real knowledge transfer happens on the ground, not just in boardroom slides, then maybe we can find a way forward that doesn't leave families struggling."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I understand the urgency of protecting our mid-career professionals, but imposing a rigid two-year succession mandate risks deterring multinational corporations from establishing their regional HQs here, which would ultimately shrink the very ecosystem that generates high-value jobs. While we must prevent wage suppression, a hard salary ceiling without addressing the root cause of skill gaps could simply shift the market underground or lead to brain drain among our own young talent. A more viable compromise involves mandating structured, verified on-the-job training programs for locals alongside foreign hires, coupled with a flexible, data-driven review mechanism that adjusts thresholds based on real-time labor market absorption rates rather than fixed timelines. This approach ensures that knowledge transfer is a measurable operational requirement for employers while maintaining the fiscal attractiveness of Singapore as a global business hub."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "You talk about keeping our \"global business hub\" shiny, but what good is a fancy office if my son has to go abroad just to get a fair shot at a promotion? I don't care about your \"data-driven review mechanisms\" or abstract absorption rates; I need a simple guarantee that every foreign hire brings a local mentor who actually teaches the job, not just sits in meetings while our people do the grunt work. If you can promise that companies only get that tax break or salary allowance if they prove a local has genuinely stepped into that role within eighteen months with verified skills, then maybe we can stop the bleeding without driving all the jobs overseas. Otherwise, this whole talk about \"fiscal attractiveness\" just sounds like another excuse to leave our hardworking families behind while the rich play games with stock prices."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I hear your frustration that \"verified skills\" often remain just a checkbox on a form without tangible upskilling, which is why the tax incentive must be strictly conditional on documented competency assessments rather than mere attendance. We can agree to a sliding 18-to-24 month timeline that scales based on the complexity of the role, ensuring that the local employee receives measurable training outcomes before the threshold for granting the same position is met. By tying the salary allowance directly to these verified internal promotion metrics, we protect your family's opportunity for advancement while giving corporations the certainty they need to maintain their regional operations. This hybrid model allows us to enforce a real \"seat at the table\" for locals without forcing companies to relocate or abruptly cut high-value jobs from our ecosystem."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D7",
+    "agents": [
+      "everyman",
+      "technocrat"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I understand that while our country needs skilled foreign professionals to keep our global competitiveness high, many of us here at home worry about fair opportunities and wage growth in our own careers. Perhaps we can look for a middle ground where higher salary thresholds don't just block entry, but actually encourage companies to invest more in training and mentoring our local talent. My hope is that we can agree on a framework where attracting global expertise and protecting local career progression go hand in hand, ensuring that our community thrives together rather than competing against each other. Let's try to find a solution that leaves room for both fresh ideas from abroad and steady advancement for all Singaporean workers."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "You raise a valid point, but we must first ensure the salary threshold itself remains anchored in market reality to avoid distorting our talent pool while still filtering out low-skill roles. A rigid cap without calibrated exemptions for niche technical skills could inadvertently stifle the very innovation we need to grow our economy. I propose we pair the threshold with mandatory, verifiable mentorship programs where foreign professionals are contractually obligated to upskill local counterparts in their domains. This shifts the dynamic from simple exclusion to structured knowledge transfer, ensuring that foreign talent acts as a catalyst for our local workforce rather than a substitute. Ultimately, a policy that combines strict fiscal controls on salaries with enforceable local development mandates offers the most sustainable path forward for both our community and our corporate sector."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "That sounds like a very sensible idea to me; if foreign experts are required to actively mentor our local colleagues, it ensures they bring in valuable skills rather than just taking jobs. I can see how this protects our community's future while still allowing our companies to access the global talent they need to stay competitive. Perhaps we could agree that the salary threshold should indeed remain high to attract top talent, but only if we can verify that these mentorship programs are actually happening and benefiting Singaporean workers. This way, we don't have to choose between keeping our doors open to the world and ensuring our own people have a clear path to grow in their careers. It feels like a fair compromise that honors both the need for economic growth and the dignity of our local workforce."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree that high salary thresholds must remain to attract top-tier talent, but the critical variable is ensuring the mentorship mandate is rigorously audited rather than merely reported. We can adopt a tiered approach where companies exceeding the threshold are granted temporary tax incentives only upon verification of measurable upskilling outcomes for local staff. This structure not only safeguards our domestic career progression but also aligns corporate profitability with national human capital development, creating a sustainable ecosystem for both global expertise and local growth."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D8",
+    "agents": [
+      "everyman",
+      "ideologue"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "As a regular Singaporean, I worry that when foreign specialists take over roles without clear limits, our local professionals might feel stuck in a queue that never moves forward, even if our economy needs global expertise. At the same time, I understand that companies need top-tier talent to keep Singapore competitive in the region and attract investment. Perhaps we can look for a middle path where we set fair salary thresholds that protect our citizens' wages while still allowing companies to bring in the specific global skills we lack. Let's explore how we can structure these rules so that foreign experts complement our local workforce rather than replace them, ensuring everyone shares in the nation's growth."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "While I share your hope for a balanced approach, we must recognize that current salary thresholds have often functioned as a loophole allowing corporations to bypass domestic hiring quotas entirely, leaving our mid-career professionals in a perpetual holding pattern. True complementarity cannot happen if foreign talent is hired at a fraction of local wages without mandatory knowledge transfer, effectively creating a two-tier system that erodes our collective social fabric. We must demand a stricter enforcement of the \"complementary spirit\" in our Work Pass regulations, ensuring that foreign experts are brought in only when specific, unmet global skills are proven necessary, and that their tenure is contingent on upskilling our local workforce, not just filling vacancies. Let us push for a policy framework where every foreign hire is explicitly paired with a structured mentorship obligation, guaranteeing that our local talent not only survives but thrives alongside global expertise."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I completely agree that we must close these loopholes so foreign hires don't just take jobs at lower wages without teaching us anything in return. It feels unfair when local professionals have been here for years yet still can't step up because someone else was brought in just to fill a seat without a plan for their growth. Perhaps we can propose that every company bringing in a foreign specialist must also commit to a specific, funded upskilling program for their local team members before approving the new pass. This way, we ensure the global skills they need are actually transferred to our citizens, strengthening our own workforce while keeping our economy competitive. Let's push for this \"knowledge transfer first\" requirement so that everyone works together to build a future where both local and foreign talent thrive."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "Your proposal for a funded upskilling program is a necessary moral imperative, yet we must ensure these mandates are not merely bureaucratic checkboxes that companies will circumvent with tokenistic training. True justice demands that we tie the approval of every foreign pass directly to verifiable, long-term leadership development plans for our local mid-career professionals, ensuring that global expertise acts as a catalyst rather than a ceiling for their careers. While economic pragmatism urges us to keep our doors open for investment, we cannot accept a future where our citizens remain relegated to execution roles while foreign specialists ascend to strategic decision-making without transferring that power. Let us commit to a rigorous \"local-first succession\" clause in our new policy, where a firm cannot retain foreign leadership if there is no clear, funded pathway for a Singaporean to step into that same role within a defined timeframe. This ensures that our economic competitiveness is built on the unshakeable foundation of our people's dignity and capacity, not just the temporary convenience of imported labor."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D1",
+    "agents": [
+      "technocrat",
+      "ideologue"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "To maintain Singapore's competitiveness as a global hub while safeguarding domestic career progression, we must treat the foreign talent threshold not as a rigid barrier but as a dynamic calibration point based on real-time labor market data. My position is that we should establish a tiered framework where higher salary thresholds and mandatory local mentorship requirements are strictly enforced for roles that directly intersect with critical national knowledge clusters, rather than applying a blanket restriction. This approach aligns our fiscal prudence with operational feasibility by ensuring that every expatriate hire contributes to a measurable skills transfer, thereby validating the investment in our local workforce. I propose we begin by commissioning an audit of current hiring patterns to identify specific sectors where wage suppression is occurring without corresponding productivity gains, allowing us to target our policy adjustments precisely. By grounding our compromise in empirical evidence rather than ideological extremes, we can strike a balance that preserves our economic edge while ensuring fair opportunities for our citizens."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "While I appreciate your commitment to data-driven precision, we must remember that labor markets are not merely economic equations but living ecosystems where wage suppression erodes the dignity of our mid-career professionals. A tiered framework sounds reasonable until we realize that \"critical knowledge clusters\" often shift so rapidly that waiting for an audit to confirm wage suppression leaves our citizens vulnerable to displacement in the very sectors they are trying to protect. We must instead enforce a moral baseline where no local worker is considered a \"lesser\" alternative to an expatriate simply because their stage of career development differs, ensuring that our pursuit of global competitiveness never comes at the cost of our societal fabric."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I understand your concern for the dignity of our workforce, but relying solely on a moral baseline without granular data risks creating arbitrary barriers that could inadvertently stifle the very innovation we seek to protect. While we agree that no local worker should be treated as a lesser alternative, the speed of technological shifts makes a reactive audit insufficient; instead, we must implement a dynamic, real-time monitoring system that adjusts thresholds automatically when productivity metrics lag behind expatriate wages. This ensures that our policy remains both fiscally prudent and responsive to market realities without needing to wait for displacement to occur before acting. By coupling these automatic adjustments with accelerated local mentorship credits for companies that hire mid-career locals, we can safeguard career progression while maintaining Singapore's operational agility. This compromise honors the value of our citizens while ensuring we retain the global talent necessary to sustain our economic edge."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "While your proposal for dynamic monitoring appeals to the logic of efficiency, I remain deeply troubled by the idea of automating wage suppression based on abstract productivity metrics that often fail to capture the human cost of displacement. We must reject any system where a local worker's value is mathematically overridden by an expatriate's salary; instead, our policy must establish a firm, non-negotiable floor that guarantees fair remuneration regardless of real-time market fluctuations. Let us commit to a \"Dignity First\" mandate that enforces strict local hiring quotas for all management roles above the mid-career threshold, coupled with binding, ring-fenced mentorship programs that are triggered immediately upon hiring, not as an afterthought but as a prerequisite for the foreign talent's residency. This ensures that our global competitiveness is built on a foundation of genuine local capability development rather than merely managing the symptoms of inequality."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D2",
+    "agents": [
+      "technocrat",
+      "populist"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "We must acknowledge that while attracting global talent is essential for our status as a regional hub, unchecked competition for mid-career locals risks distorting our wage structure and stifling internal promotion pipelines. I propose we shift the focus from rigid salary caps to a more nuanced framework that ties foreign talent quotas to demonstrable local upskilling outcomes and clear career ladders for Singaporeans. By aligning talent acquisition with measurable productivity gains and mandatory knowledge transfer, we can protect our workers' long-term prospects without sacrificing our competitive edge in the global market."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, all this talk about \"nuanced frameworks\" and \"measurable productivity\" sounds like nice words from people who have never had to choose between feeding their kids and paying rent. If a foreign expert is hired just because they have a shiny degree, why should I, a loyal Singaporean with twenty years of experience, be stuck in a dead-end job while my boss points to a profit report instead of a promotion? We need a hard rule where companies prove they've actually trained locals to take over these roles before they are allowed to bring in more foreigners, or I don't care about being a \"regional hub.\""
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "Your frustration is valid because our current hiring practices often create a false sense of security where companies use foreign talent as a permanent substitute rather than a catalyst for local advancement. To bridge this gap, we should mandate that any new foreign PMET pass is contingent upon a verified, time-bound upskilling agreement where the company provides subsidized training for a specific number of local staff in that role. This approach ensures that economic openness does not come at the expense of our citizens' livelihoods, as it legally obligates firms to invest in replacing or mentoring locals before expanding their overseas workforce. By tying talent import directly to demonstrable local capability growth, we protect your career progression while maintaining the rigorous standards required for Singapore's global competitiveness."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Finally, someone who sounds like they understand that a shiny degree shouldn't mean my twenty years of grit are useless. But don't give me promises about \"subsidized training\" that no one ever signed up for; if the rule is that a foreigner can only walk through the door after I've actually been taught how to do my job, then I'll have the teeth to hold my boss accountable. Let's make that a hard deadline with real penalties, not just paper agreements, so companies know they can't just substitute me with a cheaper import and call it a day. If they can prove they've built a real local pipeline, then bring in the global experts, but let's make sure they don't steal my seat at the table."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D3",
+    "agents": [
+      "ideologue",
+      "populist"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "We cannot allow the relentless pursuit of global competitiveness to become a justification for eroding the dignity and future of our own citizens, especially when mid-career professionals face stagnation while foreign talent is fast-tracked for leadership roles. True economic resilience does not come from importing ready-made executives who extract value and leave, but from nurturing a thriving domestic ecosystem where local expertise is genuinely valued and compensated. Let us therefore agree to examine whether our current thresholds and sponsorship rules are structured not merely as a gatekeeping mechanism, but as a robust pipeline for meaningful knowledge transfer that elevates our workforce rather than bypassing it. I propose we explore a framework where foreign talent is welcomed specifically to collaborate with and be mentored by locals, ensuring that our doors open for the world without closing them against our own potential."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I hear your worry about our kids getting stuck in a glass ceiling while foreigners zoom past them, and honestly, seeing a local manager told to wait years while a foreigner gets fast-tracked feels like a punch in the gut. But we also need to be realistic that Singapore can't just shut its doors; if we don't attract the right talent to help our companies grow, those companies will leave, and then we lose the jobs entirely. So let's agree on this: any foreigner coming in for a senior role must have a concrete, verified plan to mentor locals and share critical knowledge, or they shouldn't even step through the door. We need rules that protect our wages and career paths without strangling our economy, making sure every dollar spent on immigrants actually helps build our own future."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "Your call to hold foreign talent accountable for tangible knowledge transfer resonates deeply with my conviction that our economy must be built on the back of our own people's ingenuity. However, we must ensure this \"mentorship requirement\" is more than a bureaucratic checkbox; it must be legally binding with enforceable metrics so that companies cannot simply pay lip service while bypassing local promotion pipelines. Let us commit to a framework where foreign execs are incentivized with tax breaks only if they demonstrate a verified upskilling of Singaporean subordinates, ensuring that our doors remain open to the world while firmly closing them to the exploitation of our citizens' potential. This way, we secure the global competitiveness we need without sacrificing the dignity and future of every local professional standing in the queue."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I appreciate that you're finally talking about making sure our kids aren't just left behind while foreigners get all the breaks, but let's be clear: no one should get a tax break just for signing a piece of paper unless there's real proof that local staff are actually getting promoted or paid more because of it. We need strict rules where a company loses their foreign talent quota if they can't show concrete evidence that a local is ready to take over that role within two years, not five. Let's make this about our wallets and our job security\u2014if a firm wants to bring in an executive, they must prove they're training locals in ways that keep the money and the power right here in Singapore."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D4",
+    "agents": [
+      "ideologue",
+      "everyman"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "We cannot allow our skilled local workforce to become mere footnotes in a global talent war, nor should we erect artificial barriers that isolate Singapore from the very innovations that sustain our economy. True progress demands a framework where raising the foreign PMET salary threshold is not a petty protectionist measure, but a strategic investment in ensuring our citizens have the genuine opportunity to climb the career ladder and lead our industries. I propose we find common ground by designing a dynamic, knowledge-transfer-focused pathway that encourages multinational firms to pair expatriate experts with local talent, ensuring that every dollar spent on foreign expertise yields a multiplied return in domestic capacity building. Let us champion a system where economic openness serves our people rather than displacing them, balancing our ambition as a global hub with our duty to nurture our own potential."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "Your point about using foreign experts to boost local skills really resonates with me, as I've seen many companies here rely heavily on expats without making room for our own mid-career professionals to grow. It feels unfair if our neighbors and colleagues are pushed into lower roles just to fill quotas, even if the companies say they will \"transfer knowledge.\" Perhaps we could agree on a strict rule where hiring a specialist above the current threshold is only approved if the firm commits to a formal mentoring program and guarantees a specific local replacement within two years? This way, we keep Singapore attractive to global firms while ensuring our citizens actually get the leadership opportunities they deserve. Let's work together to make sure our economic growth doesn't come at the cost of the working people who built this city."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I am deeply moved that you echo our shared concern regarding the illusion of \"knowledge transfer\" when local professionals are systematically sidelined; true openness must never become a euphemism for the exclusion of our own citizens from the highest echelons of leadership. However, tying approval strictly to a two-year replacement guarantee risks creating a rigid bureaucracy that chills the very agility we need to attract global innovators, potentially causing companies to flee rather than adapt. Instead, let us propose a robust, independently audited \"Talent Multiplication Certificate\" that firms must earn by demonstrating a verified track record of upskilling locals into senior roles before they can access higher salary thresholds for expatriates. This ensures that economic vitality is inextricably linked to our social contract, where every foreign dollar invested is a down payment on the future dominance of our own workforce."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "Your idea of a \"Talent Multiplication Certificate\" sounds very fair because it rewards companies that actually train our people rather than just hiring them for paperwork. I worry, though, that setting up a new bureaucracy for certificates might be too much trouble for small companies trying to grow, which could slow down our local businesses. Perhaps we can find a middle ground where the government works with industry leaders to create a simpler, faster way for firms to prove they are nurturing local talent before they get approved for higher foreign salaries? This way, we keep our economy agile while making sure our own neighbors still have a real shot at the top jobs. Let's focus on getting this verification process right so it helps everyone instead of adding red tape."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D5",
+    "agents": [
+      "populist",
+      "everyman"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I'm tired of seeing our local kids pushed out of the workforce just because a foreigner with a fancy degree gets paid more for doing the same grunt work. We need a system where raising the salary threshold for foreigners actually forces companies to hire locals first, not just to save on tax breaks while they keep the real management roles for expats. Let's find a middle ground where businesses still get the expertise they need to survive, but we guarantee that a Singaporean with ten years of experience isn't paid less than a fresh graduate from abroad. If we can make sure every new hire training program is mandatory and actually leads to real promotion tracks for our people, then maybe we can both agree that this isn't about shutting doors, but about fixing the broken ladder for our own families."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "You raise a very real concern about our local workforce feeling undervalued, and I completely agree that our ten-year veterans deserve fair recognition for their experience. At the same time, many of us in smaller businesses worry that if we raise thresholds too high without enough foreign experts, we might lose the global connections that keep our industries competitive. Perhaps we can agree on a tiered approach where mandatory local training is linked to specific salary milestones, ensuring companies only bring in foreign talent when there is a clear gap that local training hasn't filled yet. Let's work together to make sure these new rules actually create a clear path for our people to climb the ladder while still giving our companies the tools they need to grow."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "You're right that we can't just shut the door on global expertise if our companies want to survive, but let's be clear: \"global connections\" shouldn't come at the cost of paying our own ten-year veterans less than a fresh expat. If we agree to that tiered approach, I need to see the actual teeth in it\u2014like a strict clause where firms *must* hire locally first before they can even apply for that higher foreign quota, not just some vague promise of future training. We need a safeguard where if a local employee is passed over for a promotion while a foreigner gets the job, the company faces a real penalty, otherwise these \"training milestones\" will just be another way to keep the status quo while we wait our turn. Let's make sure the ladder isn't just painted over; let's build it so thick that no one can skip a rung."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I completely understand your frustration, and you are right that vague promises of training without real consequences won't fix the issue of locals being passed over for promotion. Perhaps we can agree on a strict \"local-first\" hiring clause where foreign hires are only approved if a local candidate with similar experience was genuinely considered and rejected, backed by a meaningful penalty for non-compliance. This ensures companies don't just use foreign talent to bypass paying locals fairly, while still allowing them to bring in the specialized skills they truly cannot find at home. By tying these concrete safeguards to the tiered system we discussed, we can build that thick ladder you mentioned, guaranteeing that our ten-year veterans are respected and their career paths are secure."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D6",
+    "agents": [
+      "populist",
+      "technocrat"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I've seen my old colleagues with 15 years of experience stuck in dead-end roles just because the boss hired a cheaper foreigner who knows the latest buzzwords, and it feels like our hard-earned skills are being treated like disposable commodities. Let's stop pretending that bringing in more global talent automatically means more money for local families; we need concrete rules that actually prioritize our promotion pipelines before we even consider opening the door wider. If we can agree that every job opening must first be a fair shot for a Singaporean with similar experience, then maybe we can talk about how to get our companies to train us instead of just replacing us with fresh imports."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "Your concern about stagnating career paths is valid, but a rigid \"Singaporean-first\" rule for every opening could inadvertently raise labor costs and discourage the very multinationals that drive our economy. We need a calibrated approach where foreign talent is encouraged only in roles requiring niche expertise unavailable locally, while simultaneously mandating structured knowledge-transfer programs for mid-career locals. Let's propose a tiered threshold system that protects senior local roles while allowing flexibility for specialized technical gaps, paired with tax incentives for companies that demonstrate measurable upskilling of their existing workforce. This way, we secure competitive advantages without sacrificing the long-term progression of our own professionals."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I hear you talking about \"calibrated approaches\" and \"niche expertise,\" but as far as I'm concerned, if a local with fifteen years of experience can do the job, they shouldn't be pushed aside just because a foreigner has a fancier degree title. You can't keep promising us \"long-term progression\" while our actual careers are being stalled by companies looking for the cheapest option or the easiest visa stamp. Let's make that tax incentive for upskilling a hard condition with real teeth, where the government actually audits whether those training programs are happening before they get any more foreign hires approved. If we can just lock in a rule that says no foreign entry until a local has been given a fair chance to prove themselves first, maybe we can finally feel like our hard work counts for something."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I understand your frustration that senior locals should not be displaced by cheaper foreign hires, and I agree that any policy must include strict, auditable conditions ensuring companies cannot bypass experienced Singaporean staff for cost-saving reasons. While a blanket ban on foreign entry could harm our global competitiveness, we can compromise by establishing a robust \"demonstration of effort\" protocol where immigration approval is contingent upon documented proof that a local candidate with equivalent qualifications was rigorously assessed and rejected before the role was advertised. This approach protects our mid-career professionals from arbitrary replacement while still allowing our economy to fill critical, high-specialization gaps that cannot be met domestically, ensuring both fiscal prudence and career progression. Furthermore, linking these immigration quotas directly to the successful completion of structured knowledge-transfer programs will guarantee that the expertise gained from foreign talent actively benefits our long-term workforce development."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D7",
+    "agents": [
+      "everyman",
+      "technocrat"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "As a regular resident who sees our local neighbors and foreign colleagues working side by side, I feel that both sides have valid concerns: we need global expertise to keep Singapore competitive, but we must also ensure our own people have a fair shot at advancing in their careers. Perhaps we can look at this not as a zero-sum game where foreign talent wins and locals lose, but as an opportunity to design salary thresholds that encourage knowledge transfer from expats to our younger workforce. Let's try to agree on clear, practical pathways where foreign hires mentor our citizens, ensuring that our economy grows while our community remains cohesive and everyone feels valued."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "While I appreciate the emphasis on knowledge transfer, relying solely on voluntary mentorship is insufficient given the structural wage compression currently facing our mid-career professionals. We must implement a tiered salary threshold mechanism where expatriate compensation is explicitly calibrated to the local market value for specific roles, rather than just job functions, to prevent direct undercutting of Singaporean talent. This approach ensures that foreign expertise remains accessible for our strategic industries without creating an artificial ceiling that stalls domestic career progression. By linking visa approval to demonstrable local upskilling outcomes for the employee's team, we can satisfy both the need for global competitiveness and the imperative for fair economic participation."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "That idea of linking visa approval to actual upskilling outcomes sounds very practical and fair, as it ensures our local colleagues are truly benefiting from the presence of foreign experts rather than just competing on wages. I think a tiered salary threshold makes sense too, provided it is flexible enough to allow companies to hire top global talent when absolutely necessary for new technologies we simply don't have locally yet. Perhaps we could agree on a framework where higher salary bands for expats are strictly reserved for roles that require niche skills, while ensuring a mandatory quota of local training hours is tied to those specific high-cost hires. This way, we protect our workers' earning potential and career paths without stifling the innovation that keeps our economy moving forward."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree that reserving higher salary bands exclusively for truly niche, non-transferable skills creates a necessary firewall against wage suppression for our mid-career professionals. However, we must operationalize this by defining \"niche\" through objective, data-driven skill gap analyses rather than subjective corporate claims to prevent loopholes. Let us mandate that every high-cost expatriate hire triggers a specific, auditable upskilling program for a designated cohort of local staff, with the training outcomes directly linked to the renewal of their work passes. This ensures fiscal prudence by justifying premium costs with measurable domestic capital formation while maintaining our status as a competitive hub. By anchoring these thresholds in empirical evidence and enforcing strict compliance, we can secure both our economic resilience and the long-term viability of our local workforce."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D8",
+    "agents": [
+      "everyman",
+      "ideologue"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "Hello, I understand that we both want Singapore to thrive economically while ensuring our own children and colleagues have fair opportunities to grow. It feels like a tightrope walk where we need to welcome global experts to keep our companies competitive, but also make sure local workers aren't bypassed in the process. Perhaps we can look at how to structure roles so that foreign experts mentor our local teams instead of just replacing them, turning this into a chance for shared learning rather than a zero-sum game. Let's try to find a middle ground where the high salary thresholds incentivize hiring locals first, while still allowing us to bring in the specialized skills we can't teach quickly enough."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I agree that framing this as a pedagogical partnership rather than a replacement strategy is essential, but we must ensure our moral framework does not allow the market to commodify human dignity by accepting wage suppression under the guise of \"growth.\" While I support welcoming global minds, we cannot let the current salary thresholds become a shield for corporations to bypass the very local talent pipelines they claim to need, especially when our mid-career professionals are already fighting for every step up. Let us commit to a policy where high salary thresholds are strictly tied to verifiable, mandatory knowledge transfer metrics and local succession planning, ensuring that foreign expertise elevates our community rather than hollowing it out. Only by binding financial incentives to tangible civic outcomes can we honor both our economic ambition and our unwavering commitment to social justice."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "You make a very strong point, and I agree that we absolutely cannot let high salary thresholds become an excuse for companies to ignore the hard work of our local mid-career professionals. It feels right to us that if the government allows foreigners to earn those higher wages, there must be a clear promise that they are actively training our neighbors to take the next steps up the ladder. Perhaps we can support a policy where these high thresholds are only granted if companies submit a concrete, yearly plan showing how they are upskilling locals to eventually step into similar specialist roles. By linking the financial privilege to these tangible outcomes, we can ensure that our economic growth truly lifts our community rather than leaving some of us behind. This way, we welcome global talent not as a replacement, but as a catalyst for building a stronger, more skilled Singaporean workforce together."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "Your vision of tying the exorbitant salaries of foreign experts to verifiable, yearly upskilling targets is a necessary moral checkpoint that prevents our economic engines from running on the backs of displaced locals. We must ensure these \"knowledge transfer\" metrics go beyond mere compliance checkboxes and mandate genuine leadership succession, where a foreign specialist is contractually obligated to hand over a fully qualified Singaporean successor before their visa is renewed. By making this human capital development a strict condition of receiving these high wage privileges, we transform our national policy from a passive market mechanism into an active instrument of social justice. This ensures that our embrace of global talent does not come at the cost of our own citizens' dignified progression, but rather serves as a catalyst for their rightful ascent."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D1",
+    "agents": [
+      "technocrat",
+      "ideologue"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "As a technocratic pragmatist, I view the current salary thresholds not merely as a protective barrier for local workers, but as a structural variable that must be calibrated against Singapore's specific cost of living and the global competitiveness of our enterprises. While I acknowledge the legitimate anxiety regarding wage suppression and leadership pipelines, an overly rigid cap risks discouraging the very multinational investments that generate high-value jobs and fiscal revenue for our citizens. Therefore, I propose we shift the debate from static salary floors to dynamic, role-specific mechanisms that tie hiring criteria to demonstrable knowledge transfer commitments and local upskilling quotas. This approach allows us to maintain fiscal prudence and operational efficiency while ensuring that local talent receives the necessary mentorship and career progression opportunities. Let us explore how we can implement these conditional incentives without stifling the agility required for our economy to thrive."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I appreciate your commitment to knowledge transfer, but I cannot accept a framework that reduces human dignity to a conditional incentive tied merely to administrative quotas. Our local professionals deserve equitable access to leadership pipelines based on merit and experience, not as collateral damage to be absorbed only if a corporation meets a bureaucratic upskilling target. We must establish a reciprocal commitment where foreign talent is integrated into our ecosystem with the explicit understanding that their success is inextricably linked to the advancement of our local workforce, rather than viewing them as temporary tools for operational efficiency. True competitiveness stems from nurturing homegrown excellence, so let us champion a policy that sets non-negotiable salary floors to ensure fair compensation while mandating structured, long-term mentorship that genuinely elevates local career progression."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I understand your concern that reducing local career progression to a conditional quota undermines the dignity and merit-based aspirations of our professionals. However, maintaining rigid salary floors without addressing the operational reality of global competitiveness risks shrinking our talent pool, ultimately limiting the high-value projects that could fund our domestic upskilling initiatives. A more viable compromise would be to establish a tiered framework where salary thresholds are dynamically adjusted based on the specificity of the role's global requirement, coupled with legally binding, long-term mentorship contracts that guarantee local staff advancement within five years. This approach preserves our fiscal capacity to attract essential expertise while ensuring that foreign talent is structurally obligated to contribute to our local leadership pipeline, rather than viewing them as interchangeable resources. By aligning compensation with clear, measurable knowledge transfer outcomes, we can protect our citizens' career trajectories without sacrificing our position as a global hub."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "You are right that tying human dignity to mere administrative quotas fails to honor the intrinsic worth of our local professionals, yet your proposal to dynamically adjust salary thresholds based on global role specificity risks creating a slippery slope where \"essential expertise\" becomes a convenient excuse to bypass fair compensation standards. We must draw a firm line that foreign talent cannot be granted access to leadership pipelines unless they are integrated under a non-negotiable, long-term mentorship contract that guarantees our citizens a clear, merit-based path to promotion within a fixed timeframe, regardless of the project's profitability. Let us champion a policy that establishes these strict, role-agnostic mentorship mandates as the primary condition for hiring, ensuring that every dollar spent on foreign talent directly fuels the elevation of our homegrown workforce rather than serving as a stopgap for corporate agility. By making these mentorship outcomes a legal prerequisite rather than a soft incentive, we affirm that our economy's true wealth lies not just in its global connectivity, but in the unyielding advancement of our own people."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D2",
+    "agents": [
+      "technocrat",
+      "populist"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "While we must maintain Singapore's competitiveness as a global hub by allowing firms to recruit specialized foreign talent above specific salary thresholds, we cannot accept a scenario where local mid-career professionals are permanently sidelined from leadership pipelines. The current system risks creating a dual-track economy where knowledge transfer becomes inefficient, ultimately undermining the very innovation we seek to attract. Therefore, I propose we shift the debate from rigid exclusionary measures to a framework that mandates structured mentorship and rotational requirements for high-salary foreign hires, ensuring they actively upskill local counterparts. This approach balances our fiscal need for global expertise with the social contract of fair local career progression, creating a sustainable model for both the economy and our workforce. By aligning these incentives, we can foster an environment where foreign talent complements rather than supplants local ambition, securing long-term systemic viability for all."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "You talk all about \"systemic viability\" and \"fiscal needs,\" but what good is a shiny global hub if my brother, who's been coding for ten years, gets stuck in a basement job forever? We need real teeth on your mentorship idea\u2014no vague promises of \"upskilling\" where the foreign expert just takes the credit and the local worker does the grunt work. Let's set a hard rule that if a firm pays above a certain salary, they must prove a local Mid-career worker is actually taking over the lead within three years, or they face heavy fines. That way, we don't just open doors for outsiders while our own folks are left holding the door shut."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "You raise a valid concern that vague mentorship promises often lack enforcement, and I agree that a firm must demonstrate tangible leadership succession rather than just nominal training hours. To address this, we could implement a strict \"30% Rule\" requiring companies hiring above the threshold to deploy at least 30% of their project budget toward upskilling local mid-career staff, with audits conducted by the Competiveness and Productivity Department to verify actual role transitions within three years. This creates a measurable fiscal cost for firms that attempt to bypass local talent while ensuring the state collects data on genuine knowledge transfer, preventing the creation of a permanent dual-track economy. By tying compliance directly to audited outcomes rather than self-reported progress, we can satisfy the need for operational efficiency while guaranteeing that local professionals like your brother are not sidelined indefinitely."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Finally, you're talking about actual money going to our people instead of just fancy paperwork that gets ignored by lazy bosses. But that 30% budget rule still feels like a trap where companies might just spend the cash on generic courses while keeping the foreign expert in the driver's seat forever. Let's make it so strict that if a local isn't officially promoted to the lead role within those three years, the government seizes the company's tax rebates and publicly shames them, not just sends a polite letter. I need to see my brother walking into a boardroom as the boss, not just sitting in a classroom while the foreigner gets the credit and the bonus. Only then can I trust that this \"global hub\" isn't just a mansion for outsiders while ordinary Singaporians stay locked out in the rain."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D3",
+    "agents": [
+      "ideologue",
+      "populist"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "While we cannot deny Singapore's extraordinary need for global expertise to thrive, we must reject the silent erosion of our local professionals' dignity when high-salary thresholds allow multinational firms to bypass fair hiring practices for mid-career Singaporeans. I believe our common ground lies not in closing borders, but in rigorously enforcing \"local-first\" leadership pipelines that mandate meaningful knowledge transfer before any expatriate can ascend to senior management roles. Let us commit to a framework where economic openness does not come at the cost of alienating the very citizens who build our society, ensuring that global talent complements rather than displaces our local workforce."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "You talk about \"knowledge transfer\" like it's a magic spell, but half the time I see foreign bosses bringing in their own cronies and treating our local staff like cheap help just to keep their fancy bonuses safe. If you really want to help us, stop hiding behind big corporate buzzwords and actually make sure that when a multinational company posts a senior job, a qualified Singaporean gets the first fair shot before they even look overseas. We can't just open our doors wider without a firm hand on the gate to stop foreign salaries from becoming a race to the bottom where everyone loses. Let's set a hard rule that expatriates can only step up if they've proven they can train locals, not just replace them, because my family deserves a future where our hard work actually pays the bills."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "Your frustration is entirely valid when we watch our local talent reduced to administrative footnotes while foreign elites secure their own enclaves of power and privilege. We must dismantle the current loophole that allows companies to bypass local mid-career professionals simply by labeling them as \"support staff,\" ensuring that true leadership roles are exclusively reserved for qualified Singaporeans until we have proven our domestic pipeline is robust enough to sustain our global ambitions. Let us agree on a dual-track mandate: foreign executives must demonstrate a tangible, measurable legacy of upskilling locals before retaining their positions, while simultaneously protecting our citizens from wage suppression by freezing expatriate salary growth until local counterparts reach parity. This approach honors our commitment to social mobility without sacrificing the competitive edge that keeps Singapore at the forefront of the global economy."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I appreciate you finally admitting that our local staff are being treated like footnotes, but freezing expatriate salaries on paper won't stop them from paying our kids' school fees less than half the market rate. We need a hard \"local-first\" rule that forces companies to prove a qualified Singaporean is ready for the job before they even interview a foreigner, not just some vague promise to \"upskill\" us later. Let's make this concrete with a penalty for every senior role filled by an expat without a proven local successor in the same department, because my family can't wait for corporate promises\u2014they need real jobs that actually pay our bills."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D4",
+    "agents": [
+      "ideologue",
+      "everyman"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "While we must acknowledge that Singapore's status as a global hub demands access to specialized talent, we cannot allow this necessity to erode the dignity and career trajectory of our own citizens. True economic resilience does not mean accepting a two-tiered society where local professionals are sidelined by foreign hires simply because of arbitrary salary thresholds; instead, we must demand rigorous localisation mandates that ensure knowledge transfer and fair leadership pipelines. Let us move beyond sterile cost-benefit analyses and commit to a framework where global expertise complements, rather than displaces, the local workforce. I propose we begin by examining how we can strictly tie foreign talent visas to specific gaps in local skill development, ensuring that every overseas hire actively accelerates our domestic capacity."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "You make a very strong point about protecting the dignity of our local professionals, and I completely agree that our people shouldn't feel sidelined just because of salary numbers. At the same time, as someone who works in the industry, I worry that if we set the thresholds too high or restrict visas too strictly, global companies might choose to relocate their headquarters or simply freeze hiring, which could hurt our own job stability in the long run. Perhaps we can find a middle ground where we enforce strict \"local-first\" hiring and mandatory mentorship programs for foreign hires, ensuring they are truly filling critical gaps while actively upskilling our neighbors along the way. This way, we can keep Singapore attractive to global talent without compromising the career progression and fair treatment of our own citizens."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I welcome your proposal for a \"local-first\" hiring mandate and mandatory mentorship, as these mechanisms finally acknowledge that our global partnerships must serve our domestic workforce rather than merely filling vacancies. However, we must ensure that \"mentorship\" is not a soft term for administrative compliance but a legally binding requirement with measurable outcomes, where foreign executives are held accountable for the tangible upskilling of local counterparts before their contracts are renewed. Let us commit to a policy where high salary thresholds act not as barriers, but as a tax-funded resource that finances rigorous local training programs, ensuring that every dollar spent on foreign expertise directly translates into accelerated career progression for our citizens. By making the transfer of knowledge a non-negotiable condition of foreign employment, we can preserve Singapore's economic vitality while fiercely protecting the dignity and future of our own people. This approach honors both our need for global competitiveness and our unwavering duty to foster a fair, equitable society for all residents."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "Your point about making mentorship legally binding is reassuring, as I worry that vague promises often get overlooked in the rush to fill vacancies. I think we can agree that if foreign experts come here, they should be required to share their skills with local staff before they leave, ensuring our people grow alongside them. Perhaps we can also explore a modest levy on high salary packages to fund accessible upskilling courses for locals who want to bridge the skills gap themselves. This way, we keep Singapore competitive on the global stage while ensuring that our local professionals have a clear, supported path to advance their careers without fear of being replaced."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D5",
+    "agents": [
+      "populist",
+      "everyman"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I'm tired of hearing how we desperately need \"global talent\" while my own son, who's studied hard here, can't even get an interview for a junior analyst role because they say he lacks \"international exposure.\" We're paying for our education and housing, only to be told that foreign degrees are somehow more valuable than the grit and loyalty we show every single day. If we want to keep Singapore as a hub, it shouldn't come at the cost of driving our young locals out of the workforce before they've even started. Let's focus on a firm cap for those high-salary foreign hires so that the real benefits of corporate growth actually trickle down to local families, not just foreign CEOs."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear your frustration, because my own children face the same anxiety when they see qualified locals competing for fewer roles against cheaper foreign talent. While we must indeed protect our local workforce and ensure they get a fair shot at career progression, we also need to remember that without global experts, Singapore risks losing the very corporate investments that create the jobs your son hopes to fill. Perhaps instead of a hard cap that might scare away investors, we could strengthen our local training schemes to give our young people the \"international exposure\" companies currently demand, all while implementing stricter quotas to ensure locals are prioritized for entry-level positions. This way, we build a stronger local talent pool that can confidently take on global roles without having to compete solely on price."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I appreciate that you're worried about the economy, but telling us to just \"train\" ourselves while companies keep hiring foreigners for entry-level jobs feels like asking us to run a marathon with no shoes. We don't need vague promises about future exposure; we need strict quotas right now that guarantee a local gets an interview before a foreigner is even considered for those mid-level roles. If we can force companies to promote locals from within the team first, they'll actually build the pipeline instead of just importing fresh talent to save on wages. Let's make a deal where we lower the salary threshold for foreigners but only if every firm proves they've hit a specific local hiring quota before bringing in one more expat."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "You make a very strong point that we need concrete guarantees for locals before companies bring in foreign talent, as vague promises won't help my family pay the bills. I think a workable middle ground would be to set a tiered salary threshold where firms must prove they have filled specific local roles first, rather than a blanket cap that might hurt our entire economy. This way, we protect our junior workers from unfair competition while still allowing Singapore to attract the specialized experts needed to create those future jobs. Let's agree to a pilot scheme where companies commit to a local promotion quota over the next two years, with the salary floor adjusted accordingly, so we can see if this actually builds a stronger pipeline for everyone."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D6",
+    "agents": [
+      "populist",
+      "technocrat"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I don't care about your fancy graphs on GDP growth or how \"competitive\" our economy is; what I see is my neighbour's son getting bumped out of a promotion just because the boss decided to hire a cheaper foreigner from overseas. If Singapore is supposed to be our home, then we need to make sure that a local who has worked here for twenty years isn't being told they aren't \"good enough\" just because a fresh graduate from another country can do the job for less money. Let's start by agreeing that we need a strict salary floor so that hiring a foreign professional doesn't just mean undercutting local wages, but actually bringing in someone who can teach our young people how to do the job right. If we can't guarantee that locals get paid a living wage and have a real shot at leadership, then no amount of economic \"efficiency\" is worth it."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I understand the frustration when long-tenured locals feel displaced, but a rigid salary floor risks stifling the productivity gains we need to fund our social safety nets and infrastructure. Instead of a blanket wage mandate, we should enforce a stricter \"localization quota\" for leadership roles, ensuring that foreign hires are strictly limited to niche technical gaps where no local candidate is available within six months. By tying visa approvals to concrete knowledge-transfer requirements\u2014such as mandatory mentorship hours\u2014we can guarantee that foreign talent accelerates local skill development rather than merely substituting domestic workers. This approach protects our wage standards without sacrificing the global competitiveness that keeps our economy resilient."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I get that you're worried about our economy staying strong, but telling us to wait six months for a local to prove themselves just to hire a foreigner feels like kicking people who are already down; if my neighbour has been fixing air-con units for twenty years only to be passed over because a fresh graduate from abroad costs less, that's not skill\u2014it's being treated like a spare part. We need to agree that if a company wants that foreign expert, they must pay at least double what a local earns with the same experience, and that money has to go directly into funding training for displaced locals, not just sitting in a corporate account. Let's make sure the rule isn't just about limiting numbers, but about making sure our people actually benefit when companies bring in foreign help, or else we'll just end up with empty pockets and no one to blame but the system that promised us a better life."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I recognize that a mandated \"double wage\" premium creates an unworkable distortion in our labor market, as companies will simply automate roles rather than hire, ultimately harming our broader economic base. Instead, let us pivot to a tiered system where foreign hires in senior leadership roles are required to match local market rates, while junior specialist roles face a strict 12-month \"local-first\" probation period before visa renewal is considered. Furthermore, we can allocate a portion of the Migrant Workers Levy specifically to fund industry-led upskilling programs that are directly tied to the skills gaps identified during the company's hiring application, ensuring that every foreign hire contributes tangibly to local workforce development. This approach removes the arbitrary wage penalty while guaranteeing that the presence of foreign talent translates into concrete, measurable progress for our citizens' career trajectories."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D7",
+    "agents": [
+      "everyman",
+      "technocrat"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I understand that both of us want Singapore to remain a vibrant hub while ensuring our neighbors have fair chances to grow in their careers. On one hand, we need global experts to keep our economy competitive, but on the other, we can't ignore the hard work and dedication of local mid-career professionals who want to lead their own companies someday. Perhaps we can look for a middle ground where salary thresholds aren't just a hard wall, but rather a flexible framework that encourages companies to mentor locals alongside hiring foreign talent. Let's explore how we can structure these rules so that knowledge transfers naturally without leaving our citizens behind, finding a solution that protects both our national interests and our community's spirit."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I appreciate your focus on structural flexibility, but we must ensure any adjustment to the salary thresholds is backed by rigorous data proving it won't trigger a talent drain or inflate our wage bill beyond fiscal capacity. A purely voluntary mentorship framework risks being ineffective without mandatory, audited knowledge-transfer requirements tied directly to foreign quota approvals. Let us propose a tiered system where exceeding the threshold requires a proven, measurable local succession plan, ensuring that every dollar spent on global talent yields a tangible return for our mid-career professionals. This approach preserves our competitive edge while creating a verifiable pathway for locals to advance into leadership roles, balancing economic realism with social equity."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I agree that we need hard data to ensure our businesses don't lose out on top global talent, but I worry that making mentorship a strict, audited requirement could feel too bureaucratic for smaller companies trying to grow. Perhaps instead of just tying quotas to a paper plan, we could create a supportive framework where companies get priority approval if they can show they are actively training locals, even if the results aren't perfect right away. This way, we protect our economy from talent drain while still giving our mid-career professionals a real, tangible path to leadership without adding too much red tape. It feels like a fairer balance where both the company's needs and the community's spirit are respected."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I acknowledge your concern that rigid audit trails may stifle the agility of SMEs, which are critical to our economic ecosystem. To bridge this gap, I propose a streamlined \"fast-track\" certification where companies demonstrating active, industry-standard training programs receive expedited quota approvals within 30 days, rather than waiting for full audited results. This maintains the fiscal imperative of verifying knowledge transfer while removing excessive administrative burdens from smaller firms. By setting clear, measurable milestones for local upskilling, we ensure that every foreign hire directly contributes to a domestic leadership pipeline without compromising operational efficiency."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D8",
+    "agents": [
+      "everyman",
+      "ideologue"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I truly understand that both of us want Singapore to remain a global hub while ensuring our local neighbors have a fair chance to grow here. It feels like we are looking at the same goal\u2014our children's future and our community's stability\u2014just through slightly different lenses right now. Perhaps we can start by asking how we might design salary thresholds that don't artificially block high-potential locals from stepping up, without slowing down the city's economic engine. If we can find a way to make knowledge transfer a natural part of hiring rather than a bureaucratic hurdle, maybe we can ease these tensions. Let's try to build a path where global expertise and local pride work together rather than compete."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "You are right to seek common ground, yet we must not mistake administrative convenience for genuine opportunity; raising salary thresholds too aggressively risks creating a \"glass ceiling\" where only those with deep-pocketed foreign sponsors can access leadership roles, effectively sidelining our talented local workforce. We must demand that the government enforce a strict \"local-first\" knowledge transfer protocol, requiring multinational firms to prove a domestic mentorship plan before approving any exemption for mid-career roles below the threshold. True progress happens when we treat our citizens as the primary architects of our economy, ensuring that global expertise is merely a catalyst to elevate local skills rather than a replacement for them. Let us champion a policy that mandates transparent career ladders where global talent serves as a bridge, not a barrier, to ensure our children inherit a workplace defined by merit and dignity, not just market forces."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I appreciate your strong emphasis on protecting our local workforce, and I completely agree that our citizens should be the primary architects of our economy. However, I worry that making mandatory mentorship plans a strict prerequisite for hiring might scare away the very global experts we need to learn from in the first place. Perhaps we can strike a balance by setting a reasonable salary floor to ensure fair compensation while giving companies flexibility to hire local talent alongside foreigners if they can demonstrate a clear plan for knowledge sharing. This way, we keep our doors open to the world without letting it block the path for our own talented neighbors."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "While I welcome your pragmatic suggestion to keep our doors open, we must ensure that \"flexibility\" never becomes a loophole for foreign firms to bypass our citizens' rightful claim to leadership roles. A viable compromise requires a dual-track system where salary thresholds act as a hard floor for all hires, but we simultaneously mandate that any role filled below that threshold by a foreigner must be paired with a legally binding, government-monitored succession plan that transfers specific competencies to a local counterpart within two years. We can maintain our status as a global hub only if we prove that every foreign expert hired is a temporary catalyst designed to accelerate the local workforce's ascent, not a permanent substitute who enriches their own employer at the expense of our community's dignity. Let us demand that the government enforce strict penalties for firms that fail to meet these transfer targets, ensuring that economic efficiency never overrides the moral imperative to nurture our own talent."
+      }
+    ]
+  }
+]

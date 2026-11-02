@@ -1,0 +1,137 @@
+{
+  "ctt": {
+    "ITEM_01": {
+      "item_id": "ITEM_01",
+      "difficulty_p": 1.0,
+      "discrimination_index": 0.0,
+      "distractor_counts": {
+        "A": 48,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "distractor_ratios": {
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    "ITEM_02": {
+      "item_id": "ITEM_02",
+      "difficulty_p": 0.9583,
+      "discrimination_index": 0.1429,
+      "distractor_counts": {
+        "A": 47,
+        "B": 1,
+        "C": 0,
+        "D": 0
+      },
+      "distractor_ratios": {
+        "B": 0.0213,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    "ITEM_03": {
+      "item_id": "ITEM_03",
+      "difficulty_p": 1.0,
+      "discrimination_index": 0.0,
+      "distractor_counts": {
+        "A": 48,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      },
+      "distractor_ratios": {
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    }
+  },
+  "irt": {
+    "items": {
+      "ITEM_01": {
+        "item_id": "ITEM_01",
+        "difficulty_b": -1.8037,
+        "discrimination_a": 2.2208
+      },
+      "ITEM_02": {
+        "item_id": "ITEM_02",
+        "difficulty_b": -1.0378,
+        "discrimination_a": 2.738
+      },
+      "ITEM_03": {
+        "item_id": "ITEM_03",
+        "difficulty_b": -1.8037,
+        "discrimination_a": 2.2208
+      }
+    },
+    "deliberators": {
+      "dyad_theta": {
+        "D1": 0.249,
+        "D2": -0.1947,
+        "D3": 0.249,
+        "D4": 0.249,
+        "D5": 0.249,
+        "D6": 0.249,
+        "D7": 0.249,
+        "D8": 0.249
+      },
+      "individual_theta": {
+        "everyman": 0.1413,
+        "ideologue": 0.1413,
+        "populist": 0.0199,
+        "technocrat": 0.1413
+      },
+      "persona_by_dyad_theta": {
+        "everyman": {
+          "D4": 0.1413,
+          "D5": 0.1413,
+          "D7": 0.1413,
+          "D8": 0.1413
+        },
+        "ideologue": {
+          "D1": 0.1413,
+          "D3": 0.1413,
+          "D4": 0.1413,
+          "D8": 0.1413
+        },
+        "populist": {
+          "D2": -0.3441,
+          "D3": 0.1413,
+          "D5": 0.1413,
+          "D6": 0.1413
+        },
+        "technocrat": {
+          "D1": 0.1413,
+          "D2": 0.1413,
+          "D6": 0.1413,
+          "D7": 0.1413
+        }
+      }
+    }
+  },
+  "individual_success_rates": {
+    "technocrat": 1.0,
+    "ideologue": 1.0,
+    "populist": 0.9722,
+    "everyman": 1.0
+  },
+  "insights": {
+    "hardest_item": "ITEM_02",
+    "easiest_item": "ITEM_01",
+    "most_discriminating_item": "ITEM_02",
+    "lowest_competence_dyad": "D2",
+    "highest_competence_dyad": "D1",
+    "average_dcr_by_distractor": {
+      "B": 0.0071,
+      "C": 0.0,
+      "D": 0.0
+    },
+    "most_tempting_distractor": "B",
+    "total_votes_cast": 144,
+    "valid_votes_count": 144,
+    "discarded_ballot_count": 0
+  }
+}

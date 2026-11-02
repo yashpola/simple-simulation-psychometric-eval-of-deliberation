@@ -17,6 +17,9 @@ class DummyBallotClient(BaseLLMClient):
         temperature: float = 0.7,
         max_tokens: int = 512,
         seed: Optional[int] = None,
+        reasoning_effort: Optional[str] = None,
+        enable_reasoning: Optional[bool] = None,
+        **kwargs,
     ) -> str:
         return "Option A"
 

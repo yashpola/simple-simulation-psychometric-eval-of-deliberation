@@ -7,7 +7,7 @@ Adheres to:
 - Guideline 5: Defensive parsing wrapped in try/except.
 """
 
-from typing import List
+from typing import List, Any, Dict
 from src.schemas import (
     PolicyItem,
     DeliberationTurn,
@@ -21,7 +21,7 @@ from src.llm import BaseLLMClient
 def build_conversation_history(turns: List[DeliberationTurn]) -> str:
     """Format conversational dialogue history for prompt context."""
     if not turns:
-        return "(Deliberation has just begun. No statements made yet.)"
+        return ""
 
     history_lines: List[str] = []
     for turn in turns:
@@ -41,7 +41,8 @@ def conduct_deliberation(
     """Execute complete dyadic deliberation between two agents for a policy item."""
     turns: List[DeliberationTurn] = []
     user_prompts = config.get("user_prompts", {})
-    prompt_template = user_prompts.get("deliberation_turn", "")
+    start_template = user_prompts.get("deliberation_start")
+    turn_template = user_prompts.get("deliberation_turn", "")
     model_cfg = config.get("model_config", {})
     temperature = model_cfg.get("temperature", 0.7)
     max_tokens = (
@@ -50,6 +51,10 @@ def conduct_deliberation(
         or model_cfg.get("max_tokens", 512)
     )
     model_seed = model_cfg.get("seed", None)
+    reasoning_effort = model_cfg.get("reasoning_effort")
+    enable_reasoning = model_cfg.get("enable_reasoning")
+    if enable_reasoning is None:
+        enable_reasoning = model_cfg.get("reasoning_enabled")
 
     for turn_idx in range(turns_per_item):
         current_speaker_id = agents[turn_idx % len(agents)]
@@ -57,19 +62,31 @@ def conduct_deliberation(
         conv_history = build_conversation_history(turns)
 
         system_prompt = resolve_persona_system_prompt(current_speaker_id, config)
-        turn_prompt = prompt_template.format(
+        template = start_template if (turn_idx == 0 and start_template) else turn_template
+        turn_prompt = template.format(
             title=item.get("title", ""),
             topic_prompt=item.get("topic_prompt", ""),
             conversation_history=conv_history
         )
 
-        statement = client.generate(
-            prompt=turn_prompt,
-            system_prompt=system_prompt,
-            temperature=temperature,
-            max_tokens=max_tokens,
-            seed=model_seed
-        ).strip()
+        gen_kwargs: dict[str, Any] = {
+            "prompt": turn_prompt,
+            "system_prompt": system_prompt,
+            "temperature": temperature,
+            "max_tokens": max_tokens,
+            "seed": model_seed,
+            "reasoning_effort": reasoning_effort,
+        }
+        if enable_reasoning is not None:
+            try:
+                import inspect
+                sig = inspect.signature(client.generate)
+                if "enable_reasoning" in sig.parameters or any(p.kind == inspect.Parameter.VAR_KEYWORD for p in sig.parameters.values()):
+                    gen_kwargs["enable_reasoning"] = enable_reasoning
+            except Exception:
+                gen_kwargs["enable_reasoning"] = enable_reasoning
+
+        statement = client.generate(**gen_kwargs).strip()
 
         turn_record: DeliberationTurn = {
             "turn_index": turn_idx,

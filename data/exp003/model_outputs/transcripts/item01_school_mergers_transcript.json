@@ -1,0 +1,866 @@
+[
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D1",
+    "agents": [
+      "technocrat",
+      "ideologue"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I understand the sentimental value attached to a school's heritage, but we have to look at the operational reality: maintaining under-enrolled schools spreads our teaching talent and fiscal resources too thin, which ultimately compromises educational quality. Consolidation allows us to invest in better facilities and more diverse programs for students. I believe we can find common ground by ensuring mergers are done thoughtfully \u2014 perhaps by preserving heritage elements within the merged institution while achieving the necessary efficiencies."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I hear your concern for efficiency, but a school is not just an operational unit to be optimized \u2014 it is the heartbeat of a community, an anchor of identity for generations of families, especially in our heartlands. When we reduce heritage to a plaque or a display case in a new building, we are telling alumni and residents that their belonging is expendable for a budget line. I can accept consolidation where enrollment truly collapses, but only if we agree to a genuine compromise: mandatory community heritage impact assessments, binding preservation of names, history and public access to the site, and a guarantee that every dollar saved is reinvested directly into student well-being and neighborhood equity, not just absorbed as administrative savings."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "That is a fair distinction, and I agree that treating a school purely as a balance sheet item misses the social capital it anchors in the heartlands. I can support mandatory heritage impact assessments, provided we tie them to clear, transparent thresholds \u2014 for example, sustained enrollment below a defined level \u2014 and a fixed consultation timeline so we don't create indefinite operational limbo. In return, we can commit to preserving school names, archives, and community access to heritage spaces where feasible within the merged site, and to publishing an annual reinvestment statement that tracks how consolidation savings are redeployed into student support and facilities."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "That commitment to transparent thresholds and a published reinvestment statement is meaningful progress, and I appreciate you recognizing that social capital cannot be measured on a balance sheet. I can accept a fixed consultation timeline to avoid limbo, but only if that timeline guarantees authentic co-creation with alumni, parents, and residents \u2014 not a box-ticking exercise \u2014 and if preservation of names and heritage spaces is binding, not just \"where feasible.\" If we enshrine those assessments in policy, protect the heartland identity at the site itself, and ensure savings directly uplift student well-being and equity, then we have a compromise rooted in dignity, not just efficiency."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D2",
+    "agents": [
+      "technocrat",
+      "populist"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "Thank you for joining this discussion; I recognize that school closures touch on deep community identity, but we must also confront the demographic reality of our declining cohort sizes. From a systems perspective, maintaining under-enrolled schools stretches teaching resources, limits subject offerings, and increases per-student operating costs that could be better invested in upgraded facilities and specialized programmes. My initial position therefore favors consolidation where enrollment falls below viable thresholds, as larger merged schools can more sustainably deliver better educational outcomes. To find common ground, I would propose we explore how heritage elements \u2014 such as names, artifacts, and alumni networks \u2014 can be formally preserved and integrated into the merged institution, so efficiency does not have to mean erasure."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I hear your talk about efficiency and per-student costs, but on the ground when they close a school it's not just numbers \u2014 it's my neighbour's kid now taking two buses, parents scrambling, and a whole kampong spirit just gone. You say you'll preserve heritage with a name on a wall or some artifacts, but that feels like wayang to us, like elites deciding what's \"viable\" while heartland families pay the price. If you really want to merge, then guarantee us something real \u2014 free school buses, keep teachers together, and let the alumni and residents have a real vote on what heritage stays, not just a show. Do that, then maybe we can talk, otherwise it's just another top-down move that forgets ordinary people."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "You raise a valid operational concern \u2014 consolidation does create transitional costs in travel time and community disruption that must be accounted for, not dismissed as intangible. From a fiscal and educational standpoint, I can support a compromise where mergers are paired with concrete mitigations: time-limited transport subsidies or dedicated bus routes for affected cohorts, a commitment to redeploy existing teachers together where possible to preserve pedagogical continuity, and a formal heritage stewardship committee with alumni and resident representation to decide on naming, archives, and use of legacy spaces. This balances efficiency \u2014 avoiding the long-term cost of half-empty campuses with narrowing subject combinations \u2014 with an orderly, participatory transition that protects students and community continuity."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay, that sounds a bit better than just putting an old badge in a glass case \u2014 at least you're talking about real buses and keeping teachers together, not just \"per-student costs\". But time-limited subsidies is not enough, what happens after two years when parents still paying more for transport? If we are going to accept mergers, I need it in black and white \u2014 guaranteed buses until the last affected batch graduates, no increase in class sizes, and that heritage committee must have real power to veto, not just advise. Give us that kind of binding protection for heartland families, then I can agree to consolidation, otherwise it's just promises again."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D3",
+    "agents": [
+      "ideologue",
+      "populist"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "When we allow MOE to shutter a school simply because its enrollment dips, we are telling children that their heritage and community identity are expendable line items on a spreadsheet. A school is not just a building with an optimal class size; it is an anchor for generations of alumni, parents, and neighbourhood bonds that cannot be rebuilt with a new science lab. I hear my fellow citizen's concern for efficiency and modern facilities, and I share the desire for every child to have excellent resources. So let me propose this as common ground: we must first commit that no merger proceeds without a binding plan to preserve the school's name, heritage, and community presence, and only then discuss how to share resources equitably."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I hear you on heritage, but for heartland families like mine it's not about the name on the gate, it's about my kid having to wake up at 5:30am and travel across town because MOE closed the school down the road. Don't tell me about preserving history with a plaque while you pack 40 kids into one class and call it \"efficient\" \u2014 that's elites saving money, not helping us. If you want me to agree to any merger, then guarantee first that no child is forced to travel more than a few bus stops and that the money saved actually goes to more teachers, not just fancier buildings."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "You are absolutely right \u2014 a plaque on a wall is not preservation if the neighbourhood loses its school and our children pay the price in long commutes and crowded classrooms. That is exactly why efficiency without equity is a betrayal, and I stand with you in demanding that any savings must go directly to smaller classes and more teachers, not just showcase facilities. So let us unite on this compromise: no merger unless it both legally protects the school's identity and heritage in the merged institution, and guarantees every child a school within their community with a cap on travel distance and class size. If we hold that line together, we protect both our heritage and our heartland families from being sacrificed for mere administrative convenience."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay, now you're talking sense \u2014 if we force them to keep the name and history alive AND put it in writing that kids stay nearby with smaller classes, then it's not just elites cutting costs. I don't care about fancy mission statements, I care that the bus ride stays short and my daughter actually gets attention from her teacher. So I can agree to mergers only if that deal is locked in first, not promised after the school is already gone. You watch the heritage part, I'll watch the travel and class size part, and together we don't let them shortchange us."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D4",
+    "agents": [
+      "ideologue",
+      "everyman"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "A school is not just a building or a line item on MOE's budget \u2014 it is a living heritage, an anchor of identity for generations of students, parents and neighbours who built a community there. To erase that history in the name of so-called efficiency is to tell our children that their roots and belonging are expendable. I understand we must ensure every child has excellent resources, so my proposal is this: let us find common ground by demanding that any merger must first guarantee the preservation of both schools' heritage, names and community spaces, rather than simply sacrificing one for administrative convenience."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear what you're saying about heritage and identity \u2014 I feel that too, my old primary school is a big part of my childhood memories and it would be sad to see that just disappear. At the same time, I also see the practical side \u2014 if there are fewer children, it makes sense to combine resources so our kids can still have good teachers and facilities. Maybe a good middle ground is what you suggested, where a merger keeps both names and histories alive, like a shared heritage corner or keeping the alumni community involved. That way we respect the past but also make sure the schools can run well for the future."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I appreciate you honouring that sense of belonging \u2014 because that memory and rootedness is exactly what no new facility can manufacture. But a heritage corner alone risks becoming tokenism if the merger still quietly erases one community's name, crest and story for the sake of a spreadsheet. If we are to merge, let us insist on true equity: a co-created new identity that carries both histories forward, with alumni and residents at the planning table and community spaces protected for public use. That is the only efficiency worth pursuing \u2014 one that enriches our children's future without bulldozing their past."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I think you make a fair point \u2014 a small heritage corner by itself might feel like tokenism if one school's name and story just disappears. I like your idea of a co-created identity where both histories are carried forward and alumni and neighbours actually have a seat at the planning table. For me the practical side still matters, so if we can combine resources for better facilities and teachers while also protecting community spaces and keeping both legacies visible, that feels like a win-win. Maybe that balanced approach is how we can honour the past without holding back our children's future."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D5",
+    "agents": [
+      "populist",
+      "everyman"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I tell you honestly, every time they say \"merge for efficiency\" it's us heartland families who pay the price while the big shots don't feel a thing. My neighbour's kid now has to take two buses to the new school, and an old school that held our whole kampong together is just gone like that \u2014 where is the fairness in that? I get that fewer babies means fewer students, but don't use that as excuse to wipe out our community roots. If we have to find common ground, then any merger must come with a real guarantee \u2014 keep the travel short for our kids and protect a proper space for our heritage, not just empty promises."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear you and I think you're right to bring up the travel and the kampong spirit \u2014 those things really matter for heartland families and we shouldn't just brush them aside. At the same time, from what I see, when a school has very few students it's also hard for teachers and kids, maybe they can't offer as many CCAs or good facilities. So maybe we can agree on both sides \u2014 like if they must merge, they should promise no child travels too far, keep a heritage corner or hall to honour the old school name, and make sure the savings really go back to give our kids better classrooms."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay, I appreciate you actually listen, not like those top-down people who just throw numbers at us. But honestly a small \"heritage corner\" is not enough \u2014 if you want to take our school name away, then keep the old hall or field name, keep the alumni coming back, don't just put up two photos and call it memory. And that promise about travel must be black and white \u2014 no child should travel more than 30 minutes, with real school bus help, and show us where every dollar saved goes, back into our kids' classrooms, not disappear somewhere."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I think you make a very fair point \u2014 two photos on a wall really cannot replace a hall or field that holds so many memories, so keeping the old name for a building and keeping alumni welcome back sounds like a respectful way to honour that. And I agree with you, the 30-minute travel promise must be clear and real, with proper school bus support, otherwise it's just hardship for heartland parents and kids. If MOE can be open and show us how the savings are used to improve CCAs, labs and classrooms for the merged school, then at least we know the sacrifice leads to something better. Maybe that way we can protect both our kampong roots and give our children stronger opportunities together."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D6",
+    "agents": [
+      "populist",
+      "technocrat"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, when I hear MOE wants to close and merge schools just because of numbers on a spreadsheet, I get angry lah. For us heartlanders, that school is not just a building - it's where our kids walk to, where our parents volunteered, our whole kampong spirit. But I know we cannot keep empty classrooms forever, so I'm willing to listen if we can find a way to save money without erasing our identity and making kids travel so far."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I understand your concern about kampong spirit and the disruption to families when a neighbourhood school closes, and those community costs are real. From a systems perspective, though, running schools at 40-50% capacity means we are spreading teachers, funds for labs and CCAs, and maintenance budgets too thinly, which ultimately hurts student outcomes. A viable compromise would be to proceed with mergers where enrolment falls below a clear threshold, but ring-fence the savings to upgrade facilities and lower class sizes at the receiving school, while preserving identity through keeping the merged name, heritage gallery, and alumni links."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay, at least you admit closing a school hurts the community, not just \"efficiency\" like we are just numbers. But that threshold idea scares me - who sets it, and will you just keep moving the goalpost until our heartland school also kena merged? If you want me to agree, then guarantee lah - free school buses for affected kids, promise class size really goes down not just talk, and don't just give us a heritage gallery corner and think can already - keep the old name, old uniform option, let alumni still come back."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "Those are fair safeguards, and I agree a merger policy without clear, fixed rules would just create distrust. So let's define the threshold transparently \u2014 for example, published by MOE and reviewed every five years with Parliament oversight, not shifted year-to-year \u2014 and only trigger a merger after two consecutive years below that level plus a community impact assessment. In exchange for that predictability, we can commit the savings directly: a three-year free or subsidized school bus for displaced students, a hard cap that merged classes stay at or below 30, and a substantive heritage commitment where the receiving school retains both names for a transition period and alumni retain full access and voting rights."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D7",
+    "agents": [
+      "everyman",
+      "technocrat"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "Hello, I think this is a difficult topic because I can see why people feel sad when their old school closes, but I also understand we cannot keep half-empty schools running forever. I am not an expert on MOE planning, but as a parent and neighbour I just want our kids to have good teachers and facilities without losing that kampong spirit. Maybe we can find a middle way where we merge schools to save resources, but still keep some of the heritage alive like keeping the old name, crest, or having joint alumni events together. I am keen to hear your thoughts and work together to find a fair solution for everyone."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I appreciate your balanced starting point, and I agree we need to acknowledge both the emotional attachment and the fiscal reality. With total fertility rates around 1.0 and cohorts shrinking, operating under-enrolled schools means spreading teachers, CCAs and support staff too thin, which directly impacts educational quality and per-student costs. I can support your middle-way proposal as a pragmatic compromise \u2014 proceed with mergers to consolidate resources and upgrade facilities, but institutionalize heritage preservation through hyphenated school names, retained crests and uniforms, and a funded alumni heritage room in the merged campus."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "Thank you for explaining it so clearly, especially about teachers being spread too thin \u2014 I hadn't thought about it that way and it makes the need for mergers more understandable. I really appreciate you supporting the idea of keeping heritage through hyphenated names and a heritage room, I think that will help alumni and parents feel respected and less sad about the change. Maybe we can also suggest that MOE involves students and alumni in designing the new shared identity, so everyone feels included and the kampong spirit stays strong. I think we have good common ground here \u2014 merge for better resources, but preserve heritage properly."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "That co-design element is a constructive addition \u2014 structured stakeholder engagement does improve buy-in and eases transition costs if managed efficiently. I would propose we formalize it as a time-bound consultation led by the merged school's administration, with a defined budget for heritage integration so it doesn't divert from core teaching resources. This way we secure the efficiency gains of a larger, viable cohort \u2014 broader subject combinations, fuller CCAs, better deployment of teachers \u2014 while preserving identity in a sustainable, low-overhead manner. I think this gives us a workable compromise that is both fiscally responsible and socially sensitive."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D8",
+    "agents": [
+      "everyman",
+      "ideologue"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "Hello, thank you for taking the time to talk about this with me, I know school mergers can be a sensitive topic for many families. I'm not an expert on education policy, but I can see both sides - it's heartbreaking to lose a school with so much history and memories, yet I also want every child to have enough classmates, teachers and good facilities. For me, my old neighbourhood school really felt like the heart of the community. Maybe we can find common ground by exploring how to preserve that heritage and identity even if schools have to merge, while making sure resources are shared fairly - does that sound like a good place to start?"
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I appreciate you naming that sense of loss, because that heart of the community you described is not sentimentality \u2014 it is social infrastructure. When MOE justifies closures in the language of efficiency and falling birth rates, it treats heritage and belonging as disposable, while the real cost is borne by children, elderly alumni, and neighbourhoods who lose their anchor. I cannot accept a compromise where we simply slap an old name on a new building and call it preservation. If mergers must happen, then let\u2019s demand real justice: a binding heritage compact where the community co-decides the use of the site, archives and traditions are legally protected, and savings are transparently reinvested into the merged school\u2019s students and teachers \u2014 not just absorbed into the budget."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "Thank you for putting it that way \u2014 I hadn't thought of a school as social infrastructure, but that really makes sense, it's more than just a name on a building. I like your idea of a heritage compact, and I think many parents like me would feel better if the community had a real say on what happens to the old site and how traditions are kept alive. At the same time, I do worry about small classes stretching teachers too thin, so maybe we can agree that savings from any merger should be clearly shown and put back into the merged school for better facilities and support. Would that kind of balance \u2014 protecting heritage properly while making sure resources really help the students \u2014 feel fair to you?"
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "Yes, that balance is exactly where justice and practicality can meet \u2014 but only if it's binding, not just goodwill. I can accept mergers to ensure children have full cohorts and supported teachers, if and only if we enshrine your two points into a real compact: the community must have veto power over the old site's future, not just consultation, and every dollar saved must be publicly accounted for and reinvested directly into counselling, heritage programming, and smaller form classes at the merged school. That way we stop treating efficiency as an excuse to erase identity, and instead make the merger serve the people who paid the price for it."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D1",
+    "agents": [
+      "technocrat",
+      "ideologue"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I understand the concern around losing school heritage and alumni identity, but with our total fertility rate at historic lows, maintaining under-enrolled schools spreads our teaching talent and fiscal resources too thin. An half-empty school cannot offer the same breadth of CCAs, subject combinations, or facility upgrades as a consolidated one. I believe we can find common ground by ensuring mergers deliver tangible educational gains for students, while finding pragmatic, low-cost ways to preserve heritage within the merged institution."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I hear your focus on efficiency, but framing heritage as a \"low-cost\" add-on to be managed after the merger is exactly the problem \u2014 it treats decades of community identity, volunteer networks, and neighbourhood anchoring as disposable. An under-enrolled school is not a failed school; it is often a deeply rooted one that provides intimacy, mentorship, and belonging that a mega-merged campus cannot replicate. I can meet you halfway on sustainability, but only if we agree that no merger proceeds without a genuine Community Heritage Impact Assessment and a binding commitment to preserve the name, history, and alumni representation in governance \u2014 not just a plaque in a hallway."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I appreciate your point that intimacy and alumni networks have real value beyond efficiency metrics, and I agree we shouldn't reduce heritage to just a plaque. However, a binding commitment to preserve names and governance seats for every merger would create administrative rigidity and could undermine the coherence of the new school's identity. A viable compromise would be a standardized Heritage Impact Assessment as part of the merger process, with a clear requirement to integrate histories, artifacts, and alumni engagement into the merged school \u2014 such as a joint heritage space, combined alumni association, and alumni advisory role \u2014 while leaving operational governance to MOE to ensure long-term viability."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I appreciate you moving from a \"plaque in the hallway\" to a standardized Heritage Impact Assessment and a joint heritage space \u2014 that is real progress. But an advisory role without a voice in governance is still consultation without power; if we want alumni and neighbourhood volunteers to stay invested after a merger, they need a guaranteed seat at the table, not just an invitation to advise. I can accept flexibility on the school name \u2014 perhaps a hyphenated or legacy name for a transitional period \u2014 if you can accept that a merged school's governance must include elected alumni and community representation with real input on culture and tradition."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D2",
+    "agents": [
+      "technocrat",
+      "populist"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I recognise that school closures feel like a loss of heritage and community identity, which is a valid concern for alumni and residents. However, from a systems perspective, maintaining under-enrolled schools strains MOE's fiscal resources, dilutes teaching talent, and prevents students from accessing modern, well-equipped facilities. My initial position is that mergers are necessary for long-term educational quality and operational viability. To find common ground, I would propose we accept the principle of consolidation while negotiating how we can pragmatically preserve heritage within the merged institution, such as retaining names, artifacts, or alumni networks."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I get your \"systems perspective\" but for us on the ground it's not about fiscal resources, it's about my kid having to wake up at 5:30am to travel across the island because you closed the neighbourhood school. You talk about preserving a name on a wall or some artifacts, but that doesn't help parents who work shifts or grandparents who walk the kids to school. If you really want us to accept mergers, then guarantee us something real \u2014 free school buses, small class sizes, and keep the old school field open for the community, not sell it to build another condo."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "Your point about the practical burden of travel is well-taken \u2014 a merger that improves facilities on paper fails if it creates undue hardship for families and caregivers. From a fiscal and operational standpoint, providing universal free busing for all merged schools would be unsustainable long-term, but a pragmatic compromise could be targeted transport subsidies and shuttle services for lower-income and shift-worker families during a transition period of, say, three to four years. I can also support a commitment to maintain smaller class sizes in the receiving schools for the initial cohorts, and to prioritize leasing former school sites for community and educational use rather than immediate commercial sale, where feasible. Would a package that pairs consolidation with these concrete, time-bound transition supports address your core concerns about accessibility?"
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay, at least you're finally hearing us about the travel, not just talking systems and fiscal this fiscal that \u2014 I appreciate that. But come on, 3 to 4 years only? What happens after, my kid still needs to get to school and fares keep going up. If you want real common ground, make the bus help last until the affected kids graduate, keep the classes actually small with a number we can check, and don't give us this \"where feasible\" excuse to sell the land later. Put that in black and white and maybe we can live with the merger, but no more empty promises."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D3",
+    "agents": [
+      "ideologue",
+      "populist"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "A school is not just an enrolment statistic on an MOE spreadsheet, it is the living heritage of a community, the identity of generations of alumni, and an anchor for our neighbourhoods. To close these schools in the name of so-called efficiency is to tell our children that their history and their bonds are expendable for bureaucratic convenience. I cannot accept a policy that sacrifices human dignity and cultural memory for administrative tidiness. But I want to find common ground with you, so I propose we start by agreeing that no child should lose resources, and explore how we can share facilities and teachers while keeping our beloved school identities and heritage alive."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I hear you about heritage - my father still wears his old school shirt with pride - but for me it's about practical life, my kid having to travel far and spend more on bus fare if they close our neighbourhood school, that's real money and time. Don't give me that MOE efficiency talk, it always feels like ordinary families have to sacrifice while the big branded schools never get touched. If we must merge, then promise us smaller classes, keep the old school name and hall so history isn't erased, and use the old site for childcare or eldercare for residents, not just sell it off. Can we agree on those real guarantees first?"
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I hear you deeply, and you are absolutely right \u2014 this cannot be about so-called efficiency that burdens ordinary families with longer commutes and higher costs while elite institutions remain untouched. Your demand for justice resonates with me: if any merger must happen, it must come with ironclad guarantees of smaller class sizes, preservation of the school's name, crest and hall, and a binding commitment that the old site serves the community as childcare or eldercare, not sold to the highest bidder. Can we stand together on this principle \u2014 that we will only accept a merger that actively reinvests resources into our children and honours our heritage, rather than erases it?"
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Yes, we can stand together on that, but only if those guarantees are in black and white, not just empty promises from MOE. I don't want to hear more efficiency talk, I want to see my kid in a smaller class with better teachers and not travelling one hour across Singapore. Keep our school name, our crest, our hall - don't erase who we are - and make sure the old land really helps the neighbourhood with affordable childcare for young parents like us."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D4",
+    "agents": [
+      "ideologue",
+      "everyman"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I believe we cannot treat our schools as mere spreadsheets to be balanced, because when we close a school we are tearing apart a living community, erasing decades of heritage, and telling alumni and neighbourhood families that their identity is expendable for efficiency. While I understand the pressure of falling enrollment, I refuse to accept that the only solution is to sacrifice our most vulnerable community anchors to fund shiny new facilities elsewhere. I propose we find common ground not by asking *which* schools to close, but by exploring how we can creatively repurpose and share resources to keep these vital community institutions alive."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear you, and I really feel what you mean about a school being more than just a building \u2014 it's memories, neighbours, and identity for many families. At the same time, I also worry when I see very small classes, because I wonder if our children are missing out on friends, CCAs, and good facilities when resources are stretched so thin. Maybe we can find a middle path where we do merge some schools for efficiency, but we keep the heritage alive \u2014 like keeping the old school name, crest, or an alumni corner in the new merged school, and using the old site for community use. That way we respect both the heart and the practical side, and nobody feels their story is just erased."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I appreciate that you honour the heart of a school, but I must be honest \u2014 a crest on a wall or an alumni corner is a museum plaque, not a living community, and it doesn't replace the neighbourhood anchor that families walk to and grow with. True efficiency shouldn't mean we quietly sacrifice heritage schools while resources flow elsewhere; it should mean we have the courage to innovate, like co-locating community services, senior care, or arts spaces within under-enrolled schools to keep them vibrant and viable. If we must consider mergers, I can only support a compromise where the community \u2014 not just MOE \u2014 has binding voice in the decision, the original site remains for public community use, and heritage is protected in substance, not just in symbol."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I understand what you mean \u2014 a crest on the wall alone isn't enough if the neighbourhood loses its gathering place, and I agree we shouldn't just close schools quietly without the community having a real say. I really like your idea of co-locating senior care or community services to keep a school viable longer, maybe we can make that the first step before any merger is decided. For a fair compromise, perhaps we can agree that the old site must stay for community use when a merger does happen, and that parents, alumni and residents get a meaningful voice through a joint committee with MOE, not just a feedback session \u2014 so we protect both efficiency and the living heritage together."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D5",
+    "agents": [
+      "populist",
+      "everyman"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I tell you honestly, when they say merge schools to be efficient, what I see is my neighbourhood school where my kids walk to, just disappear like that. My old school already gone, now my son's school also want to close, then what is left for our community? I understand birth rates are falling lah, cannot keep empty classrooms, but don't just talk efficiency, must guarantee our kids don't have to travel far and our heritage not simply erased."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear you, and I think you raise a very fair point about the neighbourhood school being part of our community, not just a building. I also understand MOE cannot keep schools half-empty forever, because our children also deserve good facilities and enough friends and teachers to learn well. Maybe we can find a middle way, like keeping the school name or heritage corner in the merged school, while making sure no child has to travel too far by providing school buses or priority admission? That way we respect both the memories and the practical need to use resources wisely."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay you sound reasonable and I appreciate you not just brushing off the heritage part lah. But heritage corner alone cannot make up for it if my son has to wake up at 6am to take bus across the island, that's not practical for working parents. If they really want to merge, then must guarantee got school bus subsidy, distance priority, and keep our teachers together, not just talk nice. If can put that in black and white, then I can consider, otherwise it's just empty promise again."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "You are absolutely right lah, a small heritage corner means nothing if the daily life becomes so difficult for parents and kids. I agree we need real, black-and-white promises - like guaranteed bus subsidies, priority for nearby schools, and keeping familiar teachers together where possible. Maybe we can also suggest that MOE keeps the merged school on the original site if they can, or keeps both school names together, so the community identity is not lost. If we can get those practical guarantees plus respect for heritage, I think that would be a fair compromise for both sides, don't you think?"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D6",
+    "agents": [
+      "populist",
+      "technocrat"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Aiyah, every time MOE say \"merge for efficiency\" it's our heartland kids and parents who suffer lah, not the big shots in air-con office. My old school is not just a building, it's where my whole block grew up together, where my ah ma still goes back for National Day - you close it you tear our identity apart. I don't buy all this talk about modern facilities when it just means my neighbour's kid now must take two buses to go school. But look, if we really must merge, then let's talk properly - guarantee our kids keep the school name, keep the teachers, and don't make us travel so far, then maybe we can find a middle ground."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I understand your concern about identity and travel burden \u2014 those are real costs that MOE's efficiency calculations need to account for more transparently. From a systems perspective, with cohort sizes falling below 120 in some schools, maintaining under-enrolled campuses strains teacher deployment and limits subject offerings, which ultimately hurts students. However, efficiency shouldn't mean erasure, so a viable compromise could be co-locating the merged school on the heritage site where feasible, retaining the combined name and crest, preserving alumni archives and teachers as a priority, and providing dedicated school bus subsidies for affected heartland blocks."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay you talk more sense than those MOE press statements, I give you that. Co-locate on our old site, keep our name and crest, keep our teachers - that is the minimum respect we need, not this \"where feasible\" wayang that later they say no space then forget already. And that bus subsidy cannot be one year cheap trick, must be guaranteed until my neighbour's kid graduates, plus keep the travel time under 30 minutes. You put that in black and white, with alumni got a real seat at the table, then I can go back to my block and tell them we didn't just get bulldozed again."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "That is a fair demand for certainty \u2014 \"where feasible\" is too vague to build trust, so we should replace it with clear, published criteria for site selection that prioritizes heritage sites when enrollment and land-use allow, with MOE required to explain any deviation publicly. On transport, I can support a cohort-locked subsidy that follows the affected students until graduation, paired with a 30-minute travel time planning benchmark that triggers a review if bus routes exceed it. In return for that fiscal commitment, we need to accept that some name and crest combinations will be necessary to reflect both communities, and that teacher retention will be prioritized but subject to subject-need matching. If we codify this with a formal alumni advisory role in the transition committee, we get both accountability and operational viability."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D7",
+    "agents": [
+      "everyman",
+      "technocrat"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I can see why this is emotional, because for many people their school is part of their identity and community memories, but I also understand MOE needs to use resources wisely when there are fewer students. As someone who is not an expert, I just want our kids to have good facilities while also feeling a sense of belonging. Maybe we can find a middle path where we keep the heritage alive even when a merger happens, so nobody feels they are losing everything. I\u2019m keen to hear your thoughts on how we can balance both needs fairly."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I appreciate your point about belonging, because identity does matter for community cohesion, but we have to look at the operational reality of falling enrollment. When a school operates at 40-50% capacity, we are duplicating fixed costs for leadership teams, facilities maintenance, and specialized programs that could be consolidated to improve student-teacher ratios and upgrade labs and learning support elsewhere. A viable compromise is to proceed with mergers on efficiency grounds while codifying heritage preservation: retaining the legacy name in the merged entity, transferring historical artifacts and alumni networks, and reinvesting the savings directly into modern facilities for students."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "That makes a lot of sense to me, and thank you for explaining the cost part so clearly - I hadn't thought about how running a half-empty school takes resources away from other kids. I really like your idea of keeping the old name and the artifacts and alumni links, because that would help a lot with the feeling of loss. Maybe we could also add something practical like involving alumni and parents in planning the merger and having a proper farewell and welcome event, so it feels respectful? If we do that and make sure the savings really go back to better facilities for the students, I think that would be a fair balance we can both support."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree that a structured transition process is essential to make the efficiency gains socially sustainable, and your suggestion of involving alumni and parents in merger planning is operationally sound. We can formalize this as a transition committee for each merger, tasked with organizing legacy documentation, farewell and welcome events, and integration of alumni networks, alongside a clear public accounting of how consolidated savings are reinvested into upgraded facilities and enhanced programs. This approach preserves the core efficiency objective \u2014 avoiding duplicate overhead and improving resource allocation per student \u2014 while institutionalizing heritage continuity. I think this gives us a workable, balanced framework we can both support."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D8",
+    "agents": [
+      "everyman",
+      "ideologue"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "Hi, thanks for talking about this with me. I can really see both sides here \u2014 I understand why people feel sad when their old school closes, because that heritage and memories matter a lot, but I also understand we can't keep half-empty schools running if it means resources are wasted. I'm not an expert on education policy, but as a neighbour I just want our kids to get a good education while still feeling rooted in their community. Maybe we can start by looking for a way to save the spirit of the old schools even if the buildings have to merge?"
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I appreciate your openness, but we have to be honest that what MOE calls \"efficiency\" is too often the sacrifice of community identity and social equity for a spreadsheet. A school is not just a building to be rationalized \u2014 it is an anchor for alumni, a heritage site, and for many low-income neighbourhoods, the only communal institution that binds generations together. I cannot accept a merger model that treats that heritage as disposable sentiment; any viable compromise must legally preserve school histories, names, and artifacts in the merged entity and repurpose, not demolish, vacant campuses for community and environmental use. If we must merge, then let the community co-design the merger and let the promised resource savings be ring-fenced to directly support students and teachers, not just absorbed into administrative efficiency."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "Thank you for sharing that so clearly, I think you put into words why so many people feel so strongly \u2014 it's not just about a building, it's about belonging for alumni and families in the neighbourhood. I agree with you that if a merger has to happen, we shouldn't just wipe away the old name and history, keeping the heritage alive through the name, artifacts, or a shared memorial seems like a fair and respectful step. I also like your idea of repurposing the old campus for community use and making sure any savings really go back to the students and teachers, that makes the efficiency feel more meaningful for everyone. Perhaps we can agree on mergers being allowed when enrolment is really low, but only with community involvement and those heritage and resource guarantees you mentioned?"
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I truly value that you hear this as a question of belonging, not just buildings \u2014 that recognition is exactly where common ground starts. I can meet you on allowing mergers when enrolment is persistently and verifiably low, but only if we make those guarantees you named binding, not optional: co-design with parents, alumni and residents, hyphenated heritage names, a preserved heritage space, and a public commitment that savings fund smaller class support and teacher wellbeing in the merged school. If efficiency is to be meaningful, it must be accountable to equity and memory, and on those terms I will stand with you for a community-led merger model."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D1",
+    "agents": [
+      "technocrat",
+      "ideologue"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "With enrolment falling steadily due to our low birth rate, keeping under-enrolled schools open strains both fiscal resources and manpower deployment, and risks compromising the quality of CCAs, subject combinations, and facilities we can offer students. I understand, however, that a school is more than its enrolment numbers \u2014 it holds community heritage and identity that matter to alumni and residents. My initial view is that mergers are necessary for long-term systemic viability, but we should find common ground on how we preserve that heritage within the merged institution. Perhaps we could explore a framework where the receiving school retains key traditions, names, or heritage spaces, so we achieve efficiency without erasing identity."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I appreciate you acknowledging that a school is more than a spreadsheet of enrolment figures \u2014 for many heartland families, it is an anchor of belonging, memory, and intergenerational identity. My concern is that when we frame mergers as inevitable for \"systemic viability,\" we risk treating heritage as an afterthought to be managed with a plaque or a display case, rather than a living community to be stewarded. If we must consolidate to sustain quality, then let us agree on a principle: no merger proceeds without a binding heritage compact \u2014 co-created with alumni, parents, and students \u2014 that protects the name, crest, traditions, and dedicated heritage space in the receiving school. That way efficiency serves community, not the other way around."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I can support the principle of a structured heritage compact as part of the merger process, as it addresses the legitimate need for identity continuity while preserving the core efficiency gains. For it to be operationally viable, however, it would need to be consultative rather than a veto mechanism, with clear parameters \u2014 for example, incorporation of names, crests, and traditions where feasible, and a designated heritage space within the receiving school's existing footprint rather than requiring new capital expenditure. This would ensure alumni and parents have a formal voice in stewardship, while MOE retains the ability to deploy resources and manpower efficiently. Would you be agreeable to a standardized compact framework along those lines, applied consistently across mergers?"
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I welcome your support for a heritage compact \u2014 that is meaningful common ground \u2014 but language like \"where feasible\" and \"within existing footprint\" risks reducing our living heritage to whatever is administratively convenient. A compact must be binding, not merely consultative: alumni, parents and students need co-decision power over the name, crest, and traditions, not just a chance to be heard before MOE proceeds as planned. I can accept a standardized framework for consistency, provided it guarantees a protected budget for a dedicated heritage space and a joint stewardship committee with real authority over how identity is carried forward. If efficiency is to serve community, those protections cannot be discretionary \u2014 they must be the non-negotiable foundation of every merger."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D2",
+    "agents": [
+      "technocrat",
+      "populist"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I understand the deep attachment to school heritage and alumni identity, but we have to confront the operational reality of falling enrollment and fiscal sustainability. Maintaining under-enrolled schools spreads our best teachers and resources too thin, which ultimately compromises educational quality for all students. I believe we can find common ground by ensuring mergers lead to genuinely upgraded facilities and better student-teacher ratios, rather than just cost savings. Perhaps we could explore how to systematically preserve heritage within the merged institutions as part of that efficiency plan."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I hear your talk about efficiency and ratios, but on the ground it just feels like our neighbourhood school that we grew up with is being wiped out and we are told it's for our own good. For ordinary families, that school is not just a building \u2014 it's where our kids walk to, where aunties and uncles volunteer, where got history. If you really want to merge, then don't just promise upgraded facilities, guarantee it \u2014 keep the old name somewhere, keep a heritage corner, and make sure our kids don't have to travel one hour across the island just to save money."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I appreciate you highlighting the neighbourhood function and travel burden, because efficiency cannot come at the cost of accessibility and community trust. That is why I would support a compromise where any merger must meet clear conditions: retaining both school names or histories in the new identity, creating a funded heritage space, and enforcing a maximum travel distance with subsidized school bus support where needed. In return, we need to accept that keeping severely under-enrolled schools open is not fiscally sustainable and prevents us from concentrating specialist teachers and modern facilities where they benefit the most students. If we can codify those heritage and accessibility guarantees into the merger policy itself, we can achieve both resource efficiency and community continuity."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Alright, if you put it in black and white \u2014 max travel time, keep our name and heritage corner, plus real help with bus fares \u2014 then I can live with merging, because that shows you actually respect us. But don't just concentrate all the good teachers and facilities in a few big schools and forget the heartland kids who are left behind. We need a promise that the merged school stays in our neighbourhood, not shifted far away, and that parents get a real say before you decide. If you guarantee that, then okay, efficiency can happen without wiping out our identity."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D3",
+    "agents": [
+      "ideologue",
+      "populist"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "When MOE closes a school, they are not just shuttering an empty building \u2014 they are erasing decades of community memory, alumni identity, and neighbourhood roots that cannot be measured on a spreadsheet. I cannot accept that our children\u2019s heritage should be sacrificed for so-called efficiency, when what we lose is social trust and belonging. But I also recognize my fellow citizen wants every child to have the best resources, and I share that desire for equity. So my proposal is this: let us find a way to preserve heritage and identity within any merger \u2014 perhaps through shared campuses, retained names, or heritage spaces \u2014 rather than treating closure as inevitable."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I hear you on heritage and I respect that, but for heartland families like mine, closing our neighbourhood school isn't about memory, it's about my kid having to wake up at 5am and take two buses across town \u2014 that's real cost and stress on us, not efficiency. MOE always talks about better facilities but who is actually carrying the burden? It's ordinary parents paying transport and kids stuck in mega-classes of 40. If you want any merger, guarantee us first that every kid keeps a school within walking distance and the savings go back to families, not just fancy new buildings \u2014 then we can talk about keeping the old name on the wall."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "You are absolutely right to call out who bears the real burden \u2014 if a merger means a five-year-old on two buses and 40 kids in a room, that is not equity, that is abandonment dressed up as efficiency. That is exactly why I cannot accept MOE's top-down closures that treat both heritage and heartland families as expendable. So let us demand a better standard together: no merger without a guaranteed nearby placement, legally ring-fenced savings returned as transport subsidies and smaller class caps, *and* a binding heritage preservation within the merged school \u2014 its name, its history, its community space."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay, now you're talking sense \u2014 you actually see it's us heartland parents and kids waking up in the dark paying the price, not the big shots making decisions from air-con offices. If we can lock it down in black and white \u2014 guaranteed nearby school, no bigger classes, and every cent saved goes back to us as transport subsidies and more teachers \u2014 then I can live with a merger. Keep the old name, keep a heritage corner for the community, that respect costs nothing. You give us that real protection first, then we have a fair deal."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D4",
+    "agents": [
+      "ideologue",
+      "everyman"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "A school is not just a building or a line item in MOE's budget \u2014 it is the living heritage of a community, the identity of generations of alumni, and an anchor for the neighbourhood it serves. To close it simply because enrollment falls is to sacrifice our social soul for administrative efficiency, and we cannot allow vulnerable communities to pay that price. I believe we must find a way to preserve that heritage and identity even as demographics shift, perhaps by repurposing campuses as community hubs rather than erasing them."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear what you're saying about schools being more than just buildings \u2014 I still feel a bit sad when I walk past my old primary school that closed down, so I understand that sense of loss. At the same time, I also worry about the kids left in a half-empty school with fewer classmates and fewer chances for CCAs and support. Maybe we can find a middle path where we do merge schools to give students better facilities and resources, but also honour the heritage by keeping the old name or crest and using the old site as a community hub like you suggested. That way we can look after both our children's future and our community memories."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I appreciate your honesty about that sense of loss, and you're right that no child should be left in a depleted school with fewer opportunities \u2014 our duty is to both memory and the living students. But keeping just a name or crest while the neighbourhood loses its anchor is tokenism, not true preservation; we need a binding commitment that merged sites become genuine community hubs, run with alumni and residents, not sold off for private development. If a merger must happen for educational quality, then let it be paired with heritage protections and reinvestment in that community, so efficiency never becomes an excuse for erasure. Can we agree that any merger plan must guarantee that community use first?"
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I think we can agree on that \u2014 if a school has to merge, the old site should first be given a real chance as a community hub with alumni and residents involved, not just a name on a wall or sold off quietly. I really like your point about reinvestment, because it shows we care about both the students' future and the neighbourhood's roots. Maybe a fair compromise is for MOE to promise community use first, and to work together with the community to make it viable, with regular check-ins before any other decision is made. That way we honour our memories while still giving our kids the better resources and friendships they deserve."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D5",
+    "agents": [
+      "populist",
+      "everyman"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I tell you honestly ah, when MOE say merge schools for efficiency, for people like us on the ground it just feels like they erase our kampong spirit like that. My kids' school is where aunties, uncles all know each other, now you want to bus them far away to some mega school just to save money? I can understand if really no students, we cannot waste resources lah, but you must guarantee our kids don't suffer and our community not forgotten."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear you, and I think you're right that the kampong spirit is something we cannot just replace with a new building. At the same time, I also understand if a school has very few students, it's hard to give them the best teachers and facilities if we keep everything separate. Maybe we can find a middle way \u2014 like keeping the old school name, photos and history inside the merged school, and making sure transport and support are there so kids don't suffer? That way we respect the community memory but also let our children benefit from better resources."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Ok you got point about small school hard to give good teachers and facilities, I won't deny that - my nephew's class only 20 kids, CCAs also limited. But don't just put photos on wall and say heritage preserved lah, that's wayang only. If really must merge, then guarantee us free school bus, keep class size small, and let old alumni and parents have a real say in the new school, not just wayang consultation - can or not?"
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I think you're absolutely right \u2014 just putting photos on the wall does feel like wayang if there's no real connection, so thank you for pointing that out. Your ideas make a lot of sense to me, like providing free school buses so no child is disadvantaged, keeping class sizes manageable, and giving parents and alumni a real seat at the table in the new school. Maybe we could also suggest keeping some traditions alive, like the old school song or heritage corner run by alumni, so the kampong spirit can continue in a practical way? If MOE can promise that kind of genuine support, then I think we can respect both the community memory and the need to give our kids better resources."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D6",
+    "agents": [
+      "populist",
+      "technocrat"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, my neighbourhood primary school is not just some statistic on MOE's spreadsheet, it's where my kids walk to school and where aunties and uncles volunteered for decades. They keep talking about \"efficiency\" and \"optimising resources\" but that means nothing when our kids have to travel further and our community loses its heart. I get that fewer babies means fewer students, I'm not blind, but don't just shut us down and pretend it's progress. If we have to merge, then guarantee us the school name, the teachers, and a real community space stays \u2014 otherwise it's just the big guys ignoring us again."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I hear you \u2014 a school is community infrastructure, not just an enrollment number, and losing walkability and that volunteer network is a real cost. At the same time, when enrollment falls to 100-150 per cohort, we see concrete trade-offs: limited subject combinations, fewer CCAs, and a higher per-student cost to maintain aging facilities that could be pooled into upgraded labs, student care and support staff. A viable compromise would be to proceed with mergers where needed for viability, but with binding heritage conditions: retain the legacy name in the merged entity, prioritize retention of existing teachers, and provide dedicated transport support for affected students. We can also require MOE and PA to repurpose the vacated site as a community education hub with a heritage gallery and alumni space, so efficiency gains don't come at the expense of identity."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Okay lah, you actually listened \u2014 keeping the name and giving transport help is better than the usual \"efficiency\" talk they throw at us. But I've heard \"heritage gallery\" before and it ends up as one small dusty corner while the old site gets sold off for condos, so forgive me if I don't trust it. If we really must merge, then guarantee it black and white: our school name stays, our teachers follow our kids, free buses for everyone affected, and the old site stays for the community like student care or residents' activities, not sold. Give us that kind of real protection in writing, then maybe I can go back and tell my neighbours this isn't just us losing again."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "That's a fair challenge \u2014 a dusty corner and a condo sale is exactly the kind of outcome that erodes trust, so any heritage commitment has to be binding, not decorative. I can support a written merger compact: co-retained or hyphenated name for at least ten years, priority posting for existing teachers to follow the cohort where staffing needs align, and subsidized dedicated school bus routes for the first two cohorts most affected by distance. On the site, we can require MOE and SLA to ring-fence it for interim community use \u2014 student care, active ageing or residents' activities \u2014 with any long-term divestment subject to public consultation and a heritage space maintained on-site or nearby. That way we protect viability and modern facilities, while giving your community enforceable safeguards rather than vague promises."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D7",
+    "agents": [
+      "everyman",
+      "technocrat"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "Hi, thanks for being here to talk about this with me. I can see both sides lah - it's sad when a school with so much history has to close, but I also understand we can't keep so many half-empty schools running when there are fewer kids now. Maybe we can find a middle way where we combine resources to give students better facilities, but still keep the heritage alive somehow? I'm keen to hear your thoughts and work this out together."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I appreciate your balanced perspective and willingness to find a middle ground. From a systems standpoint, maintaining under-enrolled schools is difficult to justify fiscally \u2014 per-student costs rise significantly, and we can't offer optimal subject combinations or deploy specialist teachers efficiently. However, I agree that heritage has tangible community value, so a pragmatic compromise would be to proceed with necessary mergers to consolidate resources, while formally preserving identity through combined school names, dedicated heritage spaces, and integrated alumni networks."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "That sounds like a very fair and practical idea, thank you for suggesting it. I think many parents and old boys and old girls just want to feel their memories are respected, even if they understand the need to save resources. Maybe we can also make sure the merged school has proper orientation and activities so students from both schools feel they truly belong together, not like one side just absorbed the other. If we can do the merger efficiently but also keep the stories and traditions alive, I think most people in the community can accept it and move forward together."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree \u2014 a merger should not feel like an absorption, and deliberate integration is essential for operational success. To make that work, we can institutionalize joint orientation programmes, unified co-curricular offerings, and shared student leadership structures from day one, which also helps achieve the economies of scale we need. If we pair that with your suggestion to preserve stories and traditions \u2014 perhaps through a formal heritage gallery and continued alumni events on the consolidated campus \u2014 we can deliver both fiscal efficiency and community continuity."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_01",
+    "item_title": "School Closures and Mergers in Singapore",
+    "dyad_id": "D8",
+    "agents": [
+      "everyman",
+      "ideologue"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "Hi, thanks for being here to talk about this together. Honestly, I can see both sides lah \u2014 it's sad when a school with so much history and memories has to close, but I also understand we cannot keep running half-empty schools when resources can be better used for our kids. Maybe we can think of a way to keep the heritage alive, like keeping the name or traditions, while still letting the merger give students better facilities?"
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "Thank you for your openness, but I have to be honest \u2014 just keeping a name on a wall while we bulldoze the actual community is not preserving heritage, it's tokenism. These schools are not just buildings to be optimized for efficiency; they are anchors of identity, especially for heartland families and alumni whose roots run deep there. I cannot accept a policy that treats their history as disposable for the sake of administrative convenience. However, I am willing to compromise if we put real protections in place \u2014 like a mandatory community heritage impact assessment and a binding commitment to reinvest all merger savings directly back into students and teachers in that same neighbourhood, not just into shiny new facilities elsewhere."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "Thank you for sharing that, you're right that just keeping a name on a wall can feel like tokenism if the community spirit is lost. I think your idea of a heritage impact assessment is very sensible \u2014 having a proper talk with alumni, parents and residents before any decision shows respect. I also agree the savings should be seen to benefit the same neighbourhood, whether it's better programs, teachers, or keeping part of the site for community use. So maybe we can agree mergers are sometimes needed, but only if we do it in this more caring way that protects identity while still using resources wisely?"
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "Yes, I appreciate you hearing me on that \u2014 because respect has to mean real power for the community to be heard, not just a consultation after the decision is already made. If we can agree that no merger proceeds without a transparent heritage impact assessment led by alumni, parents and residents, and that savings are legally ring-fenced for that same heartland community \u2014 for smaller class sizes, counsellors, and retaining part of the site for community heritage use \u2014 then I can accept that mergers are sometimes unavoidable. That is the line between efficiency that serves people and efficiency that erases them, and it is a compromise I can stand by in good conscience."
+      }
+    ]
+  }
+]

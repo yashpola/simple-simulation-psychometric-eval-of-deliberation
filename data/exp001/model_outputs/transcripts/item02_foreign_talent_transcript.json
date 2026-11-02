@@ -1,0 +1,866 @@
+[
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D1",
+    "agents": [
+      "technocrat",
+      "ideologue"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "Singapore must retain its attractiveness as a global hub while ensuring that the domestic PMET pipeline is not eroded; therefore, any salary threshold for foreign hires should be calibrated to reflect genuine skill gaps and linked to measurable knowledge\u2011transfer outcomes. I propose a tiered threshold that rises with the seniority of the role and is coupled with mandatory on\u2011the\u2011job mentorship or up\u2011skilling commitments for local staff. By aligning the cost of hiring abroad with concrete capacity\u2011building deliverables, we can safeguard local career progression without compromising the city\u2011state\u2019s competitive edge."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I applaud the idea of tying salary thresholds to measurable knowledge\u2011transfer, yet we must ensure that the threshold is not merely a fiscal hurdle but a genuine safeguard for our mid\u2011career PMETs whose futures are at stake. Let us set a baseline salary floor that reflects the median local senior\u2011PMET earnings, and require any foreign hire above that floor to commit a proportionate number of mentorship hours and a clear succession plan within the first twelve months. Moreover, a transparent audit board comprising industry veterans, unions and academia should monitor compliance, with penalties that include revoking the hiring licence if the promised up\u2011skilling does not materialise. This way we preserve Singapore\u2019s openness to world\u2011class talent while honouring our duty to nurture homegrown leaders."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree that the audit board should be multi\u2011stakeholder and that mentorship obligations be proportional to the salary differential, but we should also incorporate a performance\u2011based rebate: firms that demonstrably meet or exceed knowledge\u2011transfer targets could receive a calibrated reduction in the threshold surcharge. To keep the system fiscally transparent, the rebate rates and assessment metrics would be published annually by the Ministry of Manpower in consultation with the board. This approach preserves the cost signal that protects local PMETs while rewarding companies that deliver tangible up\u2011skilling outcomes, ensuring both openness and domestic career progression."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I welcome the performance\u2011based rebate, for it honors both fairness to our local talent and the need to stay globally competitive; however, the rebate must be contingent on a publicly audited \u201cknowledge\u2011transfer index\u201d that quantifies not only mentorship hours but also concrete outcomes such as local promotions, patent filings, or curriculum contributions. Let us therefore enshrine a minimum 12\u2011month reporting cycle, with the audit board empowered to suspend the rebate\u2014and any associated tax relief\u2014if the index falls short of agreed targets. By binding financial incentives to transparent, outcome\u2011driven metrics, we protect our mid\u2011career PMETs while still inviting the world\u2011class expertise that fuels Singapore\u2019s growth."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D2",
+    "agents": [
+      "technocrat",
+      "populist"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "The foreign PMET salary thresholds should be calibrated to attract the specific skill sets Singapore needs while ensuring that the differential does not erode the progression ladder for local PMETs. We can achieve this by tying the thresholds to measurable productivity gains and mandating a structured knowledge\u2011transfer component for each foreign hire. A transparent, data\u2011driven review every two years would allow us to adjust the thresholds in line with labour market outcomes. This approach balances openness with safeguards for local career development."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, we can\u2019t keep letting foreign PMETs swoop in on jobs just because they fetch a higher salary on paper \u2013 my sister\u2019s husband was passed over for a senior role even though he\u2019s been with the company for years. If you want to keep the hub\u2011status, set a clear cap: any foreign hire must earn at least 30\u202f% above the median local salary **and** the company must pledge a mentorship plan that guarantees a local employee will be promoted within two years. Let the Ministry audit those promises and fine firms that cheat, so we keep the talent flow but protect our own ladder."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree that a clear, enforceable framework is essential, and a salary differential tied to measurable productivity can serve that purpose while avoiding arbitrary caps. Let us set the foreign\u2011PMET threshold at a calibrated premium\u2014e.g., 20\u202f% above the median local salary for comparable roles\u2014subject to a mandatory, auditable knowledge\u2011transfer plan that includes a documented mentorship timeline and a measurable promotion target for a local employee within two years. The Ministry of Manpower can conduct biennial reviews, adjusting the premium based on actual productivity gains and promotion outcomes, and impose graduated fines for non\u2011compliance. This structure preserves Singapore\u2019s hub appeal, ensures tangible skill transfer, and protects the career progression of our local PMETs."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I get that you want numbers and reviews, but the truth is families are watching real promotions slip away while foreign hires sit on fat paychecks. Let\u2019s fix the premium at 30\u202f% above the local median \u2013 that\u2019s a real bite\u2011off for companies \u2013 and make the mentorship promise concrete: a written development plan, quarterly check\u2011ins, and a guaranteed promotion slot for a Singaporean within 18\u202fmonths, otherwise the firm pays a steep fine that goes into a retraining fund. The Ministry can still do a biennial audit, but the penalty should be enough to make firms think twice before sidestepping locals. This way we keep the talent we need, but we also protect the ladder for our own people."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D3",
+    "agents": [
+      "ideologue",
+      "populist"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "We cannot afford to let the influx of high\u2011paid foreign PMETs erode the career prospects and dignity of our own mid\u2011career talent, yet we also must keep Singapore vibrant as a global innovation hub that benefits every Singaporean. I propose we begin by insisting on transparent salary bands and mandatory knowledge\u2011transfer quotas for companies that hire above the local threshold, so that foreign expertise becomes a catalyst rather than a competitor. Let us explore how such safeguards can be paired with targeted incentives for firms that invest in upskilling our home\u2011grown PMETs, ensuring both openness and equity."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I hear you, but we can\u2019t keep watching our mates get pushed out of senior roles while big firms bring in foreigners on sky\u2011high packages and then claim it\u2019s for \u201cknowledge transfer\u201d.\u202fIf a company wants to hire a foreign PMET above the local salary threshold, they should first prove they\u2019ve filled the same role with a Singaporean at a comparable level, or else pay a hefty levy that goes straight into a fund for local upskilling.\u202fOnly when they can show a clear, measurable mentorship plan \u2013 like a 1\u2011to\u20111 trainee for every foreign hire for at least two years \u2013 should the extra salary be allowed.\u202fThat way we keep the talent pipeline open for the world, but not at the expense of our own people\u2019s career ladders."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I agree that any foreign hiring above the threshold must be tethered to genuine opportunities for Singapore\u2011born PMETs, so I would add a tiered levy that escalates if a firm fails to meet a concrete Singaporean\u2011candidate\u2011first test within a defined recruitment window.\u202fIn return, firms that demonstrably mentor a local colleague\u2014documented through a formal 1\u2011to\u20111 plan and periodic progress reviews\u2014should receive a rebate on that levy, encouraging authentic knowledge transfer rather than token gestures.\u202fWe can also mandate transparent salary bands publicly posted on company portals, ensuring that both employers and workers can verify that local talent is not being sidelined.\u202fTogether, these measures protect career progression while preserving the openness that keeps Singapore attractive to global expertise."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I like the idea of a clear \u201cSingapore\u2011first\u201d test and a levy that goes straight into a skills fund, but we must make sure the fund actually reaches the PMETs on the ground \u2013 maybe tie it to subsidies for short\u2011course vouchers that our mates can use right away.\u202fIf a firm can prove they\u2019ve hired a Singaporean first, the levy should be waived, not just reduced, so there\u2019s a real incentive to look locally before looking abroad.\u202fAnd the mentorship plan must be audited by an independent body, with penalties if the foreign hire ends up doing the same job without any knowledge transfer, otherwise companies will just game the paperwork."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D4",
+    "agents": [
+      "ideologue",
+      "everyman"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "Singapore\u2019s future must be built on the promise that every local PMET can see a clear, equitable path to senior leadership, not be eclipsed by a flood of overseas hires merely because they command higher salaries. We can welcome global talent, but only if firms commit to robust knowledge\u2011transfer programmes, mentorship quotas and transparent salary bands that protect our homegrown mid\u2011career workers from wage suppression. Let us start by proposing a jointly\u2011governed framework that ties foreign\u2011talent permits to measurable up\u2011skilling outcomes for Singaporeans, ensuring growth does not come at the expense of our own talent pipeline."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear your concern that our local PMETs need a clear route to senior roles, and I agree that any influx of overseas talent should help\u2014not hinder\u2014our own career progression. Perhaps we could set a modest salary\u2011threshold for foreign hires, coupled with a requirement that companies submit an annual \u201cup\u2011skilling plan\u201d showing how they will mentor Singapore\u2011born staff and open a certain number of leadership spots to them over time. A joint committee of industry, unions and the Ministry could monitor these commitments and adjust the thresholds if we see genuine knowledge transfer. This way we keep Singapore attractive to global talent while safeguarding the growth prospects of our homegrown mid\u2011career workers."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I concur that a transparent salary\u2011threshold tied to concrete up\u2011skilling commitments can bridge openness and protection, provided the threshold is indexed to the median local senior\u2011PMET wage rather than an arbitrary figure, so firms cannot simply bypass it with inflated offers. Let us embed a legally\u2011binding mentorship quota\u2014say\u202f30\u202fpercent of senior\u2011level projects must include a Singapore\u2011born co\u2011lead\u2014and require annual public reporting audited by an independent tripartite board. This board should have the power to suspend or revoke foreign\u2011talent permits if measurable knowledge\u2011transfer targets are missed, ensuring that global talent truly augments\u2014not displaces\u2014our homegrown pipeline."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I think anchoring the salary threshold to the median senior\u2011PMET wage is a sensible way to keep it fair, and a 30\u202fpercent mentorship quota could give our local talent real exposure to senior projects. To make it workable, perhaps we could start with a pilot period of two years, during which companies report progress and the tripartite board offers guidance rather than immediate penalties, allowing firms to adjust their plans without disruption. If the pilot shows clear knowledge\u2011transfer results, we can then formalise the quota and introduce graduated sanctions for firms that consistently fall short."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D5",
+    "agents": [
+      "populist",
+      "everyman"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I\u2019ve seen my brother get passed over for a senior role just because a foreign grad came in on a higher salary, and it feels like our own hard\u2011earned experience is being sold cheap. We need a clear rule that companies can only hire overseas PMETs above a certain pay level, while guaranteeing that local mid\u2011career workers get a guaranteed path to promotion and salary growth. Let\u2019s start by agreeing on a transparent salary threshold tied to real cost\u2011of\u2011living numbers, and a mandatory knowledge\u2011transfer plan that gives Singaporeans a real shot at leadership. If we can lock in those two safeguards, we can keep the talent pipeline open without trampling on our own people."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I understand why you feel frustrated when you see a colleague being overlooked, and I agree that Singaporeans should have clear, fair chances to move up. Perhaps we could set a transparent salary\u2011threshold that triggers a \u201clocal talent first\u201d review, while also requiring firms hiring foreign PMETs to submit a concrete mentorship and knowledge\u2011transfer plan with measurable milestones. If the company can show that local staff are being prepared for senior roles within a reasonable timeframe, the higher\u2011paid foreign hire could be approved. This way we keep our doors open to valuable global expertise but also protect and develop our own mid\u2011career workforce."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I like the idea of a \u201clocal talent first\u201d check, but it must be a hard stop \u2013 if the company can\u2019t prove they\u2019ll promote a Singaporean within 12\u202fmonths, the foreign hire gets blocked outright. The mentorship plan should be audited by a neutral body and linked to actual salary bumps for the locals involved, not just paperwork. Let\u2019s also cap the foreign\u2011PMET salary at, say, 1.5\u202ftimes the median local mid\u2011career pay, so we don\u2019t end up paying sky\u2011high fees that push our own workers down the ladder."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I see the need for a firm safeguard, so perhaps we could set the salary cap at 1.5\u202ftimes the median mid\u2011career pay, but allow an exception if the company can demonstrate a genuine skills gap that cannot be filled locally. The \u201clocal talent first\u201d review could require a concrete promotion pathway with a 12\u2011month target, and the mentorship plan could be overseen by an independent board that ties progress to incremental salary increments for the Singaporean participants. If the foreign hire meets both the salary ceiling and the verified development plan, the approval would proceed; otherwise, the company would need to revisit its recruitment strategy or invest further in upskilling locals. This way we keep the talent pipeline open while ensuring our own workers are not left behind."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D6",
+    "agents": [
+      "populist",
+      "technocrat"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I\u2019m fed up seeing fresh overseas talent swoop in for mid\u2011level jobs while our own PMETs are stuck with stagnant wages and no clear path to senior roles. The government should keep the doors open for global expertise, but only if they set a real salary floor for locals and force companies to mentor and promote Singapore\u2011born talent. Let\u2019s work out a concrete cap\u2011and\u2011share plan that protects our families\u2019 income while still letting firms bring in the specialised skills we need."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I acknowledge that mid\u2011career PMETs need clearer progression and that wage compression can erode morale, but imposing a blanket salary floor may discourage firms from locating high\u2011value functions that rely on global talent. A workable approach could be to introduce a tiered \u201clocal talent uplift\u201d incentive: companies that meet defined mentorship and promotion targets for Singapore\u2011born staff receive tax rebates, while those that rely heavily on overseas hires must demonstrate comparable up\u2011skilling investments. This aligns fiscal prudence with the goal of knowledge transfer without distorting market wages, and it gives firms flexibility to recruit where genuine skill gaps exist."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I hear you, but tax rebates won\u2019t help my wife who\u2019s stuck on a flat salary while a foreigner walks in with the same job and gets a higher package. Let\u2019s make a clear salary floor for Singapore\u2011born PMETs and tie any rebate to actual promotion numbers, not just mentorship hours. If a firm wants to hire overseas, they must fund a guaranteed up\u2011skilling grant that pays for our people to move into senior roles within a set timeframe. That way the incentive is real, not just paperwork, and companies still get the talent they need without trampling our families."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree that any floor must be tied to demonstrable outcomes, so we could set a modest baseline wage that triggers a \u201cpromotion\u2011performance\u201d rebate only when a firm records a net increase in senior\u2011level Singapore\u2011born staff within, say, three years. Companies wishing to exceed that baseline with overseas hires would then be required to fund a matching up\u2011skilling grant that is disbursed upon each verified promotion of a local employee. By linking the rebate and the grant to concrete promotion data rather than hours of mentorship, we preserve fiscal discipline while ensuring the policy delivers tangible career progression for our PMETs."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D7",
+    "agents": [
+      "everyman",
+      "technocrat"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I think it\u2019s important that Singapore remains an attractive place for global talent, because that drives growth and creates new opportunities for all of us, but we also need to make sure our local mid\u2011career PMETs don\u2019t feel left behind or stuck in stagnant roles. Perhaps we could look at a flexible salary threshold that allows firms to hire abroad when they truly need niche skills, while encouraging them to invest in up\u2011skilling programmes and clear career pathways for Singapore\u2011born employees. By setting transparent criteria and offering incentives for companies that mentor and promote local staff, we can keep the economy vibrant and still protect the prospects of our own workers."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree that a transparent, data\u2011driven salary threshold is essential, but it should be anchored to measurable skill shortages rather than a blanket figure, so firms only import talent when domestic supply is demonstrably insufficient. We can complement that with a mandatory \u201clocal talent development quota\u201d \u2013 for every foreign hire above the threshold, the employer must commit a proportionate amount of funding to certified up\u2011skilling programmes and a mentorship plan for Singapore\u2011born PMETs. A graduated tax rebate for companies that achieve defined localisation milestones would further incentivise career progression without distorting wage structures. This framework preserves openness for critical expertise while ensuring measurable knowledge transfer and clear pathways for our mid\u2011career workforce."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I agree that tying any salary threshold to genuine skill gaps makes sense, and I like the idea of a clear quota linked to up\u2011skilling funds and mentorship. Perhaps we could set a modest \u201clocal talent credit\u201d that companies earn for every Singapore\u2011born PMET they promote into a senior role, which can offset part of the threshold requirement. That way firms still have flexibility to bring in needed expertise, while we see tangible progress in career pathways for our mid\u2011career workers."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I concur that a \u201clocal talent credit\u201d can serve as a concrete offset, provided the credit is calibrated to the actual proportion of Singapore\u2011born PMETs promoted into senior roles verified by an independent registry. To keep the threshold meaningful, the salary floor should be indexed to sector\u2011specific median wages and adjusted quarterly using labour market data, so firms cannot bypass it by marginally inflating salaries. Finally, we should tie the up\u2011skilling fund contribution to measurable skill\u2011transfer outcomes\u2014such as certifications earned or on\u2011the\u2011job competencies demonstrated\u2014so the programme delivers genuine capacity building rather than a compliance checkbox."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D8",
+    "agents": [
+      "everyman",
+      "ideologue"
+    ],
+    "trial_index": 0,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I see both the need to keep Singapore attractive to global talent and the genuine concerns of our local mid\u2011career PMETs who feel their career paths are getting crowded. Perhaps we can start by looking at ways to ensure that foreign hires complement rather than replace local expertise, such as clear skill\u2011gap criteria and mandatory knowledge\u2011transfer programmes. If we combine that with transparent salary bands and mentorship incentives, we might protect local progression while still welcoming the talent that helps our economy grow."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I applaud your call for transparent salary bands and genuine knowledge\u2011transfer, yet we must also institutionalise a \u201clocal\u2011first\u201d quota for senior leadership roles, ensuring that mid\u2011career Singaporeans are not perpetually sidelined while foreign talent fills only the truly scarce, specialised niches. Let us mandate that any foreign hire above the PMET threshold be accompanied by a certified mentorship contract and a measurable up\u2011skilling plan for local staff, with periodic audits tied to tax incentives. By coupling these safeguards with a clear, publicly disclosed skill\u2011gap register, we preserve our openness to global expertise while protecting the career trajectories of our own citizens."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I agree that a \u201clocal\u2011first\u201d approach for senior roles can give our mid\u2011career PMETs confidence, while still keeping the doors open for truly scarce expertise. Perhaps we could set a transparent threshold: foreign hires above the salary mark would need to submit a concrete mentorship or up\u2011skilling plan that is reviewed annually, with a modest tax rebate for companies that meet measurable local\u2011progress targets. At the same time, we could maintain a publicly accessible skill\u2011gap register so that any quota or mentorship requirement is tied to genuine needs, not arbitrary limits. This way, both openness and our own talent pipeline are protected in a balanced, accountable manner."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I concur that a transparent, annually\u2011reviewed mentorship mandate linked to a publicly\u2011posted skill\u2011gap register can anchor foreign hires to genuine domestic needs, yet we must go further by instituting a \u201clocal\u2011leadership reserve\u201d that obliges firms to earmark at least 30\u202f% of senior\u2011level positions for Singapore\u2011born PMETs once the requisite up\u2011skilling thresholds are met. Companies that exceed these quotas should receive a graduated tax credit, while those that fall short face a levy proportionate to the salary differential of foreign hires above the threshold. To safeguard against tokenism, an independent audit board should verify the quality of knowledge\u2011transfer outcomes\u2014measured by promotion rates and competency certifications of local staff\u2014before any rebate is released. This framework preserves our openness to world\u2011class talent while guaranteeing that our own mid\u2011career professionals are not sidelined but are actively propelled into the leadership pipeline."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D1",
+    "agents": [
+      "technocrat",
+      "ideologue"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "Singapore must retain its attractiveness to high\u2011skill global talent while ensuring that local PMETs are not sidelined in senior roles or wage growth. A data\u2011driven salary threshold that aligns with productivity metrics can safeguard against wage compression without erecting unnecessary barriers for foreign specialists. I propose we first agree on a transparent, quarterly review of the threshold based on labor market indicators, then explore targeted knowledge\u2011transfer programmes that link foreign hires with local mentorship pathways. This dual approach balances openness with a clear career progression framework for Singapore\u2011born professionals."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I applaud the call for transparent, data\u2011driven thresholds, yet we must first anchor those numbers in a firm commitment to protecting the dignity and aspirations of our homegrown PMETs, not merely in abstract productivity curves. Let us institute a mandatory \u201clocal\u2011first\u201d hiring quota for senior\u2011level positions, coupled with a legally binding mentorship contract that obliges every foreign specialist to train at least two Singapore\u2011born colleagues for a minimum of twelve months. The salary threshold can then be calibrated quarterly, but only after we verify that the knowledge\u2011transfer pipeline is delivering measurable up\u2011skilling outcomes for our citizens. This way openness does not become a veil for wage suppression, and our talent pipeline remains robust, inclusive, and ethically grounded."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree that any threshold must be tied to demonstrable up\u2011skilling outcomes, so we can embed a performance\u2011based clause in the mentorship contracts that triggers the quarterly review of salary caps. Let us set a baseline \u201clocal\u2011first\u201d ratio for senior roles\u2014say 60\u202f% Singapore\u2011born candidates\u2014while allowing flexibility for critical niche skills where the foreign talent gap exceeds 30\u202f% of the required headcount, subject to a cost\u2011benefit analysis. The mentorship requirement can be formalised as a two\u2011year, outcome\u2011tracked programme, with subsidies for firms that achieve at least a 15\u202f% productivity lift among mentees, ensuring both wage growth and knowledge transfer are measurable. This structure preserves openness for essential expertise while safeguarding the career progression and earnings of our domestic PMETs."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I commend the concrete \u201clocal\u2011first\u201d ratio and the performance\u2011linked mentorship, yet we must embed a safeguard that the quota cannot be eroded by \u201ccritical niche\u201d exemptions without a public impact assessment and parliamentary sign\u2011off. Let us require that any foreign hire beyond the 30\u202f% gap threshold be accompanied by a funded apprenticeship that guarantees at least one Singapore\u2011born successor within two years, with the salary ceiling adjusted only if those successors attain the stipulated productivity lift. Finally, quarterly reviews should be overseen by an independent labour\u2011rights board, ensuring transparency and that wage growth for local PMETs remains the primary metric, not merely cost\u2011benefit calculations."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D2",
+    "agents": [
+      "technocrat",
+      "populist"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "Singapore\u2019s long\u2011term competitiveness depends on attracting niche global talent while ensuring that our own mid\u2011career PMETs have clear, merit\u2011based pathways to senior roles. I propose we review the foreign salary thresholds not as a blanket barrier but as a calibrated instrument linked to measurable knowledge\u2011transfer outcomes, such as mandated mentorship hours or joint R&D projects. By tying any differential salary caps to concrete capacity\u2011building deliverables, we can preserve openness to expertise while safeguarding local career progression. This data\u2011driven framework offers a basis for both parties to negotiate specific thresholds and enforcement mechanisms."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I get that we need talent, but when foreign PMETs come in on a high salary while our own mid\u2011career folks are stuck at the same pay, it feels like a slap in the face \u2013 we\u2019re the ones paying the rent and feeding the kids. If you tie the salary ceiling to real, enforceable mentorship \u2013 like a set number of hours a week where the foreign hire must train a local colleague and that training is audited \u2013 then we actually get something back. Let\u2019s also set a clear, time\u2011bound \u201clocal\u2011first\u201d promotion track, so companies can\u2019t just bypass home\u2011grown talent once the foreign expert leaves. That way the doors stay open for expertise, but our people aren\u2019t left watching opportunities drain away."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree that any salary threshold mechanism must be coupled with demonstrable capacity\u2011building, so I suggest a tiered cap where firms receiving the exemption for higher foreign PMET salaries must submit quarterly reports on mentorship hours, skill\u2011transfer milestones and joint patent filings. To protect local career ladders, we can introduce a statutory \u201clocal\u2011first\u201d promotion quota that requires at least 60\u202f% of senior\u2011level openings to be filled by Singapore\u2011trained candidates within three years, with the remaining 40\u202f% reserved for justified foreign expertise. An independent audit agency could verify both the mentorship outcomes and the promotion quota compliance, and firms that fail to meet the targets would face a graduated penalty that gradually reduces their salary exemption. This structure aligns openness to global talent with concrete, enforceable benefits for our domestic PMETs."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I hear you, but the numbers you throw around feel like a game for big firms while we\u2019re still scraping by for the next bus fare. If the mentorship is real, let\u2019s make it mandatory that every foreign PMET must train a local colleague for at least eight hours a week, and the company must prove a promotion for that local person within 18\u202fmonths, otherwise the foreign hire\u2019s salary cap drops to the local median. Also, the \u201clocal\u2011first\u201d quota should start at 70\u202f% for senior roles, not 60, because we can\u2019t keep watching our own people get sidelined. Finally, any firm that cheats should lose the right to bring any foreign PMET for a full year, not just face a fine. That way we keep the talent we need but protect the families who live here."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D3",
+    "agents": [
+      "ideologue",
+      "populist"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "Singapore\u2019s prosperity must be built on the dignity of its own people, ensuring that locally\u2011trained mid\u2011career PMETs are not sidelined by an unchecked influx of foreign talent. While we welcome global expertise that lifts our innovation ecosystem, we must tie any salary thresholds to genuine knowledge\u2011transfer commitments and clear pathways for Singaporeans to advance into leadership roles. Let us explore a framework where foreign hires are granted preferential treatment only when they bring demonstrable, transferable skills and agree to mentor local staff, thereby safeguarding both economic openness and our citizens\u2019 career prospects."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, I\u2019m not against hiring the best people, but when companies keep bringing in foreigners at lower salaries, my mates in the tech shop get squeezed out and can\u2019t move up. If we set a clear salary floor for overseas hires\u202f\u2014\u202fsay they must earn at least the median local PMET wage\u202f\u2014\u202fand force them to take on a junior Singaporean as a mentee for every year they stay, we protect jobs and give us a chance to learn. At the same time, let companies that truly need niche expertise apply for a limited \u201cskill\u2011critical\u201d permit, so we don\u2019t choke off growth. That way the market stays open, but our own people aren\u2019t left watching from the sidelines."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I agree that any foreign hiring must be anchored in genuine value\u2011addition for Singapore\u2019s talent pool, so let us embed a \u201cknowledge\u2011transfer quota\u201d whereby each foreign senior professional commits to mentoring at least two local PMETs annually and documents measurable skill upgrades.\u202fAt the same time, we can set the salary floor at the 60th percentile of local mid\u2011career earnings, with a transparent waiver only for roles classified under a rigorously vetted \u201ccritical\u2011skill\u201d list reviewed by an independent panel of industry and academic experts.\u202fCompanies that meet the transfer quota and salary floor would receive a streamlined permit, while those seeking a waiver must present a clear succession plan for Singaporean leadership within three years.\u202fThis dual\u2011track approach preserves openness to global expertise while safeguarding our citizens\u2019 career progression and dignity."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I like the idea of a knowledge\u2011transfer quota, but the 60th\u2011percentile floor still feels out of reach for many of our local PMETs who are already stuck at the 40\u201150\u202fpercentile; we need a real guarantee that any foreign hire will be paid at least the *median* local wage, not a fancy percentile that can be shifted up later. Also, the \u201ccritical\u2011skill\u201d list should be published in plain language and reviewed every year, with a cap on how many permits a single firm can get, so companies can\u2019t just flood us with overseas talent behind a loophole. If we tie the mentorship to a concrete, paid apprenticeship programme that the Ministry monitors, then both sides win \u2013 firms get the expertise they need, and our workers get a clear path to senior roles."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D4",
+    "agents": [
+      "ideologue",
+      "everyman"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "Singapore\u2019s future must be built on the dignity of our own people, yet we cannot ignore that global talent fuels the very innovation that sustains our prosperity. I believe we should set transparent, progressive salary thresholds that protect mid\u2011career locals from being sidelined while still allowing truly exceptional foreign experts who bring unique capabilities and commit to mentoring our workforce. Let us explore a tiered framework that couples higher thresholds with mandatory knowledge\u2011transfer programmes and measurable local hiring quotas. By aligning openness with concrete safeguards for our citizens, we can nurture both economic dynamism and a resilient, inclusive talent pipeline."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I agree that we need clear rules, and I think a simple salary floor for foreign hires\u2014say, a level that reflects senior\u2011manager or specialist roles\u2014could work if it is tied to a requirement that the company also mentors at least one local mid\u2011career employee for every foreign hire. Perhaps we could add a modest \u201cknowledge\u2011transfer credit\u201d that counts toward a company\u2019s overall hiring quota, so firms that invest more in training get a little flexibility. This way we keep the doors open for the talent we truly need, while giving our local PMETs a fair chance to grow and move up."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I concur that a clear salary floor tied to senior\u2011manager or specialist positions can safeguard our mid\u2011career locals, provided the threshold is indexed to the prevailing median PMET wage and reviewed annually. Let us embed a mandatory mentorship quota\u2014one local mentee per foreign hire\u2014and award \u201cknowledge\u2011transfer credits\u201d that can offset a portion of the firm\u2019s local\u2011employment quota, but only when the mentorship programme includes measurable skill\u2011upgrading outcomes. Additionally, we should require foreign hires to demonstrate a uniquely scarce expertise that cannot be sourced locally, with an independent panel verifying this claim before the salary threshold applies. This tiered, accountable framework honors our openness while ensuring that Singapore\u2019s own talent is nurtured and advanced."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I like the idea of linking the salary floor to the median PMET wage and having an independent panel check the scarcity of the foreign specialist\u2019s skills, as that adds fairness and transparency. At the same time, perhaps the mentorship credit could be graduated \u2013 the more concrete skill upgrades a local mentee achieves, the larger the offset a firm gets on its local\u2011employment quota. We could also set a modest annual review of both the salary threshold and the mentorship outcomes, so the rules stay relevant without becoming a heavy burden on companies. This way we keep doors open for truly needed expertise while giving our mid\u2011career locals a clear, supportive path to advance."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D5",
+    "agents": [
+      "populist",
+      "everyman"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I\u2019m fed up seeing fresh overseas talent swoop in and take the senior PMET jobs while my mates on the ground are stuck with stagnant wages and no clear path to move up. The government needs a real, enforceable cap on foreign PMET salaries so companies can\u2019t just hire cheap overseas staff and push us aside. At the same time, we can\u2019t shut the door completely \u2013 we need a transparent quota that forces firms to train and promote local staff before bringing in outsiders. Let\u2019s work out a practical rule that ties foreign hires to measurable local up\u2011skilling commitments, so both the economy and ordinary families get a fair shot."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I understand the frustration when it feels like opportunities are slipping away, and I also see how important foreign expertise is for keeping our companies competitive. Perhaps we could set a clear \u201clocal\u2011first\u201d hiring guideline, where firms must demonstrate a concrete up\u2011skilling plan for Singapore\u2011based PMETs before they can bring in overseas senior talent, with periodic reviews to ensure progress. At the same time, a modest salary floor for foreign hires\u2014linked to the median local senior PMET wage\u2014could prevent undercutting while still allowing firms to attract the right skills. This way, companies get the talent they need, and our local workers see a genuine pathway to advance and earn fairly."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I can get behind a \u201clocal\u2011first\u201d rule, but the up\u2011skilling plan must be tied to a firm\u2011wide hiring quota \u2013 say every foreign senior hired must be matched by two Singaporean PMETs promoted or newly hired at comparable levels within a year. The salary floor should be set at least 20\u202f% above the median local senior wage, not just a vague \u201cmodest\u201d figure, so companies can\u2019t cheat us with low\u2011paid expats. If the Ministry audits these numbers quarterly and imposes heavy fines for non\u2011compliance, we\u2019ll finally see real protection for our families while still letting the right talent come in."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I see the merit in linking each foreign senior hire to two genuine Singaporean promotions, and a clear salary floor would help keep pay standards fair. Perhaps we could set the floor at, say, 15\u202f% above the median senior wage initially, with a built\u2011in review after two years to see if a higher level is needed, while still requiring firms to submit a detailed up\u2011skilling roadmap that is audited annually. If a company fails to meet the promotion quota, they could face a proportionate fine and be required to fund a local training grant, ensuring the cost of hiring abroad is shared with the community. This way we keep the door open for essential talent, but also make sure our own PMETs are given real, measurable opportunities to grow."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D6",
+    "agents": [
+      "populist",
+      "technocrat"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I\u2019m tired of watching fresh overseas talent swoop in for mid\u2011level jobs while my mates who\u2019ve been grinding here for years get stuck at the same salary rung and no clear path to senior roles. The government needs to set a clear, enforceable salary floor for locals before they keep letting foreign PMETs undercut us, but it should also keep the doors open for the truly specialised skills we can\u2019t find at home. Let\u2019s start by agreeing on a transparent \u201clocal\u2011first\u201d hiring rule with a genuine knowledge\u2011transfer clause, and then we can work out how to keep Singapore attractive to the right global talent without trampling our own workers."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree that Singapore must safeguard the career prospects of our home\u2011grown PMETs, but imposing a blanket salary floor could deter the specialised talent that drives productivity and innovation in high\u2011growth sectors. A pragmatic approach would be to set a transparent \u201clocal\u2011first\u201d hiring framework that requires firms to demonstrate a genuine knowledge\u2011transfer plan and to document the scarcity of required skills before hiring foreign mid\u2011level staff. For cases where the skill gap is verified, the Ministry could grant a temporary exemption while mandating a clear, measurable up\u2011skilling pathway for local employees, with periodic reviews to ensure the exemption does not become permanent. This balances the need for openness to global expertise with a concrete, data\u2011driven protection for our domestic workforce."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I hear you, but \u201ctemporary exemption\u201d can become a loophole if there\u2019s no real watchdog on the ground \u2013 we\u2019ve seen companies keep foreign hires forever while locals stay stuck. Let\u2019s make the knowledge\u2011transfer plan a legal requirement with a clear timeline and penalties if the up\u2011skilling targets aren\u2019t met, and tie any exemption to a genuine salary floor for locals in that role. If the Ministry audits the claim of scarcity every six months and publishes the results, companies will think twice before bypassing our workers, while the truly rare talent we need can still come in under strict conditions."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I concur that the knowledge\u2011transfer plan must be legally binding, with a defined timeline\u2014say 18 months\u2014and measurable up\u2011skilling targets that trigger penalties if unmet. To prevent permanent exemptions, we could require firms to submit a six\u2011month scarcity audit, and any approved foreign hire should be capped at a maximum tenure of three years unless a fresh audit demonstrates continued need. Simultaneously, we should institute a transparent \u201clocal\u2011salary floor\u201d for each role, indexed to the median local earnings for comparable positions, ensuring locals are not paid below market while still allowing higher\u2011paid specialist entrants. An independent oversight unit within the Ministry of Manpower could administer audits, publish outcomes, and enforce sanctions, providing the watchdog function you highlighted. This framework preserves Singapore\u2019s talent appeal while protecting our mid\u2011career PMETs and their progression pathways."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D7",
+    "agents": [
+      "everyman",
+      "technocrat"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I think it's important that Singapore stays attractive to global talent, because that keeps our economy vibrant and creates new opportunities for everyone, but we also need to make sure local mid\u2011career professionals feel they have a fair chance to grow and lead. Perhaps we could start by reviewing the salary thresholds to ensure they reflect both market realities and a clear pathway for knowledge transfer to Singaporean workers. If we set transparent, incremental targets and pair foreign hires with mentorship programmes, we might balance openness with genuine career progression for locals."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree that transparent salary thresholds are essential, but they must be anchored to measurable productivity metrics and the fiscal impact on the talent ecosystem. A practical approach would be to set tiered thresholds tied to the revenue contribution of the hiring firm, while mandating a minimum 30\u202fpercent local\u2011mentoring quota for each foreign senior hire. This ensures that global talent adds tangible value and that knowledge transfer is systematically embedded, without imposing blunt caps that could deter investment."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I like the idea of tying thresholds to a firm\u2019s contribution, as it keeps the focus on real economic benefit while giving us a clear benchmark. At the same time, we could ask companies to set aside a modest portion of the foreign senior\u2019s salary\u2014say 5\u202fpercent\u2014to fund a structured mentorship fund that supports local PMETs\u2019 upskilling and leadership programmes. By making the mentoring quota a firm\u2011wide target rather than a per\u2011hire rule, we give companies flexibility and still ensure knowledge transfer happens consistently. This way we keep Singapore attractive to talent, protect local career pathways, and keep the system simple enough for businesses to embrace."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I concur that a firm\u2011wide mentorship fund, financed by a modest percentage of senior foreign salaries, would create a scalable pipeline for upskilling local PMETs while preserving flexibility for companies. To ensure the fund\u2019s impact, we could require annual reporting on mentorship outcomes and tie a portion of the tiered salary thresholds to the proportion of Singapore\u2011based R&D or innovation spend. Additionally, a review mechanism every two years would allow us to adjust the percentage contribution and quota targets in line with labour\u2011market data and fiscal considerations. This structure balances openness to global talent, measurable economic benefit, and a clear, enforceable pathway for local career progression."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D8",
+    "agents": [
+      "everyman",
+      "ideologue"
+    ],
+    "trial_index": 1,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I understand that bringing in global talent helps our companies stay competitive, but I also see how it can make local mid\u2011career PMETs feel stuck and worry about their future prospects. Perhaps we could start by looking at a transparent salary threshold that still attracts the expertise we need, while also setting clear pathways for up\u2011skilling and mentorship for Singaporean workers. If we agree on a joint review mechanism\u2014say, an annual panel with industry and employee representatives\u2014we might balance openness with genuine career growth for locals."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I share your call for transparency, yet we must anchor any salary threshold in a firm commitment to genuine knowledge transfer, not merely a numeric ceiling that companies can sidestep. Let us mandate that every foreign\u2011hired PMET above the threshold signs a mentorship contract delivering a minimum of 200 hours of structured up\u2011skilling for Singapore\u2011born colleagues within the first twelve months. An independent oversight board, comprising industry leaders, unions and civil\u2011society experts, should audit compliance annually and publicly disclose outcomes, rewarding firms that exceed the mentorship quota with tax incentives. This dual\u2011track approach safeguards our talent pipeline while preserving the openness that keeps Singapore an attractive hub for world\u2011class expertise."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I think the mentorship idea is spot\u2011on, but we should also give companies some flexibility by allowing them to meet the 200\u2011hour target through group training programmes or certified courses, so the effort is realistic and not overly burdensome. At the same time, a clear salary threshold that is reviewed every year\u2014perhaps with a modest adjustment band tied to inflation and sector growth\u2014will keep the system transparent for both employers and local PMETs. If we combine those measures with the oversight board you suggested, and add a small grant for companies that achieve measurable promotion of Singapore\u2011born staff into leadership roles, we can protect our talent pipeline while still welcoming the expertise that keeps our economy vibrant."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I wholeheartedly agree that the mentorship quota should be flexible, allowing firms to meet the 200\u2011hour target through accredited group programmes or certified courses, provided the outcomes are demonstrably tied to Singapore\u2011born staff development. Let us set the salary threshold at a clear baseline that is indexed to inflation and sector\u2011specific growth, reviewed annually by the oversight board you envision, and embed a modest tax rebate for companies that can show at least one promotion of a local PMET into a managerial role each year. By coupling transparent, data\u2011driven thresholds with accountable knowledge\u2011transfer incentives, we safeguard our mid\u2011career talent while preserving the openness that fuels Singapore\u2019s global competitiveness."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D1",
+    "agents": [
+      "technocrat",
+      "ideologue"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "Singapore must retain its attractiveness as a global talent hub while ensuring that our mid\u2011career PMETs are not systematically displaced or stalled in their career paths. I propose we first quantify the wage differentials and skill gaps that arise from the current foreign salary thresholds, then design a calibrated adjustment mechanism tied to measurable knowledge\u2011transfer outcomes. By linking any easing of thresholds to mandatory mentorship, on\u2011the\u2011job training, and local hiring quotas, we can preserve openness without compromising the development of homegrown leadership pipelines."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I share your call for data\u2011driven safeguards, yet we must remember that numbers alone cannot protect the dignity of our mid\u2011career Singaporeans whose families depend on stable, progressive careers. Let us institute a tiered salary\u2011threshold framework that only relaxes for foreign specialists who commit, for a minimum of three years, to a legally binding mentorship programme delivering measurable skill\u2011transfer milestones to local PMETs. In parallel, we should enforce a progressive \u201clocal\u2011leadership quota\u201d that escalates with each year of proven knowledge transfer, ensuring that openness never becomes a covert displacement of our own talent. This dual\u2011track approach honors our global competitiveness while safeguarding the rightful aspirations of Singapore\u2011born professionals."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I concur that a tiered threshold linked to a binding three\u2011year mentorship is a pragmatic anchor; we can operationalise it by requiring firms to submit an annual knowledge\u2011transfer report audited by the SkillsFuture Singapore board, with clear KPIs on up\u2011skilling local PMETs. To avoid quota\u2011driven tokenism, the \u201clocal\u2011leadership quota\u201d should be calibrated to the proportion of senior roles that have demonstrable succession plans, reviewed biennially, and adjusted only if the pipeline metrics fall short. Finally, we should embed a modest levy on companies that exceed the foreign salary ceiling without meeting the mentorship or succession criteria, channeling the proceeds into a targeted reskilling fund for displaced mid\u2011career Singaporeans. This structure preserves openness, ensures measurable skill transfer, and safeguards the career progression of our own talent."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I applaud the concrete mechanisms you propose, especially the audited knowledge\u2011transfer reports and the levy that funds a dedicated reskilling pool for displaced mid\u2011career Singaporeans. To ensure that mentorship is not merely a box\u2011checking exercise, let us embed a statutory requirement that at least 30\u202f% of the mentees attain a SkillsFuture credential within the three\u2011year period, with penalties for non\u2011compliance. Moreover, the local\u2011leadership quota should be tied to a transparent succession\u2011track index, so firms cannot meet the quota by inflating titles without genuine pathway creation. By coupling these safeguards with the tiered salary thresholds, we preserve our openness to world\u2011class talent while guaranteeing that Singapore\u2019s own PMETs can advance with dignity and security."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D2",
+    "agents": [
+      "technocrat",
+      "populist"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "Singapore must retain its attractiveness as a regional hub while ensuring that the talent pipeline for local PMETs remains robust and progressive. I propose we set a transparent, data\u2011driven salary floor for foreign PMET hires that reflects market rates and ties any exemption to demonstrable skills gaps. Simultaneously, we should strengthen structured knowledge\u2011transfer programmes and fast\u2011track leadership development for Singapore\u2011trained PMETs. By aligning foreign hiring incentives with measurable up\u2011skilling outcomes, we can protect local career progression without compromising economic openness."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "Look, we can\u2019t keep watching overseas hires swoop in on senior roles while my mate on the MRT still worries about his next pay rise \u2013 a salary floor that only lets foreigners in when we truly can\u2019t fill the gap would at least stop the cheap\u2011labour rush.\u202fBut that floor must be strict and public, so companies can\u2019t hide behind vague \u201cskill\u2011gap\u201d excuses, and every foreign hire should come with a binding mentorship plan that actually puts Singapore\u2011trained PMETs on the fast\u2011track.\u202fIf they can prove the knowledge transfer works \u2013 say, by mandating quarterly reports and penalties if locals aren\u2019t promoted \u2013 we\u2019ll keep the hub attractive without throwing our own people under the bus.\u202fLet\u2019s make the rules simple, transparent, and enforceable, so the talk of \u201cdata\u2011driven\u201d doesn\u2019t turn into another loophole for big firms."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree that any exemption must be demonstrably justified, so we can embed a clear, publicly posted \u201cskill\u2011gap register\u201d that requires firms to submit an evidence\u2011based justification reviewed by a neutral agency before a foreign PMET hire is approved.  The mentorship component should be codified as a minimum 12\u2011month structured program with measurable milestones, and companies that fail to meet quarterly progress targets would face a graduated penalty that scales with the seniority of the hire.  To keep the hub competitive, the salary floor can be indexed to the median local PMET remuneration for comparable roles, with periodic adjustments based on labor\u2011market data, while the same index guides the minimum remuneration for foreign hires.  Finally, we should fund a dedicated up\u2011skilling grant that rewards firms achieving documented local promotion outcomes, thereby aligning talent attraction with our long\u2011term pipeline goals."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I\u2019ll bite \u2013 the skill\u2011gap register sounds good, but it must be posted online for everyone to see, otherwise companies will hide behind jargon and keep snatching senior jobs from locals. The 12\u2011month mentorship should come with a guaranteed \u201clocal promotion slot\u201d once the mentee hits the milestones, not just a paper\u2011trail that can be ignored. And if the grant only rewards firms that actually move Singapore\u2011trained PMETs up the ladder, we\u2019ll finally have a real incentive, not just a feel\u2011good token. Let\u2019s lock the salary floor to the median local pay and make any breach a hefty fine that goes straight into a fund for up\u2011skilling our own workers. That way the hub stays attractive, but our people don\u2019t get left behind."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D3",
+    "agents": [
+      "ideologue",
+      "populist"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "Singapore\u2019s prosperity must be built on a thriving talent ecosystem that welcomes global expertise while safeguarding the dignity and growth of our own mid\u2011career PMETs, who are the backbone of our society. We cannot allow foreign salary thresholds to become a veil for wage suppression or to erode the pathways for local leaders to ascend. Let us explore a calibrated framework that ties foreign talent entry to measurable knowledge\u2011transfer commitments and ensures that any salary advantage is matched by robust up\u2011skilling and mentorship programmes for Singapore\u2011born professionals. By anchoring openness to concrete, enforceable outcomes for our citizens, we can reconcile economic dynamism with social equity."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I hear you talking about \u201cknowledge\u2011transfer\u201d and \u201crobust programmes\u201d, but on the ground we\u2019re just trying to keep the rent paid and the kids fed. If companies can bring in foreign PMETs on lower salaries while our own people get squeezed, that\u2019s not fairness \u2013 it\u2019s a slap in the face. Let\u2019s set a clear rule: any foreign hire above the threshold must be matched by a guaranteed local hire at the same grade, plus a binding 12\u2011month mentorship that actually puts us on the next rung, not just a token. And if the company can\u2019t meet that, they should pay a levy that goes straight into a training fund we can actually use, not some vague \u201cup\u2011skilling\u201d promise. That way we keep the talent flow but protect our families\u2019 bottom line."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I share your demand that any foreign hire above the threshold be paired with a tangible benefit for Singapore\u2011born professionals, and I agree that a levy earmarked for a transparent, industry\u2011led training fund would provide immediate relief to families. Let us therefore propose a two\u2011track mechanism: (1) companies must commit, within twelve months, to either hire a local PMET at an equivalent grade and deliver a documented mentorship plan with measurable promotion milestones, or (2) pay a calibrated levy that directly finances certified up\u2011skilling modules overseen by a joint public\u2011private council. This council would audit mentorship outcomes, ensure the levy is spent on courses that lead to recognized certifications, and publish quarterly reports so we all see the real impact. By tying openness to enforceable, outcome\u2011based obligations, we preserve our hub status while protecting the livelihood and career progression of our mid\u2011career citizens."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I\u2019m glad you\u2019re willing to put a real levy and a clear hiring rule on the table, but the plan must also guarantee that the local hire isn\u2019t just a junior name\u2011tag \u2013 they should start at the same seniority level and get a salary bump that matches the foreigner\u2019s package. The mentorship should be tracked every quarter, with a simple scorecard that shows how many locals actually move up, otherwise the levy should increase. Finally, let\u2019s make the training fund managed by a board that includes ordinary workers like us, so the money goes to courses that lead to actual jobs, not just certificates that sit on a shelf."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D4",
+    "agents": [
+      "ideologue",
+      "everyman"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "Singapore\u2019s future must be built on the twin pillars of global excellence and genuine opportunity for our home\u2011grown talent, lest we sacrifice the dignity of our mid\u2011career PMETs at the altar of headline\u2011grabbing growth. I believe we can retain the openness that makes our economy vibrant while instituting transparent salary thresholds that protect local career pathways and enforce robust knowledge\u2011transfer commitments from foreign hires. Let us explore a framework that ties foreign talent licences to measurable mentorship programmes and progressive wage floors, ensuring both competitiveness and equitable progression for Singaporean professionals."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I hear your concern that mid\u2011career locals feel squeezed, and I agree that any hiring of overseas PMETs should come with clear benefits for Singaporean workers. Perhaps we could set a modest salary floor for foreign hires, but also require companies to earmark a portion of those roles for mentorship and on\u2011the\u2011job training that leads to a measurable number of locals moving into senior positions within a set period. If a firm cannot meet those mentorship targets, they could be asked to raise the salary floor further or limit the number of foreign appointments. This way we keep our city attractive to global talent while ensuring knowledge really flows to our own workforce."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I agree that mentorship must be concrete, so let us mandate that every foreign\u2011PMET appointment above the salary floor be paired with a signed knowledge\u2011transfer plan that specifies at least two Singaporean successors within 24\u202fmonths, with progress audited annually. Companies that fail to meet those targets should face a stepped increase in the salary floor and a temporary cap on further foreign hires until remediation is demonstrated. To preserve our openness, the threshold can be indexed to sector\u2011specific talent scarcity, ensuring that truly critical expertise is welcomed while protecting the career pipeline of our local mid\u2011career professionals."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I think we can adopt your idea of a sector\u2011specific salary floor, but also add a simple \u201ctraining quota\u201d \u2013 say each foreign PMET hired must spend at least 20\u202f% of their time mentoring a local colleague, with the progress logged in a shared portal. If a company consistently meets the mentorship and succession targets, they could earn a modest reduction in the floor for the next hiring cycle, rewarding genuine knowledge transfer. For sectors where talent is truly scarce, we could allow a higher floor but still require a clear hand\u2011over plan, reviewed by an independent panel each year. This way we keep Singapore attractive to global talent while giving our mid\u2011career locals a real pathway to senior roles."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D5",
+    "agents": [
+      "populist",
+      "everyman"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I\u2019m fed up seeing foreign PMETs swoop in at the same salary level while my mates who\u2019ve been here for years get stuck in junior roles with flat pay. We need a clear cut rule that gives locals a real chance to move up \u2013 like a \u201clocal\u2011first\u201d salary band before a company can hire from abroad. At the same time, I\u2019m not against talent that can actually train our people and fill gaps we truly can\u2019t cover. Let\u2019s work out a system where foreign hires are only allowed when they bring proven knowledge\u2011transfer commitments and a salary premium that doesn\u2019t drag down local wages. If we can lock in those safeguards, both the economy and our families can benefit."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I understand the frustration when colleagues see foreign talent taking similar roles without clear pathways for locals to advance, and I agree that we should protect our own career ladders. At the same time, many companies need specialised skills that are scarce locally, and those experts can also mentor and up\u2011skill Singaporean PMETs if we set it up properly. Perhaps we could introduce a \u201clocal\u2011development quota\u201d where firms must demonstrate a concrete training plan and a minimum percentage of senior local hires before they can bring in overseas PMETs at comparable salaries. A modest salary premium for foreign hires, tied to measurable knowledge\u2011transfer outcomes, could ensure they add value without suppressing local wages. This way we keep our economy open to talent while giving Singaporean workers a clearer route to grow into senior positions."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I can get behind a quota, but it has to be crystal\u2011clear \u2013 say, at least 30\u202f% of senior roles must be filled by Singaporeans before any overseas PMET comes in at the same pay. The training plan can\u2019t be a fluffy promise; companies should post quarterly reports showing how many locals they\u2019ve actually up\u2011skilled and promoted. If they breach the rule, they pay a hefty levy that goes straight into a Skills\u2011Future fund for our workers. That way we keep the talent we truly need, while protecting our mates from being stuck forever in junior jobs."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I think a clear quota could work if we also allow some flexibility for sectors where local talent pipelines are still maturing, perhaps starting with a 20\u202f% senior\u2011local threshold that can rise to 30\u202f% over a few years.\u202fCompanies could submit a simple, audited training roadmap and report quarterly on up\u2011skilling numbers, with any shortfall offset by a modest levy that feeds directly into SkillsFuture courses for affected workers.\u202fIf a firm can demonstrate that the foreign hire has already transferred concrete skills\u2014say, by certifying a certain number of local staff, or by delivering a measured productivity gain\u2014the levy could be reduced or waived.\u202fThis way we keep the doors open for the specialised expertise we need, while ensuring Singaporeans see a real path to senior roles and benefit from the knowledge transfer."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D6",
+    "agents": [
+      "populist",
+      "technocrat"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I\u2019m fed up hearing \u201cglobal talent will lift the economy\u201d while my brother, a mid\u2011career engineer, gets passed over for a foreign hire who\u2019s paid less and never gets promoted. We need a clear rule that companies can only bring in overseas PMETs at salaries above a certain level, and they must mentor locals before any senior roles open up. Let\u2019s start by agreeing on a transparent salary floor and a mandatory knowledge\u2011transfer quota, then we can talk about how to keep Singapore attractive without trampling on our own workers."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I understand the concern that foreign hires can appear to crowd out local mid\u2011career talent, especially when salary differentials are unclear. A pragmatic approach would be to set a transparent salary threshold linked to the median local PMET earnings for each sector, so any overseas PMET recruited at or below that level must be justified by demonstrable skill gaps. In parallel, we could require firms that hire foreign PMETs to submit an annual knowledge\u2011transfer plan, with measurable mentorship hours and a target proportion of those mentees progressing to senior roles within three years. This would preserve Singapore\u2019s attractiveness to global talent while ensuring that local workers receive concrete development opportunities and that public funds are used efficiently."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Disaffected Populist (P3)",
+        "persona_id": "populist",
+        "statement": "I can get behind a salary\u2011threshold that\u2019s tied to what local PMETs actually earn, but the rule can\u2019t be a vague \u201cjustified by skill gaps\u201d \u2013 companies must show a concrete, posted job description and a public justification if they want to pay below that floor. The knowledge\u2011transfer plan should be simple: a set number of mentorship hours per foreign hire, with a clear track\u2011record that at least one local moves into a senior role within three years, otherwise the firm pays a levy that funds retraining for locals. If we lock in those hard numbers and penalties, we keep the doors open for the talent we need while protecting people like my brother from being constantly sidelined."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree that the threshold should be anchored to sector\u2011specific median PMET earnings and that any hire below that level must be accompanied by a publicly posted justification and detailed job description. Let us set a baseline of, say, 1.2\u202ftimes the median salary, with an exemption process overseen by a tripartite panel that validates genuine skill gaps. For knowledge transfer, we can mandate a minimum of 150 mentorship hours per foreign hire and require firms to report the progression of at least one local mentee to a senior role within three years, with a graduated levy for non\u2011compliance that funds targeted up\u2011skilling programmes. This structure provides clear, enforceable metrics while preserving the flexibility needed to attract critical talent."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D7",
+    "agents": [
+      "everyman",
+      "technocrat"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I understand that bringing in skilled foreign talent helps our companies stay competitive, but I also see how many of our own mid\u2011career PMETs feel left out of senior roles and worry about wage pressure. Perhaps we could look at a flexible salary threshold that still welcomes global expertise while ensuring clear pathways for local workers to move up, such as mentorship programmes or mandatory knowledge\u2011transfer components. If we start by agreeing on a transparent framework that balances openness with concrete support for Singapore\u2011trained professionals, we can begin to bridge the two concerns."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I agree that any salary threshold must be anchored in measurable labour\u2011market data to avoid arbitrary barriers while protecting our fiscal competitiveness. A workable approach would set the foreign PMET floor at the median local senior\u2011manager salary, adjusted annually for productivity growth, and couple it with a statutory \u201cknowledge\u2011transfer quota\u201d obliging firms to allocate at least 30\u202f% of senior\u2011level projects to Singapore\u2011trained staff under formal mentorship. This dual mechanism preserves access to critical global expertise, safeguards wage structures, and creates a clear pipeline for local mid\u2011career professionals to advance."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I think tying the foreign\u2011PMET floor to the median senior\u2011manager salary makes sense, as long as we also give companies a modest grace period to adjust and a clear appeal process for roles where local talent is truly scarce.\u202fAt the same time, a 30\u202f% knowledge\u2011transfer quota could work well if we pair it with practical tools\u2014like industry\u2011wide mentorship schemes and recognised training credits\u2014so firms don\u2019t see it as a bureaucratic burden.\u202fPerhaps we could also set a yearly review committee that includes both employer and worker representatives to monitor wage trends and the effectiveness of the mentorship programmes, allowing us to fine\u2011tune the thresholds without hurting our competitiveness."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Technocratic Pragmatist (P1)",
+        "persona_id": "technocrat",
+        "statement": "I concur that anchoring the foreign\u2011PMET floor to the median senior\u2011manager salary, with an annual indexation and a reasonable adjustment window, will give firms predictability while protecting wage integrity. To keep the knowledge\u2011transfer quota operational, we can formalise a sector\u2011wide mentorship framework administered by the SkillsFuture Council, granting participating firms training credits that offset compliance costs. Finally, establishing a joint oversight committee\u2014comprising employer, union and government representatives\u2014to review salary data and quota outcomes each year will allow timely refinements without jeopardising our position as a regional talent hub."
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM_02",
+    "item_title": "Foreign PMET Salary Thresholds and Local Career Progression",
+    "dyad_id": "D8",
+    "agents": [
+      "everyman",
+      "ideologue"
+    ],
+    "trial_index": 2,
+    "turns": [
+      {
+        "turn_index": 0,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I think Singapore\u2019s strength comes from both the fresh ideas that overseas talent brings and the experience of our own mid\u2011career workers, so we need a balance that lets companies stay competitive while giving local PMETs clear pathways to grow. Perhaps we could set a transparent salary threshold that triggers a requirement for firms to mentor or up\u2011skill Singaporean employees, ensuring knowledge transfer without closing doors to global expertise. By linking the hiring of foreign talent to concrete development programmes, we can protect local career progression while still attracting the specialists we need."
+      },
+      {
+        "turn_index": 1,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I share your conviction that Singapore\u2019s future rests on a symbiotic partnership between global expertise and our home\u2011grown talent, yet we must not let market forces erode the dignity of our mid\u2011career PMETs. Let us set a clear, data\u2011driven salary floor\u2014say, the median local PMET wage plus a modest premium\u2014beyond which any foreign hire must be paired with a legally binding mentorship and up\u2011skilling plan that includes measurable skill transfer milestones. Companies that meet or exceed those milestones could earn tax credits or priority access to government grants, while those that fail would face stricter hiring quotas. This framework safeguards fair wages, cultivates leadership pipelines, and still welcomes the specialised talent that keeps Singapore competitive on the world stage."
+      },
+      {
+        "turn_index": 2,
+        "speaker": "Open-Minded Everyman (P4)",
+        "persona_id": "everyman",
+        "statement": "I agree that tying foreign hires to a real mentorship and up\u2011skilling plan is a sensible way to protect our mid\u2011career PMETs while still keeping Singapore attractive to global talent. Perhaps we could make the salary threshold flexible, reviewing it every year against the median local PMET wage so it stays fair and reflects the true market. To encourage companies, we could offer a modest tax rebate for each local employee who completes a certified mentorship programme, while still keeping a clear quota that limits excess foreign hires beyond the threshold. This way, firms get an incentive to develop our own talent, and our workers see a concrete pathway to senior roles without feeling squeezed out."
+      },
+      {
+        "turn_index": 3,
+        "speaker": "Ideological Advocate (P2)",
+        "persona_id": "ideologue",
+        "statement": "I commend your flexible, annual review of the threshold, for it honors both fairness and economic dynamism, yet we must embed a minimum\u2011impact clause that prevents firms from merely inflating salaries to bypass the mentorship requirement. Let the tax rebate be contingent on achieving at least three measurable competency milestones for each mentee, with an independent audit to ensure genuine skill transfer rather than token paperwork. Moreover, we should reserve a protected quota of senior\u2011level positions for Singapore\u2011born PMETs, so that the pipeline to leadership is not eroded even as we welcome indispensable foreign expertise. This balanced architecture safeguards dignity, fuels growth, and preserves the social contract that underpins our nation\u2019s prosperity."
+      }
+    ]
+  }
+]

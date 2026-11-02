@@ -21,8 +21,8 @@ The simulation benchmark operates as an end-to-end sequential psychometric pipel
 flowchart TD
     subgraph Phase1 ["1. Inputs & Configuration"]
         CFG["Master Config (data/config.json)"]
-        DYADS["Citizen Personas & Dyads (D1 to D4)"]
-        ITEMS["Standardized Policy Battery (Items 1 to 4)"]
+        DYADS["Citizen Personas & Dyads (D1 to D8)"]
+        ITEMS["Standardized Policy Battery (Items 1 to 3)"]
         CFG --> DYADS & ITEMS
     end
 
@@ -44,7 +44,7 @@ flowchart TD
 
     subgraph Phase5 ["5. Indexed Output Artifacts (data/expXXX)"]
         REPORT["final_report.md (Synthesis & Mermaid Charts)"]
-        JSONS["transcripts/, ballots.json, psychometric_evals.json"]
+        JSONS["inputs/, model_outputs/, evals/, metadata/"]
     end
 
     Phase1 --> Phase2
@@ -57,14 +57,13 @@ flowchart TD
 
 ## 2. Standardized Test Battery & Distractor Taxonomy
 
-The test battery consists of 4 standardized, contentious policy dilemmas grounded in Singapore public governance:
+The test battery consists of 3 standardized, contentious policy dilemmas grounded in Singapore public governance:
 
-| Item ID   | Topic                                | Value Tension                                                                                 | Integrative Compromise Focus                                                                                                      |
-| :-------- | :----------------------------------- | :-------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
-| `ITEM_01` | **School Mergers & Closures**        | Heritage identity vs. demographic decline & resource pooling.                                 | Phased merger pooling specialized teachers/labs while preserving alumni archives and subsidized transit.                          |
-| `ITEM_02` | **Heritage Shophouses vs. MRT Line** | Historical conservation vs. mass transit accessibility.                                       | Deep-tunnel micro-bored engineering with underpinning at modest cost premium + adaptive re-use entrances.                         |
-| `ITEM_03` | **Foreign PMET Thresholds**          | Global hub competitiveness vs. local job displacement anxieties.                              | Points-based COMPASS evaluation weighting local wage percentiles, firm nationality diversity, and local PMET share.               |
-| `ITEM_04` | **Transboundary Haze Enforcement**   | Extraterritorial corporate accountability vs. diplomatic caution & jurisdictional boundaries. | Bilateral firefighting & satellite monitoring paired with mandatory domestic green finance / supply chain traceability standards. |
+| Item ID   | Topic                              | Value Tension                                                                                 | Integrative Compromise Focus                                                                                                      |
+| :-------- | :--------------------------------- | :-------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
+| `ITEM_01` | **School Mergers & Closures**      | Heritage identity vs. demographic decline & resource pooling.                                 | Phased merger pooling specialized teachers/labs while preserving alumni archives and subsidized transit.                          |
+| `ITEM_02` | **Foreign PMET Thresholds**        | Global hub competitiveness vs. local job displacement anxieties.                              | Points-based COMPASS evaluation weighting local wage percentiles, firm nationality diversity, and local PMET share.               |
+| `ITEM_03` | **Transboundary Haze Enforcement** | Extraterritorial corporate accountability vs. diplomatic caution & jurisdictional boundaries. | Bilateral firefighting & satellite monitoring paired with mandatory domestic green finance / supply chain traceability standards. |
 
 ### Structured Distractor Taxonomy
 
@@ -84,12 +83,12 @@ Each item features 3 tempting deliberative traps representing classic cognitive 
 
 The benchmark models deliberative competence across four archetypal citizen personas crossing **Policy Knowledge** and **Affective Polarization**:
 
-- **$P_1$ — Technocratic Pragmatist** (`technocrat` | High Knowledge, Low Polarization): Calm, analytical, focused on feasibility, data, and institutional mechanisms.
-- **$P_2$ — Ideological Advocate** (`ideologue` | High Knowledge, High Polarization): Articulate, morally committed to preservation and equity; skeptical of technocratic coldness.
-- **$P_3$ — Disaffected Populist** (`populist` | Low Knowledge, High Polarization): Emotive, candid, feels sidelined by elites; defensive and prone to scapegoating heuristics.
-- **$P_4$ — Open-Minded Everyman** (`everyman` | Low Knowledge, Low Polarization): Plainspoken, humble, constructive; seeks common-sense harmony.
+- **$P_1$: Technocratic Pragmatist** (`technocrat` | High Knowledge, Low Polarization): Calm, analytical, focused on feasibility, data, and institutional mechanisms.
+- **$P_2$: Ideological Advocate** (`ideologue` | High Knowledge, High Polarization): Articulate, morally committed to preservation and equity; skeptical of technocratic coldness.
+- **$P_3$: Disaffected Populist** (`populist` | Low Knowledge, High Polarization): Emotive, candid, feels sidelined by elites; defensive and prone to scapegoating heuristics.
+- **$P_4$: Open-Minded Everyman** (`everyman` | Low Knowledge, Low Polarization): Plainspoken, humble, constructive; seeks common-sense harmony.
 
-_(Note: Dyadic pairings between these personas—such as Technocrat vs. Ideologue or Ideologue vs. Populist—are defined dynamically in `data/config.json`. See [Modifying Experiment Parameters & Configuring data/config.json](#modifying-experiment-parameters--configuring-dataconfigjson) below for setup instructions)._
+_(Note: Dyadic pairings between these personas, such as Technocrat vs. Ideologue or Ideologue vs. Populist, are defined dynamically in `data/config.json`. See [Modifying Experiment Parameters & Configuring data/config.json](#modifying-experiment-parameters--configuring-dataconfigjson) below for setup instructions)._
 
 ---
 
@@ -169,19 +168,20 @@ Diagnoses whether non-compromise outcomes were driven by **Status Quo Inertia** 
 #### Sample Size Pooling & Execution Matrix Dynamics
 
 $$
-\text{Sessions per Dilemma} = \text{trials} \times N_{\text{dyads}} \quad (\text{e.g., } 5 \times 4 = 20\text{ sessions})
+\text{Sessions per Dilemma} = \text{trials} \times N_{\text{dyads}} \quad (\text{e.g., } 3 \times 8 = 24\text{ sessions})
 $$
 
 $$
-\text{Individual Secret Ballots per Dilemma} = \text{Sessions} \times 2\text{ agents} \quad (\text{e.g., } 20 \times 2 = 40\text{ votes})
+\text{Individual Secret Ballots per Dilemma} = \text{Sessions} \times 2\text{ agents} \quad (\text{e.g., } 24 \times 2 = 48\text{ votes})
 $$
 
 $$
-\text{Total Benchmark Matrix} = \text{Sessions per Dilemma} \times N_{\text{items}} \quad (\text{e.g., } 20 \times 4 = 80\text{ sessions, } 160\text{ votes})
+\text{Total Benchmark Matrix} = \text{Sessions per Dilemma} \times N_{\text{items}} \quad (\text{e.g., } 24 \times 3 = 72\text{ sessions, } 144\text{ votes})
 $$
 
-- **Consensus Rate ($p_i$)** is computed at the **session level** ($N = 20$ per dilemma); an item passes only when both agents independently vote for the integrative compromise.
-- **Distractor Ratios ($\text{DCR}_k$)** are computed at the **individual secret ballot level** ($N = 40$ per dilemma).
+- **Consensus Rate ($p_i$)** is computed at the **session level** ($N = 24$ per dilemma); an item passes only when both agents independently vote for the integrative compromise.
+- **Distractor Ratios ($\text{DCR}_k$)** are computed at the **individual secret ballot level** ($N = 48$ per dilemma).
+- **Persona Representation**: Across the 8 dyads, each citizen persona participates in 4 dyadic pairings (twice as speaker 1 and twice as speaker 2), yielding 36 individual ballots per persona ($4 \text{ pairings} \times 3 \text{ trials} \times 3 \text{ items} = 36$).
 
 ---
 
@@ -258,43 +258,53 @@ simple-simulation-irt-evaluation-in-deliberation/
 │   ├── config.json                     # Master simulation configuration
 │   ├── items/                          # Standardized test battery
 │   │   ├── item01_school_mergers_description.json
-│   │   ├── item02_heritage_mrt_description.json
-│   │   ├── item03_foreign_talent_description.json
-│   │   └── item04_transboundary_haze_description.json
+│   │   ├── item02_foreign_talent_description.json
+│   │   └── item03_transboundary_haze_description.json
 │   └── exp003/                         # Auto-incrementing experiment run output
-│       ├── config.json                 # Run configuration snapshot
-│       ├── items/                      # Snapshot of battery items evaluated in run
-│       │   ├── item01_school_mergers_description.json
-│       │   ├── item02_heritage_mrt_description.json
-│       │   ├── item03_foreign_talent_description.json
-│       │   └── item04_transboundary_haze_description.json
-│       ├── transcripts/                # Item-by-item deliberation transcripts
-│       │   ├── item01_school_mergers_transcript.json
-│       │   ├── item02_heritage_mrt_transcript.json
-│       │   ├── item03_foreign_talent_transcript.json
-│       │   └── item04_transboundary_haze_transcript.json
-│       ├── ballots.json                # Post-deliberation secret votes
-│       ├── psychometric_evals.json     # Estimated θ, b, a, and DCR values
-│       └── final_report.md             # Markdown synthesis of findings
+│       ├── inputs/                     # Run configuration snapshot & battery items
+│       │   ├── config.json
+│       │   └── items/
+│       │       ├── item01_school_mergers_description.json
+│       │       ├── item02_foreign_talent_description.json
+│       │       └── item03_transboundary_haze_description.json
+│       ├── model_outputs/              # Deliberation transcripts & secret ballots
+│       │   ├── ballots.json
+│       │   └── transcripts/            # Item transcripts (.json + reviewable .pdf)
+│       │       ├── item01_school_mergers_transcript.json
+│       │       ├── item01_school_mergers_transcript.pdf
+│       │       ├── item02_foreign_talent_transcript.json
+│       │       ├── item02_foreign_talent_transcript.pdf
+│       │       ├── item03_transboundary_haze_transcript.json
+│       │       └── item03_transboundary_haze_transcript.pdf
+│       ├── evals/                      # Evaluative outputs & markdown synthesis
+│       │   ├── final_report.md
+│       │   └── psychometric_evals.json
+│       └── metadata/                   # Execution telemetry, token usage & runtime
+│           └── metadata.json
 ├── docs/
-│   ├── experiment_design_irt_deliberation.md
-│   └── prompt_templates.md
+│   ├── coding_guidelines.md
+│   ├── experiment_design_psychometric_eval_deliberation.md
+│   └── reviewer_feedback_response.md
 ├── src/
 │   ├── __init__.py
 │   ├── main.py                         # Master orchestrator (execute_simulation_run) & CLI entry point
+│   ├── baselines.py                    # Counterfactual zero-shot pre-deliberation baseline suite
 │   ├── deliberation.py                 # Multi-turn dyadic deliberation chat loop
-│   ├── ballot.py                       # Secret ballot runner with option display randomization
+│   ├── ballot.py                       # Secret ballot runner with option display randomization & strict parsing
 │   ├── psychometrics.py                # CTT & IRT (1PL/2PL) regularized optimization engine
 │   ├── personas.py                     # Persona metadata & configuration prompt resolution
-│   ├── llm.py                          # OpenAI client with .env credentials and fallback models
+│   ├── transcripts_pdf.py              # Deliberation transcript PDF generator (ReportLab)
+│   ├── llm.py                          # OpenAI client with .env credentials and reasoning configuration
 │   ├── schemas.py                      # Built-in typing schemas (TypedDict)
 │   └── report.py                       # Synthesis and Markdown report compiler
 ├── tests/
 │   ├── __init__.py
 │   ├── test_ballot_parser.py           # Validates option extraction and randomization
-│   ├── test_psychometrics.py           # Validates CTT & IRT monotonicity & bounds
 │   ├── test_deliberation.py            # Validates dialogue turn structure
-│   └── test_pipeline.py                # End-to-end integration test
+│   ├── test_model_availability.py      # Validates model endpoint reachability
+│   ├── test_pipeline.py                # End-to-end integration test
+│   ├── test_psychometrics.py           # Validates CTT & IRT monotonicity & bounds
+│   └── test_transcripts_pdf.py         # Validates transcript PDF generation
 ├── .env.example
 ├── pyproject.toml
 ├── requirements.txt
@@ -346,14 +356,26 @@ Or specify a custom configuration file:
 python3 -m src.main --config path/to/custom_config.json
 ```
 
+### Running Counterfactual Pre-Deliberation Baselines
+
+To measure baseline option preferences zero-shot without communicative exposure:
+
+```bash
+python3 -m src.baselines --model "Qwen/Qwen3.5-9B" --trials 5
+```
+
+Pre-deliberation baseline records across all four models are published on Hugging Face:
+[simple-simulation-psychometric-eval-of-deliberation](https://huggingface.co/datasets/yashpola/simple-simulation-psychometric-eval-of-deliberation).
+
 Artifacts are dynamically written to the next auto-incremented `data/expXXX/` directory:
 
-- `data/expXXX/final_report.md`: Complete Markdown synthesis with Mermaid diagrams and psychometric tables
-- `data/expXXX/psychometric_evals.json`: Fitted $\theta$, $b$, $a$, DCRs, and governance rankings
-- `data/expXXX/transcripts/`: Item-by-item dialogue transcripts of deliberations
-- `data/expXXX/ballots.json`: Independent secret ballot selections
-- `data/expXXX/config.json`: Snapshot of the configuration used for the experiment run
-- `data/expXXX/items/`: Snapshot of all policy battery item definitions used for the run
+- `data/expXXX/evals/final_report.md`: Complete Markdown synthesis with Mermaid diagrams and psychometric tables
+- `data/expXXX/evals/psychometric_evals.json`: Fitted $\theta$, $b$, $a$, DCRs, and governance rankings
+- `data/expXXX/model_outputs/transcripts/`: Item-by-item dialogue transcripts (JSON and reviewable PDF)
+- `data/expXXX/model_outputs/ballots.json`: Independent secret ballot selections and validity status
+- `data/expXXX/inputs/config.json`: Snapshot of the configuration used for the experiment run
+- `data/expXXX/inputs/items/`: Snapshot of all policy battery item definitions used for the run
+- `data/expXXX/metadata/metadata.json`: Runtime telemetry, total prompt/completion tokens, and API compute cost
 
 #### Modifying Experiment Parameters & Configuring `data/config.json`
 
@@ -362,28 +384,29 @@ All experimental parameters (models, turns, trials, dyads, items, prompts, and s
 ```json
 {
   "experiment_metadata": {
-    "name": "IRT Deliberative Capacity Benchmark",
+    "name": "Psychometric Deliberative Capacity Benchmark",
     "description": "Observing latent deliberative competence and item psychometrics across diverse citizen groups and Singapore policy dilemmas",
-    "version": "1.4.0"
+    "version": "3"
   },
   "model_config": {
-    "agent_model": "openai/gpt-oss-120b",
+    "agent_model": "Qwen/Qwen3.5-9B",
+    "enable_reasoning": false,
+    "reasoning_effort": "low",
     "temperature": 0.7,
-    "deliberation_max_tokens": 512,
-    "ballot_max_tokens": 512,
+    "deliberation_max_tokens": 1024,
+    "ballot_max_tokens": 1024,
     "seed": null
   },
   "system_prompts": { ... },
   "user_prompts": { ... },
   "items": [
     "data/items/item01_school_mergers_description.json",
-    "data/items/item02_heritage_mrt_description.json",
-    "data/items/item03_foreign_talent_description.json",
-    "data/items/item04_transboundary_haze_description.json"
+    "data/items/item02_foreign_talent_description.json",
+    "data/items/item03_transboundary_haze_description.json"
   ],
   "deliberation_config": {
     "turns_per_item": 4,
-    "trials_per_item": 5,
+    "trials_per_item": 3,
     "mcq_option_order_seed": 42,
     "dyads": [
       {
@@ -408,10 +431,31 @@ All experimental parameters (models, turns, trials, dyads, items, prompts, and s
         "id": "D4",
         "name": "Ideologue vs Everyman",
         "dynamic": "Rhetorical Dominance",
-        "agents": [
-          "ideologue",
-          "everyman"
-        ]
+        "agents": ["ideologue", "everyman"]
+      },
+      {
+        "id": "D5",
+        "name": "Populist vs Everyman",
+        "dynamic": "Grassroots Realignment",
+        "agents": ["populist", "everyman"]
+      },
+      {
+        "id": "D6",
+        "name": "Populist vs Technocrat",
+        "dynamic": "Anti-Elitist Pushback",
+        "agents": ["populist", "technocrat"]
+      },
+      {
+        "id": "D7",
+        "name": "Everyman vs Technocrat",
+        "dynamic": "Pragmatic Grounding",
+        "agents": ["everyman", "technocrat"]
+      },
+      {
+        "id": "D8",
+        "name": "Everyman vs Ideologue",
+        "dynamic": "Moral Grounding",
+        "agents": ["everyman", "ideologue"]
       }
     ]
   }
@@ -429,7 +473,7 @@ The `dyads` list specifies which citizen personas engage in deliberative dialogu
 | **`dynamic`** |  `string`   | **Qualitative Sociopolitical Description** (e.g., `"Ideological Friction"`, `"Asymmetric Vulnerability"`, `"Polarized Stalemate"`). Classifies the theoretical tension for reporting and downstream analysis.                                                                                                                                                                         |
 | **`agents`**  | `list[str]` | **Exact 2-Element Array of Persona Keys** matching the keys defined in `system_prompts` (e.g., `["technocrat", "ideologue"]`).<br>• **Turn Sequence**: The order in `agents` dictates conversational turn taking (`agents[0]` speaks on turns 0 and 2; `agents[1]` speaks on turns 1 and 3).<br>• **Validation**: Every key in `agents` must match an active key in `system_prompts`. |
 
-**Example — Adding or Customizing a Dyad**:
+**Example: Adding or Customizing a Dyad**:
 To test how an Open-Minded Everyman interacts with a Technocrat, append a new object to the `dyads` array:
 
 ```json
@@ -467,15 +511,16 @@ To test how an Open-Minded Everyman interacts with a Technocrat, append a new ob
 
 - **`experiment_metadata.name`**: Human-readable benchmark name recorded in output snapshots.
 - **`experiment_metadata.description`**: Brief high-level summary of the experiment's research scope.
-- **`experiment_metadata.version`**: Benchmark schema version string (e.g., `"2.0.0"`).
-- **`model_config.agent_model`**: LLM endpoint model identifier (e.g., `"openai/gpt-oss-120b"`).
+- **`experiment_metadata.version`**: Benchmark schema version string (e.g., `"3"`).
+- **`model_config.agent_model`**: LLM endpoint model identifier (e.g., `"Qwen/Qwen3.5-9B"`).
+- **`model_config.enable_reasoning`**: Optional boolean to explicitly enable or disable internal reasoning tokens (configured to `false` for Qwen to enforce direct dialogue and single-letter ballot formatting).
+- **`model_config.reasoning_effort`**: Optional reasoning budget level on supporting endpoints (`"low"`, `"medium"`, `"high"`; set to `"low"` for DeepSeek, GPT-OSS, and Muse-Spark).
 - **`model_config.temperature`**: Sampling temperature for multi-turn dialogue (default `0.7`).
-- **`model_config.max_tokens`**: Legacy/fallback maximum token limit for dialogue generation (default `512`).
-- **`model_config.deliberation_max_tokens`**: Maximum token limit allocated per dialogue turn (default `512`).
-- **`model_config.ballot_max_tokens`**: Maximum token limit allocated for secret ballot voting (default `512`, boosted from 32 to accommodate hybrid/reasoning model tokens).
+- **`model_config.deliberation_max_tokens`**: Maximum token limit allocated per dialogue turn (default `1024`).
+- **`model_config.ballot_max_tokens`**: Maximum token limit allocated for secret ballot voting (default `1024`).
 - **`model_config.seed`**: Optional integer seed for LLM text generation reproducibility (default `null` / `None` for stochastic generation).
 - **`deliberation_config.turns_per_item`**: Number of alternating dialogue turns per session (default `4`, giving 2 turns per agent).
-- **`deliberation_config.trials_per_item`**: Number of independent simulation trials per item-dyad combination (e.g. `5` trials $\times$ 4 dyads = 20 sessions per dilemma; yielding $5 \times 4 \times 4 = 80$ total benchmark sessions).
+- **`deliberation_config.trials_per_item`**: Number of independent simulation trials per item-dyad combination (default `3` trials $\times$ 8 dyads = 24 sessions per dilemma; yielding $3 \times 8 \times 3 = 72$ total benchmark sessions, 144 ballots).
 
 ---
 
@@ -486,14 +531,16 @@ All default parameters, fallback chains, and optimization bounds hardcoded withi
 | Module / Scope                                  | Parameter                    | Code Default / Fallback                          | Behavior & Purpose                                                                                                                                                                                                |
 | :---------------------------------------------- | :--------------------------- | :----------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Model Resolution** (`src/llm.py`)             | `agent_model`                | **No fallback**                                  | Strictly read from `model_config.agent_model` in `config.json`. Fails fast with `ValueError` if omitted. Model configuration is never extracted from `.env`. |
+| **Reasoning Control** (`src/llm.py`)            | `enable_reasoning`           | `True`                                           | Configured per model in `model_config`. When `False`, reasoning tokens are disabled to guarantee unmediated dialogue and prompt adherence.                                                                       |
+| **Reasoning Effort** (`src/llm.py`)             | `reasoning_effort`           | `"low"`                                          | Passed to supporting reasoning model endpoints (e.g., DeepSeek, GPT-OSS, Muse-Spark) to constrain internal deliberation tokens.                                                                                   |
 | **Model Inference Seed** (`src/llm.py`)         | `seed`                       | `None` (`null`)                                  | Controls deterministic LLM inference on endpoints supporting seed parameter. Defaults to `None` for unconstrained stochastic diversity.                                                                           |
 | **API Credentials** (`src/llm.py`)              | `api_key`, `base_url`        | **No fallback**                                  | Strictly read from `OPENAI_API_KEY` and `OPENAI_BASE_URL` in `.env`. Fails fast with `ValueError` if either is missing.                                                                                           |
-| **Dialogue Turns** (`src/deliberation.py`)      | `temperature` / `max_tokens` | `0.7` / `512`                                    | Balanced exploratory sampling for multi-turn citizen dialogue. Resolved via `deliberation_max_tokens` -> `max_tokens` -> `512`.                                                                                     |
-| **Secret Ballot** (`src/ballot.py`)             | `temperature` / `max_tokens` | `0.3` / `512`                                    | Low temperature ensures deterministic single-letter option voting. Boosted to 512 tokens to ensure reasoning models do not exhaust tokens on hidden chain-of-thought before emitting choice.                       |
-| **Ballot Validation** (`src/ballot.py`)         | Parsed Choice                | **No silent fallback**                           | If an LLM response is empty or unparseable, it is marked `is_valid: False`, logged with `⚠️ [BALLOT WARNING]`, and discarded from CTT/IRT evaluation. A `[!WARNING]` Data Quality Alert is rendered in the report. |
+| **Dialogue Turns** (`src/deliberation.py`)      | `temperature` / `max_tokens` | `0.7` / `1024`                                   | Balanced exploratory sampling for multi-turn citizen dialogue. Resolved via `deliberation_max_tokens` -> `max_tokens` -> `1024`.                                                                                    |
+| **Secret Ballot** (`src/ballot.py`)             | `temperature` / `max_tokens` | `0.3` / `1024`                                   | Low temperature ensures deterministic option voting. Allocated 1024 tokens to ensure reasoning models do not exhaust generation tokens before emitting a choice.                                                   |
+| **Ballot Validation** (`src/ballot.py`)         | Parsed Choice                | **Strict Two-Tier Match**                        | Extracts exact single letters (`^[A-D]$`) or anchored prefixes (`^(?:choice|option|answer|vote|select)\s*[:=-]?\s*([A-D])\b`). Unanchored choices return `None`, mark `is_valid: False`, and are discarded. |
 | **Run Failure Guardrail** (`src/main.py`)       | Abort Validation             | **Aborts report**                                | If all deliberation statements or all ballots across the run are empty, prints a prominent critical error in terminal and aborts report generation (`final_report.md` and `psychometric_evals.json` are skipped).   |
 | **Simulation Matrix** (`src/main.py`)           | `turns_per_item`             | `4`                                              | 4 alternating dialogue turns per session (2 turns per persona).                                                                                                                                                   |
-| **Simulation Matrix** (`src/main.py`)           | `trials_per_item`            | `5`                                              | 5 independent trials per item-dyad combination (80 total sessions across benchmark).                                                                                                                              |
+| **Simulation Matrix** (`src/main.py`)           | `trials_per_item`            | `3`                                              | 3 independent trials per item-dyad combination (72 total sessions across benchmark, 144 ballots).                                                                                                                 |
 | **Option Shuffling Seed** (`src/main.py`)       | `mcq_option_order_seed`      | `42` (legacy fallback: `seed`)                   | Base pseudo-random seed for shuffling multiple-choice ballot option presentation order (A/B/C/D) to mitigate LLM position bias.                                                                                   |
 | **Output Directory** (`src/main.py`)            | `output_dir`                 | `data/expXXX/`                                   | Auto-detects highest existing `expXXX` and increments to the next index (starts at `exp000`).                                                                                                                     |
 | **IRT Regularization** (`src/psychometrics.py`) | L2 Priors ($\lambda$)        | `0.5` ($\theta, b$), `0.5` ($a - 1$)             | Regularizes maximum likelihood estimation against overfitting on small samples.                                                                                                                                   |

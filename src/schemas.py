@@ -42,13 +42,28 @@ class ModelConfig(TypedDict, total=False):
     deliberation_max_new_tokens: int
     ballot_max_tokens: int
     ballot_max_new_tokens: int
+    reasoning_effort: Optional[str]
+    enable_reasoning: Optional[bool]
+    reasoning_enabled: Optional[bool]
     seed: Optional[int]
 
 
-class ExperimentMetadata(TypedDict):
+class ExperimentMetadata(TypedDict, total=False):
     name: str
     description: str
     version: str
+
+
+class ExecutionMetadata(TypedDict, total=False):
+    experiment_name: str
+    model: str
+    cost_usd: float
+    runtime_seconds: float
+    runtime_formatted: str
+    prompt_tokens: int
+    completion_tokens: int
+    total_tokens: int
+    timestamp: str
 
 
 class SystemPrompts(TypedDict, total=False):
@@ -59,6 +74,7 @@ class SystemPrompts(TypedDict, total=False):
 
 
 class UserPrompts(TypedDict, total=False):
+    deliberation_start: str
     deliberation_turn: str
     secret_ballot: str
 

@@ -9,7 +9,7 @@ Adheres to:
 
 import random
 import re
-from typing import Dict, Tuple, List, Optional
+from typing import Dict, Tuple, List, Optional, Any
 from src.schemas import (
     PolicyItem,
     BallotVote,
@@ -23,30 +23,27 @@ from src.llm import BaseLLMClient
 def parse_ballot_choice(raw_text: str, valid_options: List[str] = ["A", "B", "C", "D"]) -> Optional[str]:
     """Strictly extract selected option letter from LLM response.
 
-    Defensively wrapped in try/except. Supports exact letter, prefixes, markdown, and token bounds.
+    Only accepts strict single letters (e.g. 'A', '(A)', '[A]', '**A**', 'A.')
+    or explicit anchored label prefixes (e.g. 'Option A', 'Choice: B', 'Answer: C', 'Selection: D', 'Vote: A').
+    Discards verbose explanations, reasoning scratchpads, and unanchored text.
     """
     try:
-        cleaned = raw_text.strip()
         valid_set = set(opt.upper() for opt in valid_options)
+        cleaned = raw_text.strip()
 
-        # 1. Exact match on single letter
-        if cleaned.upper() in valid_set:
-            return cleaned.upper()
+        # 1. Exact match on single letter (optionally wrapped in parens, brackets, markdown bold, or period)
+        m_exact = re.fullmatch(r"(?:\*{1,2}|\[|\()?\s*([A-D])\s*(?:\*{1,2}|\]|\)|\.)?", cleaned, re.IGNORECASE)
+        if m_exact and m_exact.group(1).upper() in valid_set:
+            return m_exact.group(1).upper()
 
-        # 2. Strict prefix match: e.g. "Option A", "Choice: B", "Answer: C"
-        match = re.match(r"^(?:option|choice|answer|selection)?\s*[:\-\.]?\s*\(?([A-D])\)?(?:\.|\s|$)", cleaned, re.IGNORECASE)
-        if match and match.group(1).upper() in valid_set:
-            return match.group(1).upper()
-
-        # 3. Search for isolated letter: (A), [B], or bold **C**
-        token_match = re.search(r"(?:[\(\[\*]|^)([A-D])(?:[\)\]\*]|\.|\s|$)", cleaned, re.IGNORECASE)
-        if token_match and token_match.group(1).upper() in valid_set:
-            return token_match.group(1).upper()
-
-        # 4. Fallback search for any capital A-D word boundary
-        fallback_match = re.search(r"\b([A-D])\b", cleaned)
-        if fallback_match and fallback_match.group(1) in valid_set:
-            return fallback_match.group(1)
+        # 2. Strict prefix match: label + letter, anchored to full line/string
+        m_prefix = re.fullmatch(
+            r"^(?:option|choice|answer|selection|vote|my choice is|my final vote is|i choose option|i choose|i vote for)\s*[:\-\.]?\s*(?:\*{1,2}|\[|\()?\s*([A-D])\s*(?:\*{1,2}|\]|\)|\.)?$",
+            cleaned,
+            re.IGNORECASE,
+        )
+        if m_prefix and m_prefix.group(1).upper() in valid_set:
+            return m_prefix.group(1).upper()
     except Exception:
         pass
 
@@ -116,19 +113,34 @@ def administer_agent_ballot(
 
     model_cfg = config.get("model_config", {})
     model_seed = model_cfg.get("seed", None)
+    reasoning_effort = model_cfg.get("reasoning_effort")
+    enable_reasoning = model_cfg.get("enable_reasoning")
+    if enable_reasoning is None:
+        enable_reasoning = model_cfg.get("reasoning_enabled")
     ballot_max_tokens = (
         model_cfg.get("ballot_max_tokens")
         or model_cfg.get("ballot_max_new_tokens")
         or 512
     )
     system_prompt = resolve_persona_system_prompt(persona_id, config)
-    raw_response = client.generate(
-        prompt=ballot_prompt,
-        system_prompt=system_prompt,
-        temperature=0.3,
-        max_tokens=ballot_max_tokens,
-        seed=model_seed
-    )
+    gen_kwargs: dict[str, Any] = {
+        "prompt": ballot_prompt,
+        "system_prompt": system_prompt,
+        "temperature": 0.3,
+        "max_tokens": ballot_max_tokens,
+        "seed": model_seed,
+        "reasoning_effort": reasoning_effort,
+    }
+    if enable_reasoning is not None:
+        try:
+            import inspect
+            sig = inspect.signature(client.generate)
+            if "enable_reasoning" in sig.parameters or any(p.kind == inspect.Parameter.VAR_KEYWORD for p in sig.parameters.values()):
+                gen_kwargs["enable_reasoning"] = enable_reasoning
+        except Exception:
+            gen_kwargs["enable_reasoning"] = enable_reasoning
+
+    raw_response = client.generate(**gen_kwargs)
 
     raw_clean = raw_response.strip()
     parsed_display_letter = parse_ballot_choice(raw_clean, list(display_to_canon.keys()))
