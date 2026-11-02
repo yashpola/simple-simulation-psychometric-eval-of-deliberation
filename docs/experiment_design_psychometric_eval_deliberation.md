@@ -228,7 +228,7 @@ flowchart TD
 
 1. **Load Configuration**: Read `data/config.json` (or CLI-specified path) and battery items from `data/items/`.
 2. **Conduct Deliberation**: For each trial, dyad, and item, agents engage in a 4-turn alternating conversation. Conversation history is tracked verbatim.
-3. **Administer Secret Ballot**: Each agent independently votes on the policy resolution. Display order of options is dynamically randomized for each agent ballot via $\text{agent\_seed} = (\text{mcq\_option\_order\_seed} + \text{session\_step} \times 17) + \text{agent\_idx} \times 1000 + \text{trial\_index}$ to neutralize option position and letter biases. Choices are parsed according to our strict two-tier standard.
+3. **Administer Secret Ballot**: Each agent independently votes on the policy resolution. Display order of options is dynamically randomized for each agent ballot via `agent_seed = (mcq_option_order_seed + session_step * 17) + agent_idx * 1000 + trial_index` to neutralize option position and letter biases. Choices are parsed according to our strict two-tier standard.
 4. **Fit Psychometrics**: CTT metrics ($p_i, D_i, \text{DCR}$) and 2PL IRT parameters ($\theta_j, b_i, a_i$) are calculated.
 5. **Persist Artifacts**: All results are saved into the next auto-incremented `data/expXXX/` directory within organized subdirectories (`inputs/`, `model_outputs/`, `evals/`, `metadata/`).
 
