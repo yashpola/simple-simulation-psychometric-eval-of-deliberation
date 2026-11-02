@@ -18,7 +18,6 @@ venv/
 .vscode
 
 data/baselines
-src/baselines.py
 
 scratch
 
