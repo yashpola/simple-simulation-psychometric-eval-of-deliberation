@@ -114,35 +114,39 @@ Dyads $D_2/D_6$ and $D_4/D_8$ explicitly reverse speaking order to test whether 
 
 1. **Item Difficulty / Consensus Rate ($p_i$)**:
 
-   $$
-   p_i = \frac{N_{\text{consensus}}}{N_{\text{sessions}}}
-   $$
+$$
+p_i = \frac{N_{\text{consensus}}}{N_{\text{sessions}}}
+$$
 
    Where an item is passed ($1$) if and only if both agents independently converge on the integrative compromise. Computed at the session level ($N_{\text{sessions}} = \text{trials} \times N_{\text{dyads}}$).
 
 2. **Distractor-to-Correct Ratio (DCR)**:
 
-   $$
-   \text{DCR}_k = \frac{\text{Count of selections for Distractor } k}{\text{Count of selections for Integrative Compromise}}
-   $$
+$$
+\text{DCR}_k = \frac{\text{Count of selections for Distractor } k}{\text{Count of selections for Integrative Compromise}}
+$$
 
    Evaluated at the individual vote level across all $N_{\text{votes}} = N_{\text{sessions}} \times 2$ secret ballots cast for that item.
    - $\text{DCR}$ is a relative ratio against the integrative compromise, **not** a percentage.
    - $\text{DCR} > 1.0$: Dominant trap (heuristic selected more frequently than the compromise).
    - $\text{DCR} < 1.0$: Subdominant trap (the integrative compromise chosen more frequently than the heuristic).
-   - DCR values do not sum to 100%. The actual percentage of votes for the integrative compromise is:
+   - DCR values do not sum to 100%. The actual percentage of votes for the integrative compromise and distractors:
 
-     $$
-     \% \text{ Integrative Compromise} = \frac{1}{1 + \text{DCR}_B + \text{DCR}_C + \text{DCR}_D} \times 100\%
-     $$
+$$
+\text{Compromise Vote Share} = \frac{1}{1 + \text{DCR}_B + \text{DCR}_C + \text{DCR}_D} \times 100
+$$
 
-3. **Item Discrimination ($D_{27\%}$)**:
+$$
+\text{Distractor } k \text{ Vote Share} = \frac{\text{DCR}_k}{1 + \text{DCR}_B + \text{DCR}_C + \text{DCR}_D} \times 100
+$$
 
-   $$
-   D_i = P_{i,\text{top 27\%}} - P_{i,\text{bottom 27\%}}
-   $$
+3. **Item Discrimination ($D_i$)**:
 
-   Using Kelley's 27% split to differentiate consensus success rates between top- and bottom-performing dyads.
+$$
+D_i = P_{i,\text{top}} - P_{i,\text{bottom}}
+$$
+
+   Using Kelley's 27% split to differentiate consensus success rates between top- and bottom-performing dyads ($P_{i,\text{top}}$ vs. $P_{i,\text{bottom}}$).
 
 #### Execution Matrix & Sample Pooling Dynamics
 
@@ -164,7 +168,7 @@ $$
 
 #### Counterfactual Pre-Deliberation Baseline Suite
 
-To evaluate whether compromise adoption is an emergent consequence of deliberative communication or an item-key artifact (such as Option A's greater length and syntactic hedging cues), the repository incorporates an automated pre-deliberation baseline suite (`python3 -m src.baselines`). The baseline administers zero-shot secret ballots directly to each citizen persona without conversational exposure ($N_0 = 15$ ballots per persona across 5 trials and 3 items, 60 ballots per model) to quantify the pure deliberative treatment shift ($\Delta P = P_{\text{post}} - P_0$). The baseline dataset is hosted on Hugging Face at [simple-simulation-psychometric-eval-of-deliberation](https://huggingface.co/datasets/yashpola/simple-simulation-psychometric-eval-of-deliberation).
+To evaluate whether compromise adoption is an emergent consequence of deliberative communication or an item-key artifact (such as Option A's greater length and syntactic hedging cues), the repository incorporates an automated pre-deliberation baseline suite (`python3 -m src.baselines`). The baseline administers zero-shot secret ballots directly to each citizen persona without conversational exposure ($N_0 = 15$ ballots per persona across 5 trials and 3 items, 60 ballots per model) to quantify the pure deliberative treatment shift ($\Delta P = P_{\text{post}} - P_0$).
 
 ### B. Item Response Theory (IRT)
 
@@ -224,7 +228,7 @@ flowchart TD
 
 1. **Load Configuration**: Read `data/config.json` (or CLI-specified path) and battery items from `data/items/`.
 2. **Conduct Deliberation**: For each trial, dyad, and item, agents engage in a 4-turn alternating conversation. Conversation history is tracked verbatim.
-3. **Administer Secret Ballot**: Each agent independently votes on the policy resolution. Display order of options is randomized to prevent position bias. Choices are parsed according to our strict two-tier standard.
+3. **Administer Secret Ballot**: Each agent independently votes on the policy resolution. Display order of options is dynamically randomized for each agent ballot via $\text{agent\_seed} = (\text{mcq\_option\_order\_seed} + \text{session\_step} \times 17) + \text{agent\_idx} \times 1000 + \text{trial\_index}$ to neutralize option position and letter biases. Choices are parsed according to our strict two-tier standard.
 4. **Fit Psychometrics**: CTT metrics ($p_i, D_i, \text{DCR}$) and 2PL IRT parameters ($\theta_j, b_i, a_i$) are calculated.
 5. **Persist Artifacts**: All results are saved into the next auto-incremented `data/expXXX/` directory within organized subdirectories (`inputs/`, `model_outputs/`, `evals/`, `metadata/`).
 

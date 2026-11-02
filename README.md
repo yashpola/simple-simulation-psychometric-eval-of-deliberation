@@ -157,13 +157,13 @@ Diagnoses whether non-compromise outcomes were driven by **Status Quo Inertia** 
   - $\text{DCR} > 1.0$: Dominant trap (bad-faith heuristic successfully out-competes the integrative compromise).
 - **Vote Share Conversion**: DCR is a relative ratio against the integrative compromise, not a raw percentage. To convert DCR into the empirical percentage distribution of votes:
 
-  $$
-  \% \text{ Integrative Compromise} = \frac{1}{1 + \text{DCR}_B + \text{DCR}_C + \text{DCR}_D} \times 100\%
-  $$
+$$
+\text{Compromise Vote Share} = \frac{1}{1 + \text{DCR}_B + \text{DCR}_C + \text{DCR}_D} \times 100
+$$
 
-  $$
-  \% \text{ Distractor } k = \frac{\text{DCR}_k}{1 + \text{DCR}_B + \text{DCR}_C + \text{DCR}_D} \times 100\%
-  $$
+$$
+\text{Distractor } k \text{ Vote Share} = \frac{\text{DCR}_k}{1 + \text{DCR}_B + \text{DCR}_C + \text{DCR}_D} \times 100
+$$
 
 #### Sample Size Pooling & Execution Matrix Dynamics
 
@@ -193,13 +193,13 @@ $$
 P(Y_{ji} = 1 \mid \theta_j, a_i, b_i) = \frac{1}{1 + e^{-a_i (\theta_j - b_i)}}
 $$
 
-where $Y_{ji} \in \{0, 1\}$ is the binary outcome of deliberator $j$ on dilemma $i$.
+where $Y_{ji} \in \\{0, 1\\}$ is the binary outcome of deliberator $j$ on dilemma $i$.
 
 #### 1. IRT Item Difficulty ($b_i$)
 
 The latent deliberative ability threshold required for a deliberative agent to have a 50% probability of adopting the integrative compromise ($P(Y=1) = 0.50$).
 
-- **Practical Range**: $[-4.0, +4.0]$ (under Gaussian prior $\mathcal{N}(0, 1)$).
+- **Practical Range**: $[-4.0, +4.0]$ (under Gaussian prior $N(0, 1)$).
 - **Diagnostic Interpretation**:
   - $b < -1.0$: Low intrinsic difficulty (readily resolved by most deliberators).
   - $-1.0 \le b \le +1.0$: Moderate difficulty dilemma.
@@ -220,7 +220,7 @@ The slope of the Item Characteristic Curve (ICC) at $\theta = b_i$, reflecting h
 
 The standardized competence trait of a deliberator, estimated under regularized maximum likelihood.
 
-- **Practical Range**: $[-4.0, +4.0]$ ($\mathcal{N}(0, 1)$ standardized).
+- **Practical Range**: $[-4.0, +4.0]$ ($N(0, 1)$ standardized).
 - **Diagnostic Interpretation**:
   - $\theta > +1.0$: High deliberative ability (regularly identifies and votes for integrative solutions).
   - $-0.5 \le \theta \le +0.5$: Average deliberative capacity.
@@ -242,7 +242,7 @@ $$
 \text{Individual Success Rate}_p = \frac{\sum \mathbf{1}(\text{Vote}_p = \text{Integrative Compromise})}{N_{\text{trials}}(p)}
 $$
 
-- **Practical Range**: $[0.0, 1.0]$ ($0\% \text{ to } 100\%$).
+- **Practical Range**: $[0.0, 1.0]$ (0% to 100%).
 - **Distinction from CTT Consensus Rate ($p_i$)**:
   - $p_i$ is an **item-level consensus metric** requiring _both_ members of a dyad to select the integrative compromise simultaneously.
   - Individual Success Rate is a **persona-level behavioral metric** measuring an individual agent's unconstrained willingness to adopt integrative solutions regardless of whether their partner agreed.
@@ -260,7 +260,7 @@ simple-simulation-irt-evaluation-in-deliberation/
 │   │   ├── item01_school_mergers_description.json
 │   │   ├── item02_foreign_talent_description.json
 │   │   └── item03_transboundary_haze_description.json
-│   └── exp003/                         # Auto-incrementing experiment run output
+│   └── exp000/                         # Auto-incrementing experiment run output
 │       ├── inputs/                     # Run configuration snapshot & battery items
 │       │   ├── config.json
 │       │   └── items/
@@ -355,17 +355,6 @@ Or specify a custom configuration file:
 ```bash
 python3 -m src.main --config path/to/custom_config.json
 ```
-
-### Running Counterfactual Pre-Deliberation Baselines
-
-To measure baseline option preferences zero-shot without communicative exposure:
-
-```bash
-python3 -m src.baselines --model "Qwen/Qwen3.5-9B" --trials 5
-```
-
-Pre-deliberation baseline records across all four models are published on Hugging Face:
-[simple-simulation-psychometric-eval-of-deliberation](https://huggingface.co/datasets/yashpola/simple-simulation-psychometric-eval-of-deliberation).
 
 Artifacts are dynamically written to the next auto-incremented `data/expXXX/` directory:
 
@@ -500,10 +489,16 @@ To test how an Open-Minded Everyman interacts with a Technocrat, append a new ob
   A key-value dictionary where keys are persona identifiers (`technocrat`, `ideologue`, `populist`, `everyman`) and values are multi-line system prompts defining their role, policy knowledge level, affective polarization, behavioral heuristics, and conversational tone. To add a custom persona (e.g., `"environmentalist"`), add its system prompt here and reference it in a dyad's `agents` array.
 
 - **`items` (Policy Test Battery Paths)**:
-  An array of relative file paths to item JSON definitions (e.g. `"data/items/item01_school_mergers_description.json"`). To evaluate a subset of items or introduce new policy dilemmas, add or remove paths from this list. Each item JSON must define `item_id`, `title`, `topic_prompt`, and `ballot` (containing `options` A–D, and `correct_key`).
+  An array of relative file paths to item JSON definitions (e.g. `"data/items/item01_school_mergers_description.json"`). To evaluate a subset of items or introduce new policy dilemmas, add or remove paths from this list. Each item JSON must define `item_id`, `title`, `topic_prompt`, and `ballot` (containing `options` A-D, and `correct_key`).
 
 - **`mcq_option_order_seed` (Option Randomization Seed)**:
-  An integer seed (`42`) used by Python's `random.Random` to shuffle the multiple-choice options (A, B, C, D) before presenting them in `{formatted_options}`. This decouples option positions from underlying semantic keys, neutralizing LLM positional bias. (Legacy config files with `"seed"` are supported via automatic fallback).
+  Base integer seed (`42`) used to dynamically shuffle multiple-choice options (A, B, C, D) on each secret ballot. Rather than fixing a static option order per item, option positions are dynamically re-randomized for each individual agent ballot using an independent pseudo-random generator initialized with:
+
+$$
+\text{agent\_seed} = (\text{mcq\_option\_order\_seed} + \text{session\_step} \times 17) + \text{agent\_idx} \times 1000 + \text{trial\_index}
+$$
+
+  where `session_step` tracks the global deliberation sequence ($1$ to $72$), `agent_idx` indexes the citizen within the dyad ($0$ or $1$), and `trial_index` indexes the replication trial ($0$ to $2$). This dynamic per-ballot re-drawing ensures that neither partner in a dyad nor consecutive trials receive identical letter mappings, decoupling option letter positions from underlying semantic keys and neutralizing LLM positional bias. (Legacy config files using `"seed"` are supported via automatic fallback).
 
 ---
 
@@ -522,6 +517,14 @@ To test how an Open-Minded Everyman interacts with a Technocrat, append a new ob
 - **`deliberation_config.turns_per_item`**: Number of alternating dialogue turns per session (default `4`, giving 2 turns per agent).
 - **`deliberation_config.trials_per_item`**: Number of independent simulation trials per item-dyad combination (default `3` trials $\times$ 8 dyads = 24 sessions per dilemma; yielding $3 \times 8 \times 3 = 72$ total benchmark sessions, 144 ballots).
 
+### Running Counterfactual Pre-Deliberation Baselines
+
+To measure baseline option preferences zero-shot without communicative exposure:
+
+```bash
+python3 -m src.baselines --model "openai/gpt-oss-120b" --trials 5
+```
+
 ---
 
 ## 7. Built-in Code Defaults & Fallback Reference
@@ -530,18 +533,18 @@ All default parameters, fallback chains, and optimization bounds hardcoded withi
 
 | Module / Scope                                  | Parameter                    | Code Default / Fallback                          | Behavior & Purpose                                                                                                                                                                                                |
 | :---------------------------------------------- | :--------------------------- | :----------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Model Resolution** (`src/llm.py`)             | `agent_model`                | **No fallback**                                  | Strictly read from `model_config.agent_model` in `config.json`. Fails fast with `ValueError` if omitted. Model configuration is never extracted from `.env`. |
-| **Reasoning Control** (`src/llm.py`)            | `enable_reasoning`           | `True`                                           | Configured per model in `model_config`. When `False`, reasoning tokens are disabled to guarantee unmediated dialogue and prompt adherence.                                                                       |
+| **Model Resolution** (`src/llm.py`)             | `agent_model`                | **No fallback**                                  | Strictly read from `model_config.agent_model` in `config.json`. Fails fast with `ValueError` if omitted. Model configuration is never extracted from `.env`.                                                      |
+| **Reasoning Control** (`src/llm.py`)            | `enable_reasoning`           | `True`                                           | Configured per model in `model_config`. When `False`, reasoning tokens are disabled to guarantee unmediated dialogue and prompt adherence.                                                                        |
 | **Reasoning Effort** (`src/llm.py`)             | `reasoning_effort`           | `"low"`                                          | Passed to supporting reasoning model endpoints (e.g., DeepSeek, GPT-OSS, Muse-Spark) to constrain internal deliberation tokens.                                                                                   |
 | **Model Inference Seed** (`src/llm.py`)         | `seed`                       | `None` (`null`)                                  | Controls deterministic LLM inference on endpoints supporting seed parameter. Defaults to `None` for unconstrained stochastic diversity.                                                                           |
 | **API Credentials** (`src/llm.py`)              | `api_key`, `base_url`        | **No fallback**                                  | Strictly read from `OPENAI_API_KEY` and `OPENAI_BASE_URL` in `.env`. Fails fast with `ValueError` if either is missing.                                                                                           |
-| **Dialogue Turns** (`src/deliberation.py`)      | `temperature` / `max_tokens` | `0.7` / `1024`                                   | Balanced exploratory sampling for multi-turn citizen dialogue. Resolved via `deliberation_max_tokens` -> `max_tokens` -> `1024`.                                                                                    |
-| **Secret Ballot** (`src/ballot.py`)             | `temperature` / `max_tokens` | `0.3` / `1024`                                   | Low temperature ensures deterministic option voting. Allocated 1024 tokens to ensure reasoning models do not exhaust generation tokens before emitting a choice.                                                   |
-| **Ballot Validation** (`src/ballot.py`)         | Parsed Choice                | **Strict Two-Tier Match**                        | Extracts exact single letters (`^[A-D]$`) or anchored prefixes (`^(?:choice|option|answer|vote|select)\s*[:=-]?\s*([A-D])\b`). Unanchored choices return `None`, mark `is_valid: False`, and are discarded. |
-| **Run Failure Guardrail** (`src/main.py`)       | Abort Validation             | **Aborts report**                                | If all deliberation statements or all ballots across the run are empty, prints a prominent critical error in terminal and aborts report generation (`final_report.md` and `psychometric_evals.json` are skipped).   |
+| **Dialogue Turns** (`src/deliberation.py`)      | `temperature` / `max_tokens` | `0.7` / `1024`                                   | Balanced exploratory sampling for multi-turn citizen dialogue. Resolved via `deliberation_max_tokens` -> `max_tokens` -> `1024`.                                                                                  |
+| **Secret Ballot** (`src/ballot.py`)             | `temperature` / `max_tokens` | `0.3` / `1024`                                   | Low temperature ensures deterministic option voting. Allocated 1024 tokens to ensure reasoning models do not exhaust generation tokens before emitting a choice.                                                  |
+| **Ballot Validation** (`src/ballot.py`)         | Parsed Choice                | **Strict Two-Tier Match**                        | Extracts exact single letters (`^[A-D]$`) or anchored prefixes (`^(?:choice \| option \| answer \| vote \| select)\s*[:=-]?\s*([A-D])\b`). Unanchored choices return `None`, mark `is_valid: False`, and are discarded. |
+| **Run Failure Guardrail** (`src/main.py`)       | Abort Validation             | **Aborts report**                                | If all deliberation statements or all ballots across the run are empty, prints a prominent critical error in terminal and aborts report generation (`final_report.md` and `psychometric_evals.json` are skipped). |
 | **Simulation Matrix** (`src/main.py`)           | `turns_per_item`             | `4`                                              | 4 alternating dialogue turns per session (2 turns per persona).                                                                                                                                                   |
 | **Simulation Matrix** (`src/main.py`)           | `trials_per_item`            | `3`                                              | 3 independent trials per item-dyad combination (72 total sessions across benchmark, 144 ballots).                                                                                                                 |
-| **Option Shuffling Seed** (`src/main.py`)       | `mcq_option_order_seed`      | `42` (legacy fallback: `seed`)                   | Base pseudo-random seed for shuffling multiple-choice ballot option presentation order (A/B/C/D) to mitigate LLM position bias.                                                                                   |
+| **Option Shuffling Seed** (`src/main.py`)       | `mcq_option_order_seed`      | `42` (legacy fallback: `seed`)                   | Base pseudo-random seed for dynamically shuffling option presentation order (A/B/C/D) via $\text{agent\_seed} = (\text{seed} + \text{step} \times 17) + \text{idx} \times 1000 + \text{trial}$.                |
 | **Output Directory** (`src/main.py`)            | `output_dir`                 | `data/expXXX/`                                   | Auto-detects highest existing `expXXX` and increments to the next index (starts at `exp000`).                                                                                                                     |
 | **IRT Regularization** (`src/psychometrics.py`) | L2 Priors ($\lambda$)        | `0.5` ($\theta, b$), `0.5` ($a - 1$)             | Regularizes maximum likelihood estimation against overfitting on small samples.                                                                                                                                   |
 | **IRT Optimization** (`src/psychometrics.py`)   | Parameter Bounds             | $\theta, b \in [-4.0, +4.0]$, $a \in [0.1, 4.0]$ | Bounded L-BFGS-B optimization (`maxiter=500, ftol=1e-6`).                                                                                                                                                         |
